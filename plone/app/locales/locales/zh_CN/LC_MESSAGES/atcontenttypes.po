@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ATContentTypes\n"
 "POT-Creation-Date: 2015-11-15 11:03+0000\n"
-"PO-Revision-Date: 2016-01-11 20:40+0800\n"
+"PO-Revision-Date: 2016-01-12 17:15+0800\n"
 "Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -75,11 +75,11 @@ msgstr "字段 ${field} 的条件 ${criterion} 已添加。"
 
 #: ATContentTypes/configure.zcml:53
 msgid "Archetypes Content Types for Plone"
-msgstr "Plone原型内容的类型"
+msgstr "P系统原型内容的类型"
 
 #: ATContentTypes/configure.zcml:61
 msgid "Archetypes-based default content for Plone"
-msgstr "Plone基于原型的默认内容"
+msgstr "P系统基于原型的默认内容"
 
 #: ATContentTypes/configure.zcml:69
 msgid "Archetypes-tools without content-types"
