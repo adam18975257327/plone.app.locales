@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2016-01-12 14:17+0800\n"
+"PO-Revision-Date: 2016-01-12 17:19+0800\n"
 "Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sf.net>\n"
 "MIME-Version: 1.0\n"
@@ -525,11 +525,11 @@ msgstr "添加标准元数据字段(=基本元数据+分类+有效范围+所有�
 
 #: plone.app.openid/plone/app/openid/configure.zcml:25
 msgid "Adds support for authenticating with OpenID credentials in a Plone site"
-msgstr "为 Plone 站点添加 OpenID 身份验证支持"
+msgstr "为 P系统 站点添加 OpenID 身份验证支持"
 
 #: plone.app.z3cform/plone/app/z3cform/profiles.zcml:15
 msgid "Adds support for rendering z3c.form forms in Plone"
-msgstr "为 Plone 添加 z3c.form 表单支持"
+msgstr "为 P系统 添加 z3c.form 表单支持"
 
 #: plone.app.referenceablebehavior/plone/app/referenceablebehavior/configure.zcml:17
 msgid "Adds the ability to be referenced by Archetypes items"
@@ -541,7 +541,7 @@ msgstr "添加标题和描述字段"
 
 #: plone.app.iterate/plone/app/iterate/configure.zcml:23
 msgid "Adds working copy support (aka. in-place staging) to Plone."
-msgstr "为 Plone 添加工作副本支持。"
+msgstr "为 P系统 添加工作副本支持。"
 
 #: CMFPlone/PloneControlPanel.py:71
 #: CMFPlone/browser/templates/plone-overview.pt:125
@@ -819,7 +819,7 @@ msgstr "可用时区"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator_results.pt:77
 msgid "Back to Plone"
-msgstr "返回 Plone"
+msgstr "返回 P系统"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator_results.pt:73
 msgid "Back to the Migration-Form"
@@ -1149,7 +1149,7 @@ msgstr "评论者头像"
 
 #: plone.app.discussion/plone/app/discussion/configure.zcml:43
 msgid "Commenting infrastructure for Plone"
-msgstr "评论Plone基础设施"
+msgstr "评论P系统基础设施"
 
 #: plone.app.discussion/plone/app/discussion/contentrules.py:49
 msgid "Comments"
@@ -1218,7 +1218,7 @@ msgstr "配置规则"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:23
 msgid "Configure, enable, disable, debug and build Plone JavaScript/LESS/CSS resources. Plone utilizes RequireJS and LESS CSS to build its resources. Re-building a Plone bundle TTW requires a modern web browser."
-msgstr "配置、启用、禁用调试和构建Plone JavaScript / LESS/CSS资源。Plone利用RequireJS和CSS来构建其资源。重建一个Plone TTW需要现代web浏览器）。"
+msgstr "配置、启用、禁用调试和构建P系统 JavaScript / LESS/CSS资源。P系统利用RequireJS和CSS来构建其资源。重建一个P系统 TTW需要现代web浏览器）。"
 
 #: plone.app.dexterity/plone/app/dexterity/configure.zcml:29
 msgid "Configures various components needed for full Dexterity support."
@@ -1374,15 +1374,15 @@ msgstr "创建"
 
 #: CMFPlone/browser/templates/plone-addsite.pt:206
 msgid "Create Plone Site"
-msgstr "创建 Plone 站点"
+msgstr "创建 P系统 站点"
 
 #: CMFPlone/browser/templates/plone-addsite.pt:13
 msgid "Create a Plone site"
-msgstr "创建一个 Plone 站点"
+msgstr "创建一个 P系统 站点"
 
 #: CMFPlone/browser/templates/plone-overview.pt:122
 msgid "Create a new Plone site"
-msgstr "创建一个新 Plone 站点"
+msgstr "创建一个新 P系统 站点"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:167
 msgid "Created on"
@@ -1646,11 +1646,11 @@ msgstr "决定当用户在站点中删除或移动被本站链接的内容时是
 
 #: CMFPlone/interfaces/controlpanel.py:1389
 msgid "Determines if your Plone is optimized for small or large sites. In environments with a lot of groups it can be very slow or impossible to build a list all groups. This option tunes the user interface and behaviour of Plone for this case by allowing you to search for groups instead of listing all of them."
-msgstr "决定您的站点是否为大型或小型站点。当拥有大量用户组它可能变得慢或不可能建立一个全部组列表。这个选项调整用户界面和Plone的行为，它允许您搜索组而不是列出所有组清单。"
+msgstr "决定您的站点是否为大型或小型站点。当拥有大量用户组它可能变得慢或不可能建立一个全部组列表。这个选项调整用户界面和P系统的行为，它允许您搜索组而不是列出所有组清单。"
 
 #: CMFPlone/interfaces/controlpanel.py:1402
 msgid "Determines if your Plone is optimized for small or large sites. In environments with a lot of users it can be very slow or impossible to build a list all users. This option tunes the user interface and behaviour of Plone for this case by allowing you to search for users instead of listing all of them."
-msgstr "确定您的站点是否为大型或小型站点优化。当拥有大量用户它可能变得慢或无法建立全部用户的列表。这个选项调整用户界面和Plone的行为，会提示您搜索用户而不是列出所有用户。"
+msgstr "确定您的站点是否为大型或小型站点优化。当拥有大量用户它可能变得慢或无法建立全部用户的列表。这个选项调整用户界面和P系统的行为，会提示您搜索用户而不是列出所有用户。"
 
 #: CMFPlone/interfaces/resources.py:102
 msgid "Develop CSS"
@@ -1684,7 +1684,7 @@ msgstr "禁用"
 
 #: CMFPlone/interfaces/controlpanel.py:119
 msgid "Disabling locking here will only affect users editing content through the Plone web UI.  Content edited via WebDAV clients will still be subject to locking."
-msgstr "此处取消锁定仅仅影响从 Plone WEB UI 编辑内容的用户，从 WEBDAV 客户端编辑的内容仍会启用锁定。"
+msgstr "此处取消锁定仅仅影响从 P系统 WEB UI 编辑内容的用户，从 WEBDAV 客户端编辑的内容仍会启用锁定。"
 
 #: plone.app.discussion/plone/app/discussion/profiles/default/controlpanel.xml
 msgid "Discussion"
@@ -2521,7 +2521,7 @@ msgstr "HTML 过滤设置"
 
 #: CMFPlone/controlpanel/browser/filter.py:91
 msgid "HTML generation is heavily cached across Plone. You may have to edit existing content or restart your server to see the changes."
-msgstr "HTML生成大量跨Plone缓存。你可以编辑现有的内容或重新启动服务器看到这些变化。"
+msgstr "HTML生成大量跨P系统缓存。你可以编辑现有的内容或重新启动服务器看到这些变化。"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:79
 msgid "Have a look above for more information."
@@ -2924,7 +2924,7 @@ msgstr "领导图像"
 
 #: CMFPlone/browser/templates/hero.pt:13
 msgid "Learn more about Plone"
-msgstr "学习更多的有关Plone的知识"
+msgstr "学习更多的有关P系统的知识"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 #: plone.app.querystring/plone/app/querystring/profiles/upgrades/to_6/registry.xml
@@ -3188,7 +3188,7 @@ msgstr "管理者邮件"
 
 #: CMFPlone/profiles.zcml:21
 msgid "Mandatory dependencies for a Plone site"
-msgstr "强制依赖Plone网站"
+msgstr "强制依赖P系统网站"
 
 #: CMFPlone/interfaces/controlpanel.py:1388
 msgid "Many groups?"
@@ -3331,7 +3331,7 @@ msgstr "自定义原型内容类型迁移到任何可用的灵巧的内容类型
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:38
 msgid "Migrating content that is translated with LinguaPlone"
-msgstr "用LinguaPlone迁移翻译的内容"
+msgstr "用LP系统迁移翻译的内容"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:40
 msgid "Migrating default-content that was extended with archetypes.schemaextender"
@@ -3956,54 +3956,54 @@ msgstr "请使用字母、数字和下列字符：.-_"
 
 #: CMFPlone/browser/templates/plone-addsite.pt:24
 msgid "Plone"
-msgstr "Plone"
+msgstr "P系统"
 
 # Control Panel Header
 #. Default: "Plone Configuration"
 #: CMFPlone/PloneControlPanel.py:72
 msgid "Plone Configuration"
-msgstr "Plone 配置"
+msgstr "P系统 配置"
 
 #: plone.app.discussion/plone/app/discussion/configure.zcml:43
 msgid "Plone Discussions"
-msgstr "Plone讨论"
+msgstr "P系统讨论"
 
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:889
 msgid "Plone Footerportlets"
-msgstr "Plone页脚"
+msgstr "P系统页脚"
 
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:889
 msgid "Plone Leftcolumn"
-msgstr "Plone的左列"
+msgstr "P系统的左列"
 
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:889
 msgid "Plone Rightcolumn"
-msgstr "Plone的右列"
+msgstr "P系统的右列"
 
 #. Default: "Plone Site"
 #: CMFPlone/profiles.zcml:12
 msgid "Plone Site"
-msgstr "Plone 站点"
+msgstr "P系统 站点"
 
 #: CMFPlone/profiles.zcml:30
 msgid "Plone Test Fixture"
-msgstr "Plone测试夹具"
+msgstr "P系统测试夹具"
 
 #: CMFPlone/interfaces/controlpanel.py:1335
 msgid "Plone generates e-mail using this address as the e-mail return address. It is also used as the destination address for the site-wide contact form and the 'Send test e-mail' feature."
-msgstr "Plone 生成的电子邮件使用这个地址作为邮件返回地址。它也作为站点联系表单和“发送测试电子邮件”功能的目的地址。"
+msgstr "P系统 生成的电子邮件使用这个地址作为邮件返回地址。它也作为站点联系表单和“发送测试电子邮件”功能的目的地址。"
 
 #: CMFPlone/interfaces/controlpanel.py:1326
 msgid "Plone generates e-mail using this name as the e-mail sender."
-msgstr "Plone 生成的电子邮件使用这个名字作为邮件发件人。"
+msgstr "P系统 生成的电子邮件使用这个名字作为邮件发件人。"
 
 #: CMFPlone/browser/templates/plone-overview.pt:32
 msgid "Plone is up and running."
-msgstr "Plone 已启动且正在运行。"
+msgstr "P系统 已启动且正在运行。"
 
 #: plone.app.z3cform/plone/app/z3cform/profiles.zcml:15
 msgid "Plone z3c.form support"
-msgstr "Plone 的 z3c.form 支持"
+msgstr "P系统 的 z3c.form 支持"
 
 #: CMFPlone/controlpanel/browser/tinymce.py:15
 msgid "Plugins and Toolbar"
@@ -4093,7 +4093,7 @@ msgstr "保密"
 
 #: CMFPlone/profiles.zcml:12
 msgid "Profile for a default Plone."
-msgstr "配置文件的默认Plone"
+msgstr "配置文件的默认P系统"
 
 #. Default: "Promote to Draft"
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
@@ -4818,15 +4818,15 @@ msgstr "简单发布工作流"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:39
 msgid "Since LinguaPlone does not support Dexterity you need to migrate from LinguaPlone to ${multilingual}. The migration from Products.LinguaPlone to plone.app.multilingual should happen before the migration from Archetypes to plone.app.contenttypes. For details on the migration see the ${documentation}"
-msgstr "由于LinguaPlone不支持Dexterity，您需要将产品从LinguaPlone迁移至${multilingual}，LinguaPlone plone.app。多语言迁移应该发生在从原型到plone.app.contenttypes之前，更多关于迁移的细节请查看${documentation}"
+msgstr "由于LP系统不支持Dexterity，您需要将产品从LP系统迁移至${multilingual}，LP系统 plone.app。多语言迁移应该发生在从原型到plone.app.contenttypes之前，更多关于迁移的细节请查看${documentation}"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:36
 msgid "Since LinguaPlone does not support Dexterity you need to migrate from LinguaPlone to ${pam}. The migration from Products.LinguaPlone to plone.app.multilingual should happen before the migration from Archetypes to plone.app.contenttypes. For details on the migration see the ${documentation}"
-msgstr "由于LinguaPlone不支持Dexterity，您需要将LinguaPlone移动至${pam}，从产品迁移，LinguaPlone plone.app。多语言迁移应该发生在从原型plone.app.contenttypes之前。"
+msgstr "由于LP系统不支持Dexterity，您需要将LP系统移动至${pam}，从产品迁移，LP系统 plone.app。多语言迁移应该发生在从原型plone.app.contenttypes之前。"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:78
 msgid "Since you effectively have Products.LinguaPlone installed in your portal, you're not allowed to continue this migration."
-msgstr "从你拥有产品开始，由于在您的门户中安装了LinguaPlone，您将不被允许继续进行这项移动"
+msgstr "从你拥有产品开始，由于在您的门户中安装了LP系统，您将不被允许继续进行这项移动"
 
 #. Default: "Single State Workflow"
 #: CMFPlone/profiles/default/workflows/one_state_workflow/definition.xml
@@ -5370,7 +5370,7 @@ msgstr "要检查的角色。"
 
 #: CMFPlone/profiles/default/types/Plone_Site.xml
 msgid "The root object in a Plone site."
-msgstr "Plone 站点的根对象。"
+msgstr "P系统 站点的根对象。"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/elements.py:75
 msgid "The rule has been enabled on site root and all its subfolders"
@@ -6126,7 +6126,7 @@ msgstr "视图已经更换。"
 
 #: CMFPlone/browser/templates/plone-overview.pt:42
 msgid "View your Plone site"
-msgstr "访问您的 Plone 站点"
+msgstr "访问您的 P系统 站点"
 
 #. Default: "Visible to all intranet users, editable by the owner."
 #: CMFPlone/profiles/default/workflows/intranet_workflow/definition.xml
@@ -6171,7 +6171,7 @@ msgstr "访问该链接"
 
 #: CMFPlone/browser/templates/plone-upgrade.pt:80
 msgid "WARNING! Your database requires a newer version of Plone than you are currently using. This is a dangerous situation. Please upgrade your Plone version as soon as possible."
-msgstr "警告！您的数据库需要一个比当前使用更新的 Plone 版本。这是极其危险的情况。请尽快升级 Plone 版本。"
+msgstr "警告！您的数据库需要一个比当前使用更新的 P系统 版本。这是极其危险的情况。请尽快升级 P系统 版本。"
 
 msgid "WAV audio"
 msgstr "WAV音频"
@@ -6303,7 +6303,7 @@ msgstr "系统已经升级到最新版。"
 
 #: CMFPlone/browser/templates/plone-overview.pt:113
 msgid "You can add another Plone site:"
-msgstr "您可以添加另一个 Plone 站点:"
+msgstr "您可以添加另一个 P系统 站点:"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:46
 msgid "You can also attempt to delete your customizations/builds and see if that fixes it."
@@ -6335,7 +6335,7 @@ msgstr "您已成功退出。"
 
 #: CMFPlone/browser/templates/plone-overview.pt:69
 msgid "You have multiple Plone sites:"
-msgstr "您有多个 Plone 站点："
+msgstr "您有多个 P系统 站点："
 
 #: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:98
 msgid "You may import types by uploading a zip archive containing type profiles. The import archive should contain a types.xml file and a types directory containing one or more Dexterity type information files. For a sample, create a content type and export it from the Dexterity Content Types page."
@@ -6382,7 +6382,7 @@ msgstr "您应该定期挤压数据库。这个数字表明您要保留多少天
 
 #: CMFPlone/browser/templates/plone-overview.pt:110
 msgid "Your Plone site has not been added yet:"
-msgstr "您的 Plone 站点还没有被加入："
+msgstr "您的 P系统 站点还没有被加入："
 
 #: plone.app.discussion/plone/app/discussion/browser/comments.py:258
 msgid "Your comment awaits moderator approval."
@@ -6854,7 +6854,7 @@ msgstr "使用下面的字段来手动配置的 Diazo 主题。通常情况下�
 #. Default: "The settings below control the presentation of the <em>content</em> produced by Plone before a Diazo theme is applied. Note that these settings will have an effect even if no Diazo theme is currently enabled."
 #: plone/app/theming/browser/controlpanel.pt:518
 msgid "description_advanced_base"
-msgstr "下面的设置控制 Diazo 主题应用之前 Plone 所产生内容的渲染。注意，即使当前未启用 Diazo 主题，这些设置也将生效。"
+msgstr "下面的设置控制 Diazo 主题应用之前 P系统 所产生内容的渲染。注意，即使当前未启用 Diazo 主题，这些设置也将生效。"
 
 #. Default: "Related to Use cookie for manual override"
 #: CMFPlone/interfaces/controlpanel.py:252
@@ -6940,7 +6940,7 @@ msgstr "注意，内容类型相关的面板通常在上下文面板下方显示
 #. Default: "Configuration area for Plone and add-on Products."
 #: CMFPlone/controlpanel/browser/overview.pt:20
 msgid "description_control_panel"
-msgstr "Plone 和附加组件的配置区域。"
+msgstr "P系统 和附加组件的配置区域。"
 
 #. Default: "Required for the language selector viewlet to be rendered."
 #: CMFPlone/interfaces/controlpanel.py:241
@@ -7179,7 +7179,7 @@ msgstr "$name个人设置"
 #. Default: "You are running in \"production mode\". This is the preferred mode of operation for a live Plone site, but means that some configuration changes will not take effect until your server is restarted or a product refreshed. If this is a development instance, and you want to enable debug mode, stop the server, set 'debug-mode=on' in your buildout.cfg, re-run bin/buildout and then restart the server process."
 #: CMFPlone/controlpanel/browser/overview.pt:139
 msgid "description_production_mode"
-msgstr "您正在 “生产模式” 下运行。这个模式适合 Plone 实际站点的运行，但是很多设置的修改，需要重新启动服务器进程或者刷新附加组件后才能生效。如果这是一个开发实例，而您希望启用调试模式，请关闭服务器进程，编辑 buildout.cfg 文件，设置 'debug-mode=on'，重新执行 bin/buildout 后重启服务器进程。"
+msgstr "您正在 “生产模式” 下运行。这个模式适合 P系统 实际站点的运行，但是很多设置的修改，需要重新启动服务器进程或者刷新附加组件后才能生效。如果这是一个开发实例，而您希望启用调试模式，请关闭服务器进程，编辑 buildout.cfg 文件，设置 'debug-mode=on'，重新执行 bin/buildout 后重启服务器进程。"
 
 #. Default: "An item's status (also called its review state) determines who can see it. Another way to control the visibility of an item is with its <em class=\"discreet\">Publishing Date</em>. An item is not publicly searchable before its publishing date. This will prevent the item from showing up in portlets and folder listings, although the item will still be available if accessed directly via its URL."
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:53
@@ -7941,7 +7941,7 @@ msgstr "Zope 服务器"
 #. Default: "If your theme uses relative paths for images, stylesheets or other resources, you can enter a prefix here to make sure these resources will work regardless of which page Plone is rendering."
 #: plone/app/theming/browser/controlpanel.pt:394
 msgid "help_absolute_prefix"
-msgstr "如果您的主题的图片、样式表或其他资源使用相对路径，您可以在这里输入一个前缀，以确保 Plone 无论渲染哪一个页面，这些资源可以正常工作 。"
+msgstr "如果您的主题的图片、样式表或其他资源使用相对路径，您可以在这里输入一个前缀，以确保 P系统 无论渲染哪一个页面，这些资源可以正常工作 。"
 
 #. Default: "Select an action category"
 #: plone.app.portlets/plone/app/portlets/portlets/actions.py:35
@@ -8247,7 +8247,7 @@ msgstr "您个人的外部主页URL(如没有，保持为空)。"
 #. Default: "If there are hostnames that you do not want to be themed, you can list them here, one per line. This is useful during theme development, so that you can compare the themed and unthemed sites. In some cases, you may also want to provided an unthemed host alias for content administrators to be able to use 'plain' Plone."
 #: plone/app/theming/browser/controlpanel.pt:460
 msgid "help_hostname_blacklist"
-msgstr "如果您有不想进行主题化的主机名，您可以在这里列出他们，每行一个。在主题开发的过程中，这是非常有用的，以便您可以比较已主题化和未主题化的网站。在某些情况下，您可能还想要为内容管理员提供一个未主题化的主机别名，以便能他们够使用'单纯'的 Plone 系统。"
+msgstr "如果您有不想进行主题化的主机名，您可以在这里列出他们，每行一个。在主题开发的过程中，这是非常有用的，以便您可以比较已主题化和未主题化的网站。在某些情况下，您可能还想要为内容管理员提供一个未主题化的主机别名，以便能他们够使用'单纯'的 P系统。"
 
 #. Default: "If checked, this will attempt to modify the status of all content in any selected folders and their subfolders."
 #: plone.app.content/plone/app/content/browser/contents/templates/workflow.pt:23
@@ -8719,7 +8719,7 @@ msgstr "不主题化的主机名"
 #. Default: "If there are hostnames that you do not want to be themed, you can list them here. This is useful during theme development, so that you can compare the themed and unthemed sites. In some cases, you may also want to provided an unthemed host alias for content administrators to be able to use 'plain' Plone."
 #: plone/app/theming/interfaces.py:131
 msgid "hostname_blacklist_description"
-msgstr "如果您有不想进行主题化的主机名，您可以在这里列出他们，每行一个。在主题开发的过程中，这是非常有用的，以便您可以比较已主题化和未主题化的网站。在某些情况下，您可能还想要为内容管理员提供一个未主题化的主机别名，以便能他们够使用'单纯'的 Plone 系统。"
+msgstr "如果您有不想进行主题化的主机名，您可以在这里列出他们，每行一个。在主题开发的过程中，这是非常有用的，以便您可以比较已主题化和未主题化的网站。在某些情况下，您可能还想要为内容管理员提供一个未主题化的主机别名，以便能他们够使用'单纯'的 P系统。"
 
 #. Default: "HTML"
 #: Archetypes/skins/archetypes/wysiwyg_support.pt:40
@@ -10090,22 +10090,22 @@ msgstr "文件夹"
 #. Default: "Plone<sup>&reg;</sup> Open Source CMS/WCM"
 #: CMFPlone/browser/templates/footer.pt:14
 msgid "label_plone_cms"
-msgstr "Plone<sup>&reg;</sup> 开源 Web 内容管理系统(CMS/WCM)"
+msgstr "P系统<sup>&reg;</sup> 开源 Web 内容管理系统(CMS/WCM)"
 
 #. Default: "For an introduction to Plone, success stories, demos, providers, visit"
 #: CMFPlone/browser/templates/plone-overview.pt:145
 msgid "label_plone_com_description"
-msgstr "关于Plone的介绍，成功案例，演示，供应商，请访问"
+msgstr "关于P系统的介绍，成功案例，演示，供应商，请访问"
 
 #. Default: "Plone.com"
 #: CMFPlone/browser/templates/plone-overview.pt:146
 msgid "label_plone_com_title"
-msgstr "Plone.com"
+msgstr "P系统.com"
 
 #. Default: "Plone Foundation"
 #: CMFPlone/browser/templates/footer.pt:24
 msgid "label_plone_foundation"
-msgstr "Plone 基金会"
+msgstr "P系统 基金会"
 
 #. Default: "For documentation, add-ons, support, community, visit"
 #: CMFPlone/browser/templates/plone-overview.pt:152
@@ -10115,7 +10115,7 @@ msgstr "文档，附加组件，支持及社区请访问"
 #. Default: "Plone Community Home"
 #: CMFPlone/browser/templates/plone-overview.pt:153
 msgid "label_plone_org_title"
-msgstr "Plone 社区主页"
+msgstr "P系统 社区主页"
 
 #. Default: "Value"
 #: widget label of MultiSelectionWidget - description "One the available
@@ -10154,7 +10154,7 @@ msgstr "头像"
 #: plone.app.layout/plone/app/layout/viewlets/colophon.pt:6
 #: plone.app.theming/resources/theme/theme1/overrides/plone.app.layout.viewlets.colophon.pt:8
 msgid "label_powered_by_plone"
-msgstr "动力源自 Plone & Python"
+msgstr "动力源自 P系统 & Python"
 
 #. Default: "Previous"
 #: Archetypes/skins/archetypes/edit_macros.pt:213
@@ -10669,7 +10669,7 @@ msgstr "返回 组管理"
 #: CMFPlone/controlpanel/browser/maintenance.pt:166
 #: plone/app/theming/browser/controlpanel.pt:74
 msgid "label_up_to_plone_setup"
-msgstr "返回 Plone 设置"
+msgstr "返回 P系统 设置"
 
 #. Default: "Back to the control panel"
 #: plone/app/theming/browser/mapper.pt:96
@@ -11710,7 +11710,7 @@ msgstr "作者信息"
 #: plone.app.layout/plone/app/layout/viewlets/colophon.pt:6
 #: plone.app.theming/resources/theme/theme1/overrides/plone.app.layout.viewlets.colophon.pt:8
 msgid "title_built_with_plone"
-msgstr "本站使用 Plone 开源 CMS/WCM 构建。"
+msgstr "本站使用 P系统 开源 CMS/WCM 构建。"
 
 #. Default: "Bulk Actions"
 #: plone.app.discussion/plone/app/discussion/browser/moderation.pt:64
@@ -12038,7 +12038,7 @@ msgstr "版本策略"
 #. Default: "Changing the workflow of a type will take a while, and may slow down the site significantly while the content is updated to the new setting."
 #: CMFPlone/controlpanel/browser/types.pt:253
 msgid "types_controlpanel_warn_remap"
-msgstr "改变类型的工作流可能很需要一段时间，这段时间内 Plone 可能显著变慢。"
+msgstr "改变类型的工作流可能很需要一段时间，这段时间内 P系统 可能显著变慢。"
 
 #. Default: "Replace with new file:"
 #: Archetypes/skins/archetypes/widgets/file.pt:99
