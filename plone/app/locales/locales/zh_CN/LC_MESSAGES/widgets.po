@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2015-10-02 19:00+0800\n"
+"PO-Revision-Date: 2016-01-12 13:53+0800\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -14,832 +14,845 @@ msgstr ""
 "Language-Name: 简体中文\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: widgets\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.6\n"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid " css files to build"
-msgstr ""
+msgstr "要建立的CSS文件"
 
-#: ./patterns/relateditems/pattern.js
+#: patterns/relateditems/pattern.js
 msgid "(empty)"
 msgstr "(空)"
 
-#: ./patterns/resourceregistry/js/registry.js
+# not sure
+#: patterns/resourceregistry/js/registry.js
 msgid "A main resource file to bootstrap bundle or a list of resources to load."
-msgstr ""
+msgstr "上传Resource档案"
 
-#: ./patterns/structure/templates/table.xml
+#: patterns/structure/templates/table.xml
 msgid "Actions"
 msgstr "操作"
 
-#: ./patterns/structure/js/views/table.js
+#: patterns/structure/js/views/table.js
 msgid "Actions on current folder"
 msgstr "对当前文件夹操作"
 
-#: ./patterns/filemanager/js/addnew.js
+#: patterns/filemanager/js/addnew.js
 msgid "Add"
 msgstr "添加"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Add bundle"
 msgstr "添加包"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Add file"
 msgstr "添加文件"
 
-#: ./patterns/filemanager/js/addnew.js
+#: patterns/filemanager/js/addnew.js
 msgid "Add new file"
 msgstr "添加新文件"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Add new file to current folder"
 msgstr "添加新的文件到当前文件夹"
 
-#: ./patterns/filemanager/js/newfolder.js
+#: patterns/filemanager/js/newfolder.js
 msgid "Add new folder to current directory"
 msgstr "添加新文件夹到当前目录"
 
-#: ./patterns/filemanager/js/customize.js
+#: patterns/filemanager/js/customize.js
 msgid "Add new override"
 msgstr "添加新的覆盖"
 
-#: ./patterns/resourceregistry/js/patternoptions.js
+#: patterns/resourceregistry/js/patternoptions.js
 msgid "Add pattern"
 msgstr "添加模式"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Add resource"
 msgstr "添加资源"
 
-#: ./patterns/resourceregistry/js/less.js
+#: patterns/resourceregistry/js/less.js
 msgid "Add variable"
 msgstr "添加变量"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Align"
 msgstr "对齐"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Alternative Text"
 msgstr "替代文本"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Anchor"
 msgstr "锚"
 
-#: ./patterns/structure/js/views/generic-popover.js
+#: patterns/structure/js/views/generic-popover.js
 msgid "Apply"
 msgstr "应用"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to cancel? You will lose all changes."
 msgstr "确实要取消吗?你将丢失所有的更改。"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to delete the ${name} bundle?"
 msgstr "确实要删除 ${name} 包?"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to delete the ${name} resource?"
 msgstr "确实要删除 ${name} 资源?"
 
-#: ./patterns/filemanager/js/delete.js
+#: patterns/filemanager/js/delete.js
 msgid "Are you sure you want to delete this resource?"
 msgstr "确实要删除此资源?"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Automatically generated path to the compiled CSS."
-msgstr ""
+msgstr "编译后CSS的预设路径"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Automatically generated path to the compiled JavaScript."
-msgstr ""
+msgstr "编译后JavaScript的预设路径"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Build"
-msgstr ""
+msgstr "建立"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Build CSS"
-msgstr ""
+msgstr "建立 CSS"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Build it"
-msgstr ""
+msgstr "建立"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Build rule"
-msgstr ""
+msgstr "建立Rule"
 
-#: ./patterns/resourceregistry/js/registry.js
+# not sure
+#: patterns/resourceregistry/js/registry.js
 msgid "Bundle this depends on"
-msgstr ""
+msgstr "基于的包"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Bundles"
 msgstr "包"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "CSS/LESS"
 msgstr "CSS/LESS"
 
-#: ./patterns/structure/js/views/table.js
+# not sure
+#: patterns/structure/js/views/table.js
 msgid "Can not order items while querying"
-msgstr ""
+msgstr "不能再查询时整理条目"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Cancel"
 msgstr "取消"
 
-#: ./patterns/upload/templates/upload.xml
+#: patterns/upload/templates/upload.xml
 msgid "Choose File"
 msgstr "选择文件"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Close"
 msgstr "关闭"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Close Fullscreen"
-msgstr ""
+msgstr "关闭全屏"
 
-#: ./patterns/structure/js/views/columns.js
+#: patterns/structure/js/views/columns.js
 msgid "Columns"
 msgstr "列"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Coma separated values of resources for requirejs shim"
-msgstr ""
+msgstr "RequireJS Shim 的 Resource 清单，以逗号区隔"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Compile LESS file"
 msgstr "编译 LESS 文件"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Compiled CSS"
 msgstr "编译 CSS"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Compiled JavaScript"
 msgstr "编译 JavaScript"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Conditional comment"
 msgstr "条件注释"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Conditional expression to decide if this resource will run"
-msgstr ""
+msgstr "Resource 是否执行的 Expression"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Configuration"
 msgstr "配置"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Configuration in JSON for the widget"
-msgstr ""
+msgstr "Widget 的 JSON 设定"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "Configure displayed columns"
 msgstr "配置显示列"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "Copied"
-msgstr ""
+msgstr "已复制"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Copy"
 msgstr "复制"
 
-#: ./patterns/filemanager/js/customize.js
+#: patterns/filemanager/js/customize.js
 msgid "Customize"
 msgstr "自定义"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "Cut"
 msgstr "剪切"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Date/Time when your bundle was last compiled. Empty, if it was never compiled."
-msgstr ""
+msgstr "前一次编译的时间记录"
 
-#: ./patterns/filemanager/js/delete.js
+#: patterns/filemanager/js/delete.js
 msgid "Delete"
 msgstr "删除"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Delete currently selected resource"
 msgstr "删除当前所选的资源"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Delete customizations"
 msgstr "删除自定义设置"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Dependencies"
 msgstr "依赖关系"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Depends"
-msgstr ""
+msgstr "依赖"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Develop CSS"
 msgstr "开发 CSS"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Develop JavaScript"
 msgstr "开发 JavaScript"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Development Mode(only logged in users)"
 msgstr "开展模式(仅限已登录用户)"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Does your bundle contain any RequireJS or LESS files?"
-msgstr ""
+msgstr "你的包包含RequireJS 或 LESS文件吗 "
 
-#: ./patterns/upload/templates/upload.xml
+#: patterns/upload/templates/upload.xml
 msgid "Drop files here..."
 msgstr "将文件拖至此处..."
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Edit"
 msgstr "编辑"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Email"
 msgstr "Email"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Enabled"
 msgstr "已启用"
 
-#: ./patterns/pickadate/pattern.js
+#: patterns/pickadate/pattern.js
 msgid "Enter date..."
 msgstr "输入日期..."
 
-#: ./patterns/filemanager/js/addnew.js
+#: patterns/filemanager/js/addnew.js
 msgid "Enter filename"
 msgstr "输入文件名"
 
-#: ./patterns/filemanager/js/newfolder.js
+#: patterns/filemanager/js/newfolder.js
 msgid "Enter folder name"
 msgstr "输入文件夹名称"
 
-#: ./patterns/pickadate/pattern.js
+#: patterns/pickadate/pattern.js
 msgid "Enter time..."
 msgstr "输入时间..."
 
-#: ./patterns/pickadate/pattern.js
+#: patterns/pickadate/pattern.js
 msgid "Enter timezone..."
 msgstr "输入时区..."
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "Error"
 msgstr "错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error building bundle"
-msgstr ""
+msgstr "建立包时错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error building css bundle"
-msgstr ""
+msgstr "建立 CSS包时错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error building resources"
-msgstr ""
+msgstr "建立资源时错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error compiling less"
-msgstr ""
+msgstr "编译less时产生错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error in build process"
-msgstr ""
+msgstr "建立进程时产生错误"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "Error pasting into"
-msgstr ""
+msgstr "粘贴时产生错误"
 
-#: ./patterns/resourceregistry/pattern.js
+#: patterns/resourceregistry/pattern.js
 msgid "Error processing ajax request for action: "
-msgstr ""
+msgstr "处理 ajax 执行指令时产生错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Error saving css bundle"
-msgstr ""
+msgstr "存储 CSS 包时产生错误"
 
-#: ./patterns/upload/pattern.js
+# not sure
+#: patterns/upload/pattern.js
 msgid "Error uploading with TUS resumable uploads"
-msgstr ""
+msgstr "使用TUS上传可恢复的上传时产生错误"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
-#: ./patterns/resourceregistry/js/registry.js
+# not sure
+#: patterns/resourceregistry/js/registry.js
 msgid "Export vars for requirejs shim"
-msgstr ""
+msgstr "导出用于requirejs shim 的vars"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Expression"
-msgstr ""
+msgstr "表述"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "External"
-msgstr ""
+msgstr "外部"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "External Image URI"
 msgstr "外部图片 URI"
 
-#: ./patterns/filemanager/js/addnew.js
+#: patterns/filemanager/js/addnew.js
 msgid "Filename"
 msgstr "文件名"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Filename must start with ++plone++static/"
 msgstr "文件名必须以 ++plone++static/ 开头"
 
-#: ./patterns/structure/js/views/textfilter.js
+#: patterns/structure/js/views/textfilter.js
 msgid "Filter"
 msgstr "筛选器"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Filter..."
-msgstr ""
+msgstr "筛选..."
 
-#: ./patterns/filemanager/js/customize.js
+#: patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
-msgstr ""
+msgstr "搜寻 Resource 进行编辑"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Finished!"
 msgstr "已完成!"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Fullscreen"
 msgstr "全屏"
 
-#: ./patterns/thememapper/pattern.js
+# not sure
+#: patterns/thememapper/pattern.js
 msgid "HTML mockup"
-msgstr ""
+msgstr "HTML 实体模型"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Help"
 msgstr "帮助"
 
-#: ./patterns/upload/templates/upload.xml
+# not sure
+#: patterns/upload/templates/upload.xml
 msgid "If nothing selected files we be added to current context."
-msgstr ""
+msgstr "如果没选择文件，将添加到当前文档中"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Image"
 msgstr "图片"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Init"
-msgstr ""
+msgstr "初始"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Init instruction for requirejs shim"
-msgstr ""
+msgstr "用于 requirejs shim 初始指令"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Insert"
 msgstr "插入"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Insert Image"
 msgstr "插入图片"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Insert link"
 msgstr "插入链接"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Internal"
 msgstr "内部"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Internet Explorer conditional comment"
 msgstr "Internet Explorer 条件注释"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "JS"
 msgstr "JS"
 
-#: ./patterns/upload/templates/upload.xml
+# not sure
+#: patterns/upload/templates/upload.xml
 msgid "Just drag N drop files on the area below or press the browse button."
-msgstr ""
+msgstr "只需在下面区域拖放 N 文件 或点击浏览按钮"
 
-#: ./patterns/thememapper/js/lessbuilderview.js
+#: patterns/thememapper/js/lessbuilderview.js
 msgid "LESS Builder"
-msgstr ""
+msgstr "lESS 生成器"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Last compilation"
-msgstr "最后一次编译"
+msgstr "前一次编译"
 
-#: ./patterns/resourceregistry/pattern.js
+#: patterns/resourceregistry/pattern.js
 msgid "Less Variables"
 msgstr "Less 变量"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "List of CSS/LESS files to use for resource"
-msgstr ""
+msgstr "列出 CESS/LESS 文件以供 resource 使用"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
-msgstr ""
+msgstr "主 JavaScript 文件"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Move to bottom of folder"
 msgstr "移动到文件夹的底部"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Move to top of folder"
 msgstr "移动到文件夹的顶部"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Name"
 msgstr "名称"
 
-#: ./patterns/filemanager/js/newfolder.js
+#: patterns/filemanager/js/newfolder.js
 msgid "New folder"
 msgstr "新建文件夹"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "Next"
-msgstr ""
+msgstr "下一个"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
-msgstr ""
+msgstr "没有 JavaScript 建立，跳过"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
-msgstr ""
+msgstr "只有++plone++资源可以重写"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Open"
 msgstr "打开"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Open in new window"
 msgstr "在新窗口中打开"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Open in parent window / frame"
 msgstr "在父窗口/框架中打开"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Open in this window / frame"
 msgstr "在当前窗口/框架中打开"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Open in top frame (replaces all frames)"
 msgstr "在顶部框架 (替换所有框架) 中打开"
 
-#: ./patterns/resourceregistry/pattern.js
+#: patterns/resourceregistry/pattern.js
 msgid "Overrides"
-msgstr ""
+msgstr "优先"
 
-#: ./patterns/structure/templates/paging.xml
+#: patterns/structure/templates/paging.xml
 msgid "Page:"
 msgstr "页面:"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Paste"
 msgstr "粘贴"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "Pasted into"
 msgstr "粘贴到"
 
-#: ./patterns/resourceregistry/pattern.js
+#: patterns/resourceregistry/pattern.js
 msgid "Pattern Options"
 msgstr "模式选项"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "Preview"
 msgstr "预览"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "Preview of at most 10 items"
-msgstr ""
+msgstr "最多10个条目的预览"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Preview theme"
 msgstr "预览主题"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "Previous"
-msgstr ""
+msgstr "先前"
 
-#: ./patterns/structure/js/views/textfilter.js
+#: patterns/structure/js/views/textfilter.js
 msgid "Query"
 msgstr "查询"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "Rearrange"
 msgstr "重排"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "Rearrange folder contents"
 msgstr "重新排列文件夹内容"
 
-#: ./patterns/structure/js/views/rearrange.js
+#: patterns/structure/js/views/rearrange.js
 msgid "Rearrange items in this folder"
 msgstr "重新排列此文件夹中条目"
 
-#: ./patterns/resourceregistry/pattern.js
+#: patterns/resourceregistry/pattern.js
 msgid "Registry"
-msgstr ""
+msgstr "记录"
 
-#: ./patterns/resourceregistry/js/fields.js
+#: patterns/resourceregistry/js/fields.js
 msgid "Remove"
 msgstr "删除"
 
-#: ./patterns/filemanager/js/rename.js
+#: patterns/filemanager/js/rename.js
 msgid "Rename"
 msgstr "重命名"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Rename currently selected resource"
 msgstr "重命名当前所选的资源"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Resources"
 msgstr "资源"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Resources base URL"
-msgstr ""
+msgstr "基于 URL 的资源"
 
-#: ./patterns/structure/js/views/rearrange.js
+#: patterns/structure/js/views/rearrange.js
 msgid "Reverse"
 msgstr "逆序"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "Reversed Order"
-msgstr ""
+msgstr "相反顺序"
 
-#: ./patterns/thememapper/js/rulebuilderview.js
+#: patterns/thememapper/js/rulebuilderview.js
 msgid "Rule Builder"
 msgstr "规则生成器"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Save"
 msgstr "保存"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "Saved javascript bundle, Build results"
-msgstr ""
+msgstr "保存 JavaScript 包，建立结果"
 
-#: ./patterns/filemanager/js/customize.js
+#: patterns/filemanager/js/customize.js
 msgid "Search"
 msgstr "搜索"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Search for item on site..."
-msgstr ""
+msgstr "搜索站点上的项目"
 
-#: ./patterns/relateditems/pattern.js
+#: patterns/relateditems/pattern.js
 msgid "Search:"
 msgstr "搜索:"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Select all contained items"
 msgstr "选择所有包含的条目"
 
-#: ./patterns/structure/js/views/columns.js
+#: patterns/structure/js/views/columns.js
 msgid "Select columns to show, drag and drop to reorder"
 msgstr "选择显示的列、 拖放重新排序"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "Select criteria"
-msgstr ""
+msgstr "选择标准"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Select resource to override..."
-msgstr ""
+msgstr "选择资源进行覆盖"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "Selected"
 msgstr "已选择"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/templates/actionmenu.xml
 msgid "Set as default page"
 msgstr "设置为默认页面"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Show help"
 msgstr "显示帮助"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Show inspector panels"
 msgstr "显示检查器面板"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Show inspectors"
 msgstr "显示检查器"
 
-#: ./patterns/structure/templates/paging.xml
+#: patterns/structure/templates/paging.xml
 msgid "Show:"
 msgstr "显示:"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Size"
 msgstr "大小"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "Sort on"
-msgstr ""
+msgstr "分类"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Stop Developing CSS"
 msgstr "停止开发 CSS"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "Stop Developing JavaScript"
 msgstr "停止开发 JavaScript"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Subject"
 msgstr "主题"
 
-#: ./patterns/modal/pattern.js
+#: patterns/modal/pattern.js
 msgid "There was an error loading modal."
-msgstr ""
+msgstr "导入模型时产生错误"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "There was an error searching…"
-msgstr ""
+msgstr "搜索时产生错误"
 
-#: ./patterns/modal/pattern.js
+#: patterns/modal/pattern.js
 msgid "There was an error submitting the form."
-msgstr ""
+msgstr "提交表格时产生错误"
 
-#: ./patterns/structure/js/views/rearrange.js
+#: patterns/structure/js/views/rearrange.js
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
-msgstr ""
+msgstr "这将永久改变文件夹中条目顺序。此操作将花费较长时间，将取决于文件夹的大小"
 
-#: ./patterns/tinymce/pattern.js
+#: patterns/tinymce/pattern.js
 msgid "Title"
 msgstr "标题"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "URL"
 msgstr "URL"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Unthemed content"
 msgstr "未主题化内容"
 
-#: ./patterns/filemanager/js/upload.js
+#: patterns/filemanager/js/upload.js
 msgid "Upload"
 msgstr "上传"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
 msgstr "上传文件到当前目录"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "Upload files"
 msgstr "上传文件"
 
-#: ./patterns/upload/templates/upload.xml
+#: patterns/upload/templates/upload.xml
 msgid "Upload here"
 msgstr "上传到这里"
 
-#: ./patterns/upload/templates/upload.xml
+#: patterns/upload/templates/upload.xml
 msgid "Upload to..."
 msgstr "上传到..."
 
-#: ./patterns/structure/templates/tablerow.xml
+#: patterns/structure/templates/tablerow.xml
 msgid "View"
-msgstr ""
+msgstr "浏览"
 
-#: ./patterns/structure/js/views/rearrange.js
+#: patterns/structure/js/views/rearrange.js
 msgid "What to rearrange on"
-msgstr ""
+msgstr "对哪一个重新安排"
 
-#: ./patterns/filemanager/js/delete.js
+#: patterns/filemanager/js/delete.js
 msgid "Yes, delete"
 msgstr "是的，删除"
 
-#: ./patterns/resourceregistry/js/registry.js
+#: patterns/resourceregistry/js/registry.js
 msgid "You have unsaved changes. Save or discard before building."
-msgstr ""
+msgstr "你有未保存的变更，请在生成前保存或放弃"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "building CSS bundle"
-msgstr ""
+msgstr "生成CSS包"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "building javascripts"
-msgstr ""
+msgstr "建立 JavaScript"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "copying"
-msgstr ""
+msgstr "正在复制"
 
-#: ./patterns/resourceregistry/js/overrides.js
+# not sure
+#: patterns/resourceregistry/js/overrides.js
 msgid "customized"
-msgstr ""
+msgstr "指定的"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: patterns/structure/js/views/actionmenu.js
 msgid "cutting"
-msgstr ""
+msgstr "正在剪切"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "days"
-msgstr ""
+msgstr "天数"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "enter search phrase"
-msgstr ""
+msgstr "输入搜索短语"
 
-#: ./patterns/relateditems/pattern.js
+# not sure
+#: patterns/relateditems/pattern.js
 msgid "entire site"
-msgstr ""
+msgstr "整个站点"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "error loading resource for editing"
-msgstr ""
+msgstr "在导入资源用于编辑是产生错误"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "finished saving css bundles"
-msgstr ""
+msgstr "完成保存CSS包"
 
-#: ./patterns/livesearch/pattern.js
+# not sure
+#: patterns/livesearch/pattern.js
 msgid "found"
-msgstr ""
+msgstr "发现"
 
-#: ./patterns/relateditems/pattern.js
+#: patterns/relateditems/pattern.js
 msgid "home"
-msgstr ""
+msgstr "主页"
 
-#: ./patterns/resourceregistry/js/builder.js
+#: patterns/resourceregistry/js/builder.js
 msgid "less compilation error on file "
-msgstr ""
+msgstr "在文件更少的编译错误"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "no results found"
-msgstr ""
+msgstr "未发现结果"
 
-#: ./patterns/structure/templates/paging.xml
+#: patterns/structure/templates/paging.xml
 msgid "of"
-msgstr ""
+msgstr "从属"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "operation url ${url} is not valid"
-msgstr ""
+msgstr "操作url ${url}无效"
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "preview theme in a new window"
-msgstr ""
+msgstr "在新窗口中预览主题"
 
-#: ./patterns/structure/js/views/selectionwell.js
+#: patterns/structure/js/views/selectionwell.js
 msgid "remove all"
-msgstr ""
+msgstr "移除全部"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "results"
 msgstr "结果"
 
-#: ./patterns/thememapper/pattern.js
+# not sure
+#: patterns/thememapper/pattern.js
 msgid "rule building wizard"
-msgstr ""
+msgstr "规则构建导向"
 
-#: ./patterns/livesearch/pattern.js
+#: patterns/livesearch/pattern.js
 msgid "searching…"
 msgstr "搜索..."
 
-#: ./patterns/structure/templates/paging.xml
+#: patterns/structure/templates/paging.xml
 msgid "shown"
-msgstr ""
+msgstr "展示"
 
-#: ./patterns/structure/js/views/app.js
+#: patterns/structure/js/views/app.js
 msgid "there was an error performing action"
 msgstr "执行操作出错"
 
-#: ./patterns/querystring/pattern.js
+#: patterns/querystring/pattern.js
 msgid "to"
-msgstr ""
+msgstr "到"
 
-#: ./patterns/upload/pattern.js
+#: patterns/upload/pattern.js
 msgid "uploading..."
-msgstr ""
+msgstr "上传..."
 
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "view the editor in fullscreen"
-msgstr ""
+msgstr "全屏浏览编辑器"
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "you-filename.js"
 msgstr ""
-

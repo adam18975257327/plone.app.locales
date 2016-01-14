@@ -4,28 +4,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CMFPlacefulWorkflow\n"
 "POT-Creation-Date: 2015-09-20 20:59+0000\n"
-"PO-Revision-Date: 2013-11-05 15:35+0800\n"
+"PO-Revision-Date: 2016-01-12 17:16+0800\n"
 "Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: zh_CN\n"
 "Language-Name: 简体中文\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: cmfplacefulworkflow\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.8.6\n"
 
-#: ./profiles.zcml
+#: profiles.zcml
 msgid "Add in Plone the capability to change workflow chains for types in every object."
-msgstr "在 Plone 中添加可更改每个对象类型的工作流链的功能。"
+msgstr "在 P系统 中添加可更改每个对象类型的工作流链的功能。"
 
 msgid "Add in Plone the capability to change workflow chains for types in every object. Includes a dependency on core Plone types."
-msgstr "在 Plone 中添加可更改每个对象类型的工作流链的功能。依赖于 Plone 核心类型。"
+msgstr "在 P系统 中添加可更改每个对象类型的工作流链的功能。依赖于 P系统 核心类型。"
 
-#: ./profiles.zcml
+#: profiles.zcml
 msgid "Add in Plone the capability to change workflow chains for types in every object. With no dependency on core Plone types."
-msgstr "在 Plone 中添加可更改每个对象类型的工作流链的功能。不依赖 Plone 核心类型。"
+msgstr "在 P系统 中添加可更改每个对象类型的工作流链的功能。不依赖 P系统 核心类型。"
 
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:36
 msgid "Changed policies."
@@ -43,7 +45,7 @@ msgstr "配置更改已取消。"
 msgid "Deleted Local Workflow Policy."
 msgstr "本地工作流策略已删除。"
 
-#: ./profiles/default/portal_placeful_workflow/intranet.xml
+#: profiles/default/portal_placeful_workflow/intranet.xml
 msgid "Intranet"
 msgstr "内部网"
 
@@ -55,15 +57,15 @@ msgstr "本地工作流策略已添加。"
 msgid "No config in this folder."
 msgstr "在此文件夹中没有配置。"
 
-#: ./profiles/default/portal_placeful_workflow/old_plone.xml
+#: profiles/default/portal_placeful_workflow/old_plone.xml
 msgid "Old Plone"
-msgstr "旧 Plone"
+msgstr "旧 P系统"
 
-#: ./profiles/default/portal_placeful_workflow/one_state.xml
+#: profiles/default/portal_placeful_workflow/one_state.xml
 msgid "One state"
 msgstr "一个状态"
 
-#: ./profiles/default/portal_placeful_workflow/simple_publication.xml
+#: profiles/default/portal_placeful_workflow/simple_publication.xml
 msgid "Simple publication"
 msgstr "简单发布"
 
@@ -79,11 +81,11 @@ msgstr "标题是必须的。"
 msgid "Update catalog role mappings"
 msgstr "更新编目角色映射"
 
-#: ./profiles.zcml
+#: profiles.zcml
 msgid "Workflow Policy Support (CMFPlacefulWorkflow)"
 msgstr "工作流策略支持 (CMFPlacefulWorkflow)"
 
-#: ./profiles.zcml
+#: profiles.zcml
 msgid "Workflow Policy Support (CMFPlacefulWorkflow) - no core types dependency"
 msgstr "工作流策略支持 (CMFPlacefulWorkflow) - 不依赖核心类型。"
 
@@ -285,4 +287,3 @@ msgstr "工作流程内容类型映射。"
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:61
 msgid "title_workflow_policy_setup"
 msgstr "工作流策略设置"
-
