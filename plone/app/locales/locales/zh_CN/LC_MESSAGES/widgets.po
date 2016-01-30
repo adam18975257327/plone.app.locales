@@ -258,7 +258,7 @@ msgstr "开发 JavaScript"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Development Mode(only logged in users)"
-msgstr "开展模式(仅限已登录用户)"
+msgstr "开发模式(仅限已登录用户)"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Does your bundle contain any RequireJS or LESS files?"

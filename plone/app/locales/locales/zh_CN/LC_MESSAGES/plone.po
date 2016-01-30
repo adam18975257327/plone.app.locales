@@ -1365,7 +1365,7 @@ msgstr "无法找到一个有效的 Email 地址。"
 
 #: plone.app.content/plone/app/content/browser/contents/workflow.py:89
 msgid "Could not transition: ${title}"
-msgstr "无法传递${标题}"
+msgstr "无法传递${title}"
 
 #: plone.app.layout/plone/app/layout/viewlets/content.py:381
 #: plone/app/theming/browser/controlpanel.pt:239
@@ -1587,7 +1587,7 @@ msgstr "删除"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:54
 msgid "Delete ${override}"
-msgstr "删除$ {覆盖}"
+msgstr "删除${override}"
 
 #: plone.schemaeditor/plone/schemaeditor/browser/schema/schema_listing.pt:125
 msgid "Delete field"
@@ -2086,7 +2086,7 @@ msgstr "错误移动项目"
 
 #: plone.app.content/plone/app/content/browser/contents/rename.py:101
 msgid "Error renaming ${title}"
-msgstr "错误重命名$ {标题}"
+msgstr "错误重命名${title}"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:114
 msgid "Error sending email from content rule. You must provide a source address for mail actions or enter an email in the portal properties"
@@ -2094,11 +2094,11 @@ msgstr "从内容规则发送电子邮件时出错。发送邮件操作必须提
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:238
 msgid "Error uninstalling ${product}."
-msgstr "错误卸载$ {产品 }。"
+msgstr "错误卸载${product}。"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:183
 msgid "Error upgrading ${product}."
-msgstr "错误升级$ {产品 }。"
+msgstr "错误升级${product}。"
 
 #: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:55
 msgid "Error: The file submitted must be a zip archive containing only type profile information."
@@ -2258,7 +2258,7 @@ msgstr "无法复制条目"
 
 #: plone.app.content/plone/app/content/browser/contents/cut.py:36
 msgid "Failed to cut items"
-msgstr "无法削减条目"
+msgstr "无法剪切条目"
 
 #: plone.app.content/plone/app/content/browser/contents/delete.py:47
 msgid "Failed to delete items"
@@ -2770,7 +2770,7 @@ msgstr "安装灵活性和继续migration-form吗?"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:214
 msgid "Installed ${product}!"
-msgstr "安装${产品}!"
+msgstr "安装${product}!"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:29
 msgid "Installing a third party add-on"
@@ -2858,7 +2858,7 @@ msgstr "此类型的条目，可以包含其他条目。"
 
 #: plone.app.content/plone/app/content/browser/contents/rename.py:43
 msgid "Items renamed"
-msgstr "项目命名"
+msgstr "项目重命名"
 
 msgid "JPEG image"
 msgstr "JPEG图像"
@@ -2904,7 +2904,7 @@ msgstr "大于"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:174
 msgid "Last comment date"
-msgstr "最后要求日期"
+msgstr "最后评论日期"
 
 #: CMFPlone/interfaces/resources.py:56
 msgid "Last compiled date"
@@ -3388,7 +3388,7 @@ msgstr "修改属性项"
 
 #: plone/app/theming/browser/controlpanel.pt:266
 msgid "Modify theme"
-msgstr "修改"
+msgstr "修改皮肤"
 
 #: Archetypes/browser/templates/calendar_macros.pt:89
 msgid "Month"
@@ -3432,7 +3432,7 @@ msgstr "找到具有相同的登录名称的多个用户。"
 
 #: CMFPlone/utils.py:623
 msgid "Must be empty or a valid JSON-formatted configuration – ${message}."
-msgstr "必须是空的或有效的json格式的配置——$ {消息}。"
+msgstr "必须是空的或有效的json格式的配置——${message}。"
 
 #. Default: "My Folder"
 #: CMFPlone/controlpanel/events.py:94
@@ -3579,7 +3579,7 @@ msgstr "没有文本迁移"
 
 #: CMFPlone/RegistrationTool.py:118
 msgid "No email address is registered for member: ${member_id}"
-msgstr "没有会员的已注册邮箱地址:$ { member_id }"
+msgstr "没有会员的已注册邮箱地址:${ member_id }"
 
 #: plone.app.collection/plone/app/collection/browser/templates/thumbnail_view.pt:72
 msgid "No images found in this collection."
@@ -3599,7 +3599,7 @@ msgstr "没有工作流"
 
 #: plone.app.content/plone/app/content/browser/contents/rearrange.py:83
 msgid "Not explicit orderable"
-msgstr "不明确的命令"
+msgstr "不是显示可排序"
 
 #: CMFPlone/controlpanel/browser/usergroups_usersoverview.pt:57
 #: plone/app/theming/browser/controlpanel.pt:54
@@ -4149,7 +4149,7 @@ msgstr "公开草案"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:166
 msgid "Publication date"
-msgstr "公开日期"
+msgstr "发布日期"
 
 #. Default: "Publish"
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
@@ -4356,7 +4356,7 @@ msgstr "渲染正文"
 
 #: plone.schemaeditor/plone/schemaeditor/interfaces.py:174
 msgid "Required field"
-msgstr "请求领域"
+msgstr "请求填写"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:20
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -4476,11 +4476,11 @@ msgstr "审核者的邮件"
 
 #: plone.app.textfield/plone/app/textfield/editor.py:33
 msgid "Rich Text"
-msgstr "文件"
+msgstr "富文本"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:52
 msgid "RichText"
-msgstr "文件"
+msgstr "富文本"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:281
 msgid "Rights"
@@ -9026,9 +9026,7 @@ msgstr "更改条目作为默认视图..."
 #. Default: "Change content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:446
 msgid "label_change_item"
-msgstr ""
-"更换条目\n"
-"作为默认视图..."
+msgstr "更换条目\n作为默认视图..."
 
 #. Default: "Change Password"
 #: CMFPlone/skins/plone_login/login_password.cpt:103
@@ -9081,9 +9079,7 @@ msgstr "选择一个内容条目..."
 #. Default: "Select a content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:401
 msgid "label_choose_item"
-msgstr ""
-"选择一个条目\n"
-"作为默认视图..."
+msgstr "选择一个条目\n作为默认视图..."
 
 #. Default: "Display"
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:120
@@ -11125,7 +11121,7 @@ msgstr "如果启用，则在规则文件和此配置允许使用网络（HTTP�
 #. Default: "No"
 #: plone.app.content/plone/app/content/browser/contents/templates/properties.pt:38
 msgid "no"
-msgstr "出现"
+msgstr "没有"
 
 #. Default: "No comments."
 #: plone.app.layout/plone/app/layout/viewlets/review_history.pt:59
