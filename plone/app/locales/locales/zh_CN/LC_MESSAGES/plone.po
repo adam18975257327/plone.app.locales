@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2016-08-14 20:21+0800\n"
-"Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
+"PO-Revision-Date: 2016-08-14 21:56+0800\n"
+"Last-Translator: adam <yuejun.tang@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -1257,7 +1257,8 @@ msgstr "包含"
 msgid "Contains objects"
 msgstr "包含对象"
 
-#: CMFPlone/PloneControlPanel.py:68 CMFPlone/browser/templates/author.pt:201
+#: CMFPlone/PloneControlPanel.py:68
+#: CMFPlone/browser/templates/author.pt:201
 msgid "Content"
 msgstr "内容"
 
@@ -2442,7 +2443,8 @@ msgid "GIMP image"
 msgstr "GIMP图像"
 
 #. Default: "General"
-#: CMFPlone/PloneControlPanel.py:67 CMFPlone/interfaces/controlpanel.py:131
+#: CMFPlone/PloneControlPanel.py:67
+#: CMFPlone/interfaces/controlpanel.py:131
 msgid "General"
 msgstr "常规"
 
@@ -3113,7 +3115,8 @@ msgstr "邮件"
 msgid "Mail Settings"
 msgstr "邮件设置"
 
-#: CMFPlone/browser/author.py:129 CMFPlone/browser/sendto.py:103
+#: CMFPlone/browser/author.py:129
+#: CMFPlone/browser/sendto.py:103
 msgid "Mail sent."
 msgstr "邮件已经发送。"
 
@@ -3760,7 +3763,7 @@ msgstr "PSD图像"
 
 #: CMFPlone/controlpanel/browser/maintenance.pt:128
 msgid "Pack"
-msgstr "打包"
+msgstr "压缩"
 
 #. Default: "Pack database now"
 #: CMFPlone/controlpanel/browser/maintenance.py:30
@@ -4570,7 +4573,8 @@ msgid "Searchable text"
 msgstr "可搜索文本"
 
 #. Default: "Security"
-#: CMFPlone/PloneControlPanel.py:70 CMFPlone/profiles/default/controlpanel.xml
+#: CMFPlone/PloneControlPanel.py:70
+#: CMFPlone/profiles/default/controlpanel.xml
 msgid "Security"
 msgstr "安全"
 
@@ -5839,7 +5843,8 @@ msgstr "类型可以被指定为一个默认页面"
 msgid "Types which use the view action in listing views."
 msgstr "使用Listing View里View Action的类型"
 
-#: CMFPlone/interfaces/resources.py:22 plone.schema/plone/schema/editor.py:21
+#: CMFPlone/interfaces/resources.py:22
+#: plone.schema/plone/schema/editor.py:21
 #: plone.stringinterp/plone/stringinterp/adapters.py:53
 msgid "URL"
 msgstr "URL"
@@ -5872,7 +5877,8 @@ msgstr "无法移除 ${name} ，内容规则 '移除' 操作有误： ${error}"
 msgid "Unable to remove ${name} as part of content rule 'delete' action: ${error}"
 msgstr "无法删除 ${name} ，内容规则 '删除' 操作有误： ${error}"
 
-#: CMFPlone/browser/author.py:122 CMFPlone/browser/sendto.py:97
+#: CMFPlone/browser/author.py:122
+#: CMFPlone/browser/sendto.py:97
 msgid "Unable to send mail."
 msgstr "无法发送邮件"
 
@@ -10380,7 +10386,8 @@ msgid "label_selection_criteria_value"
 msgstr "值"
 
 #. Default: "Send"
-#: CMFPlone/browser/author.py:41 CMFPlone/browser/contact_info.py:37
+#: CMFPlone/browser/author.py:41
+#: CMFPlone/browser/contact_info.py:37
 #: CMFPlone/browser/sendto.py:40
 msgid "label_send"
 msgstr "发送"
@@ -12129,3 +12136,4 @@ msgstr "您位于："
 #: plone.dexterity/browser/base.py:16
 msgid "label_schema_default"
 msgstr "缺省"
+
