@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2016-01-12 17:19+0800\n"
+"PO-Revision-Date: 2016-08-14 20:21+0800\n"
 "Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sf.net>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: plone\n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: plone.app.dexterity/plone/app/dexterity/interfaces.py:95
 msgid "# of items"
@@ -4044,7 +4044,7 @@ msgstr "面板头部"
 
 #: CMFPlone/interfaces/controlpanel.py:859
 msgid "Position in Parent"
-msgstr "Parent位置"
+msgstr "在上层容器的位置"
 
 #: CMFPlone/interfaces/controlpanel.py:1132
 msgid "Position where the toolbar is displayed"
@@ -4093,7 +4093,7 @@ msgstr "保密"
 
 #: CMFPlone/profiles.zcml:12
 msgid "Profile for a default Plone."
-msgstr "配置文件的默认P系统"
+msgstr "P系统默认配置文件"
 
 #. Default: "Promote to Draft"
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
@@ -4356,7 +4356,7 @@ msgstr "渲染正文"
 
 #: plone.schemaeditor/plone/schemaeditor/interfaces.py:174
 msgid "Required field"
-msgstr "请求填写"
+msgstr "要求填写"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:20
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -4369,7 +4369,7 @@ msgstr "资源类型"
 
 #: CMFPlone/resources/viewlets/settings.py:13
 msgid "Resource bundles for themes"
-msgstr "资源主题"
+msgstr "主题资源组"
 
 #: CMFPlone/interfaces/resources.py:76
 msgid "Resource name"
@@ -4377,7 +4377,7 @@ msgstr "资源名称"
 
 #: CMFPlone/interfaces/resources.py:13
 msgid "Resources base URL"
-msgstr "基于URL的资源"
+msgstr "资源的基于URL"
 
 #. Default: "Restart"
 #: CMFPlone/controlpanel/browser/maintenance.pt:75
@@ -4387,7 +4387,7 @@ msgstr "重启"
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:118
 msgid "Restrict the content types that can be added to folderish content"
-msgstr "限制可以添加到folderish的内容类型"
+msgstr "限制可以添加到文件夹的内容类型"
 
 #. Default: "Restrict to current user"
 #: criterion description of ATCurrentAuthorCriterion
@@ -4440,7 +4440,7 @@ msgstr "审核者"
 
 #: plone.app.discussion/plone/app/discussion/profiles/default/workflows/comment_review_workflow/definition.xml
 msgid "Reviewer approves content"
-msgstr "审核者支持条目"
+msgstr "审核者批准"
 
 #. Default: "Reviewer makes content available externally"
 #: CMFPlone/profiles/default/workflows/intranet_workflow/definition.xml
@@ -4563,7 +4563,7 @@ msgstr " ${term} 的搜索结果"
 #: plone.app.collection/plone/app/collection/collection.py:30
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/collection.py:42
 msgid "Search terms"
-msgstr "搜索条件"
+msgstr "搜索关键词"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Searchable text"
@@ -4976,7 +4976,7 @@ msgstr "状态"
 
 #: plone.resource/plone/resource/profiles.zcml:14
 msgid "Static resource storage"
-msgstr "Static resource storage"
+msgstr "静态资源存储"
 
 #: plone.portlet.static/plone/portlet/static/configure.zcml:16
 #: plone.portlet.static/plone/portlet/static/profiles/default/portlets.xml
@@ -9026,7 +9026,9 @@ msgstr "更改条目作为默认视图..."
 #. Default: "Change content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:446
 msgid "label_change_item"
-msgstr "更换条目\n作为默认视图..."
+msgstr ""
+"更换条目\n"
+"作为默认视图..."
 
 #. Default: "Change Password"
 #: CMFPlone/skins/plone_login/login_password.cpt:103
@@ -9079,7 +9081,9 @@ msgstr "选择一个内容条目..."
 #. Default: "Select a content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:401
 msgid "label_choose_item"
-msgstr "选择一个条目\n作为默认视图..."
+msgstr ""
+"选择一个条目\n"
+"作为默认视图..."
 
 #. Default: "Display"
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:120
@@ -12120,3 +12124,8 @@ msgstr "不出现"
 #: plone.app.layout/plone/app/layout/viewlets/path_bar.pt:5
 msgid "you_are_here"
 msgstr "您位于："
+
+#. Default: "Default"
+#: plone.dexterity/browser/base.py:16
+msgid "label_schema_default"
+msgstr "缺省"

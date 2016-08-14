@@ -881,3 +881,6 @@ msgstr "还没有上传相册或者照片。"
 #: ATContentTypes/skins/ATContentTypes/atct_album_image.pt:35
 msgid "title_back_to_album"
 msgstr "返回相册"
+
+msgid "Settings"
+msgstr "设置"
