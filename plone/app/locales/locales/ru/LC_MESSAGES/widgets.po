@@ -10,17 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: ru\n"
+"Language-Name: Russian\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: widgets\n"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid " css files to build"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "(empty)"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -29,35 +25,31 @@ msgstr ""
 
 #: ./patterns/structure/templates/table.xml
 msgid "Actions"
-msgstr ""
-
-#: ./patterns/structure/js/views/table.js
-msgid "Actions on current folder"
-msgstr ""
+msgstr "Действия"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Add bundle"
-msgstr ""
+msgstr "Добавить пакет"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Add file"
-msgstr ""
+msgstr "Добавить файл"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Add new file"
-msgstr ""
+msgstr "Добавить новый файл"
 
 #: ./patterns/filemanager/pattern.js
 msgid "Add new file to current folder"
-msgstr ""
+msgstr "Добавить новый файл в текущую папку"
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "Add new folder to current directory"
-msgstr ""
+msgstr "Добавить новую папку в текущую директорию"
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Add new override"
@@ -65,31 +57,31 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/patternoptions.js
 msgid "Add pattern"
-msgstr ""
+msgstr "Добавить шаблон"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Add resource"
-msgstr ""
+msgstr "Добавить ресурс"
 
 #: ./patterns/resourceregistry/js/less.js
 msgid "Add variable"
-msgstr ""
+msgstr "Добавить переменную"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Align"
-msgstr ""
+msgstr "Выравнивание"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Alternative Text"
-msgstr ""
+msgstr "Альтернативный текст"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Anchor"
-msgstr ""
+msgstr "Привязка"
 
 #: ./patterns/structure/js/views/generic-popover.js
 msgid "Apply"
-msgstr ""
+msgstr "Применить"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to cancel? You will lose all changes."
@@ -115,29 +107,37 @@ msgstr ""
 msgid "Automatically generated path to the compiled JavaScript."
 msgstr ""
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Browse"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Build"
-msgstr ""
+msgstr "Построить"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Build CSS"
-msgstr ""
+msgstr "Построить CSS"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Build it"
-msgstr ""
+msgstr "Построить это"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Build rule"
-msgstr ""
+msgstr "Построить правило"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Bundle this depends on"
-msgstr ""
+msgstr "Зависимость пакета от"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Bundles"
-msgstr ""
+msgstr "Пакеты"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "CSS/LESS"
@@ -149,43 +149,59 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Cancel"
+msgstr "Отмена"
+
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
 msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Choose File"
+msgstr "Выбрать файл"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Clear"
+msgstr ""
+
+#: ./patterns/thememapper/js/cacheview.js
+msgid "Clear Cache"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Clear cache"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Close Fullscreen"
-msgstr ""
+msgstr "Закрыть полноэкранный режим"
 
 #: ./patterns/structure/js/views/columns.js
 msgid "Columns"
-msgstr ""
+msgstr "Колонки"
 
 #: ./patterns/resourceregistry/js/registry.js
-msgid "Coma separated values of resources for requirejs shim"
+msgid "Comma-separated values of resources for requirejs shim"
 msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Compile LESS file"
-msgstr ""
+msgstr "Собрать LESS файл"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Compiled CSS"
-msgstr ""
+msgstr "Собрать CSS"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Compiled JavaScript"
-msgstr ""
+msgstr "Собрать JavaScript"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Conditional comment"
-msgstr ""
+msgstr "Условный комментарий"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Conditional expression to decide if this resource will run"
@@ -193,7 +209,7 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Configuration"
-msgstr ""
+msgstr "Конфигурация"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Configuration in JSON for the widget"
@@ -201,31 +217,35 @@ msgstr ""
 
 #: ./patterns/structure/js/views/app.js
 msgid "Configure displayed columns"
-msgstr ""
+msgstr "Конфигурация отображаемых колонок"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Copied"
+msgstr "Скопирован"
+
+#: patterns/structure/js/views/table.js
+msgid "Copy"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Copy"
+#: ./patterns/relateditems/pattern.js
+msgid "Current path:"
 msgstr ""
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Customize"
-msgstr ""
+msgstr "Персонализировать"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Cut"
-msgstr ""
+msgstr "Вырезать"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Date/Time when your bundle was last compiled. Empty, if it was never compiled."
-msgstr ""
+msgstr "Дата/Время последней сборки вашего пакета. Пусто, если он никогда не собирался."
 
 #: ./patterns/filemanager/js/delete.js
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: ./patterns/filemanager/pattern.js
 msgid "Delete currently selected resource"
@@ -233,7 +253,7 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Delete customizations"
-msgstr ""
+msgstr "Удалить персонализации"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Dependencies"
@@ -245,83 +265,95 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Develop CSS"
-msgstr ""
+msgstr "Разработать CSS"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Develop JavaScript"
-msgstr ""
+msgstr "Разработать JavaScript"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Development Mode(only logged in users)"
-msgstr ""
+msgstr "Режим разработчика"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Does your bundle contain any RequireJS or LESS files?"
 msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
-msgid "Drop files here..."
+msgid "Drag and drop files from your computer onto the area below or click the Browse button."
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: ./patterns/upload/templates/upload.xml
+msgid "Drop files here..."
+msgstr "Перетащите сюда файл..."
+
+#: patterns/structure/js/views/table.js
 msgid "Edit"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "Email"
+msgid "Email Address"
+msgstr ""
+
+#: ./patterns/tinymce/pattern.js
+msgid "Email Subject (optional)"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Enabled"
-msgstr ""
+msgstr "Разрешено"
 
 #: ./patterns/pickadate/pattern.js
 msgid "Enter date..."
-msgstr ""
+msgstr "Введите дату..."
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Enter filename"
-msgstr ""
+msgstr "Введите имя файла"
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "Enter folder name"
-msgstr ""
+msgstr "Введите имя папки"
 
 #: ./patterns/pickadate/pattern.js
 msgid "Enter time..."
-msgstr ""
+msgstr "Введите время..."
 
 #: ./patterns/pickadate/pattern.js
 msgid "Enter timezone..."
-msgstr ""
+msgstr "Введите часовой пояс..."
 
 #: ./patterns/livesearch/pattern.js
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building bundle"
-msgstr ""
+msgstr "Ошибка построения пакета"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building css bundle"
-msgstr ""
+msgstr "Ошибка построения пакета css"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building resources"
-msgstr ""
+msgstr "Ошибка построения ресурсов"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error compiling less"
-msgstr ""
+msgstr "Ошибка сборки less"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error in build process"
+msgstr "Ошибка в процессе построения"
+
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Error loading popover from server."
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Error pasting into"
-msgstr ""
+msgstr "Ошибка вставки в"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Error processing ajax request for action: "
@@ -329,15 +361,19 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error saving css bundle"
-msgstr ""
+msgstr "Ошибка сохранения css пакета"
 
 #: ./patterns/upload/pattern.js
 msgid "Error uploading with TUS resumable uploads"
 msgstr ""
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Expired"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Export vars for requirejs shim"
@@ -345,19 +381,31 @@ msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Expression"
+msgstr "Выражение"
+
+#: ./patterns/tinymce/pattern.js
+msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "External"
+msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr ""
 
-#: ./patterns/tinymce/pattern.js
-msgid "External Image URI"
+#:
+msgid "External image"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Favorites"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "File"
 msgstr ""
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Filename"
-msgstr ""
+msgstr "Имя файла"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Filename must start with ++plone++static/"
@@ -365,23 +413,47 @@ msgstr ""
 
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Filter"
-msgstr ""
+msgstr "Фильтр"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Filter..."
+msgstr "Фильтр..."
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find"
+msgstr ""
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find File"
+msgstr ""
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find in File"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find in Files"
 msgstr ""
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
 msgstr ""
 
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find text within theme resource in plone"
+msgstr ""
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find theme resource in plone"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Finished!"
-msgstr ""
+msgstr "Завершено!"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Fullscreen"
-msgstr ""
+msgstr "Полноэкранный режим"
 
 #: ./patterns/thememapper/pattern.js
 msgid "HTML mockup"
@@ -389,19 +461,15 @@ msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Help"
-msgstr ""
-
-#: ./patterns/upload/templates/upload.xml
-msgid "If nothing selected files we be added to current context."
-msgstr ""
+msgstr "Помощь"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Image"
-msgstr ""
+msgstr "Изображение"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Init"
-msgstr ""
+msgstr "Инициализация"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Init instruction for requirejs shim"
@@ -409,18 +477,22 @@ msgstr ""
 
 #: ./patterns/tinymce/pattern.js
 msgid "Insert"
-msgstr ""
+msgstr "Вставить"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Insert Image"
-msgstr ""
+msgstr "Вставить изображение"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Insert link"
-msgstr ""
+msgstr "Вставить ссылку"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Internal"
+msgstr "Внутренний"
+
+#:
+msgid "Internal image"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -431,73 +503,109 @@ msgstr ""
 msgid "JS"
 msgstr ""
 
-#: ./patterns/upload/templates/upload.xml
-msgid "Just drag N drop files on the area below or press the browse button."
-msgstr ""
-
 #: ./patterns/thememapper/js/lessbuilderview.js
 msgid "LESS Builder"
-msgstr ""
+msgstr "Пакет LESS"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Last compilation"
-msgstr ""
+msgstr "Последняя сборка"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Less Variables"
-msgstr ""
+msgstr "Переменные Less"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "List of CSS/LESS files to use for resource"
 msgstr ""
 
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Loading..."
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
+msgstr "Основной JavaScript file"
+
+#: patterns/structure/js/views/table.js
+msgid "Manage selection"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to bottom of folder"
+#: patterns/structure/js/views/table.js
+msgid "Modify properties on items"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to top of folder"
+#: patterns/structure/js/views/table.js
+msgid "Move to bottom folder"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to top folder"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Name"
+msgstr "Имя"
+
+#: ./patterns/filemanager/pattern.js
+msgid "New file"
 msgstr ""
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "New folder"
-msgstr ""
+msgstr "Новая папка"
 
 #: ./patterns/livesearch/pattern.js
 msgid "Next"
+msgstr "Следующий"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Next month"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "No change"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
 msgstr ""
 
+#: patterns/structure/js/views/table.js
+msgid "No sorting"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "One level up"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Open"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Open folder"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in new window"
-msgstr ""
+msgstr "Открыть в новом окне"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in parent window / frame"
-msgstr ""
+msgstr "Открыть в родительском окне / фрейме"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in this window / frame"
-msgstr ""
+msgstr "Открыть в этом окне / фрейме"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in top frame (replaces all frames)"
@@ -505,19 +613,15 @@ msgstr ""
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Overrides"
-msgstr ""
+msgstr "Переопределение"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "Page:"
-msgstr ""
+msgstr "Страница:"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Paste"
-msgstr ""
-
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Pasted into"
-msgstr ""
+msgstr "Вставить в"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Pattern Options"
@@ -525,7 +629,7 @@ msgstr ""
 
 #: ./patterns/querystring/pattern.js
 msgid "Preview"
-msgstr ""
+msgstr "Предпросмотр"
 
 #: ./patterns/querystring/pattern.js
 msgid "Preview of at most 10 items"
@@ -533,19 +637,23 @@ msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Preview theme"
-msgstr ""
+msgstr "Предпросмотр темы"
 
 #: ./patterns/livesearch/pattern.js
 msgid "Previous"
+msgstr "Предыдущий"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Previous month"
 msgstr ""
 
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Query"
-msgstr ""
+msgstr "Запрос"
 
 #: ./patterns/structure/js/views/app.js
 msgid "Rearrange"
-msgstr ""
+msgstr "Пересроить"
 
 #: ./patterns/structure/js/views/app.js
 msgid "Rearrange folder contents"
@@ -553,27 +661,43 @@ msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "Rearrange items in this folder"
+msgstr "Перестроить элементы в этой папке"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Refresh"
 msgstr ""
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Registry"
+msgstr "Реестр"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Reload the current file"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/fields.js
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: ./patterns/filemanager/js/rename.js
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 #: ./patterns/filemanager/pattern.js
 msgid "Rename currently selected resource"
 msgstr ""
 
+#: patterns/structure/js/views/table.js
+msgid "Reset column sorting"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources"
-msgstr ""
+msgstr "Ресурсы"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources base URL"
@@ -581,7 +705,7 @@ msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "Reverse"
-msgstr ""
+msgstr "Обратный порядок"
 
 #: ./patterns/querystring/pattern.js
 msgid "Reversed Order"
@@ -593,7 +717,7 @@ msgstr ""
 
 #: ./patterns/filemanager/pattern.js
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Saved javascript bundle, Build results"
@@ -601,74 +725,90 @@ msgstr ""
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Search for item on site..."
 msgstr ""
 
-#: ./patterns/relateditems/pattern.js
-msgid "Search:"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a month"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Select all contained items"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a year"
+msgstr ""
+
+#: ./patterns/upload/templates/upload.xml
+msgid "Select another destination folder or leave blank to add files to the current location."
 msgstr ""
 
 #: ./patterns/structure/js/views/columns.js
 msgid "Select columns to show, drag and drop to reorder"
-msgstr ""
+msgstr "Выберите колонки для показа, перетащите, чтобы изменить порядок"
 
 #: ./patterns/querystring/pattern.js
 msgid "Select criteria"
-msgstr ""
+msgstr "Выберите критерий"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Select resource to override..."
-msgstr ""
+msgstr "выберите ресурс для переопределения..."
 
 #: ./patterns/structure/js/views/app.js
 msgid "Selected"
-msgstr ""
+msgstr "Выбраный"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Set as default page"
 msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
-msgstr ""
+msgstr "Показать справку"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show inspector panels"
-msgstr ""
+msgstr "Показать панели инспектора"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show inspectors"
-msgstr ""
+msgstr "Показать инспекторов"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "Show:"
-msgstr ""
+msgstr "Показать:"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: ./patterns/querystring/pattern.js
 msgid "Sort on"
+msgstr "Сортировать по"
+
+#:
+msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
+msgstr ""
+
+#:
+msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Stop Developing CSS"
-msgstr ""
+msgstr "Остановить построение CSS"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Stop Developing JavaScript"
+msgstr "Остановить построение JavaScript"
+
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Stub JS Modules"
 msgstr ""
 
-#: ./patterns/tinymce/pattern.js
-msgid "Subject"
+#: ./patterns/upload/pattern.js
+msgid "The file transfer failed"
 msgstr ""
 
 #: ./patterns/modal/pattern.js
@@ -687,8 +827,16 @@ msgstr ""
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
 msgstr ""
 
-#: ./patterns/tinymce/pattern.js
+#: ./patterns/structure/templates/table.xml
 msgid "Title"
+msgstr "Название"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Today"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Tools"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -701,15 +849,19 @@ msgstr ""
 
 #: ./patterns/filemanager/js/upload.js
 msgid "Upload"
+msgstr "Загрузить"
+
+#: ./patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
 msgstr ""
 
 #: ./patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
-msgstr ""
+msgstr "Загрузить файл в текущую директорию"
 
-#: ./patterns/structure/js/views/app.js
+#: ./patterns/relateditems/pattern.js
 msgid "Upload files"
-msgstr ""
+msgstr "Загрузка файлов"
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Upload here"
@@ -717,10 +869,10 @@ msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Upload to..."
-msgstr ""
+msgstr "Загрузить в..."
 
-#: ./patterns/structure/templates/tablerow.xml
-msgid "View"
+#: patterns/structure/js/views/table.js
+msgid "Week days"
 msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
@@ -729,59 +881,51 @@ msgstr ""
 
 #: ./patterns/filemanager/js/delete.js
 msgid "Yes, delete"
-msgstr ""
+msgstr "Да, удалить"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "You have unsaved changes. Save or discard before building."
-msgstr ""
+msgstr "У вас есть не сохраненные изменения. Сохраните или откажитесь перед построением."
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "building CSS bundle"
-msgstr ""
+msgstr "построение пакета CSS"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "building javascripts"
-msgstr ""
+msgstr "построение javascripts"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "copying"
-msgstr ""
+msgstr "авторское право"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "customized"
-msgstr ""
+msgstr "персонализация"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "cutting"
-msgstr ""
+msgstr "резка"
 
 #: ./patterns/querystring/pattern.js
 msgid "days"
-msgstr ""
+msgstr "дней"
 
 #: ./patterns/livesearch/pattern.js
 msgid "enter search phrase"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "entire site"
-msgstr ""
+msgstr "введите поисковую фразу"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "error loading resource for editing"
-msgstr ""
+msgstr "ошибка загрузки ресурса для редактирования"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "finished saving css bundles"
-msgstr ""
+msgstr "завершено сохранение пакета css"
 
 #: ./patterns/livesearch/pattern.js
 msgid "found"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "home"
-msgstr ""
+msgstr "найдено"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "less compilation error on file "
@@ -789,11 +933,11 @@ msgstr ""
 
 #: ./patterns/livesearch/pattern.js
 msgid "no results found"
-msgstr ""
+msgstr "результатов не найдено"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "of"
-msgstr ""
+msgstr "из"
 
 #: ./patterns/structure/js/views/app.js
 msgid "operation url ${url} is not valid"
@@ -801,30 +945,30 @@ msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "preview theme in a new window"
-msgstr ""
+msgstr "предварительный просмотр темы в новом окне"
 
 #: ./patterns/structure/js/views/selectionwell.js
 msgid "remove all"
-msgstr ""
+msgstr "удалить все"
 
 #: ./patterns/livesearch/pattern.js
 msgid "results"
-msgstr ""
+msgstr "результаты"
 
 #: ./patterns/thememapper/pattern.js
 msgid "rule building wizard"
-msgstr ""
+msgstr "мастер построения правила"
 
 #: ./patterns/livesearch/pattern.js
 msgid "searching…"
-msgstr ""
+msgstr "поиск..."
 
 #: ./patterns/structure/templates/paging.xml
 msgid "shown"
 msgstr ""
 
 #: ./patterns/structure/js/views/app.js
-msgid "there was an error performing action"
+msgid "there was an error performing the action"
 msgstr ""
 
 #: ./patterns/querystring/pattern.js
@@ -833,13 +977,12 @@ msgstr ""
 
 #: ./patterns/upload/pattern.js
 msgid "uploading..."
-msgstr ""
+msgstr "загрузка..."
 
 #: ./patterns/thememapper/pattern.js
 msgid "view the editor in fullscreen"
-msgstr ""
+msgstr "просмотр редактора в полноэкранном режиме"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "you-filename.js"
 msgstr ""
-

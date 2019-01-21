@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ATContentTypes\n"
-"POT-Creation-Date: 2015-11-15 11:03+0000\n"
+"POT-Creation-Date: 2016-08-20 09:36+0000\n"
 "PO-Revision-Date: 2010-11-17 08:23-0300\n"
 "Last-Translator: Andre Nogueira <andre@simplesconsultoria.com.br>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
@@ -72,18 +72,6 @@ msgstr "6 meses"
 #: ATContentTypes/skins/ATContentTypes/criterion_add.cpy:16
 msgid "Added criterion ${criterion} for field ${field}."
 msgstr "Critério ${criterion} adicionado para o campo ${field}."
-
-#: ATContentTypes/configure.zcml:53
-msgid "Archetypes Content Types for Plone"
-msgstr ""
-
-#: ATContentTypes/configure.zcml:61
-msgid "Archetypes-based default content for Plone"
-msgstr ""
-
-#: ATContentTypes/configure.zcml:69
-msgid "Archetypes-tools without content-types"
-msgstr ""
 
 #. Default: "Between"
 #: ATContentTypes/criteria/simpleint.py:26
@@ -252,12 +240,12 @@ msgid "constraintypes_acquire_label"
 msgstr "Usar as configurações da pasta pai"
 
 #. Default: "Use portal default"
-#: ATContentTypes/lib/constraintypes.py:40
+#: ATContentTypes/lib/constraintypes.py:39
 msgid "constraintypes_disable_label"
 msgstr "Usar o padrão do portal"
 
 #. Default: "Select manually"
-#: ATContentTypes/lib/constraintypes.py:41
+#: ATContentTypes/lib/constraintypes.py:40
 msgid "constraintypes_enable_label"
 msgstr "Selecionar manualmente"
 
@@ -272,17 +260,17 @@ msgid "description_configure_collection_indices"
 msgstr "Configure quais índices serão exibidos quando forem criados critérios para uma Coleção e como eles serão mostrados."
 
 #. Default: "Select the types which will be addable inside this folder."
-#: ATContentTypes/lib/constraintypes.py:74
+#: ATContentTypes/lib/constraintypes.py:73
 msgid "description_constrain_allowed_types"
 msgstr "Selecione os tipos que serão adicionáveis dentro dessa pasta."
 
 #. Default: "Select the types which will be addable from the \"Add new item\" menu. Any additional types set in the list above will be addable from a separate form."
-#: ATContentTypes/lib/constraintypes.py:95
+#: ATContentTypes/lib/constraintypes.py:93
 msgid "description_constrain_preferred_types"
 msgstr "Selecione os tipos que poderão serão adicionados a partir do menu \"Adicionar novo item\". Qualquer tipo adicional na lista acima poderá ser adicionado a partir de um formulário separado."
 
 #. Default: "Select the constraint type mode for this folder."
-#: ATContentTypes/lib/constraintypes.py:54
+#: ATContentTypes/lib/constraintypes.py:53
 msgid "description_constrain_types_mode"
 msgstr "Selecione o tipo do modo de restrição para essa pasta."
 
@@ -292,27 +280,27 @@ msgid "description_no_criteria_in_criteria_form"
 msgstr "Nenhum critério definido ainda. A busca não irá exibir nenhum resultado. Por favor adicione um critério abaixo."
 
 #. Default: "There are currently no criteria on which to search. Please add them using the 'criteria' tab."
-#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:125
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:124
 msgid "description_no_criteria_in_topic"
 msgstr "Não existe um critério pelo qual pesquisar. Por favor adicione um usando a aba 'critério'."
 
 #. Default: "There are currently no results for this search."
-#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:118
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:117
 msgid "description_no_items_in_topic"
 msgstr "Não existe resultado para essa busca."
 
 #. Default: "End date must be after start date."
-#: ATContentTypes/content/event.py:247
+#: ATContentTypes/content/event.py:242
 msgid "error_end_must_be_after_start_date"
 msgstr "A data final precisa ser depois da data inicial."
 
 #. Default: "End date is not valid."
-#: ATContentTypes/content/event.py:229
+#: ATContentTypes/content/event.py:224
 msgid "error_invalid_end_date"
 msgstr "A data final não é válida."
 
 #. Default: "Start date is not valid."
-#: ATContentTypes/content/event.py:237
+#: ATContentTypes/content/event.py:232
 msgid "error_invalid_start_date"
 msgstr "A data inicial não é válida."
 
@@ -324,7 +312,7 @@ msgstr "Configurações das Coleções"
 
 #. Default: "Also in this section"
 #: ATContentTypes/skins/ATContentTypes/atct_topic_subtopics.pt:10
-#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:140
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:139
 msgid "heading_contained_collections"
 msgstr "Também nesta seção:"
 
@@ -364,52 +352,62 @@ msgid "help_criteria_values"
 msgstr "Valores existentes."
 
 #. Default: "Columns in the table are controlled by 'Table Columns' below."
-#: ATContentTypes/content/topic.py:116
+#: ATContentTypes/content/topic.py:112
 msgid "help_custom_view"
 msgstr "As colunas na tabela são controladas pelas 'Colunas da Tabela' abaixo."
 
 #. Default: "Select which fields to display when 'Display as Table' is checked."
-#: ATContentTypes/content/topic.py:131
+#: ATContentTypes/content/topic.py:126
 msgid "help_custom_view_fields"
 msgstr "Selecione quais campos exibir quando 'Exibir como Tabela' estiver marcado."
 
 #. Default: "Select the date criteria operation."
-#: ATContentTypes/criteria/date.py:88
+#: ATContentTypes/criteria/date.py:86
 msgid "help_date_criteria_operation"
 msgstr "Selecione a operação de critério de data."
 
 #. Default: "Select the date criteria range. Ignore this if you selected 'Now' above."
-#: ATContentTypes/criteria/date.py:74
+#: ATContentTypes/criteria/date.py:73
 msgid "help_date_criteria_range"
 msgstr "Selecione o critério de intervalo de data. Ignore caso tenha selecionado 'Agora' acima."
 
 #. Default: "Select the date criteria value."
-#: ATContentTypes/criteria/date.py:60
+#: ATContentTypes/criteria/date.py:59
 msgid "help_date_criteria_value"
 msgstr "Selecione o valor do critério de data."
 
 #. Default: "The ending of the date range to search."
-#: ATContentTypes/criteria/daterange.py:44
+#: ATContentTypes/criteria/daterange.py:42
 msgid "help_date_range_criteria_end"
 msgstr "A data final do intervalo de busca"
 
 #. Default: "The beginning of the date range to search"
-#: ATContentTypes/criteria/daterange.py:32
+#: ATContentTypes/criteria/daterange.py:31
 msgid "help_date_range_criteria_start"
 msgstr "A data inicial do intervalo de busca"
 
-#. Default: "Table of contents"
+#. Default: "Presentation mode"
 #: ATContentTypes/content/document.py:55
+msgid "help_enable_presentation"
+msgstr "Modo de apresentação"
+
+#. Default: "If selected, this will give users the ability to view the contents as presentation slides."
+#: ATContentTypes/content/document.py:58
+msgid "help_enable_presentation_description"
+msgstr "Caso selecionado, será dado aos usuários a opção de ver o conteúdo como slides de uma apresentação."
+
+#. Default: "Table of contents"
+#: ATContentTypes/content/document.py:68
 msgid "help_enable_table_of_contents"
 msgstr "Tabela de conteúdos"
 
 #. Default: "If selected, this will show a table of contents at the top of the page."
-#: ATContentTypes/content/document.py:58
+#: ATContentTypes/content/document.py:71
 msgid "help_enable_table_of_contents_description"
 msgstr "Caso selecionado, será exibida uma tabela de conteúdos no topo da página."
 
 #. Default: "Web address with more info about the event. Add http:// for external links."
-#: ATContentTypes/content/event.py:95
+#: ATContentTypes/content/event.py:94
 msgid "help_event_url"
 msgstr "Endereço web contendo mais informações sobre o evento. Por favor adicione http:// caso o endereço seja externo a este site."
 
@@ -419,12 +417,12 @@ msgid "help_exclude_from_nav"
 msgstr "Caso selecionado, esse item não irá aparecer na árvore de navegação"
 
 #. Default: "Narrow down the search results from the parent Collection(s) by using the criteria from this Collection."
-#: ATContentTypes/content/topic.py:79
+#: ATContentTypes/content/topic.py:77
 msgid "help_inherit_collection_criteria"
 msgstr "Restringir o resultado da busca a partir da(s) Coleção(s) pai(s), usando os critérios dessa Coleção."
 
 #. Default: "Specify whether you want to find values lesser than, greater than, equal to, or between the chosen value(s)."
-#: ATContentTypes/criteria/simpleint.py:67
+#: ATContentTypes/criteria/simpleint.py:65
 msgid "help_int_criteria_direction"
 msgstr "Especifique quando quiser encontrar valores menores que, maiores que, iguais a, ou entre dois valores escolhidos."
 
@@ -434,18 +432,18 @@ msgid "help_int_criteria_value"
 msgstr "Um número inteiro"
 
 #. Default: "An integer number used as the maximum value if the between direction is selected."
-#: ATContentTypes/criteria/simpleint.py:53
+#: ATContentTypes/criteria/simpleint.py:52
 msgid "help_int_criteria_value2"
 msgstr "Um número inteiro usado como valor máximo caso a relação entre seja selecionada."
 
 #. Default: "If selected, only the 'Number of Items' indicated below will be displayed."
-#: ATContentTypes/content/topic.py:93
+#: ATContentTypes/content/topic.py:90
 msgid "help_limit_number"
 msgstr "Caso selecionado, somente o 'Número de Itens' indicado abaixo será exibido."
 
 #. Default: "Operator used to join the tests on each value."
 #: ATContentTypes/criteria/list.py:50
-#: ATContentTypes/criteria/selection.py:52
+#: ATContentTypes/criteria/selection.py:50
 msgid "help_list_criteria_operator"
 msgstr "Operador usado para unir os testes com cada valor."
 
@@ -460,12 +458,12 @@ msgid "help_news_image"
 msgstr "Será exibido na listagem de notícias e na própria notícia. A imagem será redimensionada para um tamanho adequado."
 
 #. Default: "This enables next/previous widget on content items contained in this folder."
-#: ATContentTypes/content/schemata.py:67
+#: ATContentTypes/content/schemata.py:68
 msgid "help_nextprevious"
 msgstr "Habilita o widget de anterior/próximo para os conteúdos contidos nesta pasta."
 
 #. Default: "Folders to search in."
-#: ATContentTypes/criteria/path.py:38
+#: ATContentTypes/criteria/path.py:37
 msgid "help_path_criteria_value"
 msgstr "Pastas para procurar"
 
@@ -480,7 +478,7 @@ msgid "help_select_transformation_method"
 msgstr "Selecione o método de transformação."
 
 #. Default: "Should not contain spaces, underscores or mixed case. Short Name is part of the item's web address."
-#: ATContentTypes/criteria/schemata.py:21
+#: ATContentTypes/criteria/schemata.py:22
 msgid "help_shortname"
 msgstr "Não deve conter espaços, sublinhados, letras maiúsculas e minúsculas misturadas. O Nome Curto é parte do endereço web do item."
 
@@ -520,7 +518,7 @@ msgstr "Voltar para o álbum"
 #. Default: "Body Text"
 #: ATContentTypes/content/document.py:46
 #: ATContentTypes/content/newsitem.py:48
-#: ATContentTypes/content/topic.py:67
+#: ATContentTypes/content/topic.py:66
 msgid "label_body_text"
 msgstr "Corpo do texto"
 
@@ -542,37 +540,37 @@ msgid "label_collection_metadata"
 msgstr "Metadados da Coleção"
 
 #. Default: "Permitted types"
-#: ATContentTypes/lib/constraintypes.py:72
+#: ATContentTypes/lib/constraintypes.py:71
 msgid "label_constrain_allowed_types"
 msgstr "Tipos permitidos:"
 
 #. Default: "Preferred types"
-#: ATContentTypes/lib/constraintypes.py:93
+#: ATContentTypes/lib/constraintypes.py:92
 msgid "label_constrain_preferred_types"
 msgstr "Tipos preferidos"
 
 #. Default: "Contact E-mail"
-#: ATContentTypes/content/event.py:119
+#: ATContentTypes/content/event.py:118
 msgid "label_contact_email"
 msgstr "E-Mail de Contato"
 
 #. Default: "Contact Name"
-#: ATContentTypes/content/event.py:108
+#: ATContentTypes/content/event.py:107
 msgid "label_contact_name"
 msgstr "Nome do Contato"
 
 #. Default: "Contact Phone"
-#: ATContentTypes/content/event.py:130
+#: ATContentTypes/content/event.py:129
 msgid "label_contact_phone"
 msgstr "Telefone de Contato"
 
 #. Default: "Constrain types mode"
-#: ATContentTypes/lib/constraintypes.py:52
+#: ATContentTypes/lib/constraintypes.py:51
 msgid "label_contrain_types_mode"
 msgstr "Modo de restrição de tipos"
 
 #. Default: "Field name"
-#: ATContentTypes/criteria/schemata.py:34
+#: ATContentTypes/criteria/schemata.py:35
 #: ATContentTypes/skins/ATContentTypes/criterion_edit_form.cpt:155
 msgid "label_criteria_field_name"
 msgstr "Nome do campo"
@@ -588,22 +586,22 @@ msgid "label_criteria_values"
 msgstr "Valores"
 
 #. Default: "Display as Table"
-#: ATContentTypes/content/topic.py:114
+#: ATContentTypes/content/topic.py:111
 msgid "label_custom_view"
 msgstr "Exibir como Tabela"
 
 #. Default: "Table Columns"
-#: ATContentTypes/content/topic.py:129
+#: ATContentTypes/content/topic.py:125
 msgid "label_custom_view_fields"
 msgstr "Colunas da Tabela"
 
 #. Default: "More or less"
-#: ATContentTypes/criteria/date.py:86
+#: ATContentTypes/criteria/date.py:85
 msgid "label_date_criteria_operation"
 msgstr "Mais ou menos"
 
 #. Default: "In the past or future"
-#: ATContentTypes/criteria/date.py:72
+#: ATContentTypes/criteria/date.py:71
 msgid "label_date_criteria_range"
 msgstr "No passado ou futuro"
 
@@ -613,7 +611,7 @@ msgid "label_date_criteria_value"
 msgstr "Qual dia"
 
 #. Default: "End Date"
-#: ATContentTypes/criteria/daterange.py:42
+#: ATContentTypes/criteria/daterange.py:41
 msgid "label_date_range_criteria_end"
 msgstr "Data Final"
 
@@ -623,7 +621,7 @@ msgid "label_date_range_criteria_start"
 msgstr "Data Inicial"
 
 #. Default: "Download PDF"
-#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:22
+#: ATContentTypes/skins/ATContentTypes/atct_topic_view.pt:21
 msgid "label_download_as_pdf"
 msgstr "Baixar PDF"
 
@@ -633,7 +631,7 @@ msgid "label_event_announcement"
 msgstr "Texto do corpo do evento"
 
 #. Default: "Attendees"
-#: ATContentTypes/content/event.py:85
+#: ATContentTypes/content/event.py:84
 msgid "label_event_attendees"
 msgstr "Participantes"
 
@@ -653,17 +651,17 @@ msgid "label_event_start"
 msgstr "Início do Evento"
 
 #. Default: "Event Type(s)"
-#: ATContentTypes/content/event.py:138
+#: ATContentTypes/content/event.py:137
 msgid "label_event_type"
 msgstr "Tipos de Evento"
 
 #. Default: "Event URL"
-#: ATContentTypes/content/event.py:98
+#: ATContentTypes/content/event.py:97
 msgid "label_event_url"
 msgstr "URL do evento"
 
 #. Default: "Exclude from navigation"
-#: ATContentTypes/content/schemata.py:21
+#: ATContentTypes/content/schemata.py:20
 msgid "label_exclude_from_nav"
 msgstr "Excluir da navegação"
 
@@ -688,17 +686,17 @@ msgid "label_image"
 msgstr "Imagem"
 
 #. Default: "Image Caption"
-#: ATContentTypes/content/newsitem.py:80
+#: ATContentTypes/content/newsitem.py:79
 msgid "label_image_caption"
 msgstr "Título da Imagem"
 
 #. Default: "Inherit Criteria"
-#: ATContentTypes/content/topic.py:77
+#: ATContentTypes/content/topic.py:76
 msgid "label_inherit_criteria"
 msgstr "Herdar Critério"
 
 #. Default: "Direction"
-#: ATContentTypes/criteria/simpleint.py:65
+#: ATContentTypes/criteria/simpleint.py:64
 msgid "label_int_criteria_direction"
 msgstr "Relação"
 
@@ -713,19 +711,19 @@ msgid "label_int_criteria_value2"
 msgstr "Segundo Valor"
 
 #. Default: "Number of Items"
-#: ATContentTypes/content/topic.py:104
+#: ATContentTypes/content/topic.py:101
 msgid "label_item_count"
 msgstr "Número de Itens"
 
 # ATTopic
 #. Default: "Limit Search Results"
-#: ATContentTypes/content/topic.py:91
+#: ATContentTypes/content/topic.py:89
 msgid "label_limit_number"
 msgstr "Limitar Resultados da Busca"
 
 #. Default: "operator name"
 #: ATContentTypes/criteria/list.py:48
-#: ATContentTypes/criteria/selection.py:50
+#: ATContentTypes/criteria/selection.py:49
 msgid "label_list_criteria_operator"
 msgstr "Nome do Operador"
 
@@ -735,7 +733,7 @@ msgid "label_list_criteria_value"
 msgstr "Valores"
 
 #. Default: "Image"
-#: ATContentTypes/content/newsitem.py:71
+#: ATContentTypes/content/newsitem.py:70
 msgid "label_news_image"
 msgstr "Imagem"
 
@@ -755,7 +753,7 @@ msgid "label_original_size"
 msgstr "Tamanho original"
 
 #. Default: "Search Sub-Folders"
-#: ATContentTypes/criteria/path.py:50
+#: ATContentTypes/criteria/path.py:49
 msgid "label_path_criteria_recurse"
 msgstr "Procurar nas subpastas"
 
@@ -765,7 +763,7 @@ msgid "label_path_criteria_value"
 msgstr "Pastas"
 
 #. Default: "Related Items"
-#: ATContentTypes/content/schemata.py:50
+#: ATContentTypes/content/schemata.py:53
 msgid "label_related_items"
 msgstr "Itens relacionados"
 
@@ -775,7 +773,7 @@ msgid "label_select_method"
 msgstr "Selecione o método"
 
 #. Default: "Short Name"
-#: ATContentTypes/criteria/schemata.py:20
+#: ATContentTypes/criteria/schemata.py:21
 msgid "label_short_name"
 msgstr "Nome Curto"
 
@@ -790,8 +788,8 @@ msgid "label_string_criteria_value"
 msgstr "Valor"
 
 #. Default: "Summary"
-#: ATContentTypes/content/document.py:67
-#: ATContentTypes/content/newsitem.py:87
+#: ATContentTypes/content/document.py:80
+#: ATContentTypes/content/newsitem.py:86
 msgid "label_summary"
 msgstr "Sumário"
 
@@ -888,4 +886,3 @@ msgstr "Nenhum álbum ou fotografia foi enviado ainda."
 #: ATContentTypes/skins/ATContentTypes/atct_album_image.pt:35
 msgid "title_back_to_album"
 msgstr "Voltar para o álbum"
-

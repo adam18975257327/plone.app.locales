@@ -57,6 +57,22 @@ msgstr ""
 msgid "Yes, delete"
 msgstr ""
 
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find File"
+msgstr ""
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find theme resource in plone"
+msgstr ""
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find in File"
+msgstr ""
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find text within theme resource in plone"
+msgstr ""
+
 #: ./patterns/filemanager/js/newfolder.js
 msgid "New folder"
 msgstr ""
@@ -82,7 +98,15 @@ msgid "Save"
 msgstr ""
 
 #: ./patterns/filemanager/pattern.js
+msgid "New file"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
 msgid "Add new file to current folder"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find in Files"
 msgstr ""
 
 #: ./patterns/filemanager/pattern.js
@@ -91,6 +115,22 @@ msgstr ""
 
 #: ./patterns/filemanager/pattern.js
 msgid "Delete currently selected resource"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "File"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Edit"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
 msgstr ""
 
 #: ./patterns/filemanager/pattern.js
@@ -142,6 +182,30 @@ msgid "There was an error loading modal."
 msgstr ""
 
 #: ./patterns/pickadate/pattern.js
+msgid "Next month"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
+msgid "Previous month"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
+msgid "Select a month"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
+msgid "Select a year"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
+msgid "Today"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
+msgid "Clear"
+msgstr ""
+
+#: ./patterns/pickadate/pattern.js
 msgid "Enter date..."
 msgstr ""
 
@@ -182,19 +246,31 @@ msgid "Reversed Order"
 msgstr ""
 
 #: ./patterns/relateditems/pattern.js
-msgid "home"
+msgid "Open folder"
 msgstr ""
 
 #: ./patterns/relateditems/pattern.js
-msgid "entire site"
+msgid "One level up"
 msgstr ""
 
 #: ./patterns/relateditems/pattern.js
-msgid "Search:"
+msgid "Favorites"
 msgstr ""
 
 #: ./patterns/relateditems/pattern.js
-msgid "(empty)"
+msgid "Current path:"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Browse"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Upload files"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
@@ -350,7 +426,7 @@ msgid "Dependencies"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
-msgid "Coma separated values of resources for requirejs shim"
+msgid "Comma-separated values of resources for requirejs shim"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -434,6 +510,10 @@ msgid "Automatically generated path to the compiled CSS."
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
+msgid "Stub JS Modules"
+msgstr ""
+
+#: ./patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to delete the ${name} resource?"
 msgstr ""
 
@@ -509,27 +589,27 @@ msgstr ""
 msgid "Error processing ajax request for action: "
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Cut"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "cutting"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Copied"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "copying"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Pasted into"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Error pasting into"
 msgstr ""
 
@@ -538,7 +618,7 @@ msgid "operation url ${url} is not valid"
 msgstr ""
 
 #: ./patterns/structure/js/views/app.js
-msgid "there was an error performing action"
+msgid "there was an error performing the action"
 msgstr ""
 
 #: ./patterns/structure/js/views/app.js
@@ -550,15 +630,15 @@ msgid "Selected"
 msgstr ""
 
 #: ./patterns/structure/js/views/app.js
+msgid "Manage selection"
+msgstr ""
+
+#: ./patterns/structure/js/views/app.js
 msgid "Rearrange"
 msgstr ""
 
 #: ./patterns/structure/js/views/app.js
 msgid "Rearrange folder contents"
-msgstr ""
-
-#: ./patterns/structure/js/views/app.js
-msgid "Upload files"
 msgstr ""
 
 #: ./patterns/structure/js/views/columns.js
@@ -571,6 +651,14 @@ msgstr ""
 
 #: ./patterns/structure/js/views/generic-popover.js
 msgid "Apply"
+msgstr ""
+
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Loading..."
+msgstr ""
+
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Error loading popover from server."
 msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
@@ -594,10 +682,6 @@ msgid "remove all"
 msgstr ""
 
 #: ./patterns/structure/js/views/table.js
-msgid "Actions on current folder"
-msgstr ""
-
-#: ./patterns/structure/js/views/table.js
 msgid "Can not order items while querying"
 msgstr ""
 
@@ -607,38 +691,6 @@ msgstr ""
 
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Query"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Copy"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Paste"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to top of folder"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to bottom of folder"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Set as default page"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Select all contained items"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Open"
-msgstr ""
-
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Edit"
 msgstr ""
 
 #: ./patterns/structure/templates/paging.xml
@@ -658,11 +710,23 @@ msgid "shown"
 msgstr ""
 
 #: ./patterns/structure/templates/table.xml
+msgid "Title"
+msgstr ""
+
+#: ./patterns/structure/templates/table.xml
 msgid "Actions"
 msgstr ""
 
 #: ./patterns/structure/templates/tablerow.xml
-msgid "View"
+msgid "Expired"
+msgstr ""
+
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr ""
+
+#: ./patterns/thememapper/js/cacheview.js
+msgid "Clear Cache"
 msgstr ""
 
 #: ./patterns/thememapper/js/lessbuilderview.js
@@ -726,11 +790,27 @@ msgid "Compile LESS file"
 msgstr ""
 
 #: ./patterns/thememapper/pattern.js
+msgid "Refresh"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Reload the current file"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Clear cache"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
 msgid "Help"
 msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Tools"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
@@ -746,19 +826,15 @@ msgid "Insert link"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "Title"
-msgstr ""
-
-#: ./patterns/tinymce/pattern.js
 msgid "Internal"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "External"
+msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "Email"
+msgid "Email Address"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
@@ -766,7 +842,7 @@ msgid "Anchor"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "Subject"
+msgid "Email Subject (optional)"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
@@ -786,7 +862,7 @@ msgid "Alternative Text"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "External Image URI"
+msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr ""
 
 #: ./patterns/tinymce/pattern.js
@@ -810,6 +886,10 @@ msgid "Insert Image"
 msgstr ""
 
 #: ./patterns/upload/pattern.js
+msgid "The file transfer failed"
+msgstr ""
+
+#: ./patterns/upload/pattern.js
 msgid "Error uploading with TUS resumable uploads"
 msgstr ""
 
@@ -822,7 +902,7 @@ msgid "Upload here"
 msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
-msgid "Just drag N drop files on the area below or press the browse button."
+msgid "Drag and drop files from your computer onto the area below or click the Browse button."
 msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
@@ -838,6 +918,78 @@ msgid "Upload to..."
 msgstr ""
 
 #: ./patterns/upload/templates/upload.xml
-msgid "If nothing selected files we be added to current context."
+msgid "Select another destination folder or leave blank to add files to the current location."
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Reset column sorting"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Copy"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to top folder"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to bottom folder"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Set as default page"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Open"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Edit"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "No sorting"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Modify properties on items"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Manage selection"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "No change"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Week days"
+msgstr ""
+
+#:
+msgid "Specify an image. It can be on this site already ("Internal Image"), an image you upload ("Upload"), or from an external site ("External Image")."
+msgstr ""
+
+#:
+msgid "Internal image"
+msgstr ""
+
+#:
+msgid "External image"
+msgstr ""
+
+#:
+msgid "Specify the object to link to. It can be on this site already ("Internal"), an object you upload ("Upload"), from an external site ("External"), an email address ("Email"), or an anchor on this page ("Anchor")."
 msgstr ""
 

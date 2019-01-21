@@ -1,27 +1,21 @@
-Preparing Plone 4 buildout
-==========================
-::
+Preparing Plone buildout
+========================
 
-    mkdir ~/svn
-    cd ~/svn
-    svn co https://svn.plone.org/svn/plone/plone-coredev/branches/4.0/ plone4
-    cd plone4
-    python bootstrap.py
-    bin/buildout -c experimental/i18n.cfg
-
-This is only needed for old rebuild-pot.py script (kupu domains)::
-
-    mkdir Products
-    cd src
-    ln -s Plone Products.CMFPlone
-    cd plone.app.locales/plone/app/locales/utils
-    export INSTANCE_HOME=~/svn/plone4
+Please read the instructions at
+https://docs.plone.org/develop/plone/i18n/contribute_to_translations.html
+to have a working install to work on translations.
 
 
 Updating translations
 =====================
+
+You can find more info on the issue
+https://github.com/plone/Products.CMFPlone/issues/983
+
 plone
 -----
+From the plone buildout:
+
 ::
 
     bin/i18n plone
@@ -38,12 +32,6 @@ atreferencebrowserwidget
 
     bin/i18n atreferencebrowserwidget
 
-passwordresettool
------------------
-::
-
-    bin/i18n passwordresettool
-
 cmfplacefulworkflow
 -------------------
 ::
@@ -56,19 +44,6 @@ cmfeditions
 
     bin/i18n cmfeditions
 
-kupu
-----
-::
-
-    python rebuild-pot.py kupu
-    python sync.py kupu
-
-    python rebuild-pot.py kupuconfig
-    python sync.py kupuconfig
-
-    python rebuild-pot.py kupupox
-    python sync.py kupupox
-
 linguaplone
 -----------
 ::
@@ -77,17 +52,12 @@ linguaplone
 
 plonefrontpage
 --------------
+
+The plonefrontpage.pot is maintained manually.
+To resync the po files:
+
 ::
 
     cd locales
     i18ndude sync --pot plonefrontpage.pot */*/plonefrontpage.po
 
-
-SVN externals
-=============
-::
-
-    plone.app.locales/trunk -> PloneTranslations/trunk
-    plone.app.locales/branches/3.x -> PloneTranslations/branches/3.x
-    plone.app.locales/branches/3.x/i18n/kupu -> PloneTranslations/trunk/i18n/kupu
-    Product.kupu/trunk/i18n -> PloneTranslations/trunk/i18n/kupu

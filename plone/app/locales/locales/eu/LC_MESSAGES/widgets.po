@@ -3,41 +3,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2015-07-27 16:41+0100\n"
+"PO-Revision-Date: 2018-03-02 07:48+0100\n"
 "Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: en\n"
+"Language-Code: eu\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: widgets\n"
-"X-Generator: Poedit 1.5.4\n"
-"Language: Basque\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Language: eu\n"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid " css files to build"
 msgstr "Eraiki behar diren CSS fitxategiak"
 
-#: ./patterns/relateditems/pattern.js
-msgid "(empty)"
-msgstr "(hutsik)"
-
 #: ./patterns/resourceregistry/js/registry.js
 msgid "A main resource file to bootstrap bundle or a list of resources to load."
-msgstr ""
-"Baliabideen fitxategi nagusia bilduma hasieratzeko erabiliko dena edo "
-"kargatuko diren baliabideen zerrenda."
+msgstr "Baliabideen fitxategi nagusia bilduma hasieratzeko erabiliko dena edo kargatuko diren baliabideen zerrenda."
 
 #: ./patterns/structure/templates/table.xml
 msgid "Actions"
 msgstr "Ekintzak"
-
-#: ./patterns/structure/js/views/table.js
-msgid "Actions on current folder"
-msgstr "Uneko karpetako ekintzak"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Add"
@@ -119,6 +109,14 @@ msgstr "Konpilatutako CSSaren automatikoki sortutako bidea."
 msgid "Automatically generated path to the compiled JavaScript."
 msgstr "Konpilatutako JSaren automatikoki sortutako bidea."
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Browse"
+msgstr "Arakatu"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Build"
 msgstr "Eraiki"
@@ -155,9 +153,25 @@ msgstr "Ezin dira elementuak ordenatu bilaketa egiten zauden artean"
 msgid "Cancel"
 msgstr "Utzi"
 
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
+msgstr ""
+
 #: ./patterns/upload/templates/upload.xml
 msgid "Choose File"
 msgstr "Fitxategia aukeratu"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Clear"
+msgstr "Garbitu"
+
+#: ./patterns/thememapper/js/cacheview.js
+msgid "Clear Cache"
+msgstr "Katxea garbitu"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Clear cache"
+msgstr "Katxea garbitu"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Close"
@@ -172,8 +186,8 @@ msgid "Columns"
 msgstr "Zutabeak"
 
 #: ./patterns/resourceregistry/js/registry.js
-msgid "Coma separated values of resources for requirejs shim"
-msgstr "RequireJSren Shim-arentzat baliabideen komaren banatutako balioak"
+msgid "Comma-separated values of resources for requirejs shim"
+msgstr "RequireJSren Shim-arentzat baliabideen balioak, komarekin banatuta"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Compile LESS file"
@@ -207,19 +221,23 @@ msgstr "Widgetaren JSON formatuko konfigurazioa"
 msgid "Configure displayed columns"
 msgstr "Erakusten diren zutabeak konfiguratu"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Copied"
 msgstr "Kopiatuta"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Copy"
-msgstr "Kopiatu"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Current path:"
+msgstr "Uneko bidea:"
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Customize"
 msgstr "Pertsonalizatu"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Cut"
 msgstr "Ebaki"
 
@@ -264,16 +282,24 @@ msgid "Does your bundle contain any RequireJS or LESS files?"
 msgstr "Zure bildumak RequireJS edo LESS fitxategirik ba al du?"
 
 #: ./patterns/upload/templates/upload.xml
+msgid "Drag and drop files from your computer onto the area below or click the Browse button."
+msgstr "Arrastatu fitxategiak hona edo erabili Arakatu botoia."
+
+#: ./patterns/upload/templates/upload.xml
 msgid "Drop files here..."
 msgstr "Arrastatu fitxategiak hona..."
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Edit"
-msgstr "Editatu"
+msgstr ""
 
 #: ./patterns/tinymce/pattern.js
-msgid "Email"
-msgstr "Eposta"
+msgid "Email Address"
+msgstr "Eposta helbidea"
+
+#: ./patterns/tinymce/pattern.js
+msgid "Email Subject (optional)"
+msgstr "Epostaren gaia (hautazkoa)"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Enabled"
@@ -323,7 +349,11 @@ msgstr "Errorea LESS konpilatzean"
 msgid "Error in build process"
 msgstr "Errorea eraikuntza prozesua"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Error loading popover from server."
+msgstr "Errorea zerbitzaritik irakurtzean"
+
+#: ./patterns/structure/js/actions.js
 msgid "Error pasting into"
 msgstr "Errorea elementuak itsastean"
 
@@ -339,6 +369,10 @@ msgstr "Errorea CSS bilduma gordetzean"
 msgid "Error uploading with TUS resumable uploads"
 msgstr "Errorea TUS berrhasi daitezkeen kargakin"
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Expired"
+msgstr "Iraungita"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Export"
 msgstr "Esportatu"
@@ -352,12 +386,24 @@ msgid "Expression"
 msgstr "Espresioa"
 
 #: ./patterns/tinymce/pattern.js
-msgid "External"
-msgstr "Kanpokoa"
+msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "Kanpoko irudi baten URLa (atariarekiko edo absolutua izan daiteke, kasu honetan http:// edo https://-rekin hasten bada)"
 
 #: ./patterns/tinymce/pattern.js
-msgid "External Image URI"
-msgstr "Kanpoko irudiaren URIa"
+msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "Kanpoko URLa (atariarekiko edo absolutua izan daiteke, kasu honetan http:// edo https://-rekin hasten bada)"
+
+#:
+msgid "External image"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Favorites"
+msgstr "Gogokoak"
+
+#: ./patterns/filemanager/pattern.js
+msgid "File"
+msgstr ""
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Filename"
@@ -375,9 +421,33 @@ msgstr "Filtroa"
 msgid "Filter..."
 msgstr "Filtroa..."
 
+#: ./patterns/filemanager/pattern.js
+msgid "Find"
+msgstr ""
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find File"
+msgstr ""
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find in File"
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find in Files"
+msgstr ""
+
 #: ./patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
 msgstr "Bilatu Plonen gainidatzi behar den baliabidea"
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find text within theme resource in plone"
+msgstr ""
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find theme resource in plone"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Finished!"
@@ -394,10 +464,6 @@ msgstr "HTML marrazkia"
 #: ./patterns/thememapper/pattern.js
 msgid "Help"
 msgstr "Laguntza"
-
-#: ./patterns/upload/templates/upload.xml
-msgid "If nothing selected files we be added to current context."
-msgstr "Ezer ez badago aukeratuta, fitxategian uneko kontestura gehituko dira."
 
 #: ./patterns/tinymce/pattern.js
 msgid "Image"
@@ -427,6 +493,10 @@ msgstr "Lotura txertatu"
 msgid "Internal"
 msgstr "Barnekoa"
 
+#:
+msgid "Internal image"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Internet Explorer conditional comment"
 msgstr "Internet Explorerrentzako baldintzapeko komentarioa"
@@ -434,10 +504,6 @@ msgstr "Internet Explorerrentzako baldintzapeko komentarioa"
 #: ./patterns/resourceregistry/js/registry.js
 msgid "JS"
 msgstr "JS"
-
-#: ./patterns/upload/templates/upload.xml
-msgid "Just drag N drop files on the area below or press the browse button."
-msgstr "Beheko areara fitxategiak arrastatu behar dituzu edo Arakatu boitoia sakatu."
 
 #: ./patterns/thememapper/js/lessbuilderview.js
 msgid "LESS Builder"
@@ -455,21 +521,37 @@ msgstr "LESS aldagaiak"
 msgid "List of CSS/LESS files to use for resource"
 msgstr "Baliabideak darabiltzat CSS/LESS fitxategiak"
 
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Loading..."
+msgstr "Kargatzen..."
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
 msgstr "JavaScript fitxategi nagusia"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to bottom of folder"
-msgstr "Beheraino mugitu"
+#: patterns/structure/js/views/table.js
+msgid "Manage selection"
+msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to top of folder"
-msgstr "Goraino mugitu"
+#: patterns/structure/js/views/table.js
+msgid "Modify properties on items"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to bottom folder"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to top folder"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Name"
 msgstr "Izena"
+
+#: ./patterns/filemanager/pattern.js
+msgid "New file"
+msgstr ""
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "New folder"
@@ -479,17 +561,41 @@ msgstr "Karpeta berria"
 msgid "Next"
 msgstr "Hurrengoa"
 
+#: ./patterns/pickadate/pattern.js
+msgid "Next month"
+msgstr "Hurrengo hilabetea"
+
+#: patterns/structure/js/views/table.js
+msgid "No change"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
 msgstr "Ez dago eraikitzeko JavaScript fitxategirik."
+
+#: patterns/structure/js/views/table.js
+msgid "No sorting"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "One level up"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
 msgstr "++plone++ bildumak bakarrik gainidatzi daitezke"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Open"
-msgstr "Ireki"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Open folder"
+msgstr ""
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in new window"
@@ -515,11 +621,7 @@ msgstr "Gainidazketak"
 msgid "Page:"
 msgstr "Orrialdea:"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Paste"
-msgstr "Itsatsi"
-
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Pasted into"
 msgstr "Hemen itsatsi"
 
@@ -543,6 +645,10 @@ msgstr "Itxura aurreikusi"
 msgid "Previous"
 msgstr "Aurrekoa"
 
+#: ./patterns/pickadate/pattern.js
+msgid "Previous month"
+msgstr "Aurreko hilabetea"
+
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Query"
 msgstr "Bilaketa"
@@ -559,9 +665,21 @@ msgstr "Karpetaren edukiak birordenatu"
 msgid "Rearrange items in this folder"
 msgstr "Karpeta honen edukiak birordenatu"
 
+#: ./patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Refresh"
+msgstr "Birkargatu"
+
 #: ./patterns/resourceregistry/pattern.js
 msgid "Registry"
 msgstr "Erregistroa"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Reload the current file"
+msgstr "Uneko fitxategia berriz kargatu"
 
 #: ./patterns/resourceregistry/js/fields.js
 msgid "Remove"
@@ -574,6 +692,10 @@ msgstr "Berrizendatu"
 #: ./patterns/filemanager/pattern.js
 msgid "Rename currently selected resource"
 msgstr "Aukeratutako baliabidea berrizendatu"
+
+#: patterns/structure/js/views/table.js
+msgid "Reset column sorting"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources"
@@ -611,13 +733,17 @@ msgstr "Bilatu"
 msgid "Search for item on site..."
 msgstr "Elementua webgunean bilatu..."
 
-#: ./patterns/relateditems/pattern.js
-msgid "Search:"
-msgstr "Bilatu:"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a month"
+msgstr "Hilabetea aukeratu"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Select all contained items"
-msgstr "Eduki guztiak aukeratu"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a year"
+msgstr "Urtea aukeratu"
+
+#: ./patterns/upload/templates/upload.xml
+msgid "Select another destination folder or leave blank to add files to the current location."
+msgstr "Aukeratu helburu karpeta edo utzi hutsik fitxategiak uneko lekura kargatzeko."
 
 #: ./patterns/structure/js/views/columns.js
 msgid "Select columns to show, drag and drop to reorder"
@@ -635,9 +761,9 @@ msgstr "Aukeratu gainidatzi behar den baliabidea..."
 msgid "Selected"
 msgstr "Aukeratuta"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Set as default page"
-msgstr "Defektuzko orri gisa ezarrita"
+msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
@@ -663,6 +789,14 @@ msgstr "Tamaina"
 msgid "Sort on"
 msgstr "Ordenazioa"
 
+#:
+msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
+msgstr ""
+
+#:
+msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Stop Developing CSS"
 msgstr "Utzi CSS garatzeari"
@@ -671,9 +805,13 @@ msgstr "Utzi CSS garatzeari"
 msgid "Stop Developing JavaScript"
 msgstr "Utzi JS garatzeari"
 
-#: ./patterns/tinymce/pattern.js
-msgid "Subject"
-msgstr "Gaia"
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Stub JS Modules"
+msgstr "JavaScript modulu laguntzaileak"
+
+#: ./patterns/upload/pattern.js
+msgid "The file transfer failed"
+msgstr "Huts egin du fitxategia bidaltzean"
 
 #: ./patterns/modal/pattern.js
 msgid "There was an error loading modal."
@@ -691,9 +829,17 @@ msgstr "Errorea gertatu da formularioa bidaltzean."
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
 msgstr "Honek karpetan elementuek duten ordena aldatzen du. Eragiketa onek denbora asko hartu dezake karpetaren tamainaren arabera."
 
-#: ./patterns/tinymce/pattern.js
+#: ./patterns/structure/templates/table.xml
 msgid "Title"
 msgstr "Izenburua"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Today"
+msgstr "Gaur"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Tools"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "URL"
@@ -708,10 +854,14 @@ msgid "Upload"
 msgstr "Kargatu"
 
 #: ./patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
 msgstr "Fitxategia uneko direktoriora kargatu"
 
-#: ./patterns/structure/js/views/app.js
+#: ./patterns/relateditems/pattern.js
 msgid "Upload files"
 msgstr "Fitxategiak kargatu"
 
@@ -723,9 +873,9 @@ msgstr "Hona kargatu"
 msgid "Upload to..."
 msgstr "Hona kargatu..."
 
-#: ./patterns/structure/templates/tablerow.xml
-msgid "View"
-msgstr "Ikusi"
+#: patterns/structure/js/views/table.js
+msgid "Week days"
+msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "What to rearrange on"
@@ -747,7 +897,7 @@ msgstr "CSS bilduma eraikitzen"
 msgid "building javascripts"
 msgstr "JavaScriptak eraikitzen"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "copying"
 msgstr "kopiatzen"
 
@@ -755,7 +905,7 @@ msgstr "kopiatzen"
 msgid "customized"
 msgstr "pertsonalizatuta"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "cutting"
 msgstr "ebakitzen"
 
@@ -766,10 +916,6 @@ msgstr "egunak"
 #: ./patterns/livesearch/pattern.js
 msgid "enter search phrase"
 msgstr "idatzi bilaketa esaldia"
-
-#: ./patterns/relateditems/pattern.js
-msgid "entire site"
-msgstr "webgune guztian"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "error loading resource for editing"
@@ -782,10 +928,6 @@ msgstr "CSS bildumak gordetzea bukatuta"
 #: ./patterns/livesearch/pattern.js
 msgid "found"
 msgstr "bilatuta"
-
-#: ./patterns/relateditems/pattern.js
-msgid "home"
-msgstr "hasiera"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "less compilation error on file "
@@ -828,7 +970,7 @@ msgid "shown"
 msgstr "erakutsita"
 
 #: ./patterns/structure/js/views/app.js
-msgid "there was an error performing action"
+msgid "there was an error performing the action"
 msgstr "errorea gertatu da akzioa exekutatzean"
 
 #: ./patterns/querystring/pattern.js
@@ -846,4 +988,3 @@ msgstr "editorea pantaila osoan ikusi"
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "you-filename.js"
 msgstr "zure-fitxategia.js"
-

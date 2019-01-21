@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2016-01-05 11:24+0800\n"
+"PO-Revision-Date: 2018-08-16 23:23+0800\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -19,21 +19,13 @@ msgstr ""
 msgid " css files to build"
 msgstr "要建立的 CSS 檔案"
 
-#: ./patterns/relateditems/pattern.js
-msgid "(empty)"
-msgstr ""
-
 #: ./patterns/resourceregistry/js/registry.js
 msgid "A main resource file to bootstrap bundle or a list of resources to load."
 msgstr "上傳 Resource 檔案"
 
 #: ./patterns/structure/templates/table.xml
 msgid "Actions"
-msgstr ""
-
-#: ./patterns/structure/js/views/table.js
-msgid "Actions on current folder"
-msgstr ""
+msgstr "動作"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Add"
@@ -77,19 +69,19 @@ msgstr "新增 Variable"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Align"
-msgstr ""
+msgstr "對齊"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Alternative Text"
-msgstr ""
+msgstr "說明文字"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Anchor"
-msgstr ""
+msgstr "錨點"
 
 #: ./patterns/structure/js/views/generic-popover.js
 msgid "Apply"
-msgstr ""
+msgstr "儲存"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Are you sure you want to cancel? You will lose all changes."
@@ -115,6 +107,14 @@ msgstr "編譯後 CSS 的預設路徑。"
 msgid "Automatically generated path to the compiled JavaScript."
 msgstr "編譯後 JavaScript 的預設路徑。"
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Browse"
+msgstr "瀏覽"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Build"
 msgstr "建立"
@@ -133,27 +133,43 @@ msgstr "建立 Rule"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Bundle this depends on"
-msgstr ""
+msgstr "相依的 Bundle 項目"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Bundles"
-msgstr ""
+msgstr "Bundle"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "CSS/LESS"
-msgstr ""
+msgstr "CSS/LESS"
 
 #: ./patterns/structure/js/views/table.js
 msgid "Can not order items while querying"
-msgstr ""
+msgstr "查詢過程不能排序"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Cancel"
 msgstr "取消"
 
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
+msgstr ""
+
 #: ./patterns/upload/templates/upload.xml
 msgid "Choose File"
 msgstr "選擇檔案"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Clear"
+msgstr "清除"
+
+#: ./patterns/thememapper/js/cacheview.js
+msgid "Clear Cache"
+msgstr "清除快取"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Clear cache"
+msgstr "清除快取"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Close"
@@ -168,8 +184,8 @@ msgid "Columns"
 msgstr "顯示欄位"
 
 #: ./patterns/resourceregistry/js/registry.js
-msgid "Coma separated values of resources for requirejs shim"
-msgstr "RequireJS Shim 的 Resource 清單，以逗號區隔。"
+msgid "Comma-separated values of resources for requirejs shim"
+msgstr "Shim 資源清單"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Compile LESS file"
@@ -177,11 +193,11 @@ msgstr "編譯 LESS 檔案"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Compiled CSS"
-msgstr ""
+msgstr "CSS 編譯路徑"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Compiled JavaScript"
-msgstr ""
+msgstr "JS 編譯路徑"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Conditional comment"
@@ -189,7 +205,7 @@ msgstr "備註"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Conditional expression to decide if this resource will run"
-msgstr "Resource 是否執行的 Expression"
+msgstr "Resource 是否執行的表示式 (Expression)"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Configuration"
@@ -203,19 +219,23 @@ msgstr "Widget 的 JSON 設定"
 msgid "Configure displayed columns"
 msgstr "顯示設定"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Copied"
 msgstr "已複製"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Copy"
-msgstr "複製"
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Current path:"
+msgstr "現行目錄:"
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Customize"
 msgstr "客製"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Cut"
 msgstr "剪下"
 
@@ -237,39 +257,47 @@ msgstr "刪除客製結果"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Dependencies"
-msgstr ""
+msgstr "相依關係"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Depends"
-msgstr ""
+msgstr "相依設定"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Develop CSS"
-msgstr ""
+msgstr "CSS 開發"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Develop JavaScript"
-msgstr ""
+msgstr "JS 開發"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Development Mode(only logged in users)"
-msgstr ""
+msgstr "開發模式 (登入用戶才生效)"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Does your bundle contain any RequireJS or LESS files?"
-msgstr ""
+msgstr "Bundle 是否包含 RequireJS 或 LESS 檔案?"
+
+#: ./patterns/upload/templates/upload.xml
+msgid "Drag and drop files from your computer onto the area below or click the Browse button."
+msgstr "從電腦拖拉檔案至此或點選瀏覽按鈕"
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Drop files here..."
 msgstr "拖拉檔案至此..."
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Edit"
 msgstr "編輯"
 
 #: ./patterns/tinymce/pattern.js
-msgid "Email"
-msgstr "電郵"
+msgid "Email Address"
+msgstr "郵件信箱"
+
+#: ./patterns/tinymce/pattern.js
+msgid "Email Subject (optional)"
+msgstr "信件標題 (選填)"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Enabled"
@@ -301,38 +329,46 @@ msgstr "錯誤"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building bundle"
-msgstr ""
+msgstr "Build Bundle 發生錯誤"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building css bundle"
-msgstr ""
+msgstr "Build CSS Bundle 發生錯誤"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error building resources"
-msgstr ""
+msgstr "Build 資源檔發生錯誤"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error compiling less"
-msgstr ""
+msgstr "編譯 LESS 檔發生錯誤"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error in build process"
-msgstr ""
+msgstr "Build 過程發生錯誤"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Error loading popover from server."
+msgstr "載入 PopOver 發生錯誤"
+
+#: ./patterns/structure/js/actions.js
 msgid "Error pasting into"
-msgstr ""
+msgstr "貼上動作發生錯誤"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Error processing ajax request for action: "
-msgstr ""
+msgstr "處理 AJAX 動作發生錯誤: "
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Error saving css bundle"
-msgstr ""
+msgstr "儲存 CSS Bundle 發生錯誤"
 
 #: ./patterns/upload/pattern.js
 msgid "Error uploading with TUS resumable uploads"
+msgstr "上傳檔案發生錯誤"
+
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Expired"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -341,19 +377,31 @@ msgstr "匯出"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Export vars for requirejs shim"
-msgstr ""
+msgstr "匯出 RequireJS Shim 變數"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Expression"
+msgstr "表示式"
+
+#: ./patterns/tinymce/pattern.js
+msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "外部圖檔網址 (可以是站內的相對路徑或 http:// 之類的站外絕對路徑)"
+
+#: ./patterns/tinymce/pattern.js
+msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "外部網址 (可以是站內的相對路徑或 http:// 之類的站外絕對路徑)"
+
+#:
+msgid "External image"
 msgstr ""
 
-#: ./patterns/tinymce/pattern.js
-msgid "External"
-msgstr "外部"
+#: ./patterns/relateditems/pattern.js
+msgid "Favorites"
+msgstr "我的最愛"
 
-#: ./patterns/tinymce/pattern.js
-msgid "External Image URI"
-msgstr "外部圖檔網址"
+#: ./patterns/filemanager/pattern.js
+msgid "File"
+msgstr "檔案"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Filename"
@@ -361,19 +409,43 @@ msgstr "檔案名稱"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Filename must start with ++plone++static/"
-msgstr ""
+msgstr "檔名要以 ++plone++static/ 開頭"
 
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Filter"
-msgstr ""
+msgstr "過濾"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Filter..."
-msgstr ""
+msgstr "過濾..."
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find"
+msgstr "搜尋"
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find File"
+msgstr "搜尋檔案"
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find in File"
+msgstr "在檔案裡搜尋"
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find in Files"
+msgstr "在檔案裡搜尋"
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
 msgstr "搜尋 Resource 來編輯"
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find text within theme resource in plone"
+msgstr "搜尋 Theme Resource 裡的文字"
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find theme resource in plone"
+msgstr "搜尋 Theme Resource"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Finished!"
@@ -385,15 +457,11 @@ msgstr "全螢幕"
 
 #: ./patterns/thememapper/pattern.js
 msgid "HTML mockup"
-msgstr ""
+msgstr "HTML Mockup"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Help"
-msgstr ""
-
-#: ./patterns/upload/templates/upload.xml
-msgid "If nothing selected files we be added to current context."
-msgstr ""
+msgstr "求助"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Image"
@@ -423,6 +491,10 @@ msgstr "插入連結"
 msgid "Internal"
 msgstr "內部"
 
+#:
+msgid "Internal image"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Internet Explorer conditional comment"
 msgstr ""
@@ -431,13 +503,9 @@ msgstr ""
 msgid "JS"
 msgstr ""
 
-#: ./patterns/upload/templates/upload.xml
-msgid "Just drag N drop files on the area below or press the browse button."
-msgstr ""
-
 #: ./patterns/thememapper/js/lessbuilderview.js
 msgid "LESS Builder"
-msgstr ""
+msgstr "LESS Builder"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Last compilation"
@@ -445,27 +513,43 @@ msgstr "前一次編譯"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Less Variables"
-msgstr ""
+msgstr "Less Variable"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "List of CSS/LESS files to use for resource"
-msgstr ""
+msgstr "Resource 可用的 CSS/LESS 檔案列表"
+
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Loading..."
+msgstr "載入中..."
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
+msgstr "Main JavaScript File"
+
+#: patterns/structure/js/views/table.js
+msgid "Manage selection"
+msgstr "Manage Selection"
+
+#: patterns/structure/js/views/table.js
+msgid "Modify properties on items"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to bottom of folder"
-msgstr "移到資料夾的最底部"
+#: patterns/structure/js/views/table.js
+msgid "Move to bottom folder"
+msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to top of folder"
-msgstr "移到資料夾的最上方"
+#: patterns/structure/js/views/table.js
+msgid "Move to top folder"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Name"
-msgstr ""
+msgstr "名稱"
+
+#: ./patterns/filemanager/pattern.js
+msgid "New file"
+msgstr "新檔案"
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "New folder"
@@ -475,17 +559,41 @@ msgstr "新目錄"
 msgid "Next"
 msgstr "下一頁"
 
+#: ./patterns/pickadate/pattern.js
+msgid "Next month"
+msgstr "下個月"
+
+#: patterns/structure/js/views/table.js
+msgid "No change"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
 msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "No sorting"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "One level up"
+msgstr "上一層"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
 msgstr ""
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Open"
 msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "Open folder"
+msgstr "開啟目錄"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in new window"
@@ -509,13 +617,9 @@ msgstr "Override"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "Page:"
-msgstr ""
+msgstr "第"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Paste"
-msgstr ""
-
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Pasted into"
 msgstr ""
 
@@ -539,13 +643,17 @@ msgstr ""
 msgid "Previous"
 msgstr ""
 
+#: ./patterns/pickadate/pattern.js
+msgid "Previous month"
+msgstr "上個月"
+
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Query"
-msgstr ""
+msgstr "查詢"
 
 #: ./patterns/structure/js/views/app.js
 msgid "Rearrange"
-msgstr "排序"
+msgstr "確認排序"
 
 #: ./patterns/structure/js/views/app.js
 msgid "Rearrange folder contents"
@@ -553,11 +661,23 @@ msgstr "重新排序目錄檔案"
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "Rearrange items in this folder"
-msgstr "重新排序目錄檔案"
+msgstr "重新排序目錄裡的項目"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr "最近記錄"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Refresh"
+msgstr ""
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Registry"
 msgstr ""
+
+#: ./patterns/thememapper/pattern.js
+msgid "Reload the current file"
+msgstr "重新載入現行檔案"
 
 #: ./patterns/resourceregistry/js/fields.js
 msgid "Remove"
@@ -571,6 +691,10 @@ msgstr "更名"
 msgid "Rename currently selected resource"
 msgstr "更名目前選取的 Resource"
 
+#: patterns/structure/js/views/table.js
+msgid "Reset column sorting"
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources"
 msgstr "Resource"
@@ -581,7 +705,7 @@ msgstr "Resource Base URL"
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "Reverse"
-msgstr "反轉"
+msgstr "反向排序"
 
 #: ./patterns/querystring/pattern.js
 msgid "Reversed Order"
@@ -607,12 +731,16 @@ msgstr "搜尋"
 msgid "Search for item on site..."
 msgstr "搜尋站內項目..."
 
-#: ./patterns/relateditems/pattern.js
-msgid "Search:"
-msgstr "搜尋"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a month"
+msgstr "選擇月份"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Select all contained items"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a year"
+msgstr "選擇年份"
+
+#: ./patterns/upload/templates/upload.xml
+msgid "Select another destination folder or leave blank to add files to the current location."
 msgstr ""
 
 #: ./patterns/structure/js/views/columns.js
@@ -631,25 +759,25 @@ msgstr ""
 msgid "Selected"
 msgstr "勾選"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Set as default page"
-msgstr "設為預設頁面"
+msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
-msgstr ""
+msgstr "顯示說明資訊"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show inspector panels"
-msgstr ""
+msgstr "顯示 Inspector 面板"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show inspectors"
-msgstr ""
+msgstr "顯示 Inspector"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "Show:"
-msgstr ""
+msgstr "每頁筆數:"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Size"
@@ -657,6 +785,14 @@ msgstr ""
 
 #: ./patterns/querystring/pattern.js
 msgid "Sort on"
+msgstr "排序條件"
+
+#:
+msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
+msgstr ""
+
+#:
+msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -667,9 +803,13 @@ msgstr "停止 CSS 開發"
 msgid "Stop Developing JavaScript"
 msgstr "停止 JavaScript 開發"
 
-#: ./patterns/tinymce/pattern.js
-msgid "Subject"
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Stub JS Modules"
 msgstr ""
+
+#: ./patterns/upload/pattern.js
+msgid "The file transfer failed"
+msgstr "檔案上傳失敗"
 
 #: ./patterns/modal/pattern.js
 msgid "There was an error loading modal."
@@ -677,19 +817,27 @@ msgstr ""
 
 #: ./patterns/livesearch/pattern.js
 msgid "There was an error searching…"
-msgstr ""
+msgstr "搜尋時發生錯誤..."
 
 #: ./patterns/modal/pattern.js
 msgid "There was an error submitting the form."
-msgstr ""
+msgstr "送出表單時發生錯誤。"
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
-msgstr ""
+msgstr "確認執行後會永久生效。如果目錄裡的項目太多，執行時間會變得很長。"
 
-#: ./patterns/tinymce/pattern.js
+#: ./patterns/structure/templates/table.xml
 msgid "Title"
 msgstr "標題"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Today"
+msgstr "今天"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Tools"
+msgstr "工具"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "URL"
@@ -697,35 +845,39 @@ msgstr "URL"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Unthemed content"
-msgstr ""
+msgstr "Unthemed Content"
 
 #: ./patterns/filemanager/js/upload.js
 msgid "Upload"
 msgstr "上傳"
 
 #: ./patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
+msgstr "上傳檔案..."
+
+#: ./patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
 msgstr "上傳檔案到目前目錄"
 
-#: ./patterns/structure/js/views/app.js
+#: ./patterns/relateditems/pattern.js
 msgid "Upload files"
 msgstr "上傳檔案"
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Upload here"
-msgstr ""
+msgstr "上傳到這裡"
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Upload to..."
 msgstr "上傳到..."
 
-#: ./patterns/structure/templates/tablerow.xml
-msgid "View"
+#: patterns/structure/js/views/table.js
+msgid "Week days"
 msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "What to rearrange on"
-msgstr ""
+msgstr "排序條件："
 
 #: ./patterns/filemanager/js/delete.js
 msgid "Yes, delete"
@@ -733,7 +885,7 @@ msgstr "確認刪除"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "You have unsaved changes. Save or discard before building."
-msgstr ""
+msgstr "變更尚未儲存，請確認是否要儲存。"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "building CSS bundle"
@@ -743,17 +895,17 @@ msgstr "建立 CSS Bundle"
 msgid "building javascripts"
 msgstr "建立 JavaScript"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "copying"
-msgstr ""
+msgstr "複製"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "customized"
 msgstr ""
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "cutting"
-msgstr ""
+msgstr "剪下"
 
 #: ./patterns/querystring/pattern.js
 msgid "days"
@@ -763,24 +915,16 @@ msgstr ""
 msgid "enter search phrase"
 msgstr ""
 
-#: ./patterns/relateditems/pattern.js
-msgid "entire site"
-msgstr ""
-
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "error loading resource for editing"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "finished saving css bundles"
-msgstr ""
+msgstr "成功儲存 CSS Bundle"
 
 #: ./patterns/livesearch/pattern.js
 msgid "found"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "home"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
@@ -793,7 +937,7 @@ msgstr "沒有找到"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "of"
-msgstr ""
+msgstr "頁,共"
 
 #: ./patterns/structure/js/views/app.js
 msgid "operation url ${url} is not valid"
@@ -801,7 +945,7 @@ msgstr ""
 
 #: ./patterns/thememapper/pattern.js
 msgid "preview theme in a new window"
-msgstr ""
+msgstr "在新視窗預覽結果"
 
 #: ./patterns/structure/js/views/selectionwell.js
 msgid "remove all"
@@ -821,10 +965,10 @@ msgstr "正在搜尋..."
 
 #: ./patterns/structure/templates/paging.xml
 msgid "shown"
-msgstr ""
+msgstr "頁"
 
 #: ./patterns/structure/js/views/app.js
-msgid "there was an error performing action"
+msgid "there was an error performing the action"
 msgstr ""
 
 #: ./patterns/querystring/pattern.js
@@ -842,4 +986,3 @@ msgstr "全螢幕顯示"
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "you-filename.js"
 msgstr ""
-

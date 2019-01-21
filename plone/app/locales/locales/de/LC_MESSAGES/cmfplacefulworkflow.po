@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CMFPlacefulWorkflow\n"
-"POT-Creation-Date: 2015-09-20 20:59+0000\n"
+"POT-Creation-Date: 2016-08-20 09:30+0000\n"
 "PO-Revision-Date: 2010-06-25 10:18+0200\n"
 "Last-Translator: Jan Ulrich Hasecke <jan.ulrich@hasecke.com>\n"
 "Language-Team: Deutsch <plone-i18n@lists.sourceforge.net>\n"
@@ -19,14 +19,15 @@ msgstr ""
 
 #: ./profiles.zcml
 msgid "Add in Plone the capability to change workflow chains for types in every object."
-msgstr "Erweiter Plone um die Möglichkeit, Arbeitsabläufe für Artikeltypen in einzelnen Ordnern zu verändern"
+msgstr "Erweitert Plone um die Möglichkeit, Arbeitsabläufe für Inhaltstypen in einzelnen Ordnern zu verändern"
 
+#: CMFPlacefulWorkflow/profiles.zcml:12
 msgid "Add in Plone the capability to change workflow chains for types in every object. Includes a dependency on core Plone types."
-msgstr "Erweiter Plone um die Möglichkeit, Arbeitsabläufe für Artikeltypen in einzelnen Ordnern zu verändern"
+msgstr "Erweitert Plone um die Möglichkeit, Arbeitsabläufe für Inhaltstypen in einzelnen Ordnern zu verändern. Beinhaltet eine Abhängigkeit auf die Kern-Plone-Inhaltstypen."
 
-#: ./profiles.zcml
+#: CMFPlacefulWorkflow/profiles.zcml:20
 msgid "Add in Plone the capability to change workflow chains for types in every object. With no dependency on core Plone types."
-msgstr "Erweiter Plone um die Möglichkeit, Arbeitsabläufe für Artikeltypen in einzelnen Ordnern zu verändern"
+msgstr "Erweitert Plone um die Möglichkeit, Arbeitsabläufe für Inhaltstypen in einzelnen Ordnern zu verändern.  Beinhaltet keine Abhängigkeit auf die Kern-Plone-Inhaltstypen."
 
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration_set.py:36
 msgid "Changed policies."
@@ -80,11 +81,11 @@ msgstr "Titel muss ausgefüllt werden."
 msgid "Update catalog role mappings"
 msgstr "Update-Katalog Rollenzuordnungen "
 
-#: ./profiles.zcml
+#: CMFPlacefulWorkflow/profiles.zcml:12
 msgid "Workflow Policy Support (CMFPlacefulWorkflow)"
 msgstr "Unterstützung für Arbeitsablaufrichtlinien (CMFPlacefulWorkflow)"
 
-#: ./profiles.zcml
+#: CMFPlacefulWorkflow/profiles.zcml:20
 msgid "Workflow Policy Support (CMFPlacefulWorkflow) - no core types dependency"
 msgstr "Unterstützung für Arbeitsablaufrichtlinien (CMFPlacefulWorkflow) - keine Kerntypen Abhängigkeit "
 
@@ -113,7 +114,7 @@ msgid "description_below_this_folder"
 msgstr "Ändern Sie die Arbeitsabläufe in allen in diesem Ordner enthaltenen Ordnern. Wenn Sie den Arbeitsablauf in diesem Ordner ändern möchten, wählen Sie »Unterhalb dieses Ordners«."
 
 #. Default: "Choose a policy to copy when creating the new policy. You also can choose to start with an empty policy."
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:148
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:147
 msgid "description_duplicate_policy_id"
 msgstr "Erstelle eine neue Richtlinie auf Basis einer bestehenden. Sie können auch eine leere Richtlinie erstellen."
 
@@ -123,7 +124,7 @@ msgid "description_in_this_folder"
 msgstr "Ändern Sie die Arbeitsabläufe in diesem Ordner und den darin befindlichen Ordnern. Wenn Sie den Arbeitsablauf in diesem Ordner nicht ändern möchten, wählen Sie »Unterhalb dieses Ordners«."
 
 #. Default: "Enter an id for the new workflow policy"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:130
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:129
 msgid "description_new_policy_id"
 msgstr "Geben Sie einen Namen für die neue Arbeitsablaufsrichtlinie an"
 
@@ -135,7 +136,7 @@ msgstr "Aktualisierungssicherheit"
 #. Default: "Custom workflow policy which maps content types to workflows."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:45
 msgid "description_workflow_custom_mapping"
-msgstr "Spezifische Richtlinie, die Artikeltypen Arbeitsabläufen zuordnet."
+msgstr "Spezifische Richtlinie, die Inhaltstypen Arbeitsabläufen zuordnet."
 
 #. Default: "Set your workflow policies' local configuration for this folder and below."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:38
@@ -143,7 +144,7 @@ msgid "description_workflow_policies"
 msgstr "Legen Sie Ihre Richtlinien für den Arbeitsablauf in diesem Ordner und den darin befindlichen Ordnern fest."
 
 #. Default: "Here you can create and configure your workflow policies. A policy modifies workflows for any items in or below a specific folder. To apply a policy you have to add a local workflow policy configuration to the desired folder using the 'policy' item in the 'state' drop-down menu."
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:65
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:64
 msgid "description_workflow_policy_setup"
 msgstr "Hier können Sie Ihre Richtlinien für Arbeitsabläufe erstellen und konfigurieren. Eine Richtlinie ändert die Arbeitsabläufe für alle Artikel in oder unterhalb eines bestimmten Ordners. Um eine Richtlinie anzuwenden, müssen Sie eine lokale Richtlinie für Arbeitsabläufe in dem gewünschten Ordner einfügen. Dieses können Sie mittels des Arbeitsablaufsmenüs unter dem Punkt Richtlinie tun."
 
@@ -160,7 +161,7 @@ msgstr "Lokale Konfiguration der Richtlinien für Arbeitsabläufe"
 #. Default: "Default workflow for content types."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:113
 msgid "help_default_workflow_for_types"
-msgstr "Voreingestellter Arbeitsablauf für Artikeltypen."
+msgstr "Voreingestellter Arbeitsablauf für Inhaltstypen."
 
 #. Default: "The default workflow policy."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/placeful_workflow_configuration.pt:130
@@ -170,7 +171,7 @@ msgstr "Die voreingestellte Richtlinie für Arbeitsabläufe."
 #. Default: "You can assign a workflow for all content types."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:139
 msgid "help_workflow_assign_all_types"
-msgstr "Sie können allen Artikeltypen einen Arbeitsablauf zuweisen."
+msgstr "Sie können allen Inhaltstypen einen Arbeitsablauf zuweisen."
 
 #. Default: "A brief description of the workflow policy."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:91
@@ -178,7 +179,7 @@ msgid "help_workflow_policy_description"
 msgstr "Eine kurze Beschreibung der Richtlinie für den Arbeitsablauf."
 
 #. Default: "Add"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:169
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:168
 msgid "label_add"
 msgstr "Hinzufügen"
 
@@ -198,12 +199,12 @@ msgid "label_default_workflow"
 msgstr "Voreingestellter Arbeitsablauf"
 
 #. Default: "Duplicate another policy"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:143
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:142
 msgid "label_duplicate_policy_id"
 msgstr "Dupliziere eine weitere Richtlinie"
 
 #. Default: "Global workflow"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:160
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:159
 msgid "label_duplicate_portal_workflow"
 msgstr "Globaler Arbeitsablauf"
 
@@ -228,17 +229,17 @@ msgid "label_mapping_no_workflow"
 msgstr "Kein Arbeitsablauf"
 
 #. Default: "New policy Id"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:124
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:123
 msgid "label_new_policy_id"
 msgstr "Neue Richtlinie"
 
 #. Default: "No policy duplicated"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:156
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:155
 msgid "label_no_policy_duplicated"
 msgstr "Keine Richtlinie dupliziert"
 
 #. Default: "Remove selected"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:112
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:111
 msgid "label_remove_selected"
 msgstr "Entferne selektierte Einträge"
 
@@ -258,7 +259,7 @@ msgid "label_workflow_by_type"
 msgstr "Arbeitsabläufe nach Art"
 
 #. Default: "Add a workflow policy"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:119
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:118
 msgid "legend_add_workflow_policy"
 msgstr "Füge Richtlinie für Arbeitsablauf hinzu"
 
@@ -268,7 +269,7 @@ msgid "legend_publishing_details"
 msgstr "Richtlinie für den Arbeitsablauf"
 
 #. Default: "Existing Workflow Policies"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:81
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:80
 msgid "legend_workflow_policies"
 msgstr "Richtlinien für Arbeitsablauf"
 
@@ -280,10 +281,9 @@ msgstr "Details der Richtlinien"
 #. Default: "Workflow to content type mapping."
 #: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_policy_mapping.pt:143
 msgid "summary_workflow_type_mapping"
-msgstr "Zuordnung von Arbeitsabläufen und Artikeltypen"
+msgstr "Zuordnung von Arbeitsabläufen und Inhaltstypen"
 
 #. Default: "Workflow Policies Setup"
-#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:61
+#: CMFPlacefulWorkflow/skins/CMFPlacefulWorkflow/prefs_workflow_localpolicies_form.pt:60
 msgid "title_workflow_policy_setup"
 msgstr "Einstellungen der Richtlinien für Arbeitsabläufe"
-

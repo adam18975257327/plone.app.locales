@@ -1,8 +1,305 @@
 Changelog
 =========
 
-5.0.8 (unreleased)
+5.1.13 (unreleased)
+-------------------
+
+- Update Italian translations.
+  [arsenico13]
+- Add .gitattributes file to avoid most CHANGES merge conflicts
+  [@arsenico13]
+- Update Traditional Chinese translations.
+  [l34marr]
+
+
+5.1.12 (2019-01-02)
+-------------------
+
+- Fix French translation.
+  [laulaz]
+
+- Update Spanish translations.
+  [gil-cano]
+
+- Update Traditional Chinese translations.
+  [l34marr]
+
+
+5.1.11 (2018-11-19)
+-------------------
+
+- Update Traditional Chinese translations.
+  [l34marr]
+- Fix small typo in Dutch translation.
+  [huubbouma]
+
+
+5.1.10 (2018-10-02)
+-------------------
+
+- Update Traditional Chinese translations.
+  [l34marr]
+- Save Lithuanian plonelocales with utf-8 encoding. Refs #234
+  [pysailor]
+
+
+5.1.9 (2018-06-08)
 ------------------
+
+- Update European Portuguese translations.
+  [emansije]
+- Complete catalan translation.
+  [allusa]
+
+
+5.1.8 (2018-04-01)
+------------------
+
+- Complete spanish translation.
+  [erral]
+
+- Compelete basque translation.
+  [erral]
+
+- Include plone.app.caching translations.
+  [erral]
+
+- Include plone.app.multilingual translations.
+  [erral]
+
+- Update Brazilian Portuguese translations.
+  [hvelarde, agnogueira, lyralemos]
+
+- Update Italian translations.
+  [ale-rt, cekk]
+
+- Update German translations.
+  [jensens, agitator]
+
+- Update Traditional Chinese translations.
+  [l34marr]
+
+
+5.1.7 (2018-03-11)
+------------------
+
+- Got back the 8 messages for the contrain types menu from the 4.3.x branch.
+  [vincentfretin]
+
+- Complete widgets translation in spanish.
+  [erral]
+
+- Complete Basque translation for widgets.
+  [erral]
+
+- Update Traditional Chinese translations.
+  [l34marr]
+
+5.1.6 (2018-02-15)
+------------------
+
+- Complete Spanish translation.
+  [erral]
+
+
+5.1.5 (2018-02-08)
+------------------
+
+- Put back missing translation of password reset mails.
+  [allusa, vincentfretin]
+
+- Update Traditional Chinese translations.
+  [l34marr]
+
+- Update German translations.
+  [jaroel]
+
+5.1.4 (2018-01-24)
+------------------
+
+- German fixes and updates
+  [staeff]
+- Basque fixes
+  [erral]
+- remove mention of "retina" (https://github.com/plone/Products.CMFPlone/issues/2123)
+  [tkimnguyen]
+- Basque translation
+  [erral]
+- Add some German translations for the related items widget
+  [cillianderoiste]
+- Add German translations for plone.protect dialogs.
+  [pgrunewald]
+- Update Traditional Chinese translations.
+  [l34marr]
+- Complete basque (eu) translation
+  [erral]
+
+5.1.3 (2017-07-08)
+------------------
+
+- Add UK English translation
+  [MatthewWilkes]
+- Update German translations
+  [ksuess]
+
+5.1.2 (2017-04-21)
+------------------
+
+- Updated Tranditional Chinese translations.
+  [l34marr]
+
+- Fix typo in Italian translation.
+  [arsenico13]
+
+5.1.1 (2017-02-21)
+------------------
+
+- Update Japanese translations.
+
+- Update the Transifex resourceas configuration at Transifex project
+  https://www.transifex.com/plone/plone5/
+  [macagua]
+
+- Update Spanish translations.
+  [macagua]
+
+- Update basque translations.
+  [erral]
+
+- Updated Chinese Simplified translation
+  [jianaijun]
+
+- Updated Tranditional Chinese translations.
+  [l34marr]
+
+
+5.1.0 (2016-11-08)
+------------------
+
+- Since Products.PasswordResetTool was merged into CMFPlone 5.1 and the templates now use the ``plone`` domain, merge all ``passwordresettool.po`` files into ``plone.po``.
+  [thet]
+
+
+5.0.12 (2016-11-08)
+-------------------
+
+- Updated French translations.
+  [gnafou]
+
+- Add messages and English translations for portlet manager names.
+  [alecm]
+
+- Updated German Translations.
+  [vincero]
+
+- Updated Tranditional Chinese translations.
+  [l34marr]
+
+- Add coding header to python files.
+  [gforcada]
+
+5.0.11 (2016-08-22)
+-------------------
+
+- German: Change the querystring criteria group from "Daten" to "Datum".
+  It's right, that "Daten" is the plural of "Datum".
+  But the naming is misleading and means the same like the english "data".
+  [thet]
+
+- German: Change "Ort" to "Path" for translations indicating the hierarchical location of some content.
+  Fixes: #117
+  [thet]
+
+- Minor German updates.
+  [thet]
+
+- Updated Tranditional Chinese translations.
+  [l34marr]
+
+- Updated italian translation.
+  [keul]
+
+
+5.0.10 (2016-06-27)
+-------------------
+
+- Updated French translation.
+
+- Updated Traditional Chinese translations.
+  [l34marr]
+
+- Updated basque translations [erral]
+
+- Updated Dutch translations.  [maurits, fredvd]
+
+- Updated Language-Codes in po file headers.  These headers are not
+  used in Plone to determine the language: that is done by inspecting
+  the directory name.  But the i18ndude script uses the Language-Code
+  header when printing statistics.  Several were set to ``en`` or to
+  for example ``zh_CN`` (as the directory name should be) instead of
+  ``zh-cn`` (as the language code should be).  [maurits]
+
+- Update German translations.
+  [staeff]
+
+- Fix typo in portuguese.
+  https://github.com/collective/plone.app.locales/issues/112
+  [staeff]
+
+- Update German translations.
+  [chrimba]
+
+- Update Traditional Chinese translations.
+  [l34marr]
+
+- Fix typos in it translation
+  [ale-rt]
+
+- Update Japanese translations for plone.po.
+  [terapyon]
+
+- Add russian translate Date and Time Settings, Language Settings and much more in control panel.
+  Full Russian translation frontpafe.po
+  Translation mocap and widgets
+  [serge73]
+
+- add label_schema_default and translate in Japanese
+  [terapyon]
+
+
+5.0.9 (2016-03-02)
+------------------
+
+- Update Japanese translations for widgets.po.
+  [terapyon]
+
+
+5.0.8 (2016-03-01)
+------------------
+
+- Fix vietnamese error in label_filed_under message.
+
+- Updated it translations
+  [ale-rt]
+
+- Updated es translation
+  [jpgimenez]
+
+- Updated eu translation
+  [erral]
+
+- Updated da_DK translation for registered notify welcome screen.
+  [tmog]
+
+- Updated RU translations.
+  Correction of translation Tuesday Thursday June July
+  [serge73]
+
+- Updated da_DK translations.
+  [tmog]
+
+- Fix typo: Fenter -> Fenster
+  [agitator]
 
 - Fix typo: shoudl -> should
   [ale-rt]

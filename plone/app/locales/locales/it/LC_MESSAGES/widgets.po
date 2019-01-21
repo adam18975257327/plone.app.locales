@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2015-09-14 21:24+0100\n"
+"PO-Revision-Date: 2017-04-07 13:12+0200\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: en\n"
+"Language-Code: it\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: widgets\n"
@@ -19,10 +19,6 @@ msgstr ""
 msgid " css files to build"
 msgstr "File CSS da compilare"
 
-#: ./patterns/relateditems/pattern.js
-msgid "(empty)"
-msgstr "(vuoto)"
-
 #: ./patterns/resourceregistry/js/registry.js
 msgid "A main resource file to bootstrap bundle or a list of resources to load."
 msgstr "Un file di risorse principale per inizializzare il bundle o un elenco di file con risorse da caricare."
@@ -30,10 +26,6 @@ msgstr "Un file di risorse principale per inizializzare il bundle o un elenco di
 #: ./patterns/structure/templates/table.xml
 msgid "Actions"
 msgstr "Azioni"
-
-#: ./patterns/structure/js/views/table.js
-msgid "Actions on current folder"
-msgstr "Azioni sulla directory corrente"
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Add"
@@ -115,6 +107,14 @@ msgstr "Percorso generato automaticamente per il CSS compilato."
 msgid "Automatically generated path to the compiled JavaScript."
 msgstr "Percorso generato automaticamente per il JavaScript compilato."
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr "Prima della data di pubblicazione"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Browse"
+msgstr "Esplora"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Build"
 msgstr "Compila"
@@ -151,9 +151,25 @@ msgstr "Non è possibile ordinare gli elementi durante l'interrogazione"
 msgid "Cancel"
 msgstr "Annulla"
 
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
+msgstr "Non è possibile ordinare gli elementi durante l’interrogazione"
+
 #: ./patterns/upload/templates/upload.xml
 msgid "Choose File"
 msgstr "Scegli file"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Clear"
+msgstr "Cancella"
+
+#: ./patterns/thememapper/js/cacheview.js
+msgid "Clear Cache"
+msgstr "Cancella la cache"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Clear cache"
+msgstr "Cancella la cache"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Close"
@@ -168,8 +184,8 @@ msgid "Columns"
 msgstr "Colonne"
 
 #: ./patterns/resourceregistry/js/registry.js
-msgid "Coma separated values of resources for requirejs shim"
-msgstr "Risorse per shim RequireJS (inserire i valori separati da virgole)"
+msgid "Comma-separated values of resources for requirejs shim"
+msgstr "Lista di risorse per lo shim di requirejs, separate da virgola."
 
 #: ./patterns/thememapper/pattern.js
 msgid "Compile LESS file"
@@ -203,19 +219,23 @@ msgstr "Configurazione in JSON per il widget"
 msgid "Configure displayed columns"
 msgstr "Configura le colonne da mostrare"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Copied"
 msgstr "Copiato"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Copy"
 msgstr "Copia"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Current path:"
+msgstr "Path corrente:"
 
 #: ./patterns/filemanager/js/customize.js
 msgid "Customize"
 msgstr "Personalizza"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Cut"
 msgstr "Taglia"
 
@@ -260,16 +280,24 @@ msgid "Does your bundle contain any RequireJS or LESS files?"
 msgstr "Questo bundle contiene file RequireJS o LESS?"
 
 #: ./patterns/upload/templates/upload.xml
+msgid "Drag and drop files from your computer onto the area below or click the Browse button."
+msgstr "Trascina i file dal tuo computer nell'area sottostante o clicca sul pulsante Esplora."
+
+#: ./patterns/upload/templates/upload.xml
 msgid "Drop files here..."
 msgstr "Trascina i file qua..."
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Edit"
 msgstr "Modifica"
 
 #: ./patterns/tinymce/pattern.js
-msgid "Email"
-msgstr "Email"
+msgid "Email Address"
+msgstr "Indirizzo e-mail"
+
+#: ./patterns/tinymce/pattern.js
+msgid "Email Subject (optional)"
+msgstr "Oggetto email (opzionale)"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Enabled"
@@ -319,7 +347,11 @@ msgstr "Errore nella compilazione LESS"
 msgid "Error in build process"
 msgstr "Errore in fase di compilazione"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Error loading popover from server."
+msgstr "Errore nel caricamento di popover dal server."
+
+#: ./patterns/structure/js/actions.js
 msgid "Error pasting into"
 msgstr "Errore in fase di copia"
 
@@ -335,6 +367,10 @@ msgstr "Errore nel salvataggio del bundle CSS"
 msgid "Error uploading with TUS resumable uploads"
 msgstr "Errore nel caricamento con \"TUS resumable uploads\""
 
+#: ./patterns/structure/templates/tablerow.xml
+msgid "Expired"
+msgstr "Scaduto"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Export"
 msgstr "Esporta"
@@ -348,12 +384,24 @@ msgid "Expression"
 msgstr "Espressione"
 
 #: ./patterns/tinymce/pattern.js
-msgid "External"
-msgstr "Esterno"
+msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "URL immagine esterna (può essere relativa a questo sito oppure assoluta se inizia per http:// o https://)"
 
 #: ./patterns/tinymce/pattern.js
-msgid "External Image URI"
-msgstr "URI di un'immagine esterna"
+msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
+msgstr "URL esterna (può essere relativa a questo sito oppure assoluta se inizia per http:// o https://)"
+
+#:
+msgid "External image"
+msgstr "Immagine esterna"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Favorites"
+msgstr "Preferiti"
+
+#: ./patterns/filemanager/pattern.js
+msgid "File"
+msgstr ""
 
 #: ./patterns/filemanager/js/addnew.js
 msgid "Filename"
@@ -371,9 +419,33 @@ msgstr "Filtro"
 msgid "Filter..."
 msgstr "Filtro..."
 
+#: ./patterns/filemanager/pattern.js
+msgid "Find"
+msgstr "Cerca"
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find File"
+msgstr "Cerca File"
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find in File"
+msgstr "Cerca nel File"
+
+#: ./patterns/filemanager/pattern.js
+msgid "Find in Files"
+msgstr "Cerca nei File"
+
 #: ./patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
 msgstr "Trova una risorsa da sovrascrivere in plone"
+
+#: ./patterns/filemanager/js/findinfiles.js
+msgid "Find text within theme resource in plone"
+msgstr "Cerca il testo nelle risorse del tema dentro plone"
+
+#: ./patterns/filemanager/js/findfile.js
+msgid "Find theme resource in plone"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "Finished!"
@@ -391,17 +463,13 @@ msgstr "Mockup HTML"
 msgid "Help"
 msgstr "Aiuto"
 
-#: ./patterns/upload/templates/upload.xml
-msgid "If nothing selected files we be added to current context."
-msgstr "Se non è presente nessuna selezione, i file saranno aggiunti al contesto corrente."
-
 #: ./patterns/tinymce/pattern.js
 msgid "Image"
 msgstr "Immagine"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Init"
-msgstr "Initializza"
+msgstr "Inizializza"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Init instruction for requirejs shim"
@@ -423,17 +491,17 @@ msgstr "Inserisci collegamento"
 msgid "Internal"
 msgstr "Interno"
 
+#:
+msgid "Internal image"
+msgstr "Immagine interna"
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Internet Explorer conditional comment"
-msgstr "Commeto condizionale per Internet Explorer"
+msgstr "Commento condizionale per Internet Explorer"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "JS"
 msgstr "JS"
-
-#: ./patterns/upload/templates/upload.xml
-msgid "Just drag N drop files on the area below or press the browse button."
-msgstr "Trascina i file nell'area sottostante oppure spingi il bottone ricerca"
 
 #: ./patterns/thememapper/js/lessbuilderview.js
 msgid "LESS Builder"
@@ -451,21 +519,37 @@ msgstr "Variabili LESS"
 msgid "List of CSS/LESS files to use for resource"
 msgstr "Lista di file CSS/LESS da usare come risorsa"
 
+#: ./patterns/structure/js/views/generic-popover.js
+msgid "Loading..."
+msgstr "Caricamento..."
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
 msgstr "File JavaScript principale"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to bottom of folder"
-msgstr "Sposta in fondo cartella"
+#: patterns/structure/js/views/table.js
+msgid "Manage selection"
+msgstr "Gestisci selezione"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Move to top of folder"
-msgstr "Sposta in cima alla cartella"
+#: patterns/structure/js/views/table.js
+msgid "Modify properties on items"
+msgstr "Modifica proprietà degli elementi"
+
+#: patterns/structure/js/views/table.js
+msgid "Move to bottom folder"
+msgstr ""
+
+#: patterns/structure/js/views/table.js
+msgid "Move to top folder"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Name"
 msgstr "Nome"
+
+#: ./patterns/filemanager/pattern.js
+msgid "New file"
+msgstr "Nuovo file"
 
 #: ./patterns/filemanager/js/newfolder.js
 msgid "New folder"
@@ -475,17 +559,41 @@ msgstr "Nuova cartella"
 msgid "Next"
 msgstr "Successivo"
 
+#: ./patterns/pickadate/pattern.js
+msgid "Next month"
+msgstr "Mese successivo"
+
+#: patterns/structure/js/views/table.js
+msgid "No change"
+msgstr "Nessuna modifica"
+
 #: ./patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
 msgstr "Nessun JavaScript da compilare, tralascio"
+
+#: patterns/structure/js/views/table.js
+msgid "No sorting"
+msgstr "Nessun ordinamento"
+
+#: patterns/structure/js/views/table.js
+msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
+msgstr ""
+
+#: ./patterns/relateditems/pattern.js
+msgid "One level up"
+msgstr "Un livello superiore"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
 msgstr "È possibile sovrascrivere solo le risorse ++plone++ "
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Open"
 msgstr "Apri"
+
+#: ./patterns/relateditems/pattern.js
+msgid "Open folder"
+msgstr "Apri cartella"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Open in new window"
@@ -511,13 +619,9 @@ msgstr "Sovrascrivi"
 msgid "Page:"
 msgstr "Pagina:"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Paste"
-msgstr "Incolla"
-
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "Pasted into"
-msgstr "Incollato"
+msgstr "Incollato in"
 
 #: ./patterns/resourceregistry/pattern.js
 msgid "Pattern Options"
@@ -539,6 +643,10 @@ msgstr "Anteprima del tema"
 msgid "Previous"
 msgstr "Precedente"
 
+#: ./patterns/pickadate/pattern.js
+msgid "Previous month"
+msgstr "Mese precedente"
+
 #: ./patterns/structure/js/views/textfilter.js
 msgid "Query"
 msgstr "Filtra"
@@ -555,9 +663,21 @@ msgstr "Riordina i contenuti della cartella"
 msgid "Rearrange items in this folder"
 msgstr "Riordina i contenuti di questa cartella"
 
+#: ./patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr "Usati di recente"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Refresh"
+msgstr "Aggiorna"
+
 #: ./patterns/resourceregistry/pattern.js
 msgid "Registry"
 msgstr "Registro"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Reload the current file"
+msgstr "Ricarica il file corrente"
 
 #: ./patterns/resourceregistry/js/fields.js
 msgid "Remove"
@@ -570,6 +690,10 @@ msgstr "Rinomina"
 #: ./patterns/filemanager/pattern.js
 msgid "Rename currently selected resource"
 msgstr "Rinomina la risorsa attualmente selezionata"
+
+#: patterns/structure/js/views/table.js
+msgid "Reset column sorting"
+msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources"
@@ -605,15 +729,19 @@ msgstr "Cerca"
 
 #: ./patterns/tinymce/pattern.js
 msgid "Search for item on site..."
-msgstr "Cerca per elemento  nel sito..."
+msgstr "Cerca per elemento nel sito..."
 
-#: ./patterns/relateditems/pattern.js
-msgid "Search:"
-msgstr "Cerca:"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a month"
+msgstr "Seleziona un mese"
 
-#: ./patterns/structure/templates/actionmenu.xml
-msgid "Select all contained items"
-msgstr "Seleziona tutto gli elementi contenuti"
+#: ./patterns/pickadate/pattern.js
+msgid "Select a year"
+msgstr "Seleziona un anno"
+
+#: ./patterns/upload/templates/upload.xml
+msgid "Select another destination folder or leave blank to add files to the current location."
+msgstr "Seleziona una diversa cartella di destinazione o lascia in bianco per aggiungere i file nella posizione corrente."
 
 #: ./patterns/structure/js/views/columns.js
 msgid "Select columns to show, drag and drop to reorder"
@@ -631,9 +759,9 @@ msgstr "Seleziona la risorsa da sovrascrivere..."
 msgid "Selected"
 msgstr "Selezione effettuata"
 
-#: ./patterns/structure/templates/actionmenu.xml
+#: patterns/structure/js/views/table.js
 msgid "Set as default page"
-msgstr "Impostata come vista predefinita"
+msgstr "Imposta come pagina di default"
 
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
@@ -659,6 +787,14 @@ msgstr "Dimensione"
 msgid "Sort on"
 msgstr "Ordina per"
 
+#:
+msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
+msgstr ""
+
+#:
+msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
+msgstr ""
+
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Stop Developing CSS"
 msgstr "Interrompi sviluppo dei CSS"
@@ -667,9 +803,13 @@ msgstr "Interrompi sviluppo dei CSS"
 msgid "Stop Developing JavaScript"
 msgstr "Interrompi sviluppo dei JavaScript"
 
-#: ./patterns/tinymce/pattern.js
-msgid "Subject"
-msgstr "Oggetto"
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Stub JS Modules"
+msgstr "Stub JS Modules"
+
+#: ./patterns/upload/pattern.js
+msgid "The file transfer failed"
+msgstr "Il trasferimento del file è fallito"
 
 #: ./patterns/modal/pattern.js
 msgid "There was an error loading modal."
@@ -687,9 +827,17 @@ msgstr "Errore in fase di sottomissione del modulo."
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
 msgstr "Questa operazione cambia in modo permanente l'ordine degli elementi in questa cartella. Questa operazione può richiedere molto tempo a seconda della dimensione della cartella."
 
-#: ./patterns/tinymce/pattern.js
+#: ./patterns/structure/templates/table.xml
 msgid "Title"
 msgstr "Titolo"
+
+#: ./patterns/pickadate/pattern.js
+msgid "Today"
+msgstr "Oggi"
+
+#: ./patterns/thememapper/pattern.js
+msgid "Tools"
+msgstr "Strumenti"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "URL"
@@ -704,10 +852,14 @@ msgid "Upload"
 msgstr "Carica"
 
 #: ./patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
+msgstr ""
+
+#: ./patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
 msgstr "Carica il file nella cartella corrente"
 
-#: ./patterns/structure/js/views/app.js
+#: ./patterns/relateditems/pattern.js
 msgid "Upload files"
 msgstr "Carica i file"
 
@@ -719,9 +871,9 @@ msgstr "Carica qua"
 msgid "Upload to..."
 msgstr "Carica su..."
 
-#: ./patterns/structure/templates/tablerow.xml
-msgid "View"
-msgstr "Visualizza"
+#: patterns/structure/js/views/table.js
+msgid "Week days"
+msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "What to rearrange on"
@@ -743,7 +895,7 @@ msgstr "Compilazione del bundle CSS"
 msgid "building javascripts"
 msgstr "Compilazione JavaScript"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "copying"
 msgstr "Copia in corso"
 
@@ -751,7 +903,7 @@ msgstr "Copia in corso"
 msgid "customized"
 msgstr "Personalizzato"
 
-#: ./patterns/structure/js/views/actionmenu.js
+#: ./patterns/structure/js/actions.js
 msgid "cutting"
 msgstr "Taglia in corso"
 
@@ -762,10 +914,6 @@ msgstr "giorni"
 #: ./patterns/livesearch/pattern.js
 msgid "enter search phrase"
 msgstr "Inserisci frase da cercare"
-
-#: ./patterns/relateditems/pattern.js
-msgid "entire site"
-msgstr "intero sito"
 
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "error loading resource for editing"
@@ -778,10 +926,6 @@ msgstr "Salvataggio del bundle CSS completato"
 #: ./patterns/livesearch/pattern.js
 msgid "found"
 msgstr "trovato"
-
-#: ./patterns/relateditems/pattern.js
-msgid "home"
-msgstr "home"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid "less compilation error on file "
@@ -805,7 +949,7 @@ msgstr "anteprima del tema in una nuova finestra"
 
 #: ./patterns/structure/js/views/selectionwell.js
 msgid "remove all"
-msgstr "rimuovi tuti"
+msgstr "rimuovi tutti"
 
 #: ./patterns/livesearch/pattern.js
 msgid "results"
@@ -817,15 +961,15 @@ msgstr "wizard compilazione regola"
 
 #: ./patterns/livesearch/pattern.js
 msgid "searching…"
-msgstr "ricerca in corso..."
+msgstr "ricerca in corso…"
 
 #: ./patterns/structure/templates/paging.xml
 msgid "shown"
 msgstr "mostrati"
 
 #: ./patterns/structure/js/views/app.js
-msgid "there was an error performing action"
-msgstr "Errore nell'eseuzione dell'azione"
+msgid "there was an error performing the action"
+msgstr "Errore nell'esecuzione dell'azione"
 
 #: ./patterns/querystring/pattern.js
 msgid "to"

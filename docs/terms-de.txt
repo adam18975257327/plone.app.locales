@@ -1,17 +1,14 @@
-Dies ist eine kurze Liste mit Begriffen, die innerhalb der Übersetzung
-einheitlich übersetzt werden sollten.
+Dies ist eine kurze Liste mit Begriffen, die innerhalb der Übersetzung einheitlich übersetzt werden sollten.
 
 In diesem Dokument möchten wir auch sonstige Übersetzungsrichtlinien festhalten.
 
-Ziel der Übersetzung ist keine wörtliche Übersetzung der
-Originalstrings, da diese stellenweise unglücklich gewählt sind,
-sondern die Schaffung einer möglichst verständlichen
-Benutzeroberfläche. Daher ist es wichtig, beim Übersetzen stets die
-Benutzeroberfläche von Plone selbst vor Augen zu haben und nicht
-einfach mit den Übersetzungsdateien zu arbeiten.
+Ziel der Übersetzung ist keine wörtliche Übersetzung der Originalstrings, 
+da diese stellenweise unglücklich gewählt sind, 
+sondern die Schaffung einer möglichst verständlichen Benutzeroberfläche. 
+Daher ist es wichtig, 
+beim Übersetzen stets die Benutzeroberfläche von Plone selbst vor Augen zu haben und nicht einfach mit den Übersetzungsdateien zu arbeiten.
 
-Eine gut koordinierte Übersetzungsarbeit verbessert die Qualität der
-Übersetzung und hilft dem Benutzer das System zu nutzen.
+Eine gut koordinierte Übersetzungsarbeit verbessert die Qualität der Übersetzung und hilft dem Benutzer das System zu nutzen.
 
 Language: Deutsch
 
@@ -23,31 +20,35 @@ Last update: 14.03.2010
 Wenn wichtige Begriffe fehlen, bitte ersetzen.
 
      acquire        =
-     action         =
+     action         = Aktion
      Add-on Products = Erweiterung
      advanced       = erweitert
      area           = Bereich
      authentization =
      below          =
      Browse         = Durchsuchen
+     check          =
+     checkbox       =
      click          =
      collection     = Kollektion
      comment        = Kommentar
      configuration, preference =
-     content        =
+     content        = Inhalt
      cookies        = Cookies
      criteria       = Kriterien
      criterion      = Kriterium
-     default        =
+     default        = Vorgabe, Vorgabewert
      delete         = entfernen
      description    = Zusammenfassung
      detail         =
      disable        = ausschalten
      discussion     =
-     effect         =
      e-mail (also mail) = E-Mail
+     effect         =
+     effective date = Freigabedatum
      enable         = einschalten
      entry          = Eintrag
+     expiration date = Ablaufdatum
      external       =
      favorites      =
      feed           =
@@ -56,17 +57,18 @@ Wenn wichtige Begriffe fehlen, bitte ersetzen.
      front page     = Startseite
      head over      =
      home           = Startseite
-     checkbox       =
-     check          =
      input          =
      Insufficient privileges =
      internal       =
+     item, items    = der Inhalt, die Inhalte
      line           =
+     link           = Link, nicht Verweis
      log            =
+     login name     = Login-Name
      mail           =
      Mail Host      =
-     membership     =
      member         =
+     membership     =
      metadata       =
      modify         =
      name           =
@@ -82,19 +84,19 @@ Wenn wichtige Begriffe fehlen, bitte ersetzen.
      portrait       =
      private        =
      privileges     =
-     Properties Panel =
      properties     =
+     Properties Panel =
      proxy          =
-     publishing history =
      publishing     =
+     publishing history =
      refresh        =
      reject         =
      remove         =
      reply          =
      required       =
-     retract        =
-     reviewer       =
+     retract        = zurückziehen
      review         =
+     reviewer       =
      rights         =
      save           =
      search         =
@@ -105,38 +107,42 @@ Wenn wichtige Begriffe fehlen, bitte ersetzen.
      skin           =
      sub...         =
      subfolder      =
-     subject        =
+     subject        = Schlagwort/ Schlagwörter
      submit         =
      syndication    =
+     theme          = Design
      title          =
      tool           =
      transaction    =
      transcript     =
-     undo           =
      uncheck        =
+     undo           = Rückgängig
      unique         =
      update         =
      upload         =
-     URL            =
+     URL            = URL
      validator      =
      visible        =
-     web site       =
      web            =
-     workflow       =
+     web site       = Website
+     workflow       = Arbeitsablauf
+     Root           = Basis
+
 
 2) Unwelcome terms
 
-The following is the list of words in the target language that should not appear
-in the translation. May be used as a notepad while translating, storing the
-stubs of words that should be searched and replaced at the end of work:
+The following is the list of words in the target language that should not appear in the translation. May be used as a notepad while translating, storing the stubs of words that should be searched and replaced at the end of work:
 
 ...            -> ...
 
 
-3) Misc. language specific rules
+3) Verschiedene sprachspezifische Regeln
 
-Any translation notes you want to leave for future translators.
+Die Begriffe "Freigabe" und "Veröffentlichung" werden oft gleich verstanden.
+Damit innerhalb Plone zwischen dem Arbeitsablauf (Workflow) und dem Zeitraum (Effective Range) keine Verwechslung entsteht, soll
+
+- für alles Arbeitsablauf spezifische "Veröffentlichung" bzw. Mutationen davon verwendet werden und
+- für alles Zeitraum bezogene das Wort "Freigabe" bzw. Mutationen davon verwendet werden.
 
 
 ============8<===================8<==================8<======================
-

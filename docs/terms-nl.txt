@@ -1,29 +1,32 @@
 Een overzicht van termen en concepten voor het consistent vertalen van Plone naar het Nederlands.
 
-Language: Dutch (nl)
+Language: Dutch (nl) - Nederlandsch ;-)
 
-Last maintainer: Jean-Paul Ladage e.ladage@zestsoftware.nl
+Last maintainer: Fred van Dijk & Maurits van Rees (info@zestsoftware.nl)
+Laatst bijgewerkt op: 10 juni 2016
 
-Last update: 1-april-2008
-1) Plone translation dictionary:
+1) Vaak voorkomende woorden en hun standaard vertaling:
 
        accessibility                  = toegankelijkheid (algemeen)/sneltoetsen (menu)
        acquire                        = verkrijgen
        action                         = actie
        add                            = toevoegen
-       add-on Products                = aanvullende producten
+       add-on Products                = extra producten
        advanced                       = geavanceerd
        apply                          = toepassen
        area                           = gedeelte
        attendees                      = deelnemers
        authentization                 = authenticatie
 
+       behaviors                      = Extra functies
+       behavior                       = Functie
        below                          = onder
        broken link                    = ongeldige link
        browse                         = bladeren
        browser                        = browser
 
        cancel                         = annuleren
+       cache                          = cache
        change(s)                      = wijziging(en) (zelfstandignaamwoord)
        checkbox                       = checkbox
        check                          = aanvinken
@@ -35,9 +38,11 @@ Last update: 1-april-2008
        content rules                  = content-regels
        contents                       = inhoud
        content type                   = contenttype
+       control panel                  = instellingenscherm
        cookies                        = cookies
        contributor                    = auteur
        writer                         = redacteur
+       editor                         = redacteur
        reviewer                       = eindredacteur
        reader                         = lezer
        creator                        = auteur
@@ -58,11 +63,11 @@ Last update: 1-april-2008
        edit                           = bewerken
        effect                         = effect
        effective date                 = ingangsdatum
-       e-mail (also mail)             = e-mail
+       e-mail (also mail/email)       = e-mail
        enable                         = inschakelen
        end date                       = einddatum
        entry                          = invoer
-       event                          = Agenda item
+       event                          = Agenda-item
        events (tab)                   = Agenda
        expire                         = verlopen
        expiration date                = verloopdatum
@@ -121,7 +126,7 @@ Last update: 1-april-2008
        parent                         = bovenliggend
        path                           = locatie (pad)
        permissions                    = rechten
-       pending                        = in behandeling
+       pending                        = Ingediend
        pixel                          = pixel
        please                         = alstublieft
        Plone                          = Plone
@@ -152,6 +157,7 @@ Last update: 1-april-2008
        reviewer                       = eindredacteur
        to review                      = redigeren
        rights                         = rechten
+       richtext                       = tekst met opmaak
        rotate                         = draaien
 
        save                           = opslaan
@@ -167,6 +173,7 @@ Last update: 1-april-2008
        skin                           = stijl
        smart folder                   = verzameling
        collection                     = verzameling
+       specify                        = geef aan
        start date                     = startdatum
        state                          = status
        sub...                         = sub...
@@ -177,6 +184,7 @@ Last update: 1-april-2008
        syndication                    = RSS feed
 
        template                       = sjabloon
+       theme                          = thema
        title                          = titel
        toggle                         = aan-/uitvinken
        tool                           = tool/hulpmiddel
@@ -185,6 +193,7 @@ Last update: 1-april-2008
        transactional feature          = knop ongedaan maken
        transcript                     = logboek
        transform (image)              = aanpassen
+       type                           = contenttype
 
        undo                           = ongedaan maken
        uncheck                        = uitvinken
@@ -199,13 +208,16 @@ Last update: 1-april-2008
        value                          = waarde
        view                           = bekijken (op een tabblad)
        view                           = tonen/weergeven (afh. van zinsverband)
+       view                           = view (browser view)
        visible                        = zichtbaar
+       vocabulary                     = woordenlijst
 
        web site                       = website
        web                            = internet
        window                         = venster
        workflow                       = publicatieproces
-2) Unwelcome:
+
+2) Liever niet:
 
        steekwoorden,sleutelwoorden   -> trefwoorden
        verandering                   -> wijziging
@@ -217,3 +229,14 @@ Last update: 1-april-2008
        succesvol                     -> geslaagd
        printen                       -> afdrukken
        sortering, sorteervolgorde    -> volgorde
+       bewaren                       -> opslaan
+       contenttypen                  -> contenttypes (typen is ook een werkwoord)
+       afbreken/afgebroke            -> geannuleerd
+       aanmelden                     -> inloggen
+
+3) Lastige vertalingen:
+
+* widget
+
+* checkin /checkout bij plone.app.iterate
+
