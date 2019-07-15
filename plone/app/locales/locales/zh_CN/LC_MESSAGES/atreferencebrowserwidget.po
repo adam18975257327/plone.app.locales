@@ -1,17 +1,13 @@
 # Translation of atreferencebrowserwidget.pot to Chinese
 # 潘俊勇 <panjy@zopechina.com>, 2003-2004
 # Jian Aijun <jianaijun@gmail.com>, 2011-2012.
+# Adam Tang <568066794@qq.com>, 2013-2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: ATReferenceBrowserWidget\n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2015-09-20 20:59+0000\n"
-"PO-Revision-Date: 2016-01-11 20:54+0800\n"
-=======
-"POT-Creation-Date: 2016-08-20 09:30+0000\n"
-"PO-Revision-Date: 2013-06-08 22:33+0800\n"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
-"Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
+"PO-Revision-Date: 2019-01-21 17:31+0800\n"
+"Last-Translator: Adam <yuejun.tang@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -22,7 +18,7 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: atreferencebrowserwidget\n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: archetypes/referencebrowserwidget/configure.zcml:18
 msgid "An alternate referencebrowser implementation"
@@ -107,8 +103,4 @@ msgstr "不完全搜索帮助"
 #. Default: "Full-text search is enabled: searching for 'budget' will also return elements containing 'budgetary'. If you want to search exact match, add quotation marks around the word: \"budget\"."
 #: archetypes/referencebrowserwidget/browser/view.py:281
 msgid "wild_card_search_enabled_help"
-<<<<<<< HEAD
-msgstr "使能搜索帮助"
-=======
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "全文搜索帮助"

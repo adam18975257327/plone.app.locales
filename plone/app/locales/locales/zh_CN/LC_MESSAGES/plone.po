@@ -5,23 +5,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2016-08-14 20:21+0800\n"
-=======
-"PO-Revision-Date: 2016-11-12 22:08+0800\n"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
-"Last-Translator: Jian Aijun <jianaijun@gmail.com>\n"
+"PO-Revision-Date: 2019-01-21 19:57+0800\n"
+"Last-Translator: Adam <yuejun.tang@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sf.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-<<<<<<< HEAD
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: zh_CN\n"
-=======
-"Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: zh-cn\n"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 "Language-Name: Chinese Simplified\n"
 "Preferred-Encodings: utf-8\n"
 "Domain: plone\n"
@@ -333,15 +324,11 @@ msgstr "一个可以显示选择结果的简单面板"
 
 #: plone.app.discussion/plone/app/discussion/profiles/default/workflows/comment_review_workflow/definition.xml
 msgid "A simple review workflow for comments"
-<<<<<<< HEAD
-msgstr "一个回顾条件的简单工作流"
-=======
 msgstr "简单评论审核工作流"
 
 #: CMFPlone/interfaces/controlpanel.py:1647
 msgid "A value for the quality of 2x high pixel density images, from 1 (lowest) to 95 (highest). A value of 0 will mean plone.scaling's default will be used, which is currently 62."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1658
 msgid "A value for the quality of 3x high pixel density images, from 1 (lowest) to 95 (highest). A value of 0 will mean plone.scaling's default will be used, which is currently 51."
@@ -484,11 +471,7 @@ msgstr "添加新的内容类型"
 
 #: plone.dexterity/plone/dexterity/browser/add.py:120
 msgid "Add New Item operation cancelled"
-<<<<<<< HEAD
-msgstr "添加新的取消操作"
-=======
 msgstr "添加​​新条目操作已经取消"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.portlets/plone/app/portlets/portlets/news.py:143
 msgid "Add News Portlet"
@@ -584,71 +567,39 @@ msgstr "添加用于测试的基于Dexterity的文件夹和文件类型"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:36
 msgid "Adds a table of contents"
-<<<<<<< HEAD
 msgstr "添加内容表"
-=======
-msgstr "添加目录"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:46
 msgid "Adds collection behavior"
-<<<<<<< HEAD
-msgstr "添加收集行为"
-=======
 msgstr "添加查询集行为"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:44
 msgid "Adds creator, contributor, and rights fields."
-<<<<<<< HEAD
-msgstr "添加创造者、贡献者和权利领域"
-=======
 msgstr "添加创建者，贡献者和版权字段。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:36
 msgid "Adds effective date and expiration date fields."
-<<<<<<< HEAD
 msgstr "添加有效日期和过期日期"
-=======
-msgstr "添加生效日期和失效日期字段。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:18
 msgid "Adds image and image caption fields"
-<<<<<<< HEAD
 msgstr "添加图像和图像标题"
-=======
-msgstr "添加图片和图片标题字段"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:28
 msgid "Adds keywords and language fields."
-<<<<<<< HEAD
-msgstr "添加关键字和语言"
-=======
 msgstr "添加关键字和语言字段。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:56
 msgid "Adds richtext behavior"
-<<<<<<< HEAD
-msgstr "添加文档"
-=======
 msgstr "添加富文本行为"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:56
 msgid "Adds standard metadata fields (equals Basic metadata + Categorization + Effective range + Ownership)"
-<<<<<<< HEAD
 msgstr "添加标准元数据字段(=基本元数据+分类+有效范围+所有权)"
 
 #: plone.app.openid/plone/app/openid/configure.zcml:25
 msgid "Adds support for authenticating with OpenID credentials in a Plone site"
-msgstr "为 P系统 站点添加 OpenID 身份验证支持"
-=======
-msgstr "添加标准元数据字段（等于基本元数据+分类+有效范围+所有权）"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "为站点添加 OpenID 身份验证支持"
 
 #: plone.app.z3cform/plone/app/z3cform/profiles.zcml:15
 msgid "Adds support for rendering z3c.form forms in Plone"
@@ -660,11 +611,7 @@ msgstr "添加引用的原型项目的能力"
 
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:20
 msgid "Adds title and description fields."
-<<<<<<< HEAD
-msgstr "添加标题和描述字段"
-=======
 msgstr "添加标题和描述字段。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.iterate/plone/app/iterate/configure.zcml:22
 msgid "Adds working copy support (aka. in-place staging) to Plone."
@@ -884,17 +831,6 @@ msgstr "允许评论其他用户可见。"
 
 #: Archetypes/profiles.zcml:12
 msgid "Archetypes"
-<<<<<<< HEAD
-msgstr "原型"
-
-#: plone.app.collection/plone/app/collection/configure.zcml:19
-msgid "Archetypes-based collections"
-msgstr "基于原型集合"
-
-#: plone.schemaeditor/plone/schemaeditor/browser/schema/schema_listing.pt:125
-msgid "Are you sure you want to delete this field?"
-msgstr "您确定要删除这个条目？"
-=======
 msgstr "Archetypes"
 
 #: Archetypes/profiles.zcml:19
@@ -908,7 +844,6 @@ msgstr "基于 Archetypes 的查询集"
 #: plone.schemaeditor/plone/schemaeditor/browser/schema/schema_listing.pt:125
 msgid "Are you sure you want to delete this field?"
 msgstr "确定要删除此字段？"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/actions/copy.py:34
 #: plone.app.contentrules/plone/app/contentrules/actions/move.py:36
@@ -929,31 +864,19 @@ msgstr "分配已被启用。"
 
 #: CMFPlone/interfaces/controlpanel.py:770
 msgid "AtD error types to show"
-<<<<<<< HEAD
 msgstr "AtD错误类型显示"
-=======
-msgstr "AtD 显示的错误类型"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:754
 msgid "AtD ignore strings"
-<<<<<<< HEAD
 msgstr "AtD忽略字符串"
-=======
-msgstr "AtD 忽略字符串"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:793
 msgid "AtD service URL"
-<<<<<<< HEAD
 msgstr "AtD服务URL"
-=======
-msgstr "AtD 服务 URL"
 
 #: plone.app.event/plone/app/event/dx/configure.zcml:55
 msgid "Attendees extension for Events."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1671
 msgid "Auth cookie length"
@@ -1075,15 +998,9 @@ msgstr "损坏的附加组件"
 msgid "By default, all items created at the root level will appear as tabs. You can turn this off if you prefer manually constructing this part of the navigation."
 msgstr "默认情况下,创建的所有项目在根级别将显示为选项卡。如果你喜欢手动构建的这一部分导航你可以关掉这个"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:838
 msgid "By default, any content item in the root of the portal will appear as a tab. If you turn this option off, only folders will be shown. This only has an effect if 'Automatically generate tabs' is enabled."
 msgstr "默认情况下,任何内容项的根门户将作为一个选项卡出现。如果你关闭这个选项,将显示只有文件夹。如果启用了“自动生成标签”就只有一个效果。"
-=======
-#: CMFPlone/interfaces/controlpanel.py:911
-msgid "By default, any content item in the root of the portal will appear as a tab. If you turn this option off, only folders will be shown. This only has an effect if 'automatically generate tabs' is enabled."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:24
 msgid "CSS/LESS files"
@@ -1112,8 +1029,6 @@ msgstr "缓存"
 #: plone.cachepurging/plone/cachepurging/interfaces.py:23
 msgid "Caching proxies"
 msgstr "缓存代理"
-<<<<<<< HEAD
-=======
 
 #: plone.app.event/plone/app/event/portlets/portlet_calendar.py:80
 msgid "Calendar"
@@ -1122,7 +1037,6 @@ msgstr ""
 #: plone.app.event/plone/app/event/profiles/default/portlets.xml
 msgid "Calendar portlet"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/rearrange.py:72
 msgid "Can not rearrange folder"
@@ -1170,8 +1084,6 @@ msgstr "级联规则"
 #: plone.app.dexterity/plone/app/dexterity/behaviors/configure.zcml:28
 msgid "Categorization"
 msgstr "分类"
-<<<<<<< HEAD
-=======
 
 #: CMFPlone/interfaces/controlpanel.py:1726
 msgid "Category"
@@ -1180,7 +1092,6 @@ msgstr ""
 #: CMFPlone/browser/login/templates/explainPWResetTool.pt:37
 msgid "Change"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Change Password"
 #: CMFPlone/profiles/default/controlpanel.xml
@@ -1337,41 +1248,25 @@ msgstr "评论审核工作流"
 msgid "Comment about the last transition"
 msgstr "状态转换注释"
 
-<<<<<<< HEAD
 #: plone.app.discussion/plone/app/discussion/contentrules.zcml:11
 msgid "Comment added"
 msgstr "添加评论"
 
-#: plone.app.discussion/plone/app/discussion/browser/moderation.py:182
-=======
 #: plone.app.discussion/plone/app/discussion/browser/moderation.py:192
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Comment approved."
 msgstr "评论已批准。"
 
 #: plone.app.discussion/plone/app/discussion/contentrules.py:102
 msgid "Comment author email"
-<<<<<<< HEAD
 msgstr "评论作者邮件"
-=======
-msgstr "评论者 Email"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.discussion/plone/app/discussion/contentrules.py:90
 msgid "Comment author full name"
-<<<<<<< HEAD
 msgstr "评论作者全名"
-=======
-msgstr "评论者全名"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.discussion/plone/app/discussion/contentrules.py:78
 msgid "Comment author user name"
-<<<<<<< HEAD
-msgstr "评论作者用户姓名"
-=======
 msgstr "评论者用户名"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.discussion/plone/app/discussion/browser/moderation.py:108
 msgid "Comment deleted."
@@ -1379,7 +1274,6 @@ msgstr "评论已删除。"
 
 #: plone.app.discussion/plone/app/discussion/contentrules.py:54
 msgid "Comment id"
-<<<<<<< HEAD
 msgstr "评论id"
 
 #: plone.app.discussion/plone/app/discussion/contentrules.zcml:17
@@ -1394,12 +1288,7 @@ msgstr "评论回复添加"
 msgid "Comment reply removed"
 msgstr "评论回复移除"
 
-#: plone.app.discussion/plone/app/discussion/contentrules.py:62
-=======
-msgstr "评论 ID"
-
 #: plone.app.discussion/plone/app/discussion/contentrules.py:66
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Comment text"
 msgstr "评论文本"
 
@@ -1482,11 +1371,7 @@ msgstr "配置规则"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:23
 msgid "Configure, enable, disable, debug and build Plone JavaScript/LESS/CSS resources. Plone utilizes RequireJS and LESS CSS to build its resources. Re-building a Plone bundle TTW requires a modern web browser."
-<<<<<<< HEAD
-msgstr "配置、启用、禁用调试和构建P系统 JavaScript / LESS/CSS资源。P系统利用RequireJS和CSS来构建其资源。重建一个P系统 TTW需要现代web浏览器）。"
-=======
 msgstr "配置，启用，禁用，调试和构建Plone JavaScript / LESS / CSS资源。 Plone使用RequireJS和LESS CSS来构建其资源。 通过Web重新构建Plone软件包需要一个现代网络浏览器。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/configure.zcml:27
 msgid "Configures various components needed for full Dexterity support."
@@ -1527,16 +1412,10 @@ msgstr "包含"
 
 #: CMFPlone/interfaces/controlpanel.py:818
 msgid "Contains objects"
-<<<<<<< HEAD
 msgstr "包含对象"
-
-#: CMFPlone/PloneControlPanel.py:68 CMFPlone/browser/templates/author.pt:201
-=======
-msgstr "容器对象"
 
 #: CMFPlone/PloneControlPanel.py:71
 #: CMFPlone/browser/templates/author.pt:201
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Content"
 msgstr "内容"
 
@@ -1676,11 +1555,7 @@ msgstr "无法找到一个有效的 Email 地址。"
 
 #: plone.app.content/plone/app/content/browser/contents/workflow.py:91
 msgid "Could not transition: ${title}"
-<<<<<<< HEAD
 msgstr "无法传递${title}"
-=======
-msgstr "无法转换: ${title}。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:726
 msgid "Could not uninstall ${product}."
@@ -1720,27 +1595,15 @@ msgstr "创建者"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:200
 msgid "Creator E-Mail"
-<<<<<<< HEAD
 msgstr "创建者邮箱"
-=======
-msgstr "创建者 Email"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:178
 msgid "Creator Full Name"
-<<<<<<< HEAD
 msgstr "创建者全名"
-=======
-msgstr "创建者命名"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:166
 msgid "Creator Id"
-<<<<<<< HEAD
 msgstr "创建者ID"
-=======
-msgstr "创建者 Id"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:230
 msgid "Creators E-Mails"
@@ -1883,15 +1746,9 @@ msgstr "默认语言不是可用的语言"
 msgid "Default output MIME type"
 msgstr "默认输出MIME类型"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1165
 msgid "Default page ids"
 msgstr "默认页面id"
-=======
-#: CMFPlone/interfaces/controlpanel.py:1312
-msgid "Default page IDs"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/defaultpage.py:7
 msgid "Default page set successfully"
@@ -1955,10 +1812,7 @@ msgstr ""
 
 #: plone.app.content/plone/app/content/browser/contents/delete.py:35
 msgid "Delete selected items"
-<<<<<<< HEAD
 msgstr "删除选定的项目"
-=======
-msgstr "删除选中的条目"
 
 #: plone.app.caching/plone/app/caching/browser/edit.py:270
 msgid "Delete settings (use defaults)"
@@ -1967,7 +1821,6 @@ msgstr "删除设置（使用默认值）"
 #: CMFPlone/controlpanel/browser/actions.pt:49
 msgid "Delete the action?"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml:147
 msgid "Delete the triggering item"
@@ -1981,13 +1834,6 @@ msgstr "依赖"
 msgid "Dependencies for shim"
 msgstr "依赖垫片"
 
-<<<<<<< HEAD
-#: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:38
-msgid "Depending of the number of archetypes in your portal, it may take a <span class=\"strong\">really</span> long time for the migration to be done. Stay calm and be patient."
-msgstr "不同数量的原型在门户中,可能需要一个<span class=\"strong\">really</span>长时间迁移完成。请保持冷静和耐心。"
-
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:44
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:38
 msgid "Depending of the number of archetypes in your portal, it may take a <strong>really</strong> long time for the migration to be done. Stay calm, be patient and check your logs for progress-information."
@@ -2025,19 +1871,11 @@ msgstr "确定您的站点是否为大型或小型站点优化。当拥有大量
 
 #: CMFPlone/interfaces/resources.py:107
 msgid "Develop CSS"
-<<<<<<< HEAD
-msgstr "发展CSS"
-=======
 msgstr "开发 CSS"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:103
 msgid "Develop JavaScript"
-<<<<<<< HEAD
-msgstr "发展 JavaScript"
-=======
 msgstr "开发 JavaScript"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/browser/types.py:242
 #: plone.app.dexterity/plone/app/dexterity/configure.zcml:27
@@ -2061,11 +1899,10 @@ msgstr ""
 msgid "Disable globally"
 msgstr "全局禁用"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:320
 msgid "Disable html filtering"
 msgstr "禁用html过滤"
-=======
+
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:101
 msgid "Disable reindexing objects during migration"
 msgstr ""
@@ -2073,7 +1910,6 @@ msgstr ""
 #: plone.app.contenttypes/plone/app/contenttypes/migration/browser.py:320
 msgid "Disable reindexing objects during migration?"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.discussion/plone/app/discussion/vocabularies.py:44
 msgid "Disabled"
@@ -2099,12 +1935,6 @@ msgid "Discussion Item"
 msgstr "评论项"
 
 #. Default: "Discussion Items are documents which reply to other content.They should *not* be addable through the standard 'folder_factories' interface."
-<<<<<<< HEAD
-#: CMFPlone/profiles/default/types/Discussion_Item.xml portal type description
-#: of with title Discussion Item
-=======
-#: portal type description of type with title Discussion Item
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Discussion Items are documents which reply to other content.They should *not* be addable through the standard 'folder_factories' interface."
 msgstr "评论项是对其他内容回复的文档，不可通过标准的 'folder_factories' 接口添加。"
 
@@ -2122,11 +1952,7 @@ msgstr "显示内容类型"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:119
 msgid "Do not migrate"
-<<<<<<< HEAD
 msgstr "禁止迁移"
-=======
-msgstr "不迁移"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:59
 msgid "Do not send the email to the user that did the action."
@@ -2366,11 +2192,7 @@ msgstr "编辑拒绝提交的内容"
 
 #: CMFPlone/interfaces/controlpanel.py:490
 msgid "Editor width"
-<<<<<<< HEAD
-msgstr "编辑者宽度"
-=======
 msgstr "编辑器宽度"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:543
 msgid "Editors E-Mails"
@@ -2393,15 +2215,11 @@ msgstr "Email"
 msgid "Email address not known."
 msgstr "Email 地址未知。"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1347
 msgid "Email characterset"
 msgstr "邮件特性设置"
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:42
-=======
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:50
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Email recipients"
 msgstr "收件人"
 
@@ -2456,19 +2274,11 @@ msgstr "此类型的所有条目, 启用 上一条目/下一条目 导航"
 
 #: plone.cachepurging/plone/cachepurging/interfaces.py:17
 msgid "Enable purging"
-<<<<<<< HEAD
-msgstr "启用净化"
-=======
 msgstr "启用清除"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:474
 msgid "Enable resizing the editor window."
-<<<<<<< HEAD
-msgstr "使调整编辑器窗口。"
-=======
 msgstr "启用调整编辑器窗口大小。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1083
 msgid "Enable self-registration"
@@ -2489,19 +2299,13 @@ msgstr "默认启用"
 msgid "Enables the LiveSearch feature, which shows live results if the browser supports JavaScript."
 msgstr "启用即时搜索功能，如果浏览器支持 JavaScript，将即时显示动态结果。"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:508
 msgid "Enter a JSON-formatted style format configuration. A format is for example the style that get applied when you press the bold button inside the editor. See http://www.tinymce.com/wiki.php/Configuration:formats"
 msgstr "输入一个json格式的样式格式配置。格式例如得到应用的风格,当你按下的按钮在编辑器。见http://www.tinymce.com/wiki.php/Configuration:格式"
-=======
+
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:204
 msgid "End Date"
 msgstr "结束日期"
-
-#: CMFPlone/interfaces/controlpanel.py:584
-msgid "Enter a JSON-formatted style format configuration. A format is for example the style that get applied when you press the bold button inside the editor. See https://www.tinymce.com/docs/configure/content-formatting/#formats"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:831
 msgid "Enter a list of content types which can be used as images. Format is one contenttype per line."
@@ -2509,25 +2313,14 @@ msgstr "输入的内容类型的列表可以作为图像。格式是每行一个
 
 #: CMFPlone/interfaces/controlpanel.py:819
 msgid "Enter a list of content types which can contain other objects. Format is one contenttype per line."
-<<<<<<< HEAD
-msgstr "输入的内容类型的列表可以包含其他对象。格式是每行一个contenttype。"
-=======
 msgstr "输入可以包含其他对象的内容类型列表。格式是每行一个内容类型。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:725
 msgid "Enter a list of custom buttons which will be added to toolbar"
-<<<<<<< HEAD
 msgstr "输入一个列表将被添加到工具栏的自定义按钮"
-=======
-msgstr "输入可以用作图像的内容类型列表。格式是每行一个内容类型。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:715
 msgid "Enter a list of custom plugins which will be loaded in the editor. Format is pluginname|location, one per line."
-<<<<<<< HEAD
-msgstr "输入自定义插件的列表将在编辑器中加载。格式是pluginname |位置,每行一个。"
-=======
 msgstr "输入要在编辑器中加载的自定义插件列表。格式是 插件名称|位置，每行一个。"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/thumb_icon.py:29
@@ -2535,7 +2328,6 @@ msgstr "输入要在编辑器中加载的自定义插件列表。格式是 插�
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:117
 msgid "Enter a valid scale name (see 'Image Handling' control panel) to override (e.g. icon, tile, thumb, mini, preview, ... ). Leave empty to use default (see 'Site' control panel)."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.schemaeditor/plone/schemaeditor/schema.py:94
 msgid "Enter allowed choices one per line."
@@ -2587,19 +2379,11 @@ msgstr "从内容规则发送电子邮件时出错。发送邮件操作必须提
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:717
 msgid "Error uninstalling ${product}."
-<<<<<<< HEAD
 msgstr "错误卸载${product}。"
-=======
-msgstr "卸载 ${product} 时发生错误。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:669
 msgid "Error upgrading ${product}."
-<<<<<<< HEAD
-msgstr "错误升级${product}。"
-=======
 msgstr "升级 ${product} 时发生错误。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:56
 msgid "Error: The file submitted must be a zip archive containing only type profile information."
@@ -2673,14 +2457,9 @@ msgstr "事件可在日历中显示。"
 msgid "Example content"
 msgstr "样例内容"
 
-<<<<<<< HEAD
-msgid "Excel spreadsheet"
-msgstr "Excel电子表格"
-=======
 #: plone.formwidget.recurrence/plone/formwidget/recurrence/tests/at_example/configure.zcml:14
 msgid "Example content type for Recurrence Widget"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 msgid "Excel spreadsheet"
 msgstr "Excel 电子表格"
@@ -2699,11 +2478,7 @@ msgstr "排除当前上下文"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:205
 msgid "Excluded from navigation"
-<<<<<<< HEAD
-msgstr "从导航排除"
-=======
 msgstr "从导航中排除"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:43
 msgid "Execute transition ${transition}"
@@ -2728,7 +2503,7 @@ msgstr "导出类型配置文件"
 
 #: CMFPlone/interfaces/resources.py:39
 msgid "Export vars for shim"
-msgstr "出口var垫片"
+msgstr "Export vars for shim"
 
 #: CMFPlone/interfaces/controlpanel.py:1159
 msgid "Expose Dublin Core metadata"
@@ -2789,23 +2564,13 @@ msgstr "外部url注销"
 msgid "Externally visible"
 msgstr "外部可见"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1430
 msgid "Facebook app id"
 msgstr "Facebook应用程序id"
-=======
-#: CMFPlone/interfaces/controlpanel.py:1590
-msgid "Facebook App ID"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1597
 msgid "Facebook username"
-<<<<<<< HEAD
-msgstr "Facebook的用户名"
-=======
 msgstr "Facebook 用户名"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/copy.py:32
 msgid "Failed to copy items"
@@ -2888,13 +2653,10 @@ msgstr "文件扩展名"
 #: plone.namedfile/plone/namedfile/editor.py:40
 msgid "File Upload"
 msgstr "文件上传"
-<<<<<<< HEAD
-=======
 
 #: plone.app.caching/plone/app/caching/caching.zcml:45
 msgid "File and image resources"
 msgstr "文件和图片资源"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/fileextension.py:29
 msgid "File extension"
@@ -2963,29 +2725,25 @@ msgstr "文件夹 URL"
 msgid "Folder-like"
 msgstr "类文件夹"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1117
 msgid "For authenticated users only"
 msgstr "只有通过身份验证的用户"
-=======
+
 #: plone.app.linkintegrity/plone/app/linkintegrity/browser/info.py:196
 msgid "Folders"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1204
 msgid "For authenticated users only"
 msgstr "仅适用于经过身份验证的用户"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1438
 msgid "For linking open graph data to a facebook account"
-msgstr "开放图形数据与facebook账户"
-=======
+msgstr "开放图形数据到一个facebook账户"
+
 #: CMFPlone/interfaces/controlpanel.py:1180
 msgid "For enabling web statistics support from external providers (e.g. Google Analytics). Paste the provided code snippet here. It will be rendered as entered near the end of the page."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1598
 msgid "For linking Open Graph data to a Facebook account"
@@ -3014,12 +2772,8 @@ msgid "GIMP image"
 msgstr "GIMP图像"
 
 #. Default: "General"
-<<<<<<< HEAD
-#: CMFPlone/PloneControlPanel.py:67 CMFPlone/interfaces/controlpanel.py:131
-=======
 #: CMFPlone/PloneControlPanel.py:70
 #: CMFPlone/interfaces/controlpanel.py:161
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "General"
 msgstr "常规"
 
@@ -3166,15 +2920,13 @@ msgstr "时"
 msgid "How many items to list."
 msgstr "列出的条目数。"
 
-<<<<<<< HEAD
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:164
 msgid "ID"
 msgstr "ID"
-=======
+
 #: plone/app/multilingual/browser/templates/not_translated_yet.pt:28
 msgid "However, this is the list of the already translated languages for the requested content."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:208
 msgid "ID"
@@ -3182,11 +2934,7 @@ msgstr "ID"
 
 #: CMFPlone/interfaces/controlpanel.py:1197
 msgid "Icon visibility"
-<<<<<<< HEAD
 msgstr "图标的可见性"
-=======
-msgstr "显示图标"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1790
 #: plone.stringinterp/plone/stringinterp/adapters.py:608
@@ -3282,13 +3030,8 @@ msgid "If syndication should be enabled by default for all folders and collectio
 msgstr "默认情况下，在所有文件夹和查询集上启用联合供稿。"
 
 #: CMFPlone/controlpanel/browser/resourceregistry.pt:35
-<<<<<<< HEAD
 msgid "If you see this, it is because there was an error rendering the resource registry configuration. It's possible you saved a bundle that gives a JavaScript error and it is prevening the resource registry from loading."
 msgstr "如果你看到这个,是因为有一个资源注册的配置错误。有可能你保存了一个文件包,让一个JavaScript错误并阻止加载的资源注册表。"
-=======
-msgid "If you see this, it is because there was an error rendering the resource registry configuration. It's possible you saved a bundle that gives a JavaScript error and it is preventing the resource registry from loading."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "If you submitted the item by mistake or want to perform additional edits, this will take it back."
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
@@ -3314,9 +3057,6 @@ msgstr "图片处理设置"
 
 #: CMFPlone/interfaces/controlpanel.py:830
 msgid "Image objects"
-<<<<<<< HEAD
-msgstr "目标图像"
-=======
 msgstr "图片对象"
 
 #: CMFPlone/interfaces/controlpanel.py:1646
@@ -3326,7 +3066,6 @@ msgstr ""
 #: CMFPlone/interfaces/controlpanel.py:1657
 msgid "Image quality at 3x"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/profiles/default/types/Image.xml
 msgid "Images can be referenced in pages or displayed in an album."
@@ -3352,33 +3091,24 @@ msgstr "导入完成。"
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:36
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:31
 msgid "Important"
-<<<<<<< HEAD
-msgstr "重要性"
-=======
 msgstr "重要"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:124
 msgid "Imported successfully."
-<<<<<<< HEAD
 msgstr "导入成功"
 
 #: CMFPlone/interfaces/resources.py:62
 msgid "In case its a bundle we can have a condition to render it"
 msgstr "如果它是一个文件包，我们可以通过一定的条件租借"
-=======
-msgstr "已导入成功。"
 
 #: CMFPlone/interfaces/resources.py:65
 msgid "In case its a bundle we can have a condition to render it (it does not apply if the bundle is merged)."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:98
 msgid "In case you want to be the last: *, in case its the first should be empty"
 msgstr "如果你想是最后一个，第一个应该是空的"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/resources.py:68
 msgid "In case you want to render this resource on conditional comment"
 msgstr "如果你在原始状态下想租借这个资源"
@@ -3386,7 +3116,7 @@ msgstr "如果你在原始状态下想租借这个资源"
 #: CMFPlone/interfaces/controlpanel.py:1418
 msgid "Include meta tags on pages to give hints to social media on how to render your pages better when shared"
 msgstr "包括meta标签页给提示社会媒体如何呈现页面时更好的共享"
-=======
+
 #: plone/app/multilingual/browser/templates/controlpanel.pt:39
 msgid "In case you want to migrate from Products.LinguaPlone access to the ${url}"
 msgstr ""
@@ -3394,7 +3124,6 @@ msgstr ""
 #: CMFPlone/interfaces/resources.py:72
 msgid "In case you want to render this resource on conditional comment (it does not apply if the bundle is merged)."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:121
 msgid "In production mode, bundles are merged together to reduce the quantity of JS and CSS resources loaded by the browser. Choose 'default' if this bundle must be available for all the visitors, choose 'logged-in' if it must be available for logged-in users only, or leave it empty if it must not be merged."
@@ -3456,15 +3185,13 @@ msgstr "安装"
 msgid "Install dexterity and proceed to the migration-form?"
 msgstr "安装灵活性和继续migration-form吗?"
 
-<<<<<<< HEAD
 #: CMFPlone/controlpanel/browser/quickinstaller.py:214
 msgid "Installed ${product}!"
-msgstr "安装${product}!"
-=======
+msgstr "已安装${product}!"
+
 #: plone/app/multilingual/configure.zcml:149
 msgid "Install to enable multilingual content support with plone.app.multilingual"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:691
 msgid "Installed ${product}!"
@@ -3472,11 +3199,7 @@ msgstr "${product} 已安装完成！"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:35
 msgid "Installing a third party add-on"
-<<<<<<< HEAD
 msgstr "安装一个第三方插件"
-=======
-msgstr "安装第三方附加组件"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone/app/theming/configure.zcml:32
 msgid "Installs a control panel to allow on-the-fly theming with Diazo"
@@ -3519,23 +3242,15 @@ msgstr "无效的 URL: ${url}"
 #: CMFPlone/RegistrationTool.py:503
 #: plone.app.discussion/plone/app/discussion/interfaces.py:19
 msgid "Invalid email address."
-<<<<<<< HEAD
 msgstr "无效的邮件地址"
-=======
-msgstr "无效的 Email 地址。"
 
 #: plone/app/multilingual/browser/translate.py:70
 msgid "Invalid field"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.namedfile/plone/namedfile/field.py:26
 msgid "Invalid image file"
-<<<<<<< HEAD
 msgstr "无效的图像文件"
-=======
-msgstr "无效的图片文件"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone/app/theming/browser/theme-error.pt:11
 msgid "Invalid rules"
@@ -3554,15 +3269,13 @@ msgstr "在"
 msgid "Is within (relative)"
 msgstr "在(相对)"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1133
 msgid "It can be in the side vertical mode or in the top horizontal mode"
-msgstr "它可以在垂直模式或顶部水平模式"
-=======
+msgstr "它可以在旁边垂直模式或顶部水平模式"
+
 #: CMFPlone/interfaces/controlpanel.py:1280
 msgid "It can be on the side (vertical mode) or on the top (horizontal mode)"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "它可以在旁边垂直模式或顶部水平模式"
 
 #: CMFPlone/interfaces/resources.py:85
 msgid "It's enabled?"
@@ -3659,11 +3372,7 @@ msgstr "大于"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:210
 msgid "Last comment date"
-<<<<<<< HEAD
 msgstr "最后评论日期"
-=======
-msgstr "最后备注日期"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:59
 msgid "Last compiled date"
@@ -3671,11 +3380,7 @@ msgstr "最后编译日期"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:212
 msgid "Last modified"
-<<<<<<< HEAD
-msgstr "最后修改"
-=======
 msgstr "最后修改日期"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/browser/templates/plone-upgrade.pt:113
 msgid "Latest available configuration"
@@ -3683,15 +3388,11 @@ msgstr "最近可用配置"
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/configure.zcml:18
 msgid "Lead Image"
-<<<<<<< HEAD
-msgstr "领导图像"
+msgstr "首图"
 
 #: CMFPlone/browser/templates/hero.pt:13
 msgid "Learn more about Plone"
-msgstr "学习更多的有关P系统的知识"
-=======
-msgstr "首图"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "学习更多的有关Plone系统的知识"
 
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 #: plone.app.querystring/plone/app/querystring/profiles/upgrades/to_6/registry.xml
@@ -3760,11 +3461,7 @@ msgstr "本地角色"
 
 #: plone.protect/plone/protect/configure.zcml:30
 msgid "Local configuration for plone.protect"
-<<<<<<< HEAD
 msgstr "本地配置plone.protect"
-=======
-msgstr "plone.protect 本地配置"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Location"
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:211
@@ -3894,12 +3591,7 @@ msgstr "邮件"
 msgid "Mail Settings"
 msgstr "邮件设置"
 
-<<<<<<< HEAD
 #: CMFPlone/browser/author.py:129 CMFPlone/browser/sendto.py:103
-=======
-#: CMFPlone/browser/author.py:130
-#: CMFPlone/browser/sendto.py:106
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Mail sent."
 msgstr "邮件已经发送。"
 
@@ -4120,11 +3812,7 @@ msgstr "迁移"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:23
 msgid "Migrate Archetypes content types to respective Dexterity content types."
-<<<<<<< HEAD
-msgstr "将原型内容类型迁移到Dexterity内容类型"
-=======
 msgstr "迁移 Archetypes 内容类型到对应的 Dexterity 内容类型。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:64
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:93
@@ -4350,11 +4038,7 @@ msgstr ""
 #. Default: "Negotiation scheme"
 #: CMFPlone/interfaces/controlpanel.py:233
 msgid "Negotiation scheme"
-<<<<<<< HEAD
-msgstr "导航方案"
-=======
 msgstr "协商方案"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1201
 msgid "Never"
@@ -4459,11 +4143,10 @@ msgstr "在此集合中没有找到图片。"
 msgid "No mailhost defined. Unable to reset passwords."
 msgstr "没有定义邮件主机。无法重置密码。"
 
-<<<<<<< HEAD
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:41
 msgid "No upgrades in this corner"
-msgstr "未升级"
-=======
+msgstr "没有升级可用"
+
 #: CMFPlone/interfaces/controlpanel.py:1228
 msgid "No thumbs in list views"
 msgstr ""
@@ -4475,11 +4158,6 @@ msgstr ""
 #: CMFPlone/interfaces/controlpanel.py:1242
 msgid "No thumbs in table views"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
-
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:47
-msgid "No upgrades in this corner"
-msgstr "没有升级可用"
 
 #: CMFPlone/controlpanel/browser/types.py:537
 msgid "No workflow"
@@ -4577,15 +4255,7 @@ msgstr "省略面板边框"
 msgid "One image field maximum."
 msgstr "一个图像字段最大值。"
 
-<<<<<<< HEAD
-#: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:77
-msgid "One or more types in the import archive is an existing type. Delete \"%s\" if you really wish to replace it.name"
-msgstr "一个或多个类型导入归档是一个现有的类型。如果你真的希望取代it.name请删除“% s”"
-
-#: CMFPlone/interfaces/controlpanel.py:1517
-=======
 #: CMFPlone/interfaces/controlpanel.py:1711
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Open external links in new a window"
 msgstr "在新窗口打开外部链接"
 
@@ -4875,7 +4545,6 @@ msgstr ""
 msgid "Please use only letters, numbers and the following characters: _."
 msgstr "只能使用字母、数字、下划线和点"
 
-<<<<<<< HEAD
 #: plone.app.dexterity/plone/app/dexterity/interfaces.py:29
 msgid "Please use only letters, numbers, and the following characters: .-_"
 msgstr "请使用字母、数字和下列字符：.-_"
@@ -4884,8 +4553,6 @@ msgstr "请使用字母、数字和下列字符：.-_"
 msgid "Plone"
 msgstr "P系统"
 
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 # Control Panel Header
 #. Default: "Plone Configuration"
 #: CMFPlone/PloneControlPanel.py:75
@@ -4896,7 +4563,6 @@ msgstr "P系统 配置"
 msgid "Plone Discussions"
 msgstr "P系统讨论"
 
-<<<<<<< HEAD
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:889
 msgid "Plone Footerportlets"
 msgstr "P系统页脚"
@@ -4917,28 +4583,6 @@ msgstr "P系统 站点"
 #: CMFPlone/profiles.zcml:30
 msgid "Plone Test Fixture"
 msgstr "P系统测试夹具"
-=======
-#. Default: "Plone Site"
-#: CMFPlone/profiles.zcml:13
-msgid "Plone Site"
-msgstr "Plone 站点"
-
-#: CMFPlone/profiles.zcml:31
-msgid "Plone Test Fixture"
-msgstr ""
-
-#: CMFPlone/controlpanel/tests/test_upgrades1.zcml:12
-msgid "Plone Test Fixture 1"
-msgstr ""
-
-#: CMFPlone/controlpanel/tests/test_upgrades2.zcml:12
-msgid "Plone Test Fixture 2"
-msgstr ""
-
-#: plone.app.widgets/plone/app/widgets/configure.zcml:32
-msgid "Plone Widgets"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1483
 msgid "Plone generates e-mail using this address as the e-mail return address. It is also used as the destination address for the site-wide contact form and the 'Send test e-mail' feature."
@@ -5001,15 +4645,11 @@ msgstr "面板头部"
 msgid "Position in Parent"
 msgstr "在上层容器的位置"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1132
 msgid "Position where the toolbar is displayed"
 msgstr "显示工具栏位置"
 
 #: plone.schemaeditor/plone/schemaeditor/schema.py:92
-=======
-#: plone.schemaeditor/plone/schemaeditor/schema.py:93
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Possible values"
 msgstr "可选值"
 
@@ -5240,19 +4880,9 @@ msgstr "最初的MIME类型的原始值"
 msgid "Reader"
 msgstr "读者"
 
-<<<<<<< HEAD
 #: plone.stringinterp/plone/stringinterp/adapters.py:484
 msgid "Readers E-Nails"
 msgstr "读者邮件"
-=======
-#: plone.stringinterp/plone/stringinterp/adapters.py:525
-msgid "Readers E-Mails"
-msgstr ""
-
-#: plone.app.contenttypes/plone/app/contenttypes/migration/browser.py:313
-msgid "Rebuild the catalog after the migration."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/profiles/dependencies/portlets.xml
 #: plone.app.portlets/plone/app/portlets/portlets/recent.py:72
@@ -5392,11 +5022,7 @@ msgstr "资源类型"
 
 #: CMFPlone/resources/viewlets/settings.py:15
 msgid "Resource bundles for themes"
-<<<<<<< HEAD
 msgstr "主题资源组"
-=======
-msgstr "主题资源包"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/resources.py:81
 msgid "Resource name"
@@ -5404,11 +5030,7 @@ msgstr "资源名称"
 
 #: CMFPlone/interfaces/resources.py:16
 msgid "Resources base URL"
-<<<<<<< HEAD
-msgstr "资源的基于URL"
-=======
 msgstr "资源基 URL"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Restart"
 #: CMFPlone/controlpanel/browser/maintenance.pt:71
@@ -5442,11 +5064,7 @@ msgstr "反向排序顺序的选项卡。"
 
 #: plone.app.layout/plone/app/layout/viewlets/content_history.pt:17
 msgid "Revert"
-<<<<<<< HEAD
 msgstr "恢复"
-=======
-msgstr "回退"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.iterate/plone/app/iterate/profiles/test/workflows/workingcopy_workflow/definition.xml
 msgid "Revert to draft."
@@ -5475,11 +5093,7 @@ msgstr "审核者"
 
 #: plone.app.discussion/plone/app/discussion/profiles/default/workflows/comment_review_workflow/definition.xml
 msgid "Reviewer approves content"
-<<<<<<< HEAD
-msgstr "审核者批准"
-=======
 msgstr "审核者批准内容"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Reviewer makes content available externally"
 #: CMFPlone/profiles/default/workflows/intranet_workflow/definition.xml
@@ -5621,12 +5235,7 @@ msgid "Searchable text"
 msgstr "可搜索文本"
 
 #. Default: "Security"
-<<<<<<< HEAD
 #: CMFPlone/PloneControlPanel.py:70 CMFPlone/profiles/default/controlpanel.xml
-=======
-#: CMFPlone/PloneControlPanel.py:73
-#: CMFPlone/profiles/default/controlpanel.xml
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Security"
 msgstr "安全"
 
@@ -5698,14 +5307,6 @@ msgstr "选择 显示菜单选择 '表格视图' 时 要显示的字段。"
 msgid "Select which formats are available for users as alternative to the default format. Note that if new formats are installed, they will be enabled for text fields by default unless explicitly turned off here or by the relevant installer."
 msgstr "选择哪些格式可作为用户选择的默认格式。注意，如果安装了新的格式，他们对于文本字段默认是被启用的，除非在这里或通过相应的安装程序屏蔽。"
 
-<<<<<<< HEAD
-#. Default: "a container."
-#: CMFPlone/interfaces/controlpanel.py:1166
-msgid "Select which ids can act as fallback default pages for"
-msgstr "选择可以作为后备默认页面的IDS"
-
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 #: plone.app.querystring/plone/app/querystring/profiles/upgrades/to_3/registry.xml
 msgid "Select which roles have the permission to view inactive objects"
@@ -5877,7 +5478,6 @@ msgstr "显示更多链接..."
 msgid "Show settings button"
 msgstr "显示设置标签"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1104
 msgid "Show the date a content item was published in the byline."
 msgstr "显示条目发表的日期"
@@ -5885,7 +5485,7 @@ msgstr "显示条目发表的日期"
 #: CMFPlone/interfaces/controlpanel.py:1122
 msgid "Show thumbs in listings"
 msgstr "显示清单上的文件"
-=======
+
 #: CMFPlone/interfaces/controlpanel.py:1209
 msgid "Show thumbnail images in listings"
 msgstr ""
@@ -5893,7 +5493,6 @@ msgstr ""
 #: plone/app/multilingual/interfaces.py:173
 msgid "Show user dialog with information about the available translations."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/skins/plone_prefs/prefs_error_log_update.py:14
 msgid "Showing all entries"
@@ -5919,18 +5518,12 @@ msgid "Simple Publication Workflow"
 msgstr "简单发布工作流"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:39
-<<<<<<< HEAD
 msgid "Since LinguaPlone does not support Dexterity you need to migrate from LinguaPlone to ${multilingual}. The migration from Products.LinguaPlone to plone.app.multilingual should happen before the migration from Archetypes to plone.app.contenttypes. For details on the migration see the ${documentation}"
 msgstr "由于LP系统不支持Dexterity，您需要将产品从LP系统迁移至${multilingual}，LP系统 plone.app。多语言迁移应该发生在从原型到plone.app.contenttypes之前，更多关于迁移的细节请查看${documentation}"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:36
 msgid "Since LinguaPlone does not support Dexterity you need to migrate from LinguaPlone to ${pam}. The migration from Products.LinguaPlone to plone.app.multilingual should happen before the migration from Archetypes to plone.app.contenttypes. For details on the migration see the ${documentation}"
 msgstr "由于LP系统不支持Dexterity，您需要将LP系统移动至${pam}，从产品迁移，LP系统 plone.app。多语言迁移应该发生在从原型plone.app.contenttypes之前。"
-=======
-#: plone.app.contenttypes/plone/app/contenttypes/migration/custom_migration.pt:36
-msgid "Since LinguaPlone does not support Dexterity you need to migrate from LinguaPlone to ${multilingual}. The migration from Products.LinguaPlone to plone.app.multilingual should happen before the migration from Archetypes to plone.app.contenttypes. For details on the migration see the ${documentation}"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:77
 msgid "Since you effectively have Products.LinguaPlone installed in your portal, you're not allowed to continue this migration."
@@ -5983,15 +5576,11 @@ msgstr "网站设置"
 msgid "Site Setup"
 msgstr "网站设置"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1143
 msgid "Site based relative url for toolbar logo"
 msgstr "基于相对url的站点工具栏标志"
 
-#: CMFPlone/interfaces/controlpanel.py:1061
-=======
 #: CMFPlone/interfaces/controlpanel.py:1146
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Site title"
 msgstr "站点标题"
 
@@ -6074,23 +5663,15 @@ msgstr "指定显示的最大条目数。"
 
 #: CMFPlone/controlpanel/browser/tinymce.py:21
 msgid "Spell Checker"
-<<<<<<< HEAD
 msgstr "拼写检查"
-=======
-msgstr "拼写检查器"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:740
 msgid "Spellchecker plugin to use"
-<<<<<<< HEAD
-msgstr "使用检查插件"
-=======
 msgstr "要使用的拼写检查器插件"
 
 #: plone.app.caching/plone/app/caching/caching.zcml:51
 msgid "Stable file and image resources"
 msgstr "稳定的文件和图片资源"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Standard view"
 #: plone.app.collection/plone/app/collection/browser/configure.zcml:58
@@ -6135,11 +5716,7 @@ msgstr "高级缓存"
 
 #: CMFPlone/interfaces/resources.py:111
 msgid "Stub JavaScript modules"
-<<<<<<< HEAD
-msgstr "存根JavaScript模块"
-=======
 msgstr "存根（stub）JavaScript 模块"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/actions/mail.py:37
 #: plone.stringinterp/plone/stringinterp/adapters.py:282
@@ -6185,76 +5762,40 @@ msgstr "成功！ 请检查您邮箱中的测试消息。"
 
 #: plone.app.content/plone/app/content/browser/contents/copy.py:31
 msgid "Successfully copied items"
-<<<<<<< HEAD
-msgstr "成功复制条目"
-=======
 msgstr "条目复制成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/cut.py:31
 msgid "Successfully cut items"
-<<<<<<< HEAD
-msgstr "成功削减条目"
-=======
 msgstr "条目剪切成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Successfully deleted items"
 #: plone.app.content/plone/app/content/browser/contents/delete.py:47
 msgid "Successfully delete items"
-<<<<<<< HEAD
-msgstr "成功删除条目"
-
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:40
-msgid "Successfully modified items"
-msgstr "成功修改条目"
-=======
 msgstr "条目删除成功"
 
 #: plone.app.content/plone/app/content/browser/contents/workflow.py:40
 msgid "Successfully modified items"
 msgstr "条目修改成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/rearrange.py:32
 msgid "Successfully moved item"
-<<<<<<< HEAD
-msgstr "成功移动条目"
-=======
 msgstr "条目移动成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/paste.py:31
 msgid "Successfully pasted items"
-<<<<<<< HEAD
-msgstr "成功粘贴条目"
-=======
 msgstr "条目粘贴成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/rearrange.py:71
 msgid "Successfully rearranged folder"
-<<<<<<< HEAD
-msgstr "成功重新整理文件夹"
-=======
 msgstr "文件夹排序成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/properties.py:47
 msgid "Successfully updated metadata"
-<<<<<<< HEAD
-msgstr "成功更新元数据"
-=======
 msgstr "元数据更新成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/tags.py:39
 msgid "Successfully updated tags on items"
-<<<<<<< HEAD
-msgstr "成功更新标签条目"
-=======
 msgstr "条目标签更新成功"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Summary view"
 #: plone.app.collection/plone/app/collection/browser/configure.zcml:62
@@ -6335,11 +5876,7 @@ msgstr "内容表格"
 
 #: CMFPlone/interfaces/controlpanel.py:573
 msgid "Table styles"
-<<<<<<< HEAD
-msgstr "表格类型"
-=======
 msgstr "表格样式"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Tabular view"
 #: plone.app.collection/plone/app/collection/browser/configure.zcml:70
@@ -6501,11 +6038,7 @@ msgstr "要检查的内容类型。"
 
 #: CMFPlone/interfaces/controlpanel.py:1409
 msgid "The content types that should be available for selection when setting a default page."
-<<<<<<< HEAD
-msgstr "默认界面只能设为可选内容类型"
-=======
 msgstr "设置默认页面时可选择的内容类型。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:955
 msgid "The content types that should be shown in the navigation and site map."
@@ -6542,11 +6075,7 @@ msgstr "事件的结束日期和时间"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:56
 msgid "The estimated time for the migration is around: <strong> ${hours} hours ${minutes} minutes ${seconds} seconds </strong>"
-<<<<<<< HEAD
-msgstr "估计时间偏移: <strong> ${hours} 时 ${minutes} 分 ${seconds} 秒 </strong>"
-=======
 msgstr "估计迁移时间为：<strong>${hours}小时${minutes}分钟${seconds}秒</strong>"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/fileextension.py:30
 msgid "The file extension to check for"
@@ -6615,11 +6144,6 @@ msgstr "在父文件夹中某个条目的位置"
 msgid "The person that created an item"
 msgstr "条目创建者"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/resources.py:74
-msgid "The resources that is going to be loaded on this bundle in order"
-msgstr "其相关依赖将捆绑安装"
-=======
 #: plone.formwidget.recurrence/plone/formwidget/recurrence/z3cform/interfaces.py:21
 msgid "The recurrence rule couldn't be parsed."
 msgstr ""
@@ -6627,7 +6151,6 @@ msgstr ""
 #: CMFPlone/interfaces/resources.py:79
 msgid "The resources that are going to be loaded on this bundle in order"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/role.py:26
 msgid "The roles to check for."
@@ -6668,11 +6191,7 @@ msgstr "站点的配置已经过时，需要升级。请 ${link_continue_with_th
 
 #: plone.schema/plone/schema/email.py:20
 msgid "The specified email is not valid."
-<<<<<<< HEAD
-msgstr "指定的电子邮件无效"
-=======
 msgstr "指定的电子邮件无效。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "The start date and time of an event"
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
@@ -6790,7 +6309,6 @@ msgstr "有错误"
 #: plone.app.users/plone/app/users/browser/register.py:65
 msgid "There were errors."
 msgstr "有错误。"
-<<<<<<< HEAD
 
 #: CMFPlone/interfaces/controlpanel.py:379
 msgid "These CSS properties are allowed in style attributes."
@@ -6803,8 +6321,6 @@ msgstr "保存时，这些属性将从任何标签删除。"
 #: CMFPlone/interfaces/controlpanel.py:367
 msgid "These attributes are stripped from those tags when saving."
 msgstr "保存时，这些属性将从相应的标签删除。"
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.caching/plone/app/caching/caching.zcml:51
 msgid "These are resources which can be cached 'forever'. Normally this means that if the object does change, its URL changes too."
@@ -6828,17 +6344,10 @@ msgstr "以下类型已被安装但未被定义任何动作： ${types}"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/atct_migrator.pt:110
 msgid "These types are not installed yet: ${types}"
-<<<<<<< HEAD
-msgstr "该类型并未被安装：${types}"
-=======
 msgstr "这些类型尚未安装：${types}"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:77
 msgid "This addon has been upgraded."
-<<<<<<< HEAD
-msgstr "这个插件进行了升级。"
-=======
 msgstr "这个附加组件已经升级。"
 
 #: plone.app.contenttypes/plone/app/contenttypes/migration/browser.py:321
@@ -6849,7 +6358,6 @@ msgstr ""
 #: plone/app/multilingual/browser/templates/not_translated_yet.pt:23
 msgid "This content is not translated yet to the language requested."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1250
 msgid "This default can be overriden individually."
@@ -6868,15 +6376,13 @@ msgstr "此文件夹不支持排序"
 msgid "This is the Add-on configuration section, you can activate and deactivate add-ons in the lists below."
 msgstr "这是附加组件配置区，您可以启用或者禁用下列表中的附加组件。"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:1144
 msgid "This must be a relative url to portal root site. By default its /++plone++static/plone-toolbarlogo.svg"
 msgstr "这必须是一个相对于根URL的网站。默认情况为/++plone++static/plone-toolbarlogo.svg"
-=======
+
 #: plone/app/multilingual/browser/templates/not_translated_yet.pt:47
 msgid "This item doesn't have any translation yet. You can return to the portal site:"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1291
 msgid "This must be a URL relative to the site root. By default it is /++plone++static/plone-toolbarlogo.svg"
@@ -6886,15 +6392,13 @@ msgstr ""
 msgid "This name will be displayed in the URL."
 msgstr "此名称将显示在URL中。"
 
-<<<<<<< HEAD
 #: CMFPlone/interfaces/controlpanel.py:650
 msgid "This option allows you to choose the spellchecker for TinyMCE."
 msgstr "可选择为TinyMCE进行拼写检查。"
-=======
+
 #: plone.app.contenttypes/plone/app/contenttypes/migration/browser.py:314
 msgid "This operation can take a very long time."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:741
 msgid "This option allows you to choose the spellchecker for TinyMCE."
@@ -6974,19 +6478,11 @@ msgstr "此附加组件无法卸载！"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/manage-elements.pt:202
 msgid "This rule is not assigned to any location"
-<<<<<<< HEAD
-msgstr "这条规则未必指定使用"
-
-#: CMFPlone/interfaces/controlpanel.py:1069
-msgid "This shows a custom Logo on your Site."
-msgstr "指定网站Logo图案"
-=======
 msgstr "此规则未分配给任何位置"
 
 #: CMFPlone/interfaces/controlpanel.py:1154
 msgid "This shows a custom logo on your site."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1147
 msgid "This shows up in the title bar of browsers and in syndication feeds."
@@ -7008,11 +6504,6 @@ msgstr "这个用户名被保留了。请选择一个不同的名字。"
 msgid "This will install plone.app.contenttypes and redirect you to a form where you can migrate your content."
 msgstr "这将安装plone.app.contenttypes，并且重定向到一个表单，在表单中可以移动你的的内容。"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/controlpanel.py:1121
-msgid "Thumb visibility"
-msgstr "缩略可见性"
-=======
 #: plone.app.caching/plone/app/caching/operations/default.py:71
 msgid "Through this operation, all standard caching functions can be performed via various combinations of the optional parameter settings. For most cases, it's probably easier to use one of the other simpler operations (Strong caching, Moderate caching, Weak caching, or No caching)."
 msgstr ""
@@ -7028,7 +6519,6 @@ msgstr ""
 #: CMFPlone/interfaces/controlpanel.py:1272
 msgid "Thumb scale for summary view"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1264
 msgid "Thumb scale for tables"
@@ -7089,23 +6579,13 @@ msgstr "面板的标题。如果省略，则使用供稿的标题。"
 msgid "Title of the rendered portlet"
 msgstr "呈现面板的标题"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/controlpanel.py:1431
-msgid "To be used with some integrations like open graph data"
-msgstr "用于像open graph data之类的一体化场所。"
-
-#: CMFPlone/interfaces/controlpanel.py:1425
-msgid "To idenitify things like Twitter Cards"
-msgstr "用来识别像Twitter Cards一类的事物"
-=======
 #: CMFPlone/interfaces/controlpanel.py:1591
 msgid "To be used with some integrations like Open Graph data"
-msgstr ""
+msgstr "用于像open graph data之类的一体化场所。"
 
 #: CMFPlone/interfaces/controlpanel.py:1580
 msgid "To identify things like Twitter Cards. Do not include the \"@\" prefix character."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "用来识别像Twitter Cards一类的事物"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:34
 msgid "To make new add-ons show up here, add them to your buildout configuration, run buildout, and restart the server process. For detailed instructions see ${third_party_product}."
@@ -7144,15 +6624,9 @@ msgstr "对这个项目的公众评论的总数"
 msgid "Transfer"
 msgstr ""
 
-<<<<<<< HEAD
-#: plone.app.discussion/plone/app/discussion/comment.py:161
-msgid "Transform '%s' => '%s' not available."
-msgstr "转换 '%s' => '%s'并不存在"
-=======
 #: plone/app/multilingual/browser/migrator.py:59
 msgid "Transfer multilingual catalog information"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.textfield/plone/app/textfield/interfaces.py:81
 msgid "Transformed value in the target MIME type"
@@ -7178,15 +6652,9 @@ msgstr ""
 msgid "Triggering event"
 msgstr "触发事件"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/controlpanel.py:1424
-msgid "Twitter Username"
-msgstr "Twitter用户名"
-=======
 #: CMFPlone/interfaces/controlpanel.py:1579
 msgid "Twitter username"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "Twitter用户名"
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:216
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
@@ -7229,14 +6697,9 @@ msgstr "类型可以被指定为一个默认页面"
 msgid "Types which use the view action in listing views."
 msgstr "使用Listing View里View Action的类型"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/resources.py:22 plone.schema/plone/schema/editor.py:21
-#: plone.stringinterp/plone/stringinterp/adapters.py:53
-=======
 #: CMFPlone/interfaces/resources.py:25
 #: plone.app.contenttypes/plone/app/contenttypes/schema/link.xml
 #: plone.schema/plone/schema/editor.py:28
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "URL"
 msgstr "URL"
 
@@ -7268,12 +6731,8 @@ msgstr "无法移除 ${name} ，内容规则 '移除' 操作有误： ${error}"
 msgid "Unable to remove ${name} as part of content rule 'delete' action: ${error}"
 msgstr "无法删除 ${name} ，内容规则 '删除' 操作有误： ${error}"
 
-<<<<<<< HEAD
-#: CMFPlone/browser/author.py:122 CMFPlone/browser/sendto.py:97
-=======
 #: CMFPlone/browser/author.py:123
 #: CMFPlone/browser/sendto.py:100
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Unable to send mail."
 msgstr "无法发送邮件"
 
@@ -7297,12 +6756,6 @@ msgstr "撤消"
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:178
 msgid "Uninstall"
 msgstr "卸载"
-<<<<<<< HEAD
-
-#: CMFPlone/controlpanel/browser/quickinstaller.py:233
-msgid "Uninstalled ${product}."
-msgstr "卸载${product}。"
-=======
 
 #: plone.app.collection/plone/app/collection/configure.zcml:27
 msgid "Uninstall Archetypes-based collections"
@@ -7311,7 +6764,6 @@ msgstr ""
 #: plone/app/multilingual/configure.zcml:157
 msgid "Uninstall, removes multilingual content support with plone.app.multilingual"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.py:722
 msgid "Uninstalled ${product}."
@@ -7366,15 +6818,9 @@ msgstr "升级本站点"
 msgid "Upgrade your existing content to use Dexterity."
 msgstr "升级你的现有内容来使用Dexterity。"
 
-<<<<<<< HEAD
-#: CMFPlone/controlpanel/browser/quickinstaller.py:178
-msgid "Upgraded ${product}!"
-msgstr "升级${product}!"
-=======
 #: CMFPlone/controlpanel/browser/quickinstaller.py:676
 msgid "Upgraded products."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "升级${product}!"
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:44
 msgid "Upgrades"
@@ -7390,11 +6836,7 @@ msgstr "使用 '../' 导航到父对象。"
 
 #: CMFPlone/interfaces/controlpanel.py:1133
 msgid "Use UUID user ids"
-<<<<<<< HEAD
-msgstr "使用UUID用户ID"
-=======
 msgstr "使用 UUID 作为用户 ID"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/interfaces/controlpanel.py:1134
 msgid "Use automatically generated UUIDs as user id for new users. When not turned on, the default is to use the same as the login name, or when using the email address as login name we generate a user id based on the fullname."
@@ -7450,11 +6892,7 @@ msgstr "用户已退出"
 
 #: plone.app.contentrules/plone/app/contentrules/configure.zcml:102
 msgid "User Removed"
-<<<<<<< HEAD
-msgstr "用户已删除"
-=======
 msgstr "用户已经删除"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.users/plone/app/users/browser/register.py:710
 msgid "User added."
@@ -7660,23 +7098,13 @@ msgstr "等待审核，不能被所有者编辑。"
 msgid "Warning"
 msgstr "警告"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/controlpanel.py:321
-msgid "Warning, disabling can be potentially dangereous. Only disable if you know what you are doing."
-msgstr "警告。禁用可能造成潜在危险。只有你知道自己正在做什么才能禁用。"
-
-#: CMFPlone/browser/templates/hero.pt:12
-msgid "Welcome!"
-msgstr "欢迎！"
-=======
 #: CMFPlone/interfaces/controlpanel.py:353
 msgid "Warning: disabling this can be dangerous. Only disable if you know what you are doing."
-msgstr ""
+msgstr "警告。禁用可能造成潜在危险。只有你知道自己正在做什么才能禁用。"
 
 #: plone.app.users/plone/app/users/schema.py:83
 msgid "We will use this address if you need to recover your password"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.caching/plone/app/caching/operations/default.py:226
 msgid "Weak caching"
@@ -7784,15 +7212,9 @@ msgstr "年"
 msgid "Yes"
 msgstr "是"
 
-<<<<<<< HEAD
-#: plone.app.content/plone/app/content/browser/contents/delete.py:82
-msgid "You are not authorized to delete ${title}."
-msgstr "没有权限删除${title}。"
-=======
 #: plone.app.registry/plone/app/registry/browser/templates/delete_layout.pt:27
 msgid "Yes, delete"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/contents/delete.py:85
 msgid "You are not authorized to delete ${title}."
@@ -7800,25 +7222,15 @@ msgstr "您无权删除 ${title}。"
 
 #: plone.app.content/plone/app/content/browser/contents/paste.py:51
 msgid "You are not authorized to paste ${title} here."
-<<<<<<< HEAD
 msgstr "没有权限在这里粘贴${title}。"
-=======
-msgstr "你无权在这里粘贴 ${title}。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: plone.app.content/plone/app/content/browser/actions.py:300
 msgid "You are not authorized to paste here."
 msgstr "您无权在这里粘贴。"
 
-<<<<<<< HEAD
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:42
-msgid "You are up to date. High fives."
-msgstr "系统已经升级到最新版。"
-=======
 #: CMFPlone/browser/templates/plone-admin-logged-out.pt:24
 msgid "You are now logged out."
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:48
 msgid "You are up to date. High fives."
@@ -7961,11 +7373,7 @@ msgstr "Zope3视图作为可选内容的视图"
 
 #: plone.app.content/plone/app/content/browser/actions.py:85
 msgid "\"${title}\" has already been deleted"
-<<<<<<< HEAD
 msgstr "\"${title}\"已被删除"
-=======
-msgstr "\"${title}\" 已被删除"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Absolute URL prefix"
 #: plone/app/theming/interfaces.py:110
@@ -8331,9 +7739,6 @@ msgstr "${creator} 在 ${content}"
 #. Default: "Are you certain you want to delete the selected items?"
 #: plone.app.content/plone/app/content/browser/contents/templates/delete.pt:5
 msgid "confirm_delete_items"
-<<<<<<< HEAD
-msgstr "确认删除项目"
-=======
 msgstr "确定要删除所选的条目吗？"
 
 #. Default: "Do you really want to disconnect this translation?"
@@ -8370,7 +7775,6 @@ msgstr ""
 #: plone.app.event/plone/app/event/browser/event_summary.pt:95
 msgid "contact_phone"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: validation/validators/BaseValidators.py:23
 msgid "contains unprintable characters"
@@ -8583,11 +7987,7 @@ msgstr "邮件主题，发件人，收件人以及消息中的一些内容可以
 #: CMFPlone/browser/templates/accessibility-info.pt:21
 #, fuzzy
 msgid "description_accessibility_info"
-<<<<<<< HEAD
-msgstr "说明访问信息"
-=======
 msgstr "这个网站使用 ${plone} ，且由于符合“网站内容可访问性指南” ( ${wcag} v1.0 )，它已经被设计为高度可访问和可用。如果这个网站上关于可访问性和有效性方面，有任何东西不符合标准，请联系 ${site_admin} ，而不是 Plone 团队。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "It is also accessible to content authors with disabilities per the level 'AA' Authoring Tool Accessibility Guidelines (<a href=\"https://www.w3.org/TR/ATAG20/\">${atag} 2.0</a>)."
 #: CMFPlone/browser/templates/accessibility-info.pt:29
@@ -8597,11 +7997,7 @@ msgstr "说明访问INFO2"
 #. Default: "This site was designed to accommodate the different ways people access and use the Internet."
 #: CMFPlone/browser/templates/accessibility-info.pt:37
 msgid "description_accessibility_statement"
-<<<<<<< HEAD
-msgstr "本网站致力于满足各种使用情况"
-=======
 msgstr "我们已经力尽所能，利用我们的知识和理解，使用为不同人提供访问因特网的各种方法，开发每个人都能使用的清晰和简单的网站。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Select the type of item you want to add to your folder."
 #: plone.app.content/plone/app/content/browser/folderfactories.pt:22
@@ -8618,17 +8014,10 @@ msgstr "使用下面的字段来手动配置的 Diazo 主题。通常情况下�
 msgid "description_advanced_base"
 msgstr "下面的设置控制 Diazo 主题应用之前 P系统 所产生内容的渲染。注意，即使当前未启用 Diazo 主题，这些设置也将生效。"
 
-<<<<<<< HEAD
-#. Default: "Related to Use cookie for manual override"
-#: CMFPlone/interfaces/controlpanel.py:252
-msgid "description_auth_ookie_manual_override"
-msgstr "说明auth_cookie手动优先"
-=======
 #. Default: "This step will fix some lost dependencies to the ITranslatable interface hidden in the relation catalog and it gets rid of them. It must be run only when LinguaPlone is already uninstalled."
 #: plone/app/multilingual/browser/templates/migration.pt:225
 msgid "description_after_migration_cleanup"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Related to: use cookie for manual override"
 #: CMFPlone/interfaces/controlpanel.py:281
@@ -8644,16 +8033,12 @@ msgstr "通过填写下面的表格，您可把您的反馈意见发送给作者
 #. Default: "The languages in which the site should be translatable."
 #: CMFPlone/interfaces/controlpanel.py:186
 msgid "description_available_languages"
-<<<<<<< HEAD
-msgstr "可供网站使用的语言选项"
-=======
 msgstr "在该网站可翻译的语言。"
 
 #. Default: "Edit {lang_name} with the two-column translation view"
 #: plone/app/multilingual/browser/menu.py:118
 msgid "description_babeledit_menu"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Use the buttons to create or upload a new Diazo theme, or select an existing theme from a the list below."
 #: plone/app/theming/browser/controlpanel.pt:90
@@ -8663,9 +8048,6 @@ msgstr "使用下面的按钮来创建或上传新的 Diazo 主题，或从下�
 #. Default: "Use browser language request negotiation."
 #: CMFPlone/interfaces/controlpanel.py:325
 msgid "description_browser_language_request_negotiation"
-<<<<<<< HEAD
-msgstr "使用浏览器的语言设置"
-=======
 msgstr "使用浏览器语言请求协商。"
 
 #. Default: "When there are many translations for an item, the number of displayed buttons for them might get too large to fit inside the template. Choose here from which number onwards a drop-down menu will be displayed instead of buttons. Zero means that buttons will always be used."
@@ -8697,7 +8079,6 @@ msgstr "从下面选择一个配置文件导入缓存设置。可以通过第三
 #: plone.app.caching/plone/app/caching/browser/controlpanel.pt:129
 msgid "description_caching_proxies"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Canceling the check-out will delete this working copy, and any modifications made to it will be lost. The existing version of the content will become unlocked."
 #: plone.app.iterate/plone/app/iterate/browser/cancel.pt:22
@@ -8854,25 +8235,17 @@ msgstr "如果您需要报告此消息给 ${site_admin}，请包含错误号在�
 #. Default: "Use language codes in URL path for manual override."
 #: CMFPlone/interfaces/controlpanel.py:258
 msgid "description_language_codes_in_URL"
-<<<<<<< HEAD
-msgstr "用URL描述语言代码"
-=======
 msgstr "使用 URL 路径中的语言代码手动重写。"
 
 #. Default: "Go to the user's browser preferred language related folder"
 #: plone/app/multilingual/browser/menu.py:469
 msgid "description_language_folder"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Use the language of the content item."
 #: CMFPlone/interfaces/controlpanel.py:248
 msgid "description_language_of_the_content"
-<<<<<<< HEAD
-msgstr "描述语言内容"
-=======
 msgstr "使用内容条目的语言。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Settings related to interface languages and content translations."
 #: CMFPlone/controlpanel/browser/language.py:14
@@ -9313,25 +8686,17 @@ msgstr "选择注册表单所用字段。右边选择框内的字段将会显示
 #. Default: "The site uses assistive technology like WAI-ARIA roles to the current best practices; however, site standards and content vary over time. If this web site does not validate correctly, please contact the ${site_admin}."
 #: CMFPlone/browser/templates/accessibility-info.pt:48
 msgid "description_validation"
-<<<<<<< HEAD
-msgstr "本网站预置使用 WAI-ARIA 之类技术，如果沒有符合标准，请联络 ${site_admin}"
-=======
 msgstr "我们使用 ${xhtml} 1.0 和 ${css}，这符合 ${w3c} 制订的规范，因此网站的易用性和可访问性有坚实的基础。如果这个网站没有被正确验证，请联系 ${site_admin}，而不是 Plone 团队。"
 
 #. Default: "View <a title=\"x\" href=\"https://plone.org/plone-vpat.pdf/view\"> Plone's VPAT </a> <a href=\"https://www.state.gov/m/irm/impact/126340.htm\"> ${vpat} </a>"
 #: CMFPlone/browser/templates/accessibility-info.pt:72
 msgid "description_vpat"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "A number of checkpoints in ${wcag} 2.0 and ${atag} 2.0 guidelines are subjective; there may be instances where interpretations vary."
 #: CMFPlone/browser/templates/accessibility-info.pt:57
 msgid "description_wcag_aa_rating"
-<<<<<<< HEAD
 msgstr "有些 ${wcag} 2.0 和 ${atag} 2.0 要求項目涉及主观因素，解读上可能有所不同。"
-=======
-msgstr "我们也努力依照 ${wcag} 1.0 版本来实现 AA 可访问性。但是，我们也知道很多 ${wcag2} 的检查是主观的——虽然我们确信我们严格遵循，但他们的解释有时候会发生变化。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "This item was locked by ${author} ${time} ago."
 #: plone.locking/plone/locking/browser/info.pt:17
@@ -9684,20 +9049,12 @@ msgstr "真诚的问候，"
 #. Default: "Accessibility"
 #: CMFPlone/browser/templates/accessibility-info.pt:12
 msgid "heading_accessibility_info"
-<<<<<<< HEAD
-msgstr "合理操作"
-=======
 msgstr "可访问性"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Accessibility Statement"
 #: CMFPlone/browser/templates/accessibility-info.pt:35
 msgid "heading_accessibility_statement"
-<<<<<<< HEAD
-msgstr "合理操作说明"
-=======
 msgstr "可访问性声明"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Action"
 #: plone.app.discussion/plone/app/discussion/browser/moderation.pt:85
@@ -9737,11 +9094,7 @@ msgstr "添加到组"
 #. Default: "Authenticated users only"
 #: CMFPlone/interfaces/controlpanel.py:279
 msgid "heading_auth_cookie_manual_override"
-<<<<<<< HEAD
-msgstr "限于登录使用者"
-=======
 msgstr "只有经过身份验证的用户"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Latest content created by this user"
 #: CMFPlone/browser/templates/author.pt:190
@@ -9751,23 +9104,16 @@ msgstr "此用户最近创建的内容"
 #. Default: "Available languages"
 #: CMFPlone/interfaces/controlpanel.py:184
 msgid "heading_available_languages"
-<<<<<<< HEAD
-msgstr "语言选项"
-=======
 msgstr "可用语言"
 
 #. Default: "Available translations for this content"
 #: plone/app/multilingual/browser/templates/dexterity_edit.pt:15
 msgid "heading_available_translations"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Use browser language request negotiation"
 #: CMFPlone/interfaces/controlpanel.py:323
 msgid "heading_browser_language_request_negotiation"
-<<<<<<< HEAD
-msgstr "浏览器语言设置"
-=======
 msgstr "使用浏览器语言请求协商"
 
 #. Default: "Use buttons in the bable view for up to how many translations?"
@@ -9799,7 +9145,6 @@ msgstr "缓存设置"
 #: CMFPlone/browser/login/templates/forced_password_change.pt:9
 msgid "heading_change_password"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Change password for ${user}"
 #: CMFPlone/skins/plone_prefs/password_form.pt:15
@@ -9829,11 +9174,7 @@ msgstr "内容类型"
 #. Default: "Use cookie for manual override"
 #: CMFPlone/interfaces/controlpanel.py:266
 msgid "heading_cookie_manual_override"
-<<<<<<< HEAD
-msgstr "heading_cookie手动优先"
-=======
 msgstr "使用 cookie 手动重写"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Create a Group"
 #: CMFPlone/controlpanel/browser/usergroups_groupdetails.pt:22
@@ -9936,20 +9277,12 @@ msgstr "回复到"
 #. Default: "Use language codes in URL path for manual override"
 #: CMFPlone/interfaces/controlpanel.py:255
 msgid "heading_language_codes_in_URL"
-<<<<<<< HEAD
-msgstr "标题使用URL中的语言代码"
-=======
 msgstr "使用 URL 路径中的语言代码手动重写"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Use the language of the content item"
 #: CMFPlone/interfaces/controlpanel.py:246
 msgid "heading_language_of_the_content"
-<<<<<<< HEAD
-msgstr "标题的语言内容"
-=======
 msgstr "使用内容条目的语言"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Language Settings"
 #: CMFPlone/controlpanel/browser/language.py:13
@@ -10186,11 +9519,7 @@ msgstr "限制哪种内容类型可以添加"
 #. Default: "Set the language cookie always"
 #: CMFPlone/interfaces/controlpanel.py:290
 msgid "heading_set_language_cookie_always"
-<<<<<<< HEAD
-msgstr "标题设置语言"
-=======
 msgstr "始终设置语言cookie"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Please log in"
 #: CMFPlone/skins/plone_login/failsafe_login_form.cpt:8
@@ -10241,16 +9570,12 @@ msgstr "标题"
 #. Default: "Use top-level domain"
 #: CMFPlone/interfaces/controlpanel.py:314
 msgid "heading_top_level_domain"
-<<<<<<< HEAD
-msgstr "使用顶级网域"
-=======
 msgstr "使用顶级域"
 
 #. Default: "plone.app.multilingual translation map"
 #: plone/app/multilingual/browser/templates/mmap.pt:61
 msgid "heading_translation_map"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Type"
 #: plone.app.registry/plone/app/registry/browser/templates/records.pt:82
@@ -10354,18 +9679,9 @@ msgstr "如果选中，用户可以在这个条目添加评论。"
 msgid "help_allow_roles_to_add_keywords"
 msgstr "下列角色才能新增关键词"
 
-<<<<<<< HEAD
-#: CMFPlone/interfaces/controlpanel.py:196
-msgid "help_always_show_selector"
-msgstr "帮助总是显示选择按钮"
-
-#. Default: "If selected, anonymous users are able to post comments without loggin in. It is highly recommended to use a captcha solution to prevent spam if this setting is enabled."
-#: plone.app.discussion/plone/app/discussion/interfaces.py:214
-=======
 #. Default: "If selected, anonymous users are able to post comments without logging in. It is highly recommended to use a captcha solution to prevent spam if this setting is enabled."
 #: plone.app.discussion/plone/app/discussion/interfaces.py:229
 #, fuzzy
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "help_anonymous_comments"
 msgstr "如果选中，匿名用户可不登录的情况下发布评论。如果启用了此设置，强烈建议使用验证码，以防止垃圾评论。"
 
@@ -10387,11 +9703,7 @@ msgstr "显示atderrortypes"
 #. Default: "The timezones, which should be available for the portal. Can be set for users and events"
 #: CMFPlone/interfaces/controlpanel.py:1358
 msgid "help_available_timezones"
-<<<<<<< HEAD
-msgstr "可供选择的时区设定值"
-=======
 msgstr "这是网站可用的时区。可以被用户和事件设置"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "A short overview of who you are and what you do. Will be displayed on your author page, linked from the items you create."
 #: plone.app.users/plone/app/users/profiles/default/userschema.xml
@@ -10535,8 +9847,7 @@ msgstr "内容的一个简短描述，在列表和搜索结果中显示。"
 #. Default: "Some discussion related settings are not located in the Discussion Control Panel.\nTo enable comments for a specific content type, go to the Types Control Panel of this type and choose \"Allow comments\".\nTo enable the moderation workflow for comments, go to the Types Control Panel, choose \"Comment\" and set workflow to \"Comment Review Workflow\"."
 #: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:33
 msgid "help_discussion_settings_editform"
-msgstr ""
-"一些评论相关的设置并不位于 评论控制面板。\n"
+msgstr "一些评论相关的设置并不位于 评论控制面板。\n"
 "要启用特定内容类型的评论，请到类型控制面板，选中这种类型的 \"允许评论\"。\n"
 "要启用评论审核工作流，请到类型控制面板，选择 \"评论\" 并将工作流设置为 \"评论审核工作流\"。"
 
@@ -10655,9 +9966,6 @@ msgstr ""
 #. Default: "Date and Time related settings like timezone(s), etc."
 #: CMFPlone/controlpanel/browser/dateandtime.py:15
 msgid "help_event_settings"
-<<<<<<< HEAD
-msgstr "日期或时间相关的設置"
-=======
 msgstr "日期和时间相关设置，如时区等。"
 
 #. Default: "Date and Time, when the event begins."
@@ -10674,7 +9982,6 @@ msgstr ""
 #: plone.app.event/plone/app/event/dx/behaviors.py:118
 msgid "help_event_whole_day"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "If selected, this item will not appear in the navigation tree"
 #: plone.app.dexterity/plone/app/dexterity/behaviors/exclfromnav.py:57
@@ -10701,11 +10008,7 @@ msgstr ""
 #. Default: "First day in the week."
 #: CMFPlone/interfaces/controlpanel.py:1370
 msgid "help_first_weekday"
-<<<<<<< HEAD
-msgstr "指定每个星期的第一天"
-=======
 msgstr "一周开始日"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "If you are unsure of which format to use, just select Plain Text and type the document as you usually do."
 #: Archetypes/skins/archetypes/wysiwyg_support.pt:18
@@ -10782,17 +10085,6 @@ msgstr "通过设置这个查询集的条件，限制上级查询集的查询结
 msgid "help_inherit_local_roles"
 msgstr "默认情况下，条目的权限从父文件夹继承，您可以禁用继承，明确设置权限。总体来说，${image_confirm_icon}符号表示这是一个继承的值，${image_link_icon}符号表示这是一个由网站管理员管理的全局角色。"
 
-<<<<<<< HEAD
-#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:18
-msgid "help_leadimage"
-msgstr "指导图像"
-
-#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:24
-msgid "help_leadimage_caption"
-msgstr "指导图像标题"
-
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 #. Default: "If selected, only the 'Number of Items' indicated below will be displayed."
 #: widget description of BooleanWidget for label Limit Search Results
 msgid "help_limit_number"
@@ -10951,11 +10243,7 @@ msgstr "搜索的文件夹"
 #. Default: "The timezone setting of the portal. Users can set their own timezone, if available timezones are defined."
 #: CMFPlone/interfaces/controlpanel.py:1347
 msgid "help_portal_timezone"
-<<<<<<< HEAD
-msgstr "网站的预设时区"
-=======
 msgstr "网站的时区设置。 用户可以设置自己的时区，如果定义了可用的时区。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "One of the available content types."
 #: widget description of MultiSelectionWidget for label Value
@@ -11327,11 +10615,7 @@ msgstr "JSON 格式的选单设定值。"
 #. Default: "Other TinyMCE configuration formatted as JSON."
 #: CMFPlone/interfaces/controlpanel.py:861
 msgid "hint_tinymce_other_settings"
-<<<<<<< HEAD
-msgstr "使用 JSON 格式的 TinyMCE 设置值。"
-=======
 msgstr "其他 TinyMCE 配置，使用 JSON 格式。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "${action} — ${actor} on ${time}"
 #: plone.app.layout/plone/app/layout/viewlets/content_history.pt:46
@@ -11806,8 +11090,7 @@ msgstr "更改条目作为默认视图..."
 #. Default: "Change content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:469
 msgid "label_change_item"
-msgstr ""
-"更换条目\n"
+msgstr "更换条目\n"
 "作为默认视图..."
 
 #. Default: "Change Note"
@@ -11866,8 +11149,7 @@ msgstr "选择一个内容条目..."
 #. Default: "Select a content item\nas default view..."
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:423
 msgid "label_choose_item"
-msgstr ""
-"选择一个条目\n"
+msgstr "选择一个条目\n"
 "作为默认视图..."
 
 #. Default: "Display"
@@ -12715,11 +11997,7 @@ msgstr "登录名"
 #. Default: "Log in to add comments"
 #: plone.app.discussion/plone/app/discussion/browser/comments.pt:20
 msgid "label_login_to_add_comments"
-<<<<<<< HEAD
-msgstr "登入后新增评论"
-=======
 msgstr "登录后添加评论"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Log in to send feedback"
 #: CMFPlone/browser/templates/author.pt:158
@@ -13301,14 +12579,11 @@ msgstr "分类"
 #: plone.app.dexterity/plone/app/dexterity/behaviors/metadata.py:145
 msgid "label_schema_dates"
 msgstr "日期"
-<<<<<<< HEAD
-=======
 
 #. Default: "Default"
 #: plone.dexterity/plone/dexterity/browser/base.py:13
 msgid "label_schema_default"
 msgstr "默认"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Ownership"
 #: plone.app.dexterity/plone/app/dexterity/behaviors/metadata.py:188
@@ -13366,14 +12641,9 @@ msgid "label_selection_criteria_value"
 msgstr "值"
 
 #. Default: "Send"
-<<<<<<< HEAD
-#: CMFPlone/browser/author.py:41 CMFPlone/browser/contact_info.py:37
-#: CMFPlone/browser/sendto.py:40
-=======
 #: CMFPlone/browser/author.py:41
 #: CMFPlone/browser/contact_info.py:38
 #: CMFPlone/browser/sendto.py:41
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "label_send"
 msgstr "发送"
 
@@ -14049,11 +13319,7 @@ msgstr "执行人"
 #: CMFPlone/controlpanel/browser/usergroups_groupsoverview.pt:151
 #: CMFPlone/controlpanel/browser/usergroups_usersoverview.pt:113
 msgid "listingheader_remove"
-<<<<<<< HEAD
-msgstr "移除"
-=======
 msgstr "删除"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Reset Password"
 #: CMFPlone/controlpanel/browser/usergroups_usersoverview.pt:112
@@ -14114,8 +13380,7 @@ msgstr ""
 #: plone.app.discussion/plone/app/discussion/comment.py:49
 #, fuzzy
 msgid "mail_notification_message"
-msgstr ""
-"一条评论 '${title}' 已发布在: ${link}\n"
+msgstr "一条评论 '${title}' 已发布在: ${link}\n"
 "\n"
 "---\n"
 "${text}\n"
@@ -14125,8 +13390,7 @@ msgstr ""
 #: plone.app.discussion/plone/app/discussion/comment.py:58
 #, fuzzy
 msgid "mail_notification_message_moderator"
-msgstr ""
-"一条评论 '${title}' 已发布在: ${link}\n"
+msgstr "一条评论 '${title}' 已发布在: ${link}\n"
 "\n"
 "---\n"
 "${text}\n"
@@ -14611,9 +13875,6 @@ msgstr "Plone 左列"
 
 #: plone.protect/plone/protect/configure.zcml:30
 msgid "plone.protect configuration"
-<<<<<<< HEAD
-msgstr "plone.protect配置"
-=======
 msgstr "plone.protect 配置"
 
 #. Default: "Plone Rightcolumn"
@@ -14652,7 +13913,6 @@ msgstr ""
 #: plone.app.event/plone/app/event/portlets/portlet_events.py:52
 msgid "portlet_label_search_base"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Static Portlet"
 #: plone.portlet.static/plone/portlet/static/static.py:126
@@ -14686,11 +13946,7 @@ msgstr "保密"
 #. Default: "Publication Date"
 #: plone.app.content/plone/app/content/browser/contents/templates/properties.pt:4
 msgid "publiciation_date"
-<<<<<<< HEAD
-msgstr "生效日期"
-=======
 msgstr "发布日期"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "publish"
 #: workflow transition defined in folder_workflow - title Reviewer publishes
@@ -14824,11 +14080,7 @@ msgstr "返回"
 
 #: CMFPlone/interfaces/controlpanel.py:1299
 msgid "robots.txt"
-<<<<<<< HEAD
-msgstr "robots.txt文件"
-=======
 msgstr "robots.txt"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Rules file"
 #: plone/app/theming/interfaces.py:101
@@ -14857,8 +14109,7 @@ msgstr ""
 #. Default: "This link is sent to you from ${portal_url} You are receiving this mail because someone read a page at ${portal_title} and thought it might interest you. It is sent by ${from_address} with the following comment: \"${comment}\" ${document_title} ${document_description} ${document_url}"
 #: CMFPlone/browser/templates/sendto_template.pt:25
 msgid "sendto_mailtemplate_body"
-msgstr ""
-"发给您的这个链接来自 ${portal_url}\n"
+msgstr "发给您的这个链接来自 ${portal_url}\n"
 "\n"
 "您收到此邮件，是因为某人阅读了“${portal_title}”上的一个页面，并认为您可能会对此感兴趣. \n"
 "\n"
@@ -15066,14 +14317,6 @@ msgstr ""
 msgid "test wc workflow"
 msgstr "测试工作副本工作流"
 
-<<<<<<< HEAD
-#. Default: "migrate your comments"
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.pt:62
-msgid "text_comments_migration_link"
-msgstr "评论升级链接"
-
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 #. Default: "Caught &e at &c by &u"
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:47
 msgid "text_contentrules_logger_message"
@@ -15217,14 +14460,6 @@ msgstr "搜索"
 msgid "text_searchitem_location"
 msgstr "位于"
 
-<<<<<<< HEAD
-#. Default: "You have comments that have not been migrated to the new commenting system that has been introduced in Plone 4.1. Please ${label_comments_migration_link} to fix this."
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.pt:61
-msgid "text_unmigrated_comments"
-msgstr "未升级的评论"
-
-=======
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 #. Default: "This user does not belong to any group."
 #: CMFPlone/controlpanel/browser/usergroups_usermembership.pt:98
 msgid "text_user_not_in_any_group"
@@ -15348,11 +14583,7 @@ msgstr ""
 #. Default: "Authoring Tool Accessibility Guidelines"
 #: CMFPlone/browser/templates/accessibility-info.pt:29
 msgid "title_atag"
-<<<<<<< HEAD
-msgstr "标签"
-=======
 msgstr "创作工具辅助功能指南"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #. Default: "Author information"
 #: plone.app.layout/plone/app/layout/links/author.pt:7
@@ -15988,14 +15219,8 @@ msgstr "不出现"
 msgid "you_are_here"
 msgstr "您位于："
 
-<<<<<<< HEAD
-#. Default: "Default"
-#: plone.dexterity/browser/base.py:16
-msgid "label_schema_default"
-msgstr "缺省"
-=======
 #. Default: "Welcome! You are now logged in."
 #: CMFPlone/browser/login/login.py:177
 msgid "you_are_now_logged_in"
 msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+
