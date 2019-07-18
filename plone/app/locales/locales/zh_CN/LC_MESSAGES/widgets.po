@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2016-06-21 11:23+0800\n"
-"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-07-18 10:53+0800\n"
+"Last-Translator: Adam <yuejun.tang@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,30 +19,17 @@ msgstr ""
 
 #: patterns/resourceregistry/js/builder.js
 msgid " css files to build"
-msgstr "要建立的CSS文件"
+msgstr "要build的CSS文件"
 
-<<<<<<< HEAD
-#: patterns/relateditems/pattern.js
-msgid "(empty)"
-msgstr "(空)"
-
-# not sure
 #: patterns/resourceregistry/js/registry.js
-=======
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "A main resource file to bootstrap bundle or a list of resources to load."
-msgstr "上传Resource档案"
+msgstr ""
 
 #: patterns/structure/templates/table.xml
 msgid "Actions"
 msgstr "操作"
 
-<<<<<<< HEAD
 #: patterns/filemanager/js/addnew.js
-=======
-#: ./patterns/filemanager/js/addnew.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Add"
 msgstr "添加"
 
@@ -122,60 +109,33 @@ msgstr "编译后CSS的预设路径"
 msgid "Automatically generated path to the compiled JavaScript."
 msgstr "编译后JavaScript的预设路径"
 
-#: patterns/upload/templates/upload.xml
+#: patterns/structure/templates/tablerow.xml
+msgid "Before publishing date"
+msgstr "在发布日期之前"
+
+#: patterns/relateditems/pattern.js
 msgid "Browse"
 msgstr "浏览"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/registry.js
 msgid "Build"
-msgstr "建立"
-=======
-#: ./patterns/structure/templates/tablerow.xml
-msgid "Before publishing date"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "Browse"
-msgstr ""
-
-#: ./patterns/resourceregistry/js/registry.js
-msgid "Build"
 msgstr "构建"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/thememapper/pattern.js
 msgid "Build CSS"
-<<<<<<< HEAD
-msgstr "建立 CSS"
-=======
 msgstr "构建 CSS"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/resourceregistry/js/builder.js
 msgid "Build it"
-<<<<<<< HEAD
-msgstr "建立"
-=======
 msgstr "构建"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/thememapper/pattern.js
 msgid "Build rule"
-<<<<<<< HEAD
-msgstr "建立Rule"
-=======
 msgstr "构建规则"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
-# not sure
 #: patterns/resourceregistry/js/registry.js
 msgid "Bundle this depends on"
-<<<<<<< HEAD
-msgstr "基于的包"
-=======
 msgstr "这个包的依赖"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Bundles"
@@ -185,16 +145,14 @@ msgstr "包"
 msgid "CSS/LESS"
 msgstr "CSS/LESS"
 
-# not sure
-#: patterns/structure/js/views/table.js
-msgid "Can not order items while querying"
-msgstr "不能再查询时整理条目"
-
 #: patterns/resourceregistry/js/overrides.js
 msgid "Cancel"
 msgstr "取消"
 
-<<<<<<< HEAD
+#: patterns/structure/js/views/table.js
+msgid "Cannot order items while querying"
+msgstr "不能在查询时整理条目"
+
 #: patterns/upload/templates/upload.xml
 msgid "Choose File"
 msgstr "选择文件"
@@ -211,30 +169,7 @@ msgstr "清除缓存"
 msgid "Clear cache"
 msgstr "清除缓存"
 
-#: patterns/pickadate/pattern.js
-=======
-#: patterns/structure/js/views/table.js
-msgid "Cannot order items while querying"
-msgstr ""
-
-#: ./patterns/upload/templates/upload.xml
-msgid "Choose File"
-msgstr "选择文件"
-
-#: ./patterns/pickadate/pattern.js
-msgid "Clear"
-msgstr ""
-
-#: ./patterns/thememapper/js/cacheview.js
-msgid "Clear Cache"
-msgstr ""
-
-#: ./patterns/thememapper/pattern.js
-msgid "Clear cache"
-msgstr ""
-
-#: ./patterns/resourceregistry/js/builder.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/builder.js
 msgid "Close"
 msgstr "关闭"
 
@@ -246,13 +181,9 @@ msgstr "关闭全屏"
 msgid "Columns"
 msgstr "列"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/registry.js
-=======
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Comma-separated values of resources for requirejs shim"
-msgstr ""
+msgstr "为requirejs shim填写逗号分隔的资源名称"
 
 #: patterns/thememapper/pattern.js
 msgid "Compile LESS file"
@@ -272,11 +203,7 @@ msgstr "条件注释"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Conditional expression to decide if this resource will run"
-<<<<<<< HEAD
-msgstr "Resource 是否执行的 Expression"
-=======
 msgstr "决定此资源是否将运行的条件表达式"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Configuration"
@@ -284,51 +211,31 @@ msgstr "配置"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Configuration in JSON for the widget"
-msgstr "Widget 的 JSON 设定"
+msgstr "窗体件JSON格式配置"
 
 #: patterns/structure/js/views/app.js
 msgid "Configure displayed columns"
 msgstr "配置显示列"
 
-<<<<<<< HEAD
 #: patterns/structure/js/actions.js
-=======
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Copied"
 msgstr "已复制"
 
-<<<<<<< HEAD
+#: patterns/relateditems/pattern.js
+msgid "Current path:"
+msgstr "当前路径:"
+
 #: patterns/filemanager/js/customize.js
 msgid "Customize"
 msgstr "自定义"
 
 #: patterns/structure/js/actions.js
-=======
-#: patterns/structure/js/views/table.js
-msgid "Copy"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "Current path:"
-msgstr ""
-
-#: ./patterns/filemanager/js/customize.js
-msgid "Customize"
-msgstr "自定义"
-
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Cut"
 msgstr "剪切"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Date/Time when your bundle was last compiled. Empty, if it was never compiled."
-<<<<<<< HEAD
-msgstr "前一次编译的时间记录"
-=======
 msgstr "上次编译包的日期/时间。 如果它从来没有编译则为空。"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/filemanager/js/delete.js
 msgid "Delete"
@@ -360,33 +267,24 @@ msgstr "开发 JavaScript"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Development Mode(only logged in users)"
-<<<<<<< HEAD
-msgstr "开发模式(仅限已登录用户)"
-=======
 msgstr "开发模式（仅限已登录用户）"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Does your bundle contain any RequireJS or LESS files?"
-<<<<<<< HEAD
-msgstr "你的包包含RequireJS 或 LESS文件吗 "
+msgstr "此包是否包含任何RequireJS或LESS文件？"
 
 #: patterns/upload/templates/upload.xml
 msgid "Drag and drop files from your computer onto the area below or click the Browse button."
 msgstr "从本地电脑拖放文件进入下面区域或者点击浏览按钮。"
-=======
-msgstr "此包是否包含任何RequireJS或LESS文件？"
-
-#: ./patterns/upload/templates/upload.xml
-msgid "Drag and drop files from your computer onto the area below or click the Browse button."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/upload/templates/upload.xml
 msgid "Drop files here..."
 msgstr "将文件拖至此处..."
 
-<<<<<<< HEAD
+#: patterns/filemanager/pattern.js
+msgid "Edit"
+msgstr "编辑"
+
 #: patterns/tinymce/pattern.js
 msgid "Email Address"
 msgstr "邮件地址"
@@ -394,19 +292,6 @@ msgstr "邮件地址"
 #: patterns/tinymce/pattern.js
 msgid "Email Subject (optional)"
 msgstr "邮件主题（可选）"
-=======
-#: patterns/structure/js/views/table.js
-msgid "Edit"
-msgstr ""
-
-#: ./patterns/tinymce/pattern.js
-msgid "Email Address"
-msgstr ""
-
-#: ./patterns/tinymce/pattern.js
-msgid "Email Subject (optional)"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Enabled"
@@ -458,54 +343,39 @@ msgstr "建立进程时产生错误"
 
 #: patterns/structure/js/views/generic-popover.js
 msgid "Error loading popover from server."
-msgstr ""
+msgstr "从服务器调入popover错误。"
 
-<<<<<<< HEAD
 #: patterns/structure/js/actions.js
-=======
-#: ./patterns/structure/js/views/generic-popover.js
-msgid "Error loading popover from server."
-msgstr ""
-
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Error pasting into"
 msgstr "粘贴时产生错误"
 
 #: patterns/resourceregistry/pattern.js
 msgid "Error processing ajax request for action: "
-msgstr "处理 ajax 执行指令时产生错误"
+msgstr "执行指令时处理ajax请求错误"
 
 #: patterns/resourceregistry/js/builder.js
 msgid "Error saving css bundle"
 msgstr "存储 CSS 包时产生错误"
 
-# not sure
 #: patterns/upload/pattern.js
 msgid "Error uploading with TUS resumable uploads"
 msgstr "使用TUS上传可恢复的上传时产生错误"
 
-<<<<<<< HEAD
-#: patterns/resourceregistry/js/registry.js
-=======
-#: ./patterns/structure/templates/tablerow.xml
+#: patterns/structure/templates/tablerow.xml
 msgid "Expired"
-msgstr ""
+msgstr "过期的"
 
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/registry.js
 msgid "Export"
 msgstr "导出"
 
-# not sure
 #: patterns/resourceregistry/js/registry.js
 msgid "Export vars for requirejs shim"
 msgstr "导出用于requirejs shim 的vars"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Expression"
-<<<<<<< HEAD
-msgstr "表述"
+msgstr "表达式"
 
 #: patterns/tinymce/pattern.js
 msgid "External"
@@ -514,29 +384,6 @@ msgstr "外部"
 #: patterns/tinymce/pattern.js
 msgid "External Image"
 msgstr "外部图片"
-=======
-msgstr "表达式"
-
-#: ./patterns/tinymce/pattern.js
-msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
-msgstr ""
-
-#: ./patterns/tinymce/pattern.js
-msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
-msgstr ""
-
-#:
-msgid "External image"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
-msgid "Favorites"
-msgstr ""
-
-#: ./patterns/filemanager/pattern.js
-msgid "File"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/tinymce/pattern.js
 msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
@@ -545,6 +392,14 @@ msgstr "外部图片URL（能是本站的相对地址或者以http:// or https:/
 #: patterns/tinymce/pattern.js
 msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr "外部URL（能是本站的相对地址或者以http:// or https://打头的绝对地址）"
+
+#: patterns/relateditems/pattern.js
+msgid "Favorites"
+msgstr "收藏夹"
+
+#: patterns/filemanager/pattern.js
+msgid "File"
+msgstr "文件"
 
 #: patterns/filemanager/js/addnew.js
 msgid "Filename"
@@ -560,45 +415,37 @@ msgstr "筛选器"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Filter..."
-<<<<<<< HEAD
-msgstr "筛选..."
-=======
 msgstr "筛选器..."
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Find"
-msgstr ""
+msgstr "发现"
 
-#: ./patterns/filemanager/js/findfile.js
+#: patterns/filemanager/js/findfile.js
 msgid "Find File"
-msgstr ""
+msgstr "发现文件"
 
-#: ./patterns/filemanager/js/findinfiles.js
+#: patterns/filemanager/js/findinfiles.js
 msgid "Find in File"
-msgstr ""
+msgstr "在文件中寻找"
 
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "Find in Files"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "在文件中寻找"
 
 #: patterns/filemanager/js/customize.js
 msgid "Find resource in plone to override"
-msgstr "搜寻 Resource 进行编辑"
+msgstr "在Plone中定位资源用于覆盖"
 
-<<<<<<< HEAD
-#: patterns/resourceregistry/js/builder.js
-=======
-#: ./patterns/filemanager/js/findinfiles.js
+#: patterns/filemanager/js/findinfiles.js
 msgid "Find text within theme resource in plone"
-msgstr ""
+msgstr "在Plone的theme资源中发现文本"
 
-#: ./patterns/filemanager/js/findfile.js
+#: patterns/filemanager/js/findfile.js
 msgid "Find theme resource in plone"
-msgstr ""
+msgstr "在Plone中发现theme资源"
 
-#: ./patterns/resourceregistry/js/builder.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/builder.js
 msgid "Finished!"
 msgstr "已完成!"
 
@@ -606,30 +453,33 @@ msgstr "已完成!"
 msgid "Fullscreen"
 msgstr "全屏"
 
-# not sure
 #: patterns/thememapper/pattern.js
 msgid "HTML mockup"
-msgstr "HTML 实体模型"
+msgstr ""
 
 #: patterns/thememapper/pattern.js
 msgid "Help"
 msgstr "帮助"
 
-<<<<<<< HEAD
 #: patterns/tinymce/pattern.js
-=======
-#: ./patterns/tinymce/pattern.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Image"
 msgstr "图片"
 
 #: patterns/resourceregistry/js/registry.js
+msgid "In production, the bundle is merged together with others. Select which one here."
+msgstr ""
+
+#: patterns/resourceregistry/js/registry.js
 msgid "Init"
-msgstr "初始"
+msgstr ""
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Init instruction for requirejs shim"
 msgstr "用于 requirejs shim 初始指令"
+
+#: patterns/tinymce/pattern.js
+msgid "Inline"
+msgstr "不浮动"
 
 #: patterns/tinymce/pattern.js
 msgid "Insert"
@@ -647,19 +497,11 @@ msgstr "插入链接"
 msgid "Internal"
 msgstr "内部"
 
-<<<<<<< HEAD
 #: patterns/tinymce/pattern.js
 msgid "Internal Image"
 msgstr "站内图片"
 
 #: patterns/resourceregistry/js/registry.js
-=======
-#:
-msgid "Internal image"
-msgstr ""
-
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Internet Explorer conditional comment"
 msgstr "Internet Explorer 条件注释"
 
@@ -667,17 +509,17 @@ msgstr "Internet Explorer 条件注释"
 msgid "JS"
 msgstr "JS"
 
-<<<<<<< HEAD
 #: patterns/thememapper/js/lessbuilderview.js
-=======
-#: ./patterns/thememapper/js/lessbuilderview.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "LESS Builder"
 msgstr "lESS 生成器"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Last compilation"
-msgstr "前一次编译"
+msgstr "最后一次编译"
+
+#: patterns/tinymce/pattern.js
+msgid "Left"
+msgstr "左对齐"
 
 #: patterns/resourceregistry/pattern.js
 msgid "Less Variables"
@@ -687,53 +529,39 @@ msgstr "Less 变量"
 msgid "List of CSS/LESS files to use for resource"
 msgstr "列出 CESS/LESS 文件以供 resource 使用"
 
-<<<<<<< HEAD
+#: patterns/resourceregistry/js/registry.js
+msgid "Load JavaScript asynchronously?"
+msgstr "异步载入JavaScript ?"
+
+#: patterns/resourceregistry/js/registry.js
+msgid "Load JavaScript deferred?"
+msgstr "延迟载入JavaScript ?"
+
 #: patterns/structure/js/views/generic-popover.js
 msgid "Loading..."
 msgstr "调入……"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Main JavaScript file"
-msgstr "主 JavaScript 文件"
-=======
-#: ./patterns/structure/js/views/generic-popover.js
-msgid "Loading..."
-msgstr ""
-
-#: ./patterns/resourceregistry/js/registry.js
-msgid "Main JavaScript file"
 msgstr "Main JavaScript 文件"
 
-#: patterns/structure/js/views/table.js
+#: patterns/structure/js/views/app.js
 msgid "Manage selection"
-msgstr ""
+msgstr "管理选择"
 
-#: patterns/structure/js/views/table.js
-msgid "Modify properties on items"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
-msgid "Move to bottom folder"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
-msgid "Move to top folder"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/registry.js
+msgid "Merge with"
+msgstr "归并和"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Name"
 msgstr "名称"
 
-<<<<<<< HEAD
-#: patterns/filemanager/js/newfolder.js
-=======
-#: ./patterns/filemanager/pattern.js
+#: patterns/filemanager/pattern.js
 msgid "New file"
-msgstr ""
+msgstr "新文件"
 
-#: ./patterns/filemanager/js/newfolder.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/filemanager/js/newfolder.js
 msgid "New folder"
 msgstr "新建文件夹"
 
@@ -745,51 +573,25 @@ msgstr "下一个"
 msgid "Next month"
 msgstr "下个月"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/builder.js
-=======
-#: ./patterns/pickadate/pattern.js
-msgid "Next month"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
-msgid "No change"
-msgstr ""
-
-#: ./patterns/resourceregistry/js/builder.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "No javascripts to build, skipping"
 msgstr "没有 JavaScript 建立，跳过"
 
-<<<<<<< HEAD
-#: patterns/resourceregistry/js/overrides.js
-msgid "Only ++plone++ resources are available to override"
-msgstr "只有++plone++资源可以重写"
-=======
-#: patterns/structure/js/views/table.js
-msgid "No sorting"
-msgstr ""
-
 #: patterns/structure/js/views/table.js
 msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
-msgstr ""
+msgstr "注意:当在查看按列排序内容时,禁止拖放排序操作."
 
-#: ./patterns/relateditems/pattern.js
+#: patterns/relateditems/pattern.js
 msgid "One level up"
 msgstr ""
 
-#: ./patterns/resourceregistry/js/overrides.js
+#: patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
-msgstr ""
+msgstr "只有++plone++资源可以重写(覆盖)"
 
-#: patterns/structure/js/views/table.js
-msgid "Open"
-msgstr ""
-
-#: ./patterns/relateditems/pattern.js
+#: patterns/relateditems/pattern.js
 msgid "Open folder"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "打开文件夹"
 
 #: patterns/tinymce/pattern.js
 msgid "Open in new window"
@@ -809,17 +611,13 @@ msgstr "在顶部框架 (替换所有框架) 中打开"
 
 #: patterns/resourceregistry/pattern.js
 msgid "Overrides"
-msgstr "优先"
+msgstr "覆盖"
 
 #: patterns/structure/templates/paging.xml
 msgid "Page:"
 msgstr "页面:"
 
-<<<<<<< HEAD
 #: patterns/structure/js/actions.js
-=======
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Pasted into"
 msgstr "粘贴到"
 
@@ -843,19 +641,11 @@ msgstr "预览主题"
 msgid "Previous"
 msgstr "先前"
 
-<<<<<<< HEAD
 #: patterns/pickadate/pattern.js
 msgid "Previous month"
 msgstr "前一月"
 
 #: patterns/structure/js/views/textfilter.js
-=======
-#: ./patterns/pickadate/pattern.js
-msgid "Previous month"
-msgstr ""
-
-#: ./patterns/structure/js/views/textfilter.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Query"
 msgstr "查询"
 
@@ -871,39 +661,23 @@ msgstr "重新排列文件夹内容"
 msgid "Rearrange items in this folder"
 msgstr "重新排列此文件夹中条目"
 
-<<<<<<< HEAD
+#: patterns/relateditems/pattern.js
+msgid "Recently Used"
+msgstr "最近使用的"
+
 #: patterns/thememapper/pattern.js
 msgid "Refresh"
 msgstr "刷新"
 
 #: patterns/resourceregistry/pattern.js
-=======
-#: ./patterns/relateditems/pattern.js
-msgid "Recently Used"
-msgstr ""
-
-#: ./patterns/thememapper/pattern.js
-msgid "Refresh"
-msgstr ""
-
-#: ./patterns/resourceregistry/pattern.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Registry"
-msgstr "记录"
+msgstr ""
 
 #: patterns/thememapper/pattern.js
 msgid "Reload the current file"
 msgstr "重新装载当前文件"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/fields.js
-=======
-#: ./patterns/thememapper/pattern.js
-msgid "Reload the current file"
-msgstr ""
-
-#: ./patterns/resourceregistry/js/fields.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Remove"
 msgstr "删除"
 
@@ -915,21 +689,21 @@ msgstr "重命名"
 msgid "Rename currently selected resource"
 msgstr "重命名当前所选的资源"
 
-<<<<<<< HEAD
-#: patterns/resourceregistry/js/registry.js
-=======
 #: patterns/structure/js/views/table.js
 msgid "Reset column sorting"
-msgstr ""
+msgstr "重设列排序"
 
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/registry.js
 msgid "Resources"
 msgstr "资源"
 
 #: patterns/resourceregistry/js/registry.js
 msgid "Resources base URL"
-msgstr "基于 URL 的资源"
+msgstr "资源基本URL"
+
+#: patterns/tinymce/pattern.js
+msgid "Responsive"
+msgstr "自适应图片"
 
 #: patterns/structure/js/views/rearrange.js
 msgid "Reverse"
@@ -937,7 +711,11 @@ msgstr "逆序"
 
 #: patterns/querystring/pattern.js
 msgid "Reversed Order"
-msgstr "相反顺序"
+msgstr "反向排序"
+
+#: patterns/tinymce/pattern.js
+msgid "Right"
+msgstr "右对齐"
 
 #: patterns/thememapper/js/rulebuilderview.js
 msgid "Rule Builder"
@@ -959,11 +737,6 @@ msgstr "搜索"
 msgid "Search for item on site..."
 msgstr "搜索站点上的项目"
 
-<<<<<<< HEAD
-#: patterns/relateditems/pattern.js
-msgid "Search:"
-msgstr "搜索:"
-
 #: patterns/pickadate/pattern.js
 msgid "Select a month"
 msgstr "选择一个月份"
@@ -971,19 +744,6 @@ msgstr "选择一个月份"
 #: patterns/pickadate/pattern.js
 msgid "Select a year"
 msgstr "选择一个年份"
-=======
-#: ./patterns/pickadate/pattern.js
-msgid "Select a month"
-msgstr ""
-
-#: ./patterns/pickadate/pattern.js
-msgid "Select a year"
-msgstr ""
-
-#: ./patterns/upload/templates/upload.xml
-msgid "Select another destination folder or leave blank to add files to the current location."
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/upload/templates/upload.xml
 msgid "Select another destination folder or leave blank to add files to the current location."
@@ -1005,15 +765,7 @@ msgstr "选择资源进行覆盖"
 msgid "Selected"
 msgstr "已选择"
 
-<<<<<<< HEAD
 #: patterns/thememapper/pattern.js
-=======
-#: patterns/structure/js/views/table.js
-msgid "Set as default page"
-msgstr ""
-
-#: ./patterns/thememapper/pattern.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Show help"
 msgstr "显示帮助"
 
@@ -1035,7 +787,7 @@ msgstr "大小"
 
 #: patterns/querystring/pattern.js
 msgid "Sort on"
-msgstr "分类"
+msgstr "排序"
 
 #: patterns/tinymce/pattern.js
 msgid "Specify an image. It can be on this site already (Internal Image), an image you upload (Upload), or from an external site (External Image)."
@@ -1045,19 +797,7 @@ msgstr "指定一个图片，它能本站已有的图片（内部图片），或
 msgid "Specify the object to link to. It can be on this site already (Internal), an object you upload (Upload), from an external site (External), an email address (Email), or an anchor on this page (Anchor)."
 msgstr "指定一个将连接到的对象，它能是本地站点已有的（内部），一个你即刻上载的对象（上载），或者外部站点（外部），或者一个邮件地址（Email），或者在当前页面的一个锚点（锚点）"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/registry.js
-=======
-#:
-msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
-msgstr ""
-
-#:
-msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
-msgstr ""
-
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "Stop Developing CSS"
 msgstr "停止开发 CSS"
 
@@ -1065,31 +805,17 @@ msgstr "停止开发 CSS"
 msgid "Stop Developing JavaScript"
 msgstr "停止开发 JavaScript"
 
-<<<<<<< HEAD
 #: patterns/resourceregistry/js/registry.js
 msgid "Stub JS Modules"
-msgstr ""
-
-#: patterns/tinymce/pattern.js
-msgid "Target"
-msgstr "目的"
-=======
-#: ./patterns/resourceregistry/js/registry.js
-msgid "Stub JS Modules"
-msgstr ""
-
-#: ./patterns/upload/pattern.js
-msgid "The file transfer failed"
-msgstr ""
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+msgstr "Stub JS Modules"
 
 #: patterns/upload/pattern.js
 msgid "The file transfer failed"
-msgstr "文件传输失败"
+msgstr "文件转换失败"
 
 #: patterns/modal/pattern.js
 msgid "There was an error loading modal."
-msgstr "导入模型时产生错误"
+msgstr "导入modal时产生错误"
 
 #: patterns/livesearch/pattern.js
 msgid "There was an error searching…"
@@ -1097,13 +823,12 @@ msgstr "搜索时产生错误"
 
 #: patterns/modal/pattern.js
 msgid "There was an error submitting the form."
-msgstr "提交表格时产生错误"
+msgstr "提交表单时产生错误"
 
 #: patterns/structure/js/views/rearrange.js
 msgid "This permanently changes the order of items in this folder. This operation may take a long time depending on the size of the folder."
 msgstr "这将永久改变文件夹中条目顺序。此操作将花费较长时间，将取决于文件夹的大小"
 
-<<<<<<< HEAD
 #: patterns/structure/templates/table.xml
 msgid "Title"
 msgstr "标题"
@@ -1112,22 +837,11 @@ msgstr "标题"
 msgid "Today"
 msgstr "今天"
 
-#: patterns/resourceregistry/js/registry.js
-=======
-#: ./patterns/structure/templates/table.xml
-msgid "Title"
-msgstr "标题"
-
-#: ./patterns/pickadate/pattern.js
-msgid "Today"
-msgstr ""
-
-#: ./patterns/thememapper/pattern.js
+#: patterns/thememapper/pattern.js
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
-#: ./patterns/resourceregistry/js/registry.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/resourceregistry/js/registry.js
 msgid "URL"
 msgstr "URL"
 
@@ -1139,23 +853,15 @@ msgstr "未主题化内容"
 msgid "Upload"
 msgstr "上传"
 
-<<<<<<< HEAD
+#: patterns/filemanager/pattern.js
+msgid "Upload Local Files..."
+msgstr "上载本地文件"
+
 #: patterns/filemanager/pattern.js
 msgid "Upload file to current directory"
 msgstr "上传文件到当前目录"
 
-#: patterns/structure/js/views/app.js
-=======
-#: ./patterns/filemanager/pattern.js
-msgid "Upload Local Files..."
-msgstr ""
-
-#: ./patterns/filemanager/pattern.js
-msgid "Upload file to current directory"
-msgstr "上传文件到当前目录"
-
-#: ./patterns/relateditems/pattern.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
+#: patterns/relateditems/pattern.js
 msgid "Upload files"
 msgstr "上传文件"
 
@@ -1167,15 +873,7 @@ msgstr "上传到这里"
 msgid "Upload to..."
 msgstr "上传到..."
 
-<<<<<<< HEAD
 #: patterns/structure/js/views/rearrange.js
-=======
-#: patterns/structure/js/views/table.js
-msgid "Week days"
-msgstr ""
-
-#: ./patterns/structure/js/views/rearrange.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "What to rearrange on"
 msgstr "对哪一个重新安排"
 
@@ -1195,24 +893,15 @@ msgstr "生成CSS包"
 msgid "building javascripts"
 msgstr "建立 JavaScript"
 
-<<<<<<< HEAD
 #: patterns/structure/js/actions.js
-=======
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "copying"
 msgstr "正在复制"
 
-# not sure
 #: patterns/resourceregistry/js/overrides.js
 msgid "customized"
-msgstr "指定的"
+msgstr "定制的"
 
-<<<<<<< HEAD
 #: patterns/structure/js/actions.js
-=======
-#: ./patterns/structure/js/actions.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "cutting"
 msgstr "正在剪切"
 
@@ -1224,39 +913,21 @@ msgstr "天数"
 msgid "enter search phrase"
 msgstr "输入搜索短语"
 
-<<<<<<< HEAD
-# not sure
-#: patterns/relateditems/pattern.js
-msgid "entire site"
-msgstr "整个站点"
-
 #: patterns/resourceregistry/js/overrides.js
-=======
-#: ./patterns/resourceregistry/js/overrides.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "error loading resource for editing"
-msgstr "在导入资源用于编辑是产生错误"
+msgstr "在导入资源用于编辑时产生错误"
 
 #: patterns/resourceregistry/js/builder.js
 msgid "finished saving css bundles"
-msgstr "完成保存CSS包"
+msgstr "保存CSS包完成"
 
-# not sure
 #: patterns/livesearch/pattern.js
 msgid "found"
 msgstr "发现"
 
-<<<<<<< HEAD
-#: patterns/relateditems/pattern.js
-msgid "home"
-msgstr "主页"
-
 #: patterns/resourceregistry/js/builder.js
-=======
-#: ./patterns/resourceregistry/js/builder.js
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgid "less compilation error on file "
-msgstr "在文件更少的编译错误"
+msgstr "文件less编译错误"
 
 #: patterns/livesearch/pattern.js
 msgid "no results found"
@@ -1264,7 +935,7 @@ msgstr "未发现结果"
 
 #: patterns/structure/templates/paging.xml
 msgid "of"
-msgstr "从属"
+msgstr ""
 
 #: patterns/structure/js/views/app.js
 msgid "operation url ${url} is not valid"
@@ -1276,13 +947,12 @@ msgstr "在新窗口中预览主题"
 
 #: patterns/structure/js/views/selectionwell.js
 msgid "remove all"
-msgstr "移除全部"
+msgstr "删除全部"
 
 #: patterns/livesearch/pattern.js
 msgid "results"
 msgstr "结果"
 
-# not sure
 #: patterns/thememapper/pattern.js
 msgid "rule building wizard"
 msgstr "规则构建导向"
@@ -1295,26 +965,17 @@ msgstr "搜索..."
 msgid "shown"
 msgstr "展示"
 
-<<<<<<< HEAD
 #: patterns/structure/js/views/app.js
-msgid "there was an error performing action"
-=======
-#: ./patterns/structure/js/views/app.js
 msgid "there was an error performing the action"
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 msgstr "执行操作出错"
 
 #: patterns/querystring/pattern.js
 msgid "to"
-msgstr "到"
+msgstr ""
 
 #: patterns/upload/pattern.js
 msgid "uploading..."
-<<<<<<< HEAD
-msgstr "上传..."
-=======
 msgstr "正在上传..."
->>>>>>> c7619fdc1fc3b3b6124b0dc925d802539ba9543f
 
 #: patterns/thememapper/pattern.js
 msgid "view the editor in fullscreen"
