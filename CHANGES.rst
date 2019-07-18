@@ -1,15 +1,62 @@
 Changelog
 =========
 
-5.1.13 (unreleased)
+5.1.19 (unreleased)
+-------------------
+
+- Nothing changed yet.
+
+
+5.1.18 (2019-07-12)
+-------------------
+
+- Update German translations, add most missing.
+  [jensens]
+
+
+5.1.17 (2019-07-03)
+-------------------
+
+- Update French, Basque, Catalan translations.
+
+
+5.1.16 (2019-07-01)
+-------------------
+
+- Update French, Basque, Spanish, Norwegian, German translations.
+
+
+5.1.15 (2019-06-20)
+-------------------
+
+- Review French translation.
+
+
+5.1.14 (2019-06-20)
+-------------------
+
+- Add missing french translations.
+  [mpeeters]
+
+- Complete Basque translation.
+  [erral]
+
+- Updated Chinese Simplified translation.
+  [jianaijun]
+
+- Fixed French translations [ale-rt]
+
+5.1.13 (2019-03-05)
 -------------------
 
 - Update Italian translations.
-  [arsenico13]
+  [ale-rt, arsenico13, cekk]
 - Add .gitattributes file to avoid most CHANGES merge conflicts
   [@arsenico13]
 - Update Traditional Chinese translations.
   [l34marr]
+- Update Basque translations.
+  [erral]
 
 
 5.1.12 (2019-01-02)

@@ -2,7 +2,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-version = '5.1.13.dev0'
+version = '5.1.19.dev0'
 
 setup(
     name='plone.app.locales',
@@ -16,6 +16,7 @@ setup(
         'Framework :: Plone :: 5.1',
         'Framework :: Plone :: 5.2',
         'Framework :: Zope2',
+        'Framework :: Zope :: 4',
         'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
