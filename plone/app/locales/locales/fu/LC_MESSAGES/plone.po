@@ -52,32 +52,32 @@ msgstr ""
 msgid "${monthname} ${year}"
 msgstr ""
 
-#: CMFPlone/utils.py:946
+#: CMFPlone/skins/plone_scripts/check_id.py:81
 msgid "${name} is not a legal name. The following characters are invalid: ${characters}"
 msgstr ""
 
 #. Default: "${name} è un nome riservato."
-#: CMFPlone/utils.py:935
+#: CMFPlone/skins/plone_scripts/check_id.py:70
 msgid "${name} is reserved."
 msgstr "${name} al è un non riservât."
 
-#: CMFPlone/RegistrationTool.py:220
+#: CMFPlone/RegistrationTool.py:205
 msgid "${sentances}. ${sentance}"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/logged_out.pt:29
+#: CMFPlone/skins/plone_login/logged_out.cpt:43
 msgid "${text_logged_out_link} and click 'Cancel' when prompted with an authentication prompt."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/copy.py:41
+#: plone.app.content/plone/app/content/browser/contents/copy.py:44
 msgid "${title} cannot be copied."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/actions.py:269
+#: plone.app.content/plone/app/content/browser/actions.py:263
 msgid "${title} copied."
 msgstr "${title} al è stât copiât."
 
-#: plone.app.content/plone/app/content/browser/actions.py:241
+#: plone.app.content/plone/app/content/browser/actions.py:238
 msgid "${title} cut."
 msgstr "${title} al è stât taiât."
 
@@ -85,7 +85,7 @@ msgstr "${title} al è stât taiât."
 msgid "${title} has been deleted."
 msgstr "${title} al è stât scancelât."
 
-#: plone.app.content/plone/app/content/browser/contents/cut.py:41
+#: plone.app.content/plone/app/content/browser/contents/cut.py:44
 msgid "${title} is being edited and cannot be cut."
 msgstr ""
 
@@ -93,11 +93,11 @@ msgstr ""
 msgid "${title} is locked and cannot be cut."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/delete.py:77
+#: plone.app.content/plone/app/content/browser/contents/delete.py:80
 msgid "${title} is locked and cannot be deleted."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/actions.py:262
+#: plone.app.content/plone/app/content/browser/actions.py:259
 msgid "${title} is not copyable."
 msgstr "${title} no si pues copiâlu."
 
@@ -213,7 +213,7 @@ msgstr ""
 msgid "A group condition can prevent a rule from executing unless the current user is a member of a particular group."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:370
+#: CMFPlone/interfaces/controlpanel.py:367
 msgid "A list of valid tags which will be not filtered out."
 msgstr ""
 
@@ -221,7 +221,7 @@ msgstr ""
 msgid "A logger action can output a message to the system log."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:188
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:185
 msgid "A mail action can mail different recipient."
 msgstr ""
 
@@ -229,7 +229,7 @@ msgstr ""
 msgid "A mail has now been sent to the site administrator regarding your questions and/or comments."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/move.py:167
+#: plone.app.contentrules/plone/app/contentrules/actions/move.py:176
 msgid "A move action can move an object to a different folder."
 msgstr ""
 
@@ -325,16 +325,20 @@ msgstr ""
 msgid "A simple review workflow for comments"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1647
+#: CMFPlone/interfaces/controlpanel.py:1644
 msgid "A value for the quality of 2x high pixel density images, from 1 (lowest) to 95 (highest). A value of 0 will mean plone.scaling's default will be used, which is currently 62."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1658
+#: CMFPlone/interfaces/controlpanel.py:1655
 msgid "A value for the quality of 3x high pixel density images, from 1 (lowest) to 95 (highest). A value of 0 will mean plone.scaling's default will be used, which is currently 51."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1625
+#: CMFPlone/interfaces/controlpanel.py:1622
 msgid "A value for the quality of scaled images, from 1 (lowest) to 95 (highest). A value of 0 will mean plone.scaling's default will be used, which is currently 88."
+msgstr ""
+
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:72
+msgid "A versioning action will store a version of a content no matter versioning is enabled for it or not."
 msgstr ""
 
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:93
@@ -399,7 +403,7 @@ msgstr ""
 msgid "Activate"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:169
+#: CMFPlone/controlpanel/browser/quickinstaller.pt:170
 msgid "Activated add-ons"
 msgstr ""
 
@@ -420,11 +424,11 @@ msgstr ""
 msgid "Add Classic Portlet"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:304
+#: plone.portlet.collection/plone/portlet/collection/collection.py:308
 msgid "Add Collection Portlet"
 msgstr ""
 
-#: plone.app.dexterity/plone/app/dexterity/browser/add_type.py:13
+#: plone.app.dexterity/plone/app/dexterity/browser/add_type.py:31
 msgid "Add Content Type"
 msgstr ""
 
@@ -452,11 +456,11 @@ msgstr ""
 msgid "Add Logger Action"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:187
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:184
 msgid "Add Mail Action"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/move.py:166
+#: plone.app.contentrules/plone/app/contentrules/actions/move.py:175
 msgid "Add Move Action"
 msgstr ""
 
@@ -469,6 +473,7 @@ msgid "Add New Content Type&hellip;"
 msgstr ""
 
 #: plone.dexterity/plone/dexterity/browser/add.py:120
+#: plone.directives.form/plone/directives/form/form.py:186
 msgid "Add New Item operation cancelled"
 msgstr ""
 
@@ -508,6 +513,10 @@ msgstr ""
 msgid "Add TALES Expression Condition"
 msgstr ""
 
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:71
+msgid "Add Versioning Action"
+msgstr ""
+
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:92
 msgid "Add Workflow Action"
 msgstr ""
@@ -520,7 +529,7 @@ msgstr ""
 msgid "Add Workflow Transition Condition"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:67
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:68
 msgid "Add a comment"
 msgstr ""
 
@@ -540,7 +549,7 @@ msgstr ""
 msgid "Add new fieldset"
 msgstr ""
 
-#: CMFPlone/PloneControlPanel.py:76
+#: CMFPlone/PloneControlPanel.py:74
 msgid "Add-on Configuration"
 msgstr ""
 
@@ -554,6 +563,10 @@ msgstr "Configurazion prodots zontâts"
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:19
 #: CMFPlone/profiles/default/controlpanel.xml
 msgid "Add-ons"
+msgstr ""
+
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:109
+msgid "Added files"
 msgstr ""
 
 #: plone.app.versioningbehavior/plone/app/versioningbehavior/configure.zcml:59
@@ -612,7 +625,7 @@ msgstr ""
 msgid "Adds working copy support (aka. in-place staging) to Plone."
 msgstr ""
 
-#: CMFPlone/PloneControlPanel.py:74
+#: CMFPlone/PloneControlPanel.py:72
 #: CMFPlone/browser/templates/plone-overview.pt:125
 #: CMFPlone/controlpanel/browser/tinymce.py:31
 msgid "Advanced"
@@ -644,7 +657,7 @@ msgstr ""
 msgid "After the current day"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:748
+#: CMFPlone/interfaces/controlpanel.py:745
 msgid "After the deadline (FLOSS)"
 msgstr ""
 
@@ -660,7 +673,7 @@ msgstr ""
 msgid "Album view"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:562
+#: CMFPlone/interfaces/controlpanel.py:559
 msgid "Alignment styles"
 msgstr ""
 
@@ -678,7 +691,7 @@ msgstr ""
 msgid "All dates"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1110
+#: CMFPlone/interfaces/controlpanel.py:1107
 msgid "Allow anyone to view 'about' information"
 msgstr ""
 
@@ -695,7 +708,7 @@ msgstr ""
 msgid "Allow discussion on this item"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1683
+#: CMFPlone/interfaces/controlpanel.py:1680
 msgid "Allow external login sites"
 msgstr ""
 
@@ -727,15 +740,15 @@ msgstr ""
 msgid "Allowed MIME types"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1605
+#: CMFPlone/interfaces/controlpanel.py:1602
 msgid "Allowed image sizes"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1120
+#: CMFPlone/interfaces/controlpanel.py:1117
 msgid "Allows users to login with their email address instead of specifying a separate login name. This also updates the login name of existing users, which may take a while on large sites. The login name is saved as lower case, but to be userfriendly it does not matter which case you use to login. When duplicates are found, saving this form will fail. You can use the @@migrate-to-emaillogin page to show the duplicates."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1084
+#: CMFPlone/interfaces/controlpanel.py:1081
 msgid "Allows users to register themselves on the site. If not selected, only site managers can add new users."
 msgstr ""
 
@@ -743,11 +756,11 @@ msgstr ""
 msgid "Allows users to subscribe to feeds of search results"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1516
+#: CMFPlone/interfaces/controlpanel.py:1513
 msgid "Alternative formats"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1202
+#: CMFPlone/interfaces/controlpanel.py:1199
 msgid "Always"
 msgstr ""
 
@@ -780,7 +793,7 @@ msgstr "Un stât dal flus di lavôr (par esempli 'Publicât')"
 msgid "Anonymous"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:74
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:68
 msgid "Anonymous Comments"
 msgstr ""
 
@@ -857,15 +870,15 @@ msgstr ""
 msgid "Assignments enabled."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:770
+#: CMFPlone/interfaces/controlpanel.py:767
 msgid "AtD error types to show"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:754
+#: CMFPlone/interfaces/controlpanel.py:751
 msgid "AtD ignore strings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:793
+#: CMFPlone/interfaces/controlpanel.py:790
 msgid "AtD service URL"
 msgstr ""
 
@@ -873,7 +886,7 @@ msgstr ""
 msgid "Attendees extension for Events."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1671
+#: CMFPlone/interfaces/controlpanel.py:1668
 msgid "Auth cookie length"
 msgstr ""
 
@@ -888,7 +901,7 @@ msgstr ""
 msgid "Automatically generate short URL name for content based on its primary field file name"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:901
+#: CMFPlone/interfaces/controlpanel.py:898
 msgid "Automatically generate tabs"
 msgstr ""
 
@@ -900,15 +913,15 @@ msgstr ""
 msgid "Available add-ons"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:96
+#: CMFPlone/interfaces/controlpanel.py:93
 msgid "Available editors"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:97
+#: CMFPlone/interfaces/controlpanel.py:94
 msgid "Available editors in the portal."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1357
+#: CMFPlone/interfaces/controlpanel.py:1354
 msgid "Available timezones"
 msgstr ""
 
@@ -959,16 +972,16 @@ msgstr ""
 msgid "Before today"
 msgstr ""
 
-#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:84
+#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:109
 #: plone.app.dexterity/plone/app/dexterity/browser/layout.py:16
 msgid "Behaviors"
 msgstr ""
 
-#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:86
+#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:111
 msgid "Behaviors successfully updated."
 msgstr ""
 
-#: plone.app.widgets/plone/app/widgets/configure.zcml:32
+#: plone.app.widgets/plone/app/widgets/configure.zcml:33
 msgid "Better widgets for Plone"
 msgstr ""
 
@@ -976,7 +989,7 @@ msgstr ""
 msgid "Between dates"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:551
+#: CMFPlone/interfaces/controlpanel.py:548
 msgid "Block styles"
 msgstr ""
 
@@ -985,15 +998,15 @@ msgstr ""
 msgid "Boolean (True/False)"
 msgstr "Boolean (vêr/fals)"
 
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:211
+#: CMFPlone/controlpanel/browser/quickinstaller.pt:213
 msgid "Broken add-ons"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:902
+#: CMFPlone/interfaces/controlpanel.py:899
 msgid "By default, all items created at the root level will appear as tabs. You can turn this off if you prefer manually constructing this part of the navigation."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:911
+#: CMFPlone/interfaces/controlpanel.py:908
 msgid "By default, any content item in the root of the portal will appear as a tab. If you turn this option off, only folders will be shown. This only has an effect if 'automatically generate tabs' is enabled."
 msgstr ""
 
@@ -1013,7 +1026,7 @@ msgstr ""
 msgid "Cache in browser but expire immediately and enable 304 responses on subsequent requests. 304's require configuration of the 'Last-modified' and/or 'ETags' settings. If Last-Modified  header is insufficient to ensure freshness, turn on ETag checking by listing each ETag components that should be used to construct the ETag header. To also cache public responses in Zope memory, set 'RAM cache' to True."
 msgstr ""
 
-#: plone.app.caching/plone/app/caching/browser/controlpanel.py:656
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:662
 msgid "Cache purged."
 msgstr ""
 
@@ -1046,7 +1059,7 @@ msgstr ""
 
 #: CMFPlone/controlpanel/browser/filter.py:39
 #: CMFPlone/controlpanel/browser/language.py:44
-#: CMFPlone/controlpanel/browser/mail.py:32
+#: CMFPlone/controlpanel/browser/mail.py:31
 msgid "Cancel"
 msgstr ""
 
@@ -1080,17 +1093,17 @@ msgstr ""
 msgid "Categorization"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1726
+#: CMFPlone/interfaces/controlpanel.py:1723
 msgid "Category"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:37
+#: CMFPlone/browser/templates/explainPWResetTool.pt:37
 msgid "Change"
 msgstr ""
 
 #. Default: "Change Password"
 #: CMFPlone/profiles/default/controlpanel.xml
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:61
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:59
 msgid "Change Password"
 msgstr "Gambie la password"
 
@@ -1102,11 +1115,15 @@ msgstr ""
 msgid "Change type"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:31
+#: plone.app.content/plone/app/content/browser/contents/workflow.py:34
 msgid "Change workflow of selected items"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:168
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:93
+msgid "Changed files"
+msgstr ""
+
+#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:166
 msgid "Changes applied."
 msgstr "Modifichis aplicadis."
 
@@ -1127,7 +1144,7 @@ msgid "Changes made."
 msgstr "Modifichis fatis."
 
 #: CMFPlone/controlpanel/browser/types.py:67
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:90
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:84
 #: plone.app.portlets/plone/app/portlets/browser/formhelper.py:212
 msgid "Changes saved"
 msgstr ""
@@ -1138,7 +1155,11 @@ msgstr ""
 msgid "Changes saved."
 msgstr "Modifichis salvadis."
 
-#: CMFPlone/interfaces/controlpanel.py:1496
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:25
+msgid "Changes to ${title}"
+msgstr ""
+
+#: CMFPlone/interfaces/controlpanel.py:1493
 msgid "Characterset to use when sending e-mails."
 msgstr ""
 
@@ -1174,7 +1195,7 @@ msgstr ""
 msgid "Checkout workflow policy"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:507
+#: CMFPlone/interfaces/controlpanel.py:504
 msgid "Choose the CSS used in WYSIWYG Editor Area"
 msgstr ""
 
@@ -1227,6 +1248,7 @@ msgstr ""
 msgid "Comma separated values of resource for shim"
 msgstr ""
 
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:23
 #: plone.app.discussion/plone/app/discussion/profiles/default/types/Discussion_Item.xml
 #: plone.stringinterp/plone/stringinterp/adapters.py:696
 msgid "Comment"
@@ -1243,7 +1265,7 @@ msgstr ""
 msgid "Comment about the last transition"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/moderation.py:192
+#: plone.app.discussion/plone/app/discussion/browser/moderation.py:187
 msgid "Comment approved."
 msgstr ""
 
@@ -1259,7 +1281,7 @@ msgstr ""
 msgid "Comment author user name"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/moderation.py:108
+#: plone.app.discussion/plone/app/discussion/browser/moderation.py:104
 msgid "Comment deleted."
 msgstr ""
 
@@ -1275,7 +1297,7 @@ msgstr ""
 msgid "Commentators"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:75
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:69
 msgid "Commenter Image"
 msgstr ""
 
@@ -1336,7 +1358,7 @@ msgstr ""
 
 #: plone.app.contentrules/plone/app/contentrules/actions/copy.py:165
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:120
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:189
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:186
 msgid "Configure element"
 msgstr ""
 
@@ -1389,11 +1411,11 @@ msgstr ""
 msgid "Contains"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:818
+#: CMFPlone/interfaces/controlpanel.py:815
 msgid "Contains objects"
 msgstr ""
 
-#: CMFPlone/PloneControlPanel.py:71
+#: CMFPlone/PloneControlPanel.py:69
 #: CMFPlone/browser/templates/author.pt:201
 msgid "Content"
 msgstr ""
@@ -1499,13 +1521,13 @@ msgstr ""
 
 #. Default: "Copy"
 #: CMFPlone/profiles/default/actions.xml
-#: plone.app.content/plone/app/content/browser/contents/copy.py:23
+#: plone.app.content/plone/app/content/browser/contents/copy.py:26
 #: plone/app/theming/browser/controlpanel.pt:184
 msgid "Copy"
 msgstr "Copie"
 
 #. Default: "Copia o taglia uno o più elementi da incollare."
-#: plone.app.content/plone/app/content/browser/actions.py:290
+#: plone.app.content/plone/app/content/browser/actions.py:284
 msgid "Copy or cut one or more items to paste."
 msgstr "Copie o taie un o plui elements di incolâ"
 
@@ -1529,11 +1551,11 @@ msgstr ""
 msgid "Could not add group ${name}, perhaps a user or group with this name already exists."
 msgstr ""
 
-#: CMFPlone/browser/author.py:88
+#: CMFPlone/browser/author.py:89
 msgid "Could not find a valid email address"
 msgstr "No tu âs metût dentri une direzion di pueste eletroniche valide."
 
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:91
+#: plone.app.content/plone/app/content/browser/contents/workflow.py:94
 msgid "Could not transition: ${title}"
 msgstr ""
 
@@ -1593,7 +1615,7 @@ msgstr ""
 msgid "Creators Ids"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1061
+#: CMFPlone/interfaces/controlpanel.py:1058
 msgid "Crop the item description in search result listings after a number of characters."
 msgstr ""
 
@@ -1613,15 +1635,15 @@ msgstr ""
 msgid "Current logged in user"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:462
+#: CMFPlone/interfaces/controlpanel.py:459
 msgid "Custom attributes"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:724
+#: CMFPlone/interfaces/controlpanel.py:721
 msgid "Custom buttons"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:714
+#: CMFPlone/interfaces/controlpanel.py:711
 msgid "Custom plugins"
 msgstr ""
 
@@ -1631,7 +1653,7 @@ msgstr ""
 
 #. Default: "Cut"
 #: CMFPlone/profiles/default/actions.xml
-#: plone.app.content/plone/app/content/browser/contents/cut.py:23
+#: plone.app.content/plone/app/content/browser/contents/cut.py:26
 msgid "Cut"
 msgstr "Taie"
 
@@ -1684,7 +1706,7 @@ msgstr ""
 msgid "Day"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:884
+#: CMFPlone/interfaces/controlpanel.py:881
 msgid "Days of object history to keep after packing"
 msgstr ""
 
@@ -1701,11 +1723,11 @@ msgstr ""
 msgid "Default Page"
 msgstr "Pagjine sielzude"
 
-#: CMFPlone/interfaces/controlpanel.py:746
+#: CMFPlone/interfaces/controlpanel.py:743
 msgid "Default browser spellchecker"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:105
+#: CMFPlone/interfaces/controlpanel.py:102
 msgid "Default editor"
 msgstr ""
 
@@ -1713,7 +1735,7 @@ msgstr ""
 msgid "Default encoding for the value"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1505
+#: CMFPlone/interfaces/controlpanel.py:1502
 msgid "Default format"
 msgstr ""
 
@@ -1726,7 +1748,7 @@ msgstr ""
 msgid "Default output MIME type"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1312
+#: CMFPlone/interfaces/controlpanel.py:1309
 msgid "Default page IDs"
 msgstr ""
 
@@ -1754,11 +1776,11 @@ msgstr ""
 msgid "Define the search terms for the items you want to list by choosing what to match on. The list of results will be dynamically updated."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1041
+#: CMFPlone/interfaces/controlpanel.py:1038
 msgid "Define the types that should be searched and be available in the user facing part of the site. Note that if new content types are installed, they will be enabled by default unless explicitly turned off here or by the relevant installer."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1040
+#: CMFPlone/interfaces/controlpanel.py:1037
 msgid "Define the types to be shown in the site and searched"
 msgstr ""
 
@@ -1790,7 +1812,7 @@ msgstr ""
 msgid "Delete record"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/delete.py:35
+#: plone.app.content/plone/app/content/browser/contents/delete.py:38
 msgid "Delete selected items"
 msgstr ""
 
@@ -1823,7 +1845,7 @@ msgstr ""
 msgid "Depends on another bundle"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1735
+#: CMFPlone/interfaces/controlpanel.py:1732
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:202
 #: plone.app.contenttypes/plone/app/contenttypes/schema/file.xml
 msgid "Description"
@@ -1833,19 +1855,19 @@ msgstr ""
 msgid "Details link"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:117
+#: CMFPlone/interfaces/controlpanel.py:114
 msgid "Determines if the external editor feature is enabled. This feature requires a special client-side application installed. The users also have to enable this in their preferences."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:128
+#: CMFPlone/interfaces/controlpanel.py:125
 msgid "Determines if the users should get warnings when they delete or move content that is linked from inside the site."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1537
+#: CMFPlone/interfaces/controlpanel.py:1534
 msgid "Determines if your Plone is optimized for small or large sites. In environments with a lot of groups it can be very slow or impossible to build a list all groups. This option tunes the user interface and behaviour of Plone for this case by allowing you to search for groups instead of listing all of them."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1550
+#: CMFPlone/interfaces/controlpanel.py:1547
 msgid "Determines if your Plone is optimized for small or large sites. In environments with a lot of users it can be very slow or impossible to build a list all users. This option tunes the user interface and behaviour of Plone for this case by allowing you to search for users instead of listing all of them."
 msgstr ""
 
@@ -1867,11 +1889,11 @@ msgstr ""
 msgid "Dexterity versioning support"
 msgstr ""
 
-#: plone/app/theming/configure.zcml:32
+#: plone/app/theming/configure.zcml:33
 msgid "Diazo theme support"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:352
+#: CMFPlone/interfaces/controlpanel.py:349
 msgid "Disable HTML filtering"
 msgstr ""
 
@@ -1891,11 +1913,11 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:137
+#: CMFPlone/interfaces/controlpanel.py:134
 msgid "Disabling locking here will only affect users editing content through the Plone web UI.  Content edited via WebDAV clients will still be subject to locking."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/paste.py:57
+#: plone.app.content/plone/app/content/browser/contents/paste.py:60
 msgid "Disallowed subobject type \"${type}\""
 msgstr ""
 
@@ -1913,15 +1935,15 @@ msgstr "Coment"
 msgid "Discussion Items are documents which reply to other content.They should *not* be addable through the standard 'folder_factories' interface."
 msgstr "I coments a son documents che a àn dentri rispuestis a altris contignûts, e *no* varès di jessi pussibil di zontâju midiant de interface standard \"folder_factories\"."
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:32
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:26
 msgid "Discussion settings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1190
+#: CMFPlone/interfaces/controlpanel.py:1187
 msgid "Display publication date"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:954
+#: CMFPlone/interfaces/controlpanel.py:951
 msgid "Displayed content types"
 msgstr ""
 
@@ -1929,7 +1951,7 @@ msgstr ""
 msgid "Do not migrate"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:59
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:58
 msgid "Do not send the email to the user that did the action."
 msgstr ""
 
@@ -1945,7 +1967,7 @@ msgstr "No corispuint ae password corinte."
 msgid "Does your bundle contains any RequireJS or LESS file?"
 msgstr ""
 
-#: plone.cachepurging/plone/cachepurging/interfaces.py:59
+#: plone.cachepurging/plone/cachepurging/interfaces.py:55
 msgid "Domains"
 msgstr ""
 
@@ -1978,15 +2000,15 @@ msgstr ""
 msgid "E-Mail Address"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1495
+#: CMFPlone/interfaces/controlpanel.py:1492
 msgid "E-mail characterset"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1257
+#: CMFPlone/interfaces/controlpanel.py:1254
 msgid "E.g. standard view; This default can be overriden individually."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1265
+#: CMFPlone/interfaces/controlpanel.py:1262
 msgid "E.g., tabular view, folder content listing; This default can be overriden individually."
 msgstr ""
 
@@ -2025,7 +2047,7 @@ msgstr ""
 msgid "Edit Classic Portlet"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:314
+#: plone.portlet.collection/plone/portlet/collection/collection.py:318
 msgid "Edit Collection Portlet"
 msgstr ""
 
@@ -2057,7 +2079,7 @@ msgstr ""
 msgid "Edit Logger Action"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:204
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:201
 msgid "Edit Mail Action"
 msgstr ""
 
@@ -2066,7 +2088,7 @@ msgstr ""
 msgid "Edit Member Form Fields"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/move.py:182
+#: plone.app.contentrules/plone/app/contentrules/actions/move.py:191
 msgid "Edit Move Action"
 msgstr ""
 
@@ -2106,6 +2128,10 @@ msgstr ""
 msgid "Edit TALES Expression Condition"
 msgstr ""
 
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:88
+msgid "Edit Versioning Action"
+msgstr ""
+
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:107
 msgid "Edit Workflow Action"
 msgstr ""
@@ -2122,8 +2148,9 @@ msgstr ""
 msgid "Edit an existing rule."
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:96
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:90
 #: plone.dexterity/plone/dexterity/browser/edit.py:40
+#: plone.directives.form/plone/directives/form/form.py:228
 msgid "Edit cancelled"
 msgstr ""
 
@@ -2157,7 +2184,7 @@ msgstr ""
 msgid "Editor"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:498
+#: CMFPlone/interfaces/controlpanel.py:495
 msgid "Editor height"
 msgstr ""
 
@@ -2165,7 +2192,7 @@ msgstr ""
 msgid "Editor rejects submitted content"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:490
+#: CMFPlone/interfaces/controlpanel.py:487
 msgid "Editor width"
 msgstr ""
 
@@ -2190,27 +2217,27 @@ msgstr ""
 msgid "Email address not known."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:50
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:49
 msgid "Email recipients"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:84
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:83
 msgid "Email report to ${recipients}"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:42
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:41
 msgid "Email source"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:73
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:67
 msgid "Enable Comments"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:116
+#: CMFPlone/interfaces/controlpanel.py:113
 msgid "Enable External Editor feature"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1031
+#: CMFPlone/interfaces/controlpanel.py:1028
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:17
 msgid "Enable LiveSearch"
 msgstr ""
@@ -2219,11 +2246,11 @@ msgstr ""
 msgid "Enable RSS link document action on the syndication content item."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1102
+#: CMFPlone/interfaces/controlpanel.py:1099
 msgid "Enable User Folders"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:481
+#: CMFPlone/interfaces/controlpanel.py:478
 msgid "Enable auto resizing of the editor window."
 msgstr ""
 
@@ -2231,11 +2258,11 @@ msgstr ""
 msgid "Enable checkout workflow"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:127
+#: CMFPlone/interfaces/controlpanel.py:124
 msgid "Enable link integrity checks"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:136
+#: CMFPlone/interfaces/controlpanel.py:133
 msgid "Enable locking for through-the-web edits"
 msgstr ""
 
@@ -2247,11 +2274,11 @@ msgstr ""
 msgid "Enable purging"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:474
+#: CMFPlone/interfaces/controlpanel.py:471
 msgid "Enable resizing the editor window."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1083
+#: CMFPlone/interfaces/controlpanel.py:1080
 msgid "Enable self-registration"
 msgstr ""
 
@@ -2265,7 +2292,7 @@ msgstr ""
 msgid "Enabled by default"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1032
+#: CMFPlone/interfaces/controlpanel.py:1029
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:18
 msgid "Enables the LiveSearch feature, which shows live results if the browser supports JavaScript."
 msgstr ""
@@ -2274,23 +2301,23 @@ msgstr ""
 msgid "End Date"
 msgstr "Date di fin"
 
-#: CMFPlone/interfaces/controlpanel.py:584
+#: CMFPlone/interfaces/controlpanel.py:581
 msgid "Enter a JSON-formatted style format configuration. A format is for example the style that get applied when you press the bold button inside the editor. See https://www.tinymce.com/docs/configure/content-formatting/#formats"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:831
+#: CMFPlone/interfaces/controlpanel.py:828
 msgid "Enter a list of content types which can be used as images. Format is one contenttype per line."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:819
+#: CMFPlone/interfaces/controlpanel.py:816
 msgid "Enter a list of content types which can contain other objects. Format is one contenttype per line."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:725
+#: CMFPlone/interfaces/controlpanel.py:722
 msgid "Enter a list of custom buttons which will be added to toolbar"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:715
+#: CMFPlone/interfaces/controlpanel.py:712
 msgid "Enter a list of custom plugins which will be loaded in the editor. Format is pluginname|location, one per line."
 msgstr ""
 
@@ -2312,11 +2339,11 @@ msgstr ""
 msgid "Enter time..."
 msgstr ""
 
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:74
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:72
 msgid "Enter your new password. ${errors}"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:839
+#: CMFPlone/interfaces/controlpanel.py:836
 msgid "Entity encoding"
 msgstr ""
 
@@ -2331,9 +2358,9 @@ msgid "Equals"
 msgstr ""
 
 #. Default: "Error"
-#: CMFPlone/browser/login/templates/login.pt:16
-#: CMFPlone/browser/login/templates/login_failsafe.pt:15
 #: CMFPlone/browser/templates/author.pt:36
+#: CMFPlone/skins/plone_login/failsafe_login_form.cpt:47
+#: CMFPlone/skins/plone_login/login_form.cpt:53
 msgid "Error"
 msgstr ""
 
@@ -2341,11 +2368,11 @@ msgstr ""
 msgid "Error moving item"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/rename.py:114
+#: plone.app.content/plone/app/content/browser/contents/rename.py:116
 msgid "Error renaming ${title}"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:126
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:125
 msgid "Error sending email from content rule. You must provide a source address for mail actions or enter an email in the portal properties"
 msgstr ""
 
@@ -2411,6 +2438,10 @@ msgstr ""
 msgid "Event end date"
 msgstr ""
 
+#: plone.app.event/plone/app/event/browser/configure.zcml:24
+msgid "Event listing"
+msgstr ""
+
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Event start date"
 msgstr ""
@@ -2429,10 +2460,6 @@ msgstr ""
 msgid "Example content"
 msgstr ""
 
-#: plone.formwidget.recurrence/plone/formwidget/recurrence/tests/at_example/configure.zcml:14
-msgid "Example content type for Recurrence Widget"
-msgstr ""
-
 msgid "Excel spreadsheet"
 msgstr ""
 
@@ -2440,11 +2467,11 @@ msgstr ""
 msgid "Exclude From navigation"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:58
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:57
 msgid "Exclude actor from recipients"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:95
+#: plone.portlet.collection/plone/portlet/collection/collection.py:98
 msgid "Exclude the Current Context"
 msgstr ""
 
@@ -2461,7 +2488,7 @@ msgstr ""
 msgid "Expiration date"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:43
+#: CMFPlone/browser/templates/explainPWResetTool.pt:43
 msgid "Expired reset requests: ${n} (expired requests deleted after 10 days)"
 msgstr ""
 
@@ -2477,19 +2504,19 @@ msgstr ""
 msgid "Export vars for shim"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1159
+#: CMFPlone/interfaces/controlpanel.py:1156
 msgid "Expose Dublin Core metadata"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1165
+#: CMFPlone/interfaces/controlpanel.py:1162
 msgid "Expose sitemap.xml.gz"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1160
+#: CMFPlone/interfaces/controlpanel.py:1157
 msgid "Exposes the Dublin Core properties as metatags."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1166
+#: CMFPlone/interfaces/controlpanel.py:1163
 msgid "Exposes your content as a file according to the <a href='http://sitemaps.org'>sitemaps.org</a> standard. You can submit this to compliant search engines like Google, Yahoo and Microsoft. It allows these search engines to more intelligently crawl your site."
 msgstr ""
 
@@ -2505,10 +2532,6 @@ msgstr ""
 msgid "Extension profile for plone.app.referenceablebehavior"
 msgstr ""
 
-#: plone.formwidget.recurrence/plone/formwidget/recurrence/tests/at_example/configure.zcml:14
-msgid "Extension profile for the plone.formwidget.recurrence package."
-msgstr ""
-
 #: CMFPlone/profiles.zcml:31
 #: plone.app.iterate/plone/app/iterate/configure.zcml:45
 msgid "Extension profile to configure a test fixture"
@@ -2519,15 +2542,15 @@ msgstr ""
 msgid "External Edit"
 msgstr "Editôr esterni"
 
-#: CMFPlone/interfaces/controlpanel.py:1702
+#: CMFPlone/interfaces/controlpanel.py:1699
 msgid "External login iframe"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1690
+#: CMFPlone/interfaces/controlpanel.py:1687
 msgid "External login url"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1696
+#: CMFPlone/interfaces/controlpanel.py:1693
 msgid "External logout url"
 msgstr ""
 
@@ -2536,23 +2559,23 @@ msgstr ""
 msgid "Externally visible"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1590
+#: CMFPlone/interfaces/controlpanel.py:1587
 msgid "Facebook App ID"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1597
+#: CMFPlone/interfaces/controlpanel.py:1594
 msgid "Facebook username"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/copy.py:32
+#: plone.app.content/plone/app/content/browser/contents/copy.py:35
 msgid "Failed to copy items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/cut.py:32
+#: plone.app.content/plone/app/content/browser/contents/cut.py:35
 msgid "Failed to cut items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/delete.py:48
+#: plone.app.content/plone/app/content/browser/contents/delete.py:51
 msgid "Failed to delete items"
 msgstr ""
 
@@ -2560,19 +2583,19 @@ msgstr ""
 msgid "Failed to install ${product}."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:41
+#: plone.app.content/plone/app/content/browser/contents/workflow.py:44
 msgid "Failed to modify items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/tags.py:40
+#: plone.app.content/plone/app/content/browser/contents/tags.py:43
 msgid "Failed to modify tags on items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/paste.py:32
+#: plone.app.content/plone/app/content/browser/contents/paste.py:35
 msgid "Failed to paste items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/rename.py:51
+#: plone.app.content/plone/app/content/browser/contents/rename.py:53
 msgid "Failed to rename all items"
 msgstr ""
 
@@ -2584,7 +2607,7 @@ msgstr ""
 msgid "Failure"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/properties.py:48
+#: plone.app.content/plone/app/content/browser/contents/properties.py:51
 msgid "Failure updating metadata"
 msgstr ""
 
@@ -2594,6 +2617,10 @@ msgstr ""
 
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:250
 msgid "Feed reload timeout"
+msgstr ""
+
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:85
+msgid "Field Changed"
 msgstr ""
 
 #: plone.schemaeditor/plone/schemaeditor/browser/schema/add_field.py:90
@@ -2650,7 +2677,7 @@ msgstr ""
 msgid "Filter Contained Types"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:974
+#: CMFPlone/interfaces/controlpanel.py:971
 msgid "Filter on workflow state"
 msgstr ""
 
@@ -2673,7 +2700,7 @@ msgstr "Cjate i elements che a rapresentin la visualizazion predefinide pe carte
 msgid "Find items that can contain other objects"
 msgstr "Cjate i elements che a tegnin dentri altris elements."
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:61
+#: plone.portlet.collection/plone/portlet/collection/collection.py:64
 msgid "Find the collection which provides the items to list"
 msgstr ""
 
@@ -2701,15 +2728,15 @@ msgstr "Tipo contenitore"
 msgid "Folders"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1204
+#: CMFPlone/interfaces/controlpanel.py:1201
 msgid "For authenticated users only"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1180
+#: CMFPlone/interfaces/controlpanel.py:1177
 msgid "For enabling web statistics support from external providers (e.g. Google Analytics). Paste the provided code snippet here. It will be rendered as entered near the end of the page."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1598
+#: CMFPlone/interfaces/controlpanel.py:1595
 msgid "For linking Open Graph data to a Facebook account"
 msgstr ""
 
@@ -2717,7 +2744,7 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:583
+#: CMFPlone/interfaces/controlpanel.py:580
 msgid "Formats"
 msgstr ""
 
@@ -2736,8 +2763,8 @@ msgid "GIMP image"
 msgstr ""
 
 #. Default: "General"
-#: CMFPlone/PloneControlPanel.py:70
-#: CMFPlone/interfaces/controlpanel.py:161
+#: CMFPlone/PloneControlPanel.py:68
+#: CMFPlone/interfaces/controlpanel.py:158
 msgid "General"
 msgstr ""
 
@@ -2745,7 +2772,7 @@ msgstr ""
 msgid "General types settings."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:910
+#: CMFPlone/interfaces/controlpanel.py:907
 msgid "Generate tabs for items other than folders."
 msgstr ""
 
@@ -2761,7 +2788,7 @@ msgstr ""
 msgid "Gives the ability to rename an item from its edit form."
 msgstr ""
 
-#: CMFPlone/browser/templates/plone-admin-logged-out.pt:29
+#: CMFPlone/browser/templates/plone-logged-out.pt:29
 msgid "Go back to your site."
 msgstr ""
 
@@ -2781,7 +2808,7 @@ msgstr ""
 msgid "Go to the folder where you want the rule to apply, or at the site root, click on 'rule' tab, and then locally setup the rules."
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/overview.pt:32
+#: CMFPlone/controlpanel/browser/overview.pt:33
 msgid "Go to the upgrade page"
 msgstr ""
 
@@ -2830,7 +2857,7 @@ msgstr ""
 msgid "Have a look above for more information."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:523
+#: CMFPlone/interfaces/controlpanel.py:520
 msgid "Header styles"
 msgstr ""
 
@@ -2846,15 +2873,15 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1018
+#: CMFPlone/interfaces/controlpanel.py:1015
 msgid "Hide children of these types"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1019
+#: CMFPlone/interfaces/controlpanel.py:1016
 msgid "Hide content inside the following types in Navigation."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1635
+#: CMFPlone/interfaces/controlpanel.py:1632
 msgid "High pixel density mode"
 msgstr ""
 
@@ -2892,11 +2919,11 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1197
+#: CMFPlone/interfaces/controlpanel.py:1194
 msgid "Icon visibility"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1790
+#: CMFPlone/interfaces/controlpanel.py:1787
 #: plone.stringinterp/plone/stringinterp/adapters.py:608
 msgid "Id"
 msgstr ""
@@ -2921,7 +2948,7 @@ msgstr ""
 msgid "Identifier, actually URL of the content"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:992
+#: CMFPlone/interfaces/controlpanel.py:989
 msgid "If an item has been excluded from navigation should it be shown in navigation when viewing content contained within it or within a subfolder."
 msgstr ""
 
@@ -2929,19 +2956,19 @@ msgstr ""
 msgid "If disabled, no purging will take place"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:81
+#: plone.portlet.collection/plone/portlet/collection/collection.py:84
 msgid "If enabled, a more... link will appear in the footer of the portlet, linking to the underlying Collection."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:89
+#: plone.portlet.collection/plone/portlet/collection/collection.py:92
 msgid "If enabled, effective dates will be shown underneath the items listed."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:74
+#: plone.portlet.collection/plone/portlet/collection/collection.py:77
 msgid "If enabled, items will be selected randomly from the collection, rather than based on its sort order."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:96
+#: plone.portlet.collection/plone/portlet/collection/collection.py:99
 msgid "If enabled, the listing will not include the current item the portlet is rendered for if it otherwise would be."
 msgstr ""
 
@@ -2951,7 +2978,7 @@ msgid "If enabled, the portlet will not show document type icons"
 msgstr ""
 
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:110
-#: plone.portlet.collection/plone/portlet/collection/collection.py:104
+#: plone.portlet.collection/plone/portlet/collection/collection.py:107
 msgid "If enabled, the portlet will not show document type icons."
 msgstr ""
 
@@ -2973,15 +3000,15 @@ msgstr ""
 msgid "If its true and you modify this bundle you need to build it before production"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1111
+#: CMFPlone/interfaces/controlpanel.py:1108
 msgid "If not selected only logged-in users will be able to view information about who created an item and when it was modified."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1092
+#: CMFPlone/interfaces/controlpanel.py:1089
 msgid "If not selected, a URL will be generated and e-mailed. Users are instructed to follow the link to reach a page where they can change their password and complete the registration process; this also verifies that they have entered a valid email address."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1103
+#: CMFPlone/interfaces/controlpanel.py:1100
 msgid "If selected, home folders where users can create content will be created when they log in."
 msgstr ""
 
@@ -3015,15 +3042,15 @@ msgstr ""
 msgid "Image Handling Settings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:830
+#: CMFPlone/interfaces/controlpanel.py:827
 msgid "Image objects"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1646
+#: CMFPlone/interfaces/controlpanel.py:1643
 msgid "Image quality at 2x"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1657
+#: CMFPlone/interfaces/controlpanel.py:1654
 msgid "Image quality at 3x"
 msgstr ""
 
@@ -3044,7 +3071,7 @@ msgstr ""
 msgid "Import Type Profiles&hellip;"
 msgstr ""
 
-#: plone.app.caching/plone/app/caching/browser/controlpanel.py:537
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:543
 msgid "Import complete."
 msgstr ""
 
@@ -3077,7 +3104,7 @@ msgstr ""
 msgid "In production mode, bundles are merged together to reduce the quantity of JS and CSS resources loaded by the browser. Choose 'default' if this bundle must be available for all the visitors, choose 'logged-in' if it must be available for logged-in users only, or leave it empty if it must not be merged."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1573
+#: CMFPlone/interfaces/controlpanel.py:1570
 msgid "Include meta tags on pages to give hints to social media on how to better render your pages when shared"
 msgstr ""
 
@@ -3089,22 +3116,22 @@ msgstr ""
 msgid "Includes images and files created or customised through the ZMI, those exposed in the portal_skins tool, and images registered in resource directories on the filesystem."
 msgstr ""
 
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:93
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:91
 msgid "Incorrect value for current password"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:921
+#: CMFPlone/interfaces/controlpanel.py:918
 msgid "Index used to sort the tabs"
 msgstr ""
 
 #. Default: "Info"
 #: Archetypes/skins/archetypes/edit_macros.pt:36
-#: CMFPlone/controlpanel/browser/maintenance.pt:20
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:198
+#: CMFPlone/controlpanel/browser/maintenance.pt:21
+#: CMFPlone/controlpanel/browser/quickinstaller.pt:200
 msgid "Info"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:40
+#: CMFPlone/browser/templates/explainPWResetTool.pt:40
 msgid "Information"
 msgstr ""
 
@@ -3112,7 +3139,7 @@ msgstr ""
 msgid "Init instruction for shim"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:537
+#: CMFPlone/interfaces/controlpanel.py:534
 msgid "Inline styles"
 msgstr ""
 
@@ -3145,7 +3172,7 @@ msgstr ""
 msgid "Installing a third party add-on"
 msgstr ""
 
-#: plone/app/theming/configure.zcml:32
+#: plone/app/theming/configure.zcml:33
 msgid "Installs a control panel to allow on-the-fly theming with Diazo"
 msgstr ""
 
@@ -3183,7 +3210,7 @@ msgstr ""
 msgid "Invalid URL: ${url}"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:503
+#: CMFPlone/RegistrationTool.py:488
 #: plone.app.discussion/plone/app/discussion/interfaces.py:19
 msgid "Invalid email address."
 msgstr ""
@@ -3213,7 +3240,7 @@ msgstr ""
 msgid "Is within (relative)"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1280
+#: CMFPlone/interfaces/controlpanel.py:1277
 msgid "It can be on the side (vertical mode) or on the top (horizontal mode)"
 msgstr ""
 
@@ -3230,7 +3257,7 @@ msgstr ""
 msgid "Item state changed."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/actions.py:318
+#: plone.app.content/plone/app/content/browser/actions.py:312
 msgid "Item(s) pasted."
 msgstr "elements incolâts."
 
@@ -3244,7 +3271,7 @@ msgstr ""
 msgid "Items of this type will be able to contain other items."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/rename.py:50
+#: plone.app.content/plone/app/content/browser/contents/rename.py:52
 msgid "Items renamed"
 msgstr ""
 
@@ -3255,7 +3282,7 @@ msgstr ""
 msgid "JSONField"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1179
+#: CMFPlone/interfaces/controlpanel.py:1176
 msgid "JavaScript for web statistics support"
 msgstr ""
 
@@ -3302,7 +3329,7 @@ msgstr ""
 msgid "Language neutral"
 msgstr ""
 
-#: CMFPlone/Portal.py:154
+#: CMFPlone/Portal.py:149
 msgid "Language neutral (site default)"
 msgstr "Lenghe neutrâl"
 
@@ -3336,7 +3363,7 @@ msgstr ""
 msgid "Less than"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1091
+#: CMFPlone/interfaces/controlpanel.py:1088
 msgid "Let users select their own passwords"
 msgstr ""
 
@@ -3349,7 +3376,7 @@ msgid "Lets you upload a file to the site."
 msgstr ""
 
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/collection.py:66
-#: plone.portlet.collection/plone/portlet/collection/collection.py:67
+#: plone.portlet.collection/plone/portlet/collection/collection.py:70
 msgid "Limit"
 msgstr ""
 
@@ -3358,11 +3385,11 @@ msgstr ""
 msgid "Limit Search Results"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:147
+#: CMFPlone/interfaces/controlpanel.py:144
 msgid "Limit tags aka keywords vocabulary used for Tags field and in searches to the terms used inside the subtree of the current navigation root. This can be used together with Plone's multilingual extension plone.app.multilingual to only offer keywords of the current selected language. Other addons may utilize this feature for its specific purposes."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:146
+#: CMFPlone/interfaces/controlpanel.py:143
 msgid "Limit tags/keywords to the current navigation root"
 msgstr ""
 
@@ -3388,6 +3415,22 @@ msgstr "Liste di valôrs"
 msgid "Load all profiles from other packages/products that are needed for a full Plone site."
 msgstr ""
 
+#: CMFPlone/interfaces/resources.py:135
+msgid "Load asynchronously"
+msgstr ""
+
+#: CMFPlone/interfaces/resources.py:141
+msgid "Load deffered"
+msgstr ""
+
+#: CMFPlone/interfaces/resources.py:136
+msgid "Load the JavaScript files asynchronously by adding an ``async`` attribute to the script tag."
+msgstr ""
+
+#: CMFPlone/interfaces/resources.py:142
+msgid "Load the JavaScript files deffered after the document has been parsed but before ``DOMContentLoaded`` by adding a ``defer`` attribute to the script tag."
+msgstr ""
+
 #: CMFPlone/interfaces/resources.py:78
 msgid "Loaded resources"
 msgstr ""
@@ -3396,7 +3439,7 @@ msgstr ""
 msgid "Local Roles"
 msgstr ""
 
-#: plone.protect/plone/protect/configure.zcml:30
+#: plone.protect/plone/protect/configure.zcml:31
 msgid "Local configuration for plone.protect"
 msgstr ""
 
@@ -3444,7 +3487,6 @@ msgid "Log a particular event"
 msgstr ""
 
 #. Default: "Log in"
-#: CMFPlone/browser/login/login.py:147
 #: CMFPlone/profiles/default/actions.xml
 msgid "Log in"
 msgstr "Fâsiti riconossi"
@@ -3483,11 +3525,13 @@ msgstr ""
 msgid "Login failed"
 msgstr "No tu âs rivât a fâti ricognossi"
 
-#: CMFPlone/browser/login/login.py:159
+#: CMFPlone/skins/plone_login/logged_in.cpy:22
+#: CMFPlone/skins/plone_login/login_form_validate.vpy:76
 msgid "Login failed. Both email address and password are case sensitive, check that caps lock is not enabled."
 msgstr ""
 
-#: CMFPlone/browser/login/login.py:167
+#: CMFPlone/skins/plone_login/logged_in.cpy:27
+#: CMFPlone/skins/plone_login/login_form_validate.vpy:81
 msgid "Login failed. Both login name and password are case sensitive, check that caps lock is not enabled."
 msgstr ""
 
@@ -3496,7 +3540,7 @@ msgstr ""
 msgid "Login name not found."
 msgstr "Il non di utent nol è stât cjatât"
 
-#: CMFPlone/browser/templates/plone-admin-logged-out.pt:13
+#: CMFPlone/browser/templates/plone-logged-out.pt:13
 msgid "Logout"
 msgstr ""
 
@@ -3526,16 +3570,16 @@ msgstr ""
 msgid "Mail"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/mail.py:24
+#: CMFPlone/controlpanel/browser/mail.py:23
 msgid "Mail Settings"
 msgstr ""
 
-#: CMFPlone/browser/author.py:130
+#: CMFPlone/browser/author.py:131
 #: CMFPlone/browser/sendto.py:106
 msgid "Mail sent."
 msgstr "Messaç spedît."
 
-#: CMFPlone/RegistrationTool.py:341
+#: CMFPlone/RegistrationTool.py:326
 msgid "Mailing forgotten passwords has been disabled."
 msgstr ""
 
@@ -3551,7 +3595,7 @@ msgstr ""
 msgid "Maintenance"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/maintenance.py:37
+#: CMFPlone/controlpanel/browser/maintenance.py:30
 msgid "Maintenance Settings"
 msgstr ""
 
@@ -3612,11 +3656,11 @@ msgstr ""
 msgid "Mandatory dependencies for a Plone site"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1536
+#: CMFPlone/interfaces/controlpanel.py:1533
 msgid "Many groups?"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1549
+#: CMFPlone/interfaces/controlpanel.py:1546
 msgid "Many users?"
 msgstr ""
 
@@ -3632,11 +3676,11 @@ msgstr ""
 msgid "Maps skin names to lists of resource bundle names"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1717
+#: CMFPlone/interfaces/controlpanel.py:1714
 msgid "Mark special links"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1718
+#: CMFPlone/interfaces/controlpanel.py:1715
 msgid "Marks external or special protocol links with class."
 msgstr ""
 
@@ -3728,7 +3772,7 @@ msgid "Merge with"
 msgstr ""
 
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:41
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:62
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:61
 #: plone.app.contentrules/plone/app/contentrules/actions/notify.py:23
 msgid "Message"
 msgstr ""
@@ -3807,7 +3851,7 @@ msgstr ""
 msgid "Moderate comments"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:76
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:70
 msgid "Moderator Email Notification"
 msgstr ""
 
@@ -3820,7 +3864,7 @@ msgstr ""
 msgid "Modify portlet"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/properties.py:36
+#: plone.app.content/plone/app/content/browser/contents/properties.py:39
 msgid "Modify properties on items"
 msgstr ""
 
@@ -3890,13 +3934,8 @@ msgstr ""
 msgid "Multilingual Support [uninstall]"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:84
+#: CMFPlone/RegistrationTool.py:77
 msgid "Multiple users found with the same login name."
-msgstr ""
-
-#: CMFPlone/interfaces/controlpanel.py:59
-#: CMFPlone/utils.py:698
-msgid "Must be empty or a valid JSON-formatted configuration â ${message}."
 msgstr ""
 
 # latest zope.tal has trouble with the – character
@@ -3910,7 +3949,7 @@ msgstr ""
 msgid "My Folder"
 msgstr "Cartele personâl"
 
-#: CMFPlone/PloneControlPanel.py:67
+#: CMFPlone/PloneControlPanel.py:65
 msgid "My Preferences"
 msgstr ""
 
@@ -3927,27 +3966,27 @@ msgstr ""
 msgid "Name from title"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:849
+#: CMFPlone/interfaces/controlpanel.py:846
 msgid "Named"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:574
+#: CMFPlone/interfaces/controlpanel.py:571
 msgid "Name|class"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:552
+#: CMFPlone/interfaces/controlpanel.py:549
 msgid "Name|format"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:538
+#: CMFPlone/interfaces/controlpanel.py:535
 msgid "Name|format|icon"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:524
+#: CMFPlone/interfaces/controlpanel.py:521
 msgid "Name|tag"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:359
+#: CMFPlone/interfaces/controlpanel.py:356
 msgid "Nasty tags"
 msgstr ""
 
@@ -3975,11 +4014,11 @@ msgid "Need a field"
 msgstr ""
 
 #. Default: "Negotiation scheme"
-#: CMFPlone/interfaces/controlpanel.py:233
+#: CMFPlone/interfaces/controlpanel.py:230
 msgid "Negotiation scheme"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1201
+#: CMFPlone/interfaces/controlpanel.py:1198
 msgid "Never"
 msgstr ""
 
@@ -4028,17 +4067,17 @@ msgid "Next previous navigation toggle"
 msgstr ""
 
 #. not sure if this is actually used
-#: plone.app.content/plone/app/content/browser/contents/delete.py:39
+#: plone.app.content/plone/app/content/browser/contents/delete.py:42
 #: plone.app.dexterity/plone/app/dexterity/behaviors/discussion.py:16
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "No"
 msgstr "No"
 
-#: CMFPlone/interfaces/controlpanel.py:1219
+#: CMFPlone/interfaces/controlpanel.py:1216
 msgid "No Thumbs in portlets"
 msgstr ""
 
-#: plone.app.caching/plone/app/caching/browser/controlpanel.py:567
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:573
 msgid "No URLs or paths entered."
 msgstr ""
 
@@ -4056,7 +4095,7 @@ msgstr ""
 msgid "No changes made."
 msgstr ""
 
-#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:87
+#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:112
 msgid "No changes were made."
 msgstr ""
 
@@ -4065,7 +4104,7 @@ msgstr ""
 msgid "No content to migrate."
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:128
+#: CMFPlone/RegistrationTool.py:118
 msgid "No email address is registered for member: ${member_id}"
 msgstr ""
 
@@ -4077,19 +4116,23 @@ msgstr ""
 msgid "No images found in this collection."
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:179
+#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:177
 msgid "No mailhost defined. Unable to reset passwords."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1228
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:29
+msgid "No significant changes found."
+msgstr ""
+
+#: CMFPlone/interfaces/controlpanel.py:1225
 msgid "No thumbs in list views"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1235
+#: CMFPlone/interfaces/controlpanel.py:1232
 msgid "No thumbs in summary views"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1242
+#: CMFPlone/interfaces/controlpanel.py:1239
 msgid "No thumbs in table views"
 msgstr ""
 
@@ -4099,6 +4142,10 @@ msgstr ""
 
 #: CMFPlone/controlpanel/browser/types.py:537
 msgid "No workflow"
+msgstr ""
+
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:104
+msgid "None"
 msgstr ""
 
 #: plone.app.content/plone/app/content/browser/contents/rearrange.py:94
@@ -4131,7 +4178,7 @@ msgstr ""
 msgid "Notify with message ${message}"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1012
+#: CMFPlone/interfaces/controlpanel.py:1009
 msgid "Number of folder levels to show in the site map."
 msgstr ""
 
@@ -4145,7 +4192,7 @@ msgstr ""
 msgid "Number of items to display"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:850
+#: CMFPlone/interfaces/controlpanel.py:847
 msgid "Numeric"
 msgstr ""
 
@@ -4193,11 +4240,11 @@ msgstr ""
 msgid "One image field maximum."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1711
+#: CMFPlone/interfaces/controlpanel.py:1708
 msgid "Open external links in new a window"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:42
+#: CMFPlone/browser/templates/explainPWResetTool.pt:42
 msgid "Open reset requests: ${n}"
 msgstr ""
 
@@ -4211,10 +4258,6 @@ msgid "OpenOffice Impress presentation"
 msgstr ""
 
 msgid "OpenOffice Writer document"
-msgstr ""
-
-#: Archetypes/tests/test_baseobject.py:43
-msgid "Option 1 : printemps"
 msgstr ""
 
 #: CMFPlone/browser/templates/plone-upgrade.pt:58
@@ -4288,16 +4331,16 @@ msgstr ""
 msgid "PSD image"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/maintenance.pt:128
+#: CMFPlone/controlpanel/browser/maintenance.pt:129
 msgid "Pack"
 msgstr ""
 
 #. Default: "Pack database now"
-#: CMFPlone/controlpanel/browser/maintenance.py:50
+#: CMFPlone/controlpanel/browser/maintenance.py:36
 msgid "Pack database now"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/maintenance.py:70
+#: CMFPlone/controlpanel/browser/maintenance.py:56
 msgid "Packed the database."
 msgstr ""
 
@@ -4331,7 +4374,7 @@ msgstr ""
 msgid "Password change was canceled."
 msgstr "La modifiche de password e je stade anulade."
 
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:144
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:142
 msgid "Password changed"
 msgstr ""
 
@@ -4344,7 +4387,7 @@ msgstr "Password gambiât."
 msgid "Password incorrect."
 msgstr "La password no je juste"
 
-#: plone.app.users/plone/app/users/browser/register.py:305
+#: plone.app.users/plone/app/users/browser/register.py:304
 msgid "Passwords do not match."
 msgstr "Lis password no coincidin."
 
@@ -4354,7 +4397,7 @@ msgstr "Lis password no coincidin."
 
 #. Default: "Paste"
 #: CMFPlone/profiles/default/actions.xml
-#: plone.app.content/plone/app/content/browser/contents/paste.py:22
+#: plone.app.content/plone/app/content/browser/contents/paste.py:25
 msgid "Paste"
 msgstr "Incole"
 
@@ -4362,7 +4405,7 @@ msgstr "Incole"
 msgid "Path identifier"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1002
+#: CMFPlone/interfaces/controlpanel.py:999
 msgid "Path to be used as navigation root, relative to Plone site root.Starts with '/'"
 msgstr ""
 
@@ -4400,7 +4443,7 @@ msgstr ""
 
 #. Default: "Non hai il permesso di rinominare ${title}."
 #: plone.app.content/plone/app/content/browser/actions.py:150
-#: plone.app.content/plone/app/content/browser/contents/rename.py:74
+#: plone.app.content/plone/app/content/browser/contents/rename.py:76
 #, fuzzy
 msgid "Permission denied to rename ${title}."
 msgstr "No tu âs il permès di tornâ a nomenâ"
@@ -4418,7 +4461,7 @@ msgstr ""
 
 #: Archetypes/skins/archetypes/validate_base.vpy:19
 #: Archetypes/skins/archetypes/validate_integrity.cpy:20
-#: CMFPlone/browser/login/password_reset.py:142
+#: CMFPlone/browser/password_reset.py:169
 msgid "Please correct the indicated errors."
 msgstr "Comede i erôrs evidenziâts."
 
@@ -4427,7 +4470,7 @@ msgid "Please ensure you have a backup of your site before performing the upgrad
 msgstr ""
 
 #. Default: "Inserisci un nome."
-#: CMFPlone/utils.py:917
+#: CMFPlone/skins/plone_scripts/check_id.py:52
 msgid "Please enter a name."
 msgstr "Met un non"
 
@@ -4493,7 +4536,7 @@ msgstr ""
 
 # Control Panel Header
 #. Default: "Plone Configuration"
-#: CMFPlone/PloneControlPanel.py:75
+#: CMFPlone/PloneControlPanel.py:73
 msgid "Plone Configuration"
 msgstr "Configurazion di Plone"
 
@@ -4510,23 +4553,15 @@ msgstr "Sît Plone"
 msgid "Plone Test Fixture"
 msgstr ""
 
-#: CMFPlone/controlpanel/tests/test_upgrades1.zcml:12
-msgid "Plone Test Fixture 1"
-msgstr ""
-
-#: CMFPlone/controlpanel/tests/test_upgrades2.zcml:12
-msgid "Plone Test Fixture 2"
-msgstr ""
-
-#: plone.app.widgets/plone/app/widgets/configure.zcml:32
+#: plone.app.widgets/plone/app/widgets/configure.zcml:33
 msgid "Plone Widgets"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1483
+#: CMFPlone/interfaces/controlpanel.py:1480
 msgid "Plone generates e-mail using this address as the e-mail return address. It is also used as the destination address for the site-wide contact form and the 'Send test e-mail' feature."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1474
+#: CMFPlone/interfaces/controlpanel.py:1471
 msgid "Plone generates e-mail using this name as the e-mail sender."
 msgstr ""
 
@@ -4558,7 +4593,7 @@ msgstr ""
 msgid "Portal URL"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1346
+#: CMFPlone/interfaces/controlpanel.py:1343
 msgid "Portal default timezone"
 msgstr ""
 
@@ -4574,12 +4609,12 @@ msgstr ""
 msgid "Portlet footer"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:48
+#: plone.portlet.collection/plone/portlet/collection/collection.py:51
 #: plone.portlet.static/plone/portlet/static/static.py:65
 msgid "Portlet header"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:932
+#: CMFPlone/interfaces/controlpanel.py:929
 msgid "Position in Parent"
 msgstr ""
 
@@ -4654,7 +4689,7 @@ msgstr ""
 msgid "Promotes your private item to an internal draft."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/properties.py:31
+#: plone.app.content/plone/app/content/browser/contents/properties.py:34
 msgid "Properties"
 msgstr ""
 
@@ -4730,6 +4765,10 @@ msgstr ""
 msgid "Purge"
 msgstr ""
 
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:349
+msgid "Purging ist still enabled while caching is disabled!"
+msgstr ""
+
 #. Default: "Puts your item in a review queue, so it can be published externally or internally."
 #: CMFPlone/profiles/default/workflows/intranet_workflow/definition.xml
 msgid "Puts your item in a review queue, so it can be published externally or internally."
@@ -4785,7 +4824,7 @@ msgstr ""
 msgid "Querystring parser/builder"
 msgstr ""
 
-#: plone.app.caching/plone/app/caching/browser/controlpanel.py:647
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:653
 msgid "RAM cache not installed."
 msgstr ""
 
@@ -4804,7 +4843,7 @@ msgstr ""
 msgid "RSS feed of this listing"
 msgstr "Flus RSS di cheste liste"
 
-#: CMFPlone/interfaces/controlpanel.py:851
+#: CMFPlone/interfaces/controlpanel.py:848
 msgid "Raw"
 msgstr ""
 
@@ -4828,8 +4867,7 @@ msgstr ""
 msgid "Recent items"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:407
-#: CMFPlone/browser/login/login_help.py:175
+#: CMFPlone/RegistrationTool.py:392
 msgid "Recipient address rejected by server."
 msgstr ""
 
@@ -4841,7 +4879,7 @@ msgstr ""
 msgid "Recurrence extension for Events."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1397
+#: CMFPlone/interfaces/controlpanel.py:1394
 msgid "Redirect links"
 msgstr ""
 
@@ -4884,7 +4922,7 @@ msgstr "Refude"
 msgid "Related To"
 msgstr "Leât cun"
 
-#: CMFPlone/interfaces/controlpanel.py:1290
+#: CMFPlone/interfaces/controlpanel.py:1287
 msgid "Relative URL for the toolbar logo"
 msgstr ""
 
@@ -4917,10 +4955,14 @@ msgstr ""
 msgid "Remove plone.session legacy portal_css/portal_js registration"
 msgstr ""
 
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:103
+msgid "Removed files"
+msgstr ""
+
 #. Default: "Rename"
 #: CMFPlone/profiles/default/actions.xml
 #: plone.app.content/plone/app/content/browser/actions.py:141
-#: plone.app.content/plone/app/content/browser/contents/rename.py:39
+#: plone.app.content/plone/app/content/browser/contents/rename.py:41
 msgid "Rename"
 msgstr "Torne a nomenâ"
 
@@ -4972,8 +5014,8 @@ msgid "Resources base URL"
 msgstr ""
 
 #. Default: "Restart"
-#: CMFPlone/controlpanel/browser/maintenance.pt:71
-#: CMFPlone/controlpanel/browser/maintenance.py:96
+#: CMFPlone/controlpanel/browser/maintenance.pt:76
+#: CMFPlone/controlpanel/browser/maintenance.py:72
 msgid "Restart"
 msgstr ""
 
@@ -4997,7 +5039,7 @@ msgstr "Revoche la publicazion"
 msgid "Return a portal message to the user"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:947
+#: CMFPlone/interfaces/controlpanel.py:944
 msgid "Reversed sort order for tabs."
 msgstr ""
 
@@ -5086,11 +5128,11 @@ msgstr ""
 msgid "Roles are: ${names}"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1326
+#: CMFPlone/interfaces/controlpanel.py:1323
 msgid "Roles that can add keywords"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1000
+#: CMFPlone/interfaces/controlpanel.py:997
 msgid "Root"
 msgstr ""
 
@@ -5128,7 +5170,7 @@ msgstr ""
 msgid "Saved"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1624
+#: CMFPlone/interfaces/controlpanel.py:1621
 msgid "Scaled image quality"
 msgstr ""
 
@@ -5174,7 +5216,7 @@ msgid "Searchable text"
 msgstr ""
 
 #. Default: "Security"
-#: CMFPlone/PloneControlPanel.py:73
+#: CMFPlone/PloneControlPanel.py:71
 #: CMFPlone/profiles/default/controlpanel.xml
 msgid "Security"
 msgstr ""
@@ -5200,7 +5242,7 @@ msgstr ""
 msgid "Select content types"
 msgstr "Selezione i gjenars di contignût"
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:73
+#: plone.portlet.collection/plone/portlet/collection/collection.py:76
 msgid "Select random items"
 msgstr ""
 
@@ -5209,15 +5251,15 @@ msgstr ""
 msgid "Select referenced content"
 msgstr "Selezione il contignût referenziât"
 
-#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:85
+#: plone.app.dexterity/plone/app/dexterity/browser/behaviors.py:110
 msgid "Select the behaviors to enable for this content type."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1506
+#: CMFPlone/interfaces/controlpanel.py:1503
 msgid "Select the default format of textfields for newly created content objects."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:106
+#: CMFPlone/interfaces/controlpanel.py:103
 msgid "Select the default wysiwyg editor. Users will be able to choose their own or select to use the site default."
 msgstr ""
 
@@ -5234,7 +5276,7 @@ msgstr ""
 msgid "Select values from list"
 msgstr "Selezione i valôrs di une liste"
 
-#: CMFPlone/interfaces/controlpanel.py:1313
+#: CMFPlone/interfaces/controlpanel.py:1310
 msgid "Select which IDs (short names) can act as fallback default pages for a container."
 msgstr ""
 
@@ -5243,7 +5285,7 @@ msgstr ""
 msgid "Select which fields to display when 'Tabular view' is selected in the display menu."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1517
+#: CMFPlone/interfaces/controlpanel.py:1514
 msgid "Select which formats are available for users as alternative to the default format. Note that if new formats are installed, they will be enabled for text fields by default unless explicitly turned off here or by the relevant installer."
 msgstr ""
 
@@ -5252,7 +5294,7 @@ msgstr ""
 msgid "Select which roles have the permission to view inactive objects"
 msgstr ""
 
-#: plone.cachepurging/plone/cachepurging/interfaces.py:32
+#: plone.cachepurging/plone/cachepurging/interfaces.py:30
 msgid "Send PURGE requests with virtual hosting paths"
 msgstr ""
 
@@ -5301,7 +5343,7 @@ msgid "Session refresh support: Remove legacy resources"
 msgstr ""
 
 #. Default: "Set my password"
-#: CMFPlone/browser/login/templates/pwreset_form.pt:105
+#: CMFPlone/browser/templates/pwreset_form.pt:105
 msgid "Set my password"
 msgstr "Imposte la password"
 
@@ -5327,7 +5369,7 @@ msgstr ""
 msgid "Settings&hellip;"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1572
+#: CMFPlone/interfaces/controlpanel.py:1569
 msgid "Share social data"
 msgstr ""
 
@@ -5342,7 +5384,7 @@ msgstr "Condivision"
 msgid "Short Name"
 msgstr "Non curt"
 
-#: CMFPlone/interfaces/controlpanel.py:942
+#: CMFPlone/interfaces/controlpanel.py:939
 msgid "Short Name (ID)"
 msgstr ""
 
@@ -5376,7 +5418,7 @@ msgstr ""
 msgid "Show Inactive"
 msgstr ""
 
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:593
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:597
 msgid "Show all available content types"
 msgstr ""
 
@@ -5384,7 +5426,11 @@ msgstr ""
 msgid "Show author info"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:88
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:52
+msgid "Show code differences"
+msgstr ""
+
+#: plone.portlet.collection/plone/portlet/collection/collection.py:91
 msgid "Show dates"
 msgstr ""
 
@@ -5392,11 +5438,11 @@ msgstr ""
 msgid "Show feed link"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1198
+#: CMFPlone/interfaces/controlpanel.py:1195
 msgid "Show icons in listings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1191
+#: CMFPlone/interfaces/controlpanel.py:1188
 msgid "Show in the byline the date a content item was published."
 msgstr ""
 
@@ -5406,11 +5452,11 @@ msgstr ""
 msgid "Show internally"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:989
+#: CMFPlone/interfaces/controlpanel.py:986
 msgid "Show items normally excluded from navigation if viewing their children."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:80
+#: plone.portlet.collection/plone/portlet/collection/collection.py:83
 msgid "Show more... link"
 msgstr ""
 
@@ -5418,12 +5464,20 @@ msgstr ""
 msgid "Show settings button"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1209
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:76
+msgid "Show side by side"
+msgstr ""
+
+#: CMFPlone/interfaces/controlpanel.py:1206
 msgid "Show thumbnail images in listings"
 msgstr ""
 
 #: plone/app/multilingual/interfaces.py:173
 msgid "Show user dialog with information about the available translations."
+msgstr ""
+
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:62
+msgid "Show visual differences"
 msgstr ""
 
 #. Default: "Show all entries"
@@ -5436,12 +5490,12 @@ msgid "Shows up in the form as help text for the field."
 msgstr ""
 
 #. Default: "Shut down"
-#: CMFPlone/controlpanel/browser/maintenance.pt:64
-#: CMFPlone/controlpanel/browser/maintenance.py:72
+#: CMFPlone/controlpanel/browser/maintenance.pt:69
+#: CMFPlone/controlpanel/browser/maintenance.py:58
 msgid "Shut down"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1285
+#: CMFPlone/interfaces/controlpanel.py:1282
 msgid "Side"
 msgstr ""
 
@@ -5469,11 +5523,11 @@ msgstr ""
 msgid "Site"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1482
+#: CMFPlone/interfaces/controlpanel.py:1479
 msgid "Site 'From' address"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1473
+#: CMFPlone/interfaces/controlpanel.py:1470
 msgid "Site 'From' name"
 msgstr ""
 
@@ -5481,7 +5535,7 @@ msgstr ""
 msgid "Site Administrator"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1153
+#: CMFPlone/interfaces/controlpanel.py:1150
 msgid "Site Logo"
 msgstr ""
 
@@ -5502,11 +5556,11 @@ msgstr ""
 #. Default: "Site Setup"
 #: CMFPlone/controlpanel/browser/controlpanel_usergroups_layout.pt:13
 #: CMFPlone/controlpanel/browser/filter_controlpanel.pt:13
-#: CMFPlone/controlpanel/browser/maintenance.pt:28
+#: CMFPlone/controlpanel/browser/maintenance.pt:29
 msgid "Site Setup"
 msgstr "Configurazion dal sît"
 
-#: CMFPlone/interfaces/controlpanel.py:1146
+#: CMFPlone/interfaces/controlpanel.py:1143
 msgid "Site title"
 msgstr ""
 
@@ -5514,7 +5568,7 @@ msgstr ""
 msgid "Site-wide settings."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1011
+#: CMFPlone/interfaces/controlpanel.py:1008
 msgid "Sitemap depth"
 msgstr ""
 
@@ -5540,11 +5594,11 @@ msgstr ""
 msgid "Social media sharing settings."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:948
+#: CMFPlone/interfaces/controlpanel.py:945
 msgid "Sort tabs in descending."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:920
+#: CMFPlone/interfaces/controlpanel.py:917
 msgid "Sort tabs on"
 msgstr ""
 
@@ -5553,7 +5607,7 @@ msgstr ""
 msgid "Sort the collection on this index"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1069
+#: CMFPlone/interfaces/controlpanel.py:1066
 msgid "Sort the default search on this index"
 msgstr ""
 
@@ -5574,11 +5628,11 @@ msgstr ""
 msgid "Specialized folder for temporary data."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1606
+#: CMFPlone/interfaces/controlpanel.py:1603
 msgid "Specify all allowed maximum image dimensions, one per line. The required format is &lt;name&gt; &lt;width&gt;:&lt;height&gt;."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:68
+#: plone.portlet.collection/plone/portlet/collection/collection.py:71
 msgid "Specify the maximum number of items to show in the portlet. Leave this blank to show all items."
 msgstr ""
 
@@ -5590,7 +5644,7 @@ msgstr ""
 msgid "Spell Checker"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:740
+#: CMFPlone/interfaces/controlpanel.py:737
 msgid "Spellchecker plugin to use"
 msgstr ""
 
@@ -5613,12 +5667,12 @@ msgid "Start Page"
 msgstr ""
 
 #. Default: "Start password reset"
-#: CMFPlone/browser/login/templates/mail_password_form.pt:62
+#: CMFPlone/browser/templates/mail_password_form.pt:62
 msgid "Start password reset"
 msgstr "Rignuvìs la password"
 
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:26
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:669
+#: plone.app.content/plone/app/content/browser/contents/workflow.py:29
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:673
 msgid "State"
 msgstr "Stât"
 
@@ -5635,6 +5689,10 @@ msgstr ""
 msgid "Stop executing rules"
 msgstr ""
 
+#: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml:237
+msgid "Store a new version of the object"
+msgstr ""
+
 #: plone.app.caching/plone/app/caching/operations/default.py:282
 msgid "Strong caching"
 msgstr ""
@@ -5643,12 +5701,12 @@ msgstr ""
 msgid "Stub JavaScript modules"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:37
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:36
 #: plone.stringinterp/plone/stringinterp/adapters.py:282
 msgid "Subject"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:38
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:37
 msgid "Subject of the message"
 msgstr ""
 
@@ -5682,24 +5740,24 @@ msgstr "Ciridôrs subordenâts"
 msgid "Success"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/mail.py:96
+#: CMFPlone/controlpanel/browser/mail.py:95
 msgid "Success! Check your mailbox for the test message."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/copy.py:31
+#: plone.app.content/plone/app/content/browser/contents/copy.py:34
 msgid "Successfully copied items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/cut.py:31
+#: plone.app.content/plone/app/content/browser/contents/cut.py:34
 msgid "Successfully cut items"
 msgstr ""
 
 #. Default: "Successfully deleted items"
-#: plone.app.content/plone/app/content/browser/contents/delete.py:47
+#: plone.app.content/plone/app/content/browser/contents/delete.py:50
 msgid "Successfully delete items"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/workflow.py:40
+#: plone.app.content/plone/app/content/browser/contents/workflow.py:43
 msgid "Successfully modified items"
 msgstr ""
 
@@ -5707,7 +5765,7 @@ msgstr ""
 msgid "Successfully moved item"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/paste.py:31
+#: plone.app.content/plone/app/content/browser/contents/paste.py:34
 msgid "Successfully pasted items"
 msgstr ""
 
@@ -5715,11 +5773,11 @@ msgstr ""
 msgid "Successfully rearranged folder"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/properties.py:47
+#: plone.app.content/plone/app/content/browser/contents/properties.py:50
 msgid "Successfully updated metadata"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/tags.py:39
+#: plone.app.content/plone/app/content/browser/contents/tags.py:42
 msgid "Successfully updated tags on items"
 msgstr ""
 
@@ -5730,7 +5788,7 @@ msgid "Summary view"
 msgstr "Visualizazion riassuntive"
 
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:109
-#: plone.portlet.collection/plone/portlet/collection/collection.py:103
+#: plone.portlet.collection/plone/portlet/collection/collection.py:106
 msgid "Suppress Icons"
 msgstr ""
 
@@ -5749,19 +5807,19 @@ msgstr ""
 msgid "Suppress thumbs"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1229
+#: CMFPlone/interfaces/controlpanel.py:1226
 msgid "Suppress thumbs in all list views; this default can be overriden individually"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1220
+#: CMFPlone/interfaces/controlpanel.py:1217
 msgid "Suppress thumbs in all portlets; this default can be overridden individually in selected portlets"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1236
+#: CMFPlone/interfaces/controlpanel.py:1233
 msgid "Suppress thumbs in all summary views; this default can be overriden individually"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1242
+#: CMFPlone/interfaces/controlpanel.py:1239
 msgid "Suppress thumbs in all tableviews and in folder contents view; this default can be overriden individually"
 msgstr ""
 
@@ -5800,7 +5858,7 @@ msgstr ""
 msgid "Table of contents"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:573
+#: CMFPlone/interfaces/controlpanel.py:570
 msgid "Table styles"
 msgstr ""
 
@@ -5816,7 +5874,7 @@ msgid "Tag"
 msgstr ""
 
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:215
-#: plone.app.content/plone/app/content/browser/contents/tags.py:24
+#: plone.app.content/plone/app/content/browser/contents/tags.py:27
 msgid "Tags"
 msgstr ""
 
@@ -5828,7 +5886,7 @@ msgstr ""
 msgid "Tar archive"
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:60
+#: plone.portlet.collection/plone/portlet/collection/collection.py:63
 msgid "Target collection"
 msgstr ""
 
@@ -5863,20 +5921,12 @@ msgstr ""
 msgid "Test configuration"
 msgstr ""
 
-#: plone.app.querystring/plone/app/querystring/tests/configure.zcml:14
-msgid "Test values for the registry integration tests"
-msgstr ""
-
 #: plone.app.event/plone/app/event/configure.zcml:47
 msgid "Testing profile for plone.app.event"
 msgstr ""
 
-#: plone.app.querystring/plone/app/querystring/tests/configure.zcml:14
-msgid "Tests for plone.app.querystring"
-msgstr ""
-
 #. Default: "Text"
-#: plone.app.contenttypes/plone/app/contenttypes/behaviors/richtext.py:24
+#: plone.app.contenttypes/plone/app/contenttypes/behaviors/richtext.py:19
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 #: plone.app.querystring/plone/app/querystring/profiles/upgrades/to_8/registry.xml
 msgid "Text"
@@ -5896,7 +5946,7 @@ msgstr "Cîr il tescj tai titui dai elements"
 msgid "Text to be shown in the footer"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:368
+#: CMFPlone/RegistrationTool.py:353
 msgid "That user does not have an email address."
 msgstr ""
 
@@ -5957,15 +6007,19 @@ msgstr ""
 msgid "The TALES expression to check."
 msgstr ""
 
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:24
+msgid "The comment added to the history while versioning the content."
+msgstr ""
+
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:30
 msgid "The content type to check for."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1409
+#: CMFPlone/interfaces/controlpanel.py:1406
 msgid "The content types that should be available for selection when setting a default page."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:955
+#: CMFPlone/interfaces/controlpanel.py:952
 msgid "The content types that should be shown in the navigation and site map."
 msgstr ""
 
@@ -5981,15 +6035,15 @@ msgstr ""
 msgid "The default timezone setting of the portal. Users will be able to set their own timezone, if available timezones are defined in the date and time settings."
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:372
+#: CMFPlone/RegistrationTool.py:357
 msgid "The email address did not validate."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:43
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:42
 msgid "The email address that sends the email. If no email is provided here, it will use the portal from address."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:51
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:50
 msgid "The email where you want to send this message. To send it to different email addresses, just separate them with ,"
 msgstr ""
 
@@ -6018,7 +6072,7 @@ msgstr ""
 msgid "The group name you entered is not valid."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/actions.py:308
+#: plone.app.content/plone/app/content/browser/actions.py:302
 msgid "The item you are trying to paste could not be found. It may have been moved or deleted after you copied or cut it."
 msgstr ""
 
@@ -6031,8 +6085,8 @@ msgstr ""
 msgid "The location of an item"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:245
-#: plone.app.users/plone/app/users/browser/register.py:360
+#: CMFPlone/RegistrationTool.py:230
+#: plone.app.users/plone/app/users/browser/register.py:359
 msgid "The login name you selected is already in use or is not valid. Please choose another."
 msgstr "Il non di login che tu âs sielzût al è za stât doprât o nol è valit. Sielzint un altri, par plasê."
 
@@ -6044,7 +6098,7 @@ msgstr ""
 msgid "The main language of the site."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:63
+#: plone.app.contentrules/plone/app/contentrules/actions/mail.py:62
 msgid "The message that you want to mail."
 msgstr ""
 
@@ -6110,7 +6164,7 @@ msgstr "Il non curt di un element (doprât tal so url)"
 msgid "The site configuration is outdated and needs to be upgraded."
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/overview.pt:32
+#: CMFPlone/controlpanel/browser/overview.pt:33
 msgid "The site configuration is outdated and needs to be upgraded. Please ${link_continue_with_the_upgrade}."
 msgstr ""
 
@@ -6153,11 +6207,11 @@ msgstr ""
 msgid "The user viewing the querystring results"
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:86
+#: CMFPlone/RegistrationTool.py:79
 msgid "The username you entered could not be found."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:975
+#: CMFPlone/interfaces/controlpanel.py:972
 msgid "The workflow states that should be shown in the navigation and the site map."
 msgstr ""
 
@@ -6200,7 +6254,8 @@ msgstr ""
 msgid "Theming"
 msgstr ""
 
-#: CMFPlone/utils.py:1026
+#: CMFPlone/skins/plone_scripts/check_id.py:132
+#: CMFPlone/utils.py:885
 msgid "There is already an item named ${name} in this folder."
 msgstr "Un element cun non \"${name}\" al è za in cheste cartele."
 
@@ -6231,7 +6286,7 @@ msgstr ""
 
 #: plone.app.caching/plone/app/caching/browser/controlpanel.py:325
 #: plone.app.users/plone/app/users/browser/membersearch.py:94
-#: plone.app.users/plone/app/users/browser/register.py:65
+#: plone.app.users/plone/app/users/browser/register.py:64
 msgid "There were errors."
 msgstr ""
 
@@ -6239,11 +6294,11 @@ msgstr ""
 msgid "These are resources which can be cached 'forever'. Normally this means that if the object does change, its URL changes too."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:463
+#: CMFPlone/interfaces/controlpanel.py:460
 msgid "These attributes are additionally allowed."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:360
+#: CMFPlone/interfaces/controlpanel.py:357
 msgid "These tags and their content are completely blocked when a page is saved or rendered. They are only deleted if they are not marked as valid_tags"
 msgstr ""
 
@@ -6272,12 +6327,12 @@ msgstr ""
 msgid "This content is not translated yet to the language requested."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1250
+#: CMFPlone/interfaces/controlpanel.py:1247
 msgid "This default can be overriden individually."
 msgstr ""
 
 #. Default: "Questo campo è obbligatorio, inserisci l'informazione richiesta."
-#: CMFPlone/browser/login/password_reset.py:137
+#: CMFPlone/browser/password_reset.py:164
 #: CMFPlone/skins/plone_form_scripts/validate_content_status_modify.vpy:15
 msgid "This field is required, please provide some information."
 msgstr "Chest cjamp al è obligatori, par plasê met la informazion domandade."
@@ -6294,7 +6349,7 @@ msgstr ""
 msgid "This item doesn't have any translation yet. You can return to the portal site:"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1291
+#: CMFPlone/interfaces/controlpanel.py:1288
 msgid "This must be a URL relative to the site root. By default it is /++plone++static/plone-toolbarlogo.svg"
 msgstr ""
 
@@ -6306,43 +6361,43 @@ msgstr ""
 msgid "This operation can take a very long time."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:741
+#: CMFPlone/interfaces/controlpanel.py:738
 msgid "This option allows you to choose the spellchecker for TinyMCE."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:840
+#: CMFPlone/interfaces/controlpanel.py:837
 msgid "This option controls how entities/characters get processed. Named: Characters will be converted into named entities based on the entities option. Numeric: Characters will be converted into numeric entities. Raw: All characters will be stored in non-entity form except these XML default entities: amp lt gt quot"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:508
+#: CMFPlone/interfaces/controlpanel.py:505
 msgid "This option enables you to specify a custom CSS file that provides content CSS. This CSS file is the one used within the editor (the editable area). In addition to what is listed, here the plone bundle CSS and diazo themes using the tinymce-content-css setting are also added."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:482
+#: CMFPlone/interfaces/controlpanel.py:479
 msgid "This option gives you the ability to enable/disable auto resizing the editor window depending on the content."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:475
+#: CMFPlone/interfaces/controlpanel.py:472
 msgid "This option gives you the ability to enable/disable resizing the editor window. "
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:499
+#: CMFPlone/interfaces/controlpanel.py:496
 msgid "This option gives you the ability to specify the height of the editor in pixels. If auto resize is enabled this value is used as minimum height."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:491
+#: CMFPlone/interfaces/controlpanel.py:488
 msgid "This option gives you the ability to specify the width of the editor (like 100% or 400px)."
 msgstr ""
 
-#: plone.cachepurging/plone/cachepurging/interfaces.py:60
+#: plone.cachepurging/plone/cachepurging/interfaces.py:56
 msgid "This option is only relevant if you are using virtual hosting and you have enabled the option to send PURGE requests with virtual hosting URLs above. If you your site is served on multiple domains e.g. http://example.org and http://www.example.org you may wish to purge both. If so, list all your domains here"
 msgstr ""
 
-#: plone.cachepurging/plone/cachepurging/interfaces.py:33
+#: plone.cachepurging/plone/cachepurging/interfaces.py:31
 msgid "This option is only relevant if you are using virtual hosting with Zope's VirtualHostMonster. This relies on special tokens (VirtualHostBase and VirtualHostRoot) in the URL to instruct Zope about the types of URLs that the user sees. If virtual host URLs are in use and this option is set, PURGE requests will be sent to the caching proxy with the virtual hosting tokens in place. This makes sense if there is a web server in front of your caching proxy performing the rewrites necessary to translate a user-facing URL into a virtual hosting URL, so that the requests the caching proxy sees have the rewrite information in them. Conversely, if the rewrite is done in or behind the caching proxy, you want to disable this option, so that the PURGE requests use URLs that match those seen by the caching proxy as they come from the client."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:305
+#: plone.portlet.collection/plone/portlet/collection/collection.py:309
 msgid "This portlet displays a listing of items from a Collection."
 msgstr ""
 
@@ -6378,7 +6433,7 @@ msgstr ""
 msgid "This portlet shows a search box."
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:158
+#: CMFPlone/controlpanel/browser/quickinstaller.pt:159
 msgid "This product cannot be uninstalled!"
 msgstr ""
 
@@ -6386,11 +6441,11 @@ msgstr ""
 msgid "This rule is not assigned to any location"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1154
+#: CMFPlone/interfaces/controlpanel.py:1151
 msgid "This shows a custom logo on your site."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1147
+#: CMFPlone/interfaces/controlpanel.py:1144
 msgid "This shows up in the title bar of browsers and in syndication feeds."
 msgstr ""
 
@@ -6403,7 +6458,7 @@ msgid "This title is already in use"
 msgstr ""
 
 #. Default: "Questo nominativo è riservato. Scegli un nome diverso."
-#: plone.app.users/plone/app/users/browser/register.py:352
+#: plone.app.users/plone/app/users/browser/register.py:351
 msgid "This username is reserved. Please choose a different name."
 msgstr "Chest non al è riservât. Sielç un non diviers."
 
@@ -6415,23 +6470,23 @@ msgstr ""
 msgid "Through this operation, all standard caching functions can be performed via various combinations of the optional parameter settings. For most cases, it's probably easier to use one of the other simpler operations (Strong caching, Moderate caching, Weak caching, or No caching)."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1256
+#: CMFPlone/interfaces/controlpanel.py:1253
 msgid "Thumb scale for listings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1249
+#: CMFPlone/interfaces/controlpanel.py:1246
 msgid "Thumb scale for portlets"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1272
+#: CMFPlone/interfaces/controlpanel.py:1269
 msgid "Thumb scale for summary view"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1264
+#: CMFPlone/interfaces/controlpanel.py:1261
 msgid "Thumb scale for tables"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1208
+#: CMFPlone/interfaces/controlpanel.py:1205
 msgid "Thumb visibility"
 msgstr ""
 
@@ -6468,7 +6523,7 @@ msgid "Tip: you can use * to autocomplete."
 msgstr ""
 
 #. Default: "Title"
-#: CMFPlone/interfaces/controlpanel.py:937
+#: CMFPlone/interfaces/controlpanel.py:934
 #: plone.app.content/plone/app/content/browser/contents/__init__.py:277
 #: plone.app.contenttypes/plone/app/contenttypes/schema/file.xml
 msgid "Title"
@@ -6482,16 +6537,16 @@ msgstr ""
 msgid "Title of the portlet.  If omitted, the title of the feed will be used."
 msgstr ""
 
-#: plone.portlet.collection/plone/portlet/collection/collection.py:49
+#: plone.portlet.collection/plone/portlet/collection/collection.py:52
 #: plone.portlet.static/plone/portlet/static/static.py:66
 msgid "Title of the rendered portlet"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1591
+#: CMFPlone/interfaces/controlpanel.py:1588
 msgid "To be used with some integrations like Open Graph data"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1580
+#: CMFPlone/interfaces/controlpanel.py:1577
 msgid "To identify things like Twitter Cards. Do not include the \"@\" prefix character."
 msgstr ""
 
@@ -6504,11 +6559,11 @@ msgstr ""
 msgid "Today"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1279
+#: CMFPlone/interfaces/controlpanel.py:1276
 msgid "Toolbar position"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1286
+#: CMFPlone/interfaces/controlpanel.py:1283
 msgid "Top"
 msgstr ""
 
@@ -6560,7 +6615,7 @@ msgstr ""
 msgid "Triggering event"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1579
+#: CMFPlone/interfaces/controlpanel.py:1576
 msgid "Twitter username"
 msgstr ""
 
@@ -6573,7 +6628,7 @@ msgstr ""
 msgid "Type Name"
 msgstr ""
 
-#: plone.app.dexterity/plone/app/dexterity/browser/add_type.py:48
+#: plone.app.dexterity/plone/app/dexterity/browser/add_type.py:66
 msgid "Type added successfully."
 msgstr ""
 
@@ -6597,11 +6652,11 @@ msgstr ""
 msgid "Types settings"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1408
+#: CMFPlone/interfaces/controlpanel.py:1405
 msgid "Types that can be set as a default page"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1383
+#: CMFPlone/interfaces/controlpanel.py:1380
 msgid "Types which use the view action in listing views."
 msgstr ""
 
@@ -6631,7 +6686,7 @@ msgstr ""
 msgid "Unable to copy ${name} as part of content rule 'copy' action: ${error}"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/actions/move.py:141
+#: plone.app.contentrules/plone/app/contentrules/actions/move.py:150
 msgid "Unable to move ${name} as part of content rule 'move' action: ${error}"
 msgstr ""
 
@@ -6639,7 +6694,7 @@ msgstr ""
 msgid "Unable to remove ${name} as part of content rule 'delete' action: ${error}"
 msgstr ""
 
-#: CMFPlone/browser/author.py:123
+#: CMFPlone/browser/author.py:124
 #: CMFPlone/browser/sendto.py:100
 msgid "Unable to send mail."
 msgstr ""
@@ -6648,7 +6703,7 @@ msgstr ""
 msgid "Unable to send mail: ${exception}"
 msgstr "No ai rivât a mandâti un messaç di pueste eletroniche: ${exception}"
 
-#: CMFPlone/controlpanel/browser/mail.py:90
+#: CMFPlone/controlpanel/browser/mail.py:89
 msgid "Unable to send test e-mail ${error}."
 msgstr ""
 
@@ -6661,7 +6716,11 @@ msgstr ""
 msgid "Undo"
 msgstr "Anule"
 
-#: CMFPlone/controlpanel/browser/quickinstaller.pt:178
+#: plone.app.iterate/plone/app/iterate/browser/diff.pt:66
+msgid "Unified diff format"
+msgstr ""
+
+#: CMFPlone/controlpanel/browser/quickinstaller.pt:179
 msgid "Uninstall"
 msgstr ""
 
@@ -6682,6 +6741,7 @@ msgstr ""
 msgid "Unlock"
 msgstr ""
 
+#: plone.app.linkintegrity/plone/app/linkintegrity/browser/update.pt:31
 #: plone/app/theming/browser/controlpanel.pt:164
 msgid "Update"
 msgstr ""
@@ -6742,15 +6802,15 @@ msgstr ""
 msgid "Use '../' to navigate to parent objects."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1133
+#: CMFPlone/interfaces/controlpanel.py:1130
 msgid "Use UUID user ids"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1134
+#: CMFPlone/interfaces/controlpanel.py:1131
 msgid "Use automatically generated UUIDs as user id for new users. When not turned on, the default is to use the same as the login name, or when using the email address as login name we generate a user id based on the fullname."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1119
+#: CMFPlone/interfaces/controlpanel.py:1116
 msgid "Use email address as login name"
 msgstr ""
 
@@ -6770,10 +6830,6 @@ msgstr ""
 msgid "Used for programmatic access to the type."
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/tests/testing.zcml:13
-msgid "Used for testing only"
-msgstr ""
-
 #: plone.app.layout/plone/app/layout/dashboard/user_actions.pt:19
 msgid "User Actions"
 msgstr ""
@@ -6786,7 +6842,7 @@ msgstr ""
 msgid "User Data Form"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:79
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:73
 msgid "User Email Notification"
 msgstr ""
 
@@ -6803,7 +6859,7 @@ msgid "User Removed"
 msgstr ""
 
 #. Default: "Utente aggiunto."
-#: plone.app.users/plone/app/users/browser/register.py:710
+#: plone.app.users/plone/app/users/browser/register.py:711
 msgid "User added."
 msgstr "Utent zontât"
 
@@ -6827,7 +6883,7 @@ msgstr ""
 msgid "User/Groups settings"
 msgstr ""
 
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:35
+#: CMFPlone/browser/templates/explainPWResetTool.pt:35
 msgid "Username check"
 msgstr ""
 
@@ -6835,7 +6891,7 @@ msgstr ""
 msgid "Username of the commenter"
 msgstr ""
 
-#: CMFPlone/PloneControlPanel.py:72
+#: CMFPlone/PloneControlPanel.py:70
 msgid "Users"
 msgstr ""
 
@@ -6850,7 +6906,7 @@ msgstr ""
 msgid "Users who have commented on the item"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:369
+#: CMFPlone/interfaces/controlpanel.py:366
 msgid "Valid tags"
 msgstr ""
 
@@ -6890,8 +6946,12 @@ msgstr ""
 msgid "Variables in the request that prevent caching if present"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1677
+#: CMFPlone/interfaces/controlpanel.py:1674
 msgid "Verify login name"
+msgstr ""
+
+#: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml:237
+msgid "Version object"
 msgstr ""
 
 #: plone.app.versioningbehavior/plone/app/versioningbehavior/configure.zcml:25
@@ -6900,6 +6960,10 @@ msgstr ""
 
 #: plone.app.versioningbehavior/plone/app/versioningbehavior/configure.zcml:25
 msgid "Versioning support with CMFEditions"
+msgstr ""
+
+#: plone.app.contentrules/plone/app/contentrules/actions/versioning.py:41
+msgid "Versioning with comment ${comment}"
 msgstr ""
 
 #. Default: "View"
@@ -6983,7 +7047,7 @@ msgstr ""
 msgid "Visible to people outside the intranet, not editable by the owner."
 msgstr ""
 
-#: CMFPlone/browser/login/templates/logged_out.pt:29
+#: CMFPlone/skins/plone_login/logged_out.cpt:43
 msgid "Visit this link"
 msgstr ""
 
@@ -7002,13 +7066,13 @@ msgid "Waiting to be reviewed, not editable by the owner."
 msgstr ""
 
 #. Default: "Warning"
-#: CMFPlone/controlpanel/browser/overview.pt:26
+#: CMFPlone/controlpanel/browser/overview.pt:27
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:94
 #: plone.app.contenttypes/plone/app/contenttypes/browser/templates/archetypes_warning_viewlet.pt:3
 msgid "Warning"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:353
+#: CMFPlone/interfaces/controlpanel.py:350
 msgid "Warning: disabling this can be dangerous. Only disable if you know what you are doing."
 msgstr ""
 
@@ -7020,7 +7084,7 @@ msgstr ""
 msgid "Weak caching"
 msgstr ""
 
-#: CMFPlone/skins/plone_login/login_next.cpy:60
+#: CMFPlone/skins/plone_login/login_next.cpy:62
 msgid "Welcome! You are now logged in."
 msgstr "Benvignût! Cumò tu sês tacât."
 
@@ -7053,7 +7117,8 @@ msgstr ""
 
 #. Default: "È occorso un AttributeError durante la modifica della tua password. Questo in genere accade perché l'utente in questione è definito esternamente al portale."
 #: CMFPlone/skins/plone_form_scripts/plone_change_password.py:40
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:134
+#: CMFPlone/skins/plone_login/login_change_password.cpy:19
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:132
 msgid "While changing your password an AttributeError occurred. This is usually caused by your user being defined outside the portal."
 msgstr "Al è sucedût un AttributeError intant che si modificave la tô password, Pal solit chest al sucêt cuant che l'utent in cuestion al è definît di fûr dal portâl"
 
@@ -7117,7 +7182,7 @@ msgid "Year"
 msgstr ""
 
 #. not sure if this is actually used
-#: plone.app.content/plone/app/content/browser/contents/delete.py:36
+#: plone.app.content/plone/app/content/browser/contents/delete.py:39
 #: plone.app.dexterity/plone/app/dexterity/behaviors/discussion.py:15
 #: plone.app.querystring/plone/app/querystring/profiles/default/registry.xml
 msgid "Yes"
@@ -7127,20 +7192,16 @@ msgstr "Sì"
 msgid "Yes, delete"
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/delete.py:85
+#: plone.app.content/plone/app/content/browser/contents/delete.py:88
 msgid "You are not authorized to delete ${title}."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/contents/paste.py:51
+#: plone.app.content/plone/app/content/browser/contents/paste.py:54
 msgid "You are not authorized to paste ${title} here."
 msgstr ""
 
-#: plone.app.content/plone/app/content/browser/actions.py:300
+#: plone.app.content/plone/app/content/browser/actions.py:294
 msgid "You are not authorized to paste here."
-msgstr ""
-
-#: CMFPlone/browser/templates/plone-admin-logged-out.pt:24
-msgid "You are now logged out."
 msgstr ""
 
 #: CMFPlone/controlpanel/browser/quickinstaller.pt:48
@@ -7197,29 +7258,29 @@ msgstr ""
 msgid "You must enable cookies before you can log in."
 msgstr "Tu âs di abilitâ i cookies prin di podê jentrâ."
 
-#: CMFPlone/RegistrationTool.py:255
+#: CMFPlone/RegistrationTool.py:240
 msgid "You must enter a valid email address."
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:242
+#: CMFPlone/RegistrationTool.py:227
 msgid "You must enter a valid name."
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:250
+#: CMFPlone/RegistrationTool.py:235
 msgid "You must enter an email address."
 msgstr ""
 
-#: plone.app.caching/plone/app/caching/browser/controlpanel.py:516
+#: plone.app.caching/plone/app/caching/browser/controlpanel.py:522
 msgid "You must select a profile to import."
 msgstr ""
 
 #: CMFPlone/skins/plone_scripts/folder_publish.cpy:19
-#: plone.app.content/plone/app/content/browser/content_status_history.py:129
+#: plone.app.content/plone/app/content/browser/content_status_history.py:112
 msgid "You must select a publishing action."
 msgstr "Tu âs di selezionâ une azion di publicazion."
 
 #: CMFPlone/skins/plone_scripts/folder_publish.cpy:23
-#: plone.app.content/plone/app/content/browser/content_status_history.py:134
+#: plone.app.content/plone/app/content/browser/content_status_history.py:116
 msgid "You must select content to change."
 msgstr "Tu âs di selezionâ ce modificâ."
 
@@ -7231,7 +7292,7 @@ msgstr "Prime tu âs di jentrâ tal sît."
 msgid "You normally don't need to change anything here unless you have specific reasons and know what you are doing."
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:885
+#: CMFPlone/interfaces/controlpanel.py:882
 msgid "You should pack your database regularly. This number indicates how many days of undo history you want to keep. It is unrelated to versioning, so even if you pack the database, the history of the content changes will be kept. Recommended value is 7 days."
 msgstr ""
 
@@ -7239,11 +7300,11 @@ msgstr ""
 msgid "Your Plone site has not been added yet:"
 msgstr ""
 
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:293
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:301
 msgid "Your comment awaits moderator approval."
 msgstr ""
 
-#: CMFPlone/RegistrationTool.py:195
+#: CMFPlone/RegistrationTool.py:180
 msgid "Your password and confirmation did not match. Please try again."
 msgstr ""
 
@@ -7271,11 +7332,11 @@ msgstr ""
 msgid "Your subtopics:"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/maintenance.py:39
+#: CMFPlone/controlpanel/browser/maintenance.py:32
 msgid "Zope Database Packing"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/maintenance.py:38
+#: CMFPlone/controlpanel/browser/maintenance.py:31
 msgid "Zope server and site maintenance options."
 msgstr ""
 
@@ -7293,12 +7354,12 @@ msgid "absolute_url_prefix"
 msgstr ""
 
 #. Default: "A boolean expression"
-#: CMFPlone/interfaces/controlpanel.py:1754
+#: CMFPlone/interfaces/controlpanel.py:1751
 msgid "action_condition_description"
 msgstr ""
 
 #. Default: "Condition"
-#: CMFPlone/interfaces/controlpanel.py:1753
+#: CMFPlone/interfaces/controlpanel.py:1750
 msgid "action_condition_heading"
 msgstr ""
 
@@ -7308,27 +7369,27 @@ msgid "action_convert_legacy_portlets"
 msgstr ""
 
 #. Default: "Permissions"
-#: CMFPlone/interfaces/controlpanel.py:1761
+#: CMFPlone/interfaces/controlpanel.py:1758
 msgid "action_permissions_heading"
 msgstr ""
 
 #. Default: "Position"
-#: CMFPlone/interfaces/controlpanel.py:1776
+#: CMFPlone/interfaces/controlpanel.py:1773
 msgid "action_position_heading"
 msgstr ""
 
 #. Default: "An expression producing the called URL. Example: string:${globals_view/navigationRootUrl}/page"
-#: CMFPlone/interfaces/controlpanel.py:1745
+#: CMFPlone/interfaces/controlpanel.py:1742
 msgid "action_url_description"
 msgstr ""
 
 #. Default: "Action URL"
-#: CMFPlone/interfaces/controlpanel.py:1744
+#: CMFPlone/interfaces/controlpanel.py:1741
 msgid "action_url_heading"
 msgstr ""
 
 #. Default: "Visible?"
-#: CMFPlone/interfaces/controlpanel.py:1771
+#: CMFPlone/interfaces/controlpanel.py:1768
 msgid "action_visibility_heading"
 msgstr ""
 
@@ -7342,7 +7403,7 @@ msgid "add-form-is-translation"
 msgstr ""
 
 #. Default: "Comment"
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:228
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:236
 msgid "add_comment_button"
 msgstr ""
 
@@ -7404,8 +7465,8 @@ msgstr ""
 msgid "all_events"
 msgstr ""
 
-#: CMFPlone/browser/search.py:182
-#: CMFPlone/interfaces/controlpanel.py:1074
+#: CMFPlone/browser/search.py:183
+#: CMFPlone/interfaces/controlpanel.py:1071
 msgid "alphabetically"
 msgstr ""
 
@@ -7484,6 +7545,7 @@ msgid "box_events"
 msgstr ""
 
 #. Default: "Forgot your password?"
+#: CMFPlone/skins/plone_login/login_form.cpt:272
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:96
 msgid "box_forgot_password_option"
 msgstr "Âstu dismenteade la tô password?"
@@ -7580,16 +7642,6 @@ msgstr ""
 msgid "bulkactions_publish"
 msgstr ""
 
-#. Default: "Get your username"
-#: CMFPlone/browser/login/login_help.py:108
-msgid "button_pwreset_get_username"
-msgstr ""
-
-#. Default: "Reset your password"
-#: CMFPlone/browser/login/login_help.py:67
-msgid "button_pwreset_reset_password"
-msgstr ""
-
 #: plone.formwidget.recurrence/plone/formwidget/recurrence/browser/i18n.py:122
 msgid "bysetpos"
 msgstr ""
@@ -7599,7 +7651,7 @@ msgid "cancel"
 msgstr ""
 
 #. Default: "Cancel"
-#: plone.app.discussion/plone/app/discussion/browser/comment.py:107
+#: plone.app.discussion/plone/app/discussion/browser/comment.py:106
 msgid "cancel_form_button"
 msgstr ""
 
@@ -7624,32 +7676,32 @@ msgid "clear_filter"
 msgstr ""
 
 #. Default: "You can add a comment by filling out the form below. Plain text formatting. Web and email addresses are transformed into clickable links."
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:50
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:51
 msgid "comment_description_intelligent_text"
 msgstr ""
 
 #. Default: "You can add a comment by filling out the form below. Plain text formatting. You can use the Markdown syntax for links and images."
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:43
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:44
 msgid "comment_description_markdown"
 msgstr ""
 
 #. Default: "Comments are moderated."
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:57
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:58
 msgid "comment_description_moderation_enabled"
 msgstr ""
 
 #. Default: "You can add a comment by filling out the form below. Plain text formatting."
-#: plone.app.discussion/plone/app/discussion/browser/comments.py:37
+#: plone.app.discussion/plone/app/discussion/browser/comments.py:38
 msgid "comment_description_plain_text"
 msgstr ""
 
 #. Default: "Edit comment cancelled"
-#: plone.app.discussion/plone/app/discussion/browser/comment.py:111
+#: plone.app.discussion/plone/app/discussion/browser/comment.py:110
 msgid "comment_edit_cancel_notification"
 msgstr ""
 
 #. Default: "Comment was edited"
-#: plone.app.discussion/plone/app/discussion/browser/comment.py:101
+#: plone.app.discussion/plone/app/discussion/browser/comment.py:100
 msgid "comment_edit_notification"
 msgstr ""
 
@@ -7676,11 +7728,6 @@ msgstr ""
 #. Default: "Connect translation"
 #: plone/app/multilingual/browser/modify.py:47
 msgid "connect_translation"
-msgstr ""
-
-#. Default: "Contact an admin."
-#: CMFPlone/browser/login/templates/login_help.pt:41
-msgid "contact_an_admin"
 msgstr ""
 
 #. Default: "Attendees"
@@ -7768,7 +7815,7 @@ msgstr ""
 msgid "contentrules_perform_actions"
 msgstr ""
 
-#: CMFPlone/controlpanel/browser/overview.pt:32
+#: CMFPlone/controlpanel/browser/overview.pt:33
 msgid "continue with the upgrade"
 msgstr ""
 
@@ -7821,8 +7868,8 @@ msgstr ""
 msgid "daily_interval_2"
 msgstr ""
 
-#: CMFPlone/browser/search.py:180
-#: CMFPlone/interfaces/controlpanel.py:1072
+#: CMFPlone/browser/search.py:181
+#: CMFPlone/interfaces/controlpanel.py:1069
 msgid "date (newest first)"
 msgstr ""
 
@@ -7837,7 +7884,7 @@ msgid "decription_no_members_assigned"
 msgstr "Nissun grup o utent al è assegnât a chest grup."
 
 #. Default: "Add item to default page"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:635
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:639
 msgid "default_page_folder"
 msgstr ""
 
@@ -7876,22 +7923,22 @@ msgid "dependency_missing"
 msgstr ""
 
 #. Default: "The default is <em>7 days</em>. If you leave the field blank, the timeout interval will reset to the default."
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:16
+#: CMFPlone/browser/templates/explainPWResetTool.pt:16
 msgid "desc2_set_exp_interval"
 msgstr ""
 
 #. Default: "If the default page is also a folder, add items to it from here."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:637
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:641
 msgid "desc_default_page_folder"
 msgstr ""
 
 #. Default: "This tool enables a mechanism for securely resetting user's forgotten passwords."
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:9
+#: CMFPlone/browser/templates/explainPWResetTool.pt:9
 msgid "desc_pw_reset_tool"
 msgstr ""
 
 #. Default: "Specify the time until timeout of password reset requests in hours. This interval, added to the time a user makes a request, will decide the expiration of the request."
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:12
+#: CMFPlone/browser/templates/explainPWResetTool.pt:12
 msgid "desc_set_exp_interval"
 msgstr ""
 
@@ -7905,13 +7952,13 @@ msgstr ""
 msgid "description-contentrules-mailsub"
 msgstr ""
 
-#. Default: "This site uses the open source Content Management System ${plone}. It meets the Web Content Accessibility Guidelines (<a href=\"https://www.w3.org/TR/WCAG20/\">${wcag} v2.0</a>) level 'AA' for people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity, and combinations of these."
+#. Default: "This site uses the open source Content Management System ${plone}. It meets the Web Content Accessibility Guidelines (<a href=\"http://www.w3.org/TR/WCAG20/\">${wcag} v2.0</a>) level 'AA' for people with disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, photosensitivity, and combinations of these."
 #: CMFPlone/browser/templates/accessibility-info.pt:21
 #, fuzzy
 msgid "description_accessibility_info"
 msgstr "Chest sît al dopre l'${plone}, e al è stât progjetât in maniere di vê acessibilitât e pussibilitât di ûs otimâls, in conformitât cu lis liniis vuide su la acessibilitât dai contignûts web (${wcag} v1.0). Se tu cjatis cualchi element di chest sît che, daûr de acessibilitât o de validitât, nol sedi conform ai standards, vise l'${site_admin}, e no il Grup Plone."
 
-#. Default: "It is also accessible to content authors with disabilities per the level 'AA' Authoring Tool Accessibility Guidelines (<a href=\"https://www.w3.org/TR/ATAG20/\">${atag} 2.0</a>)."
+#. Default: "It is also accessible to content authors with disabilities per the level 'AA' Authoring Tool Accessibility Guidelines (<a href=\"http://www.w3.org/TR/ATAG20/\">${atag} 2.0</a>)."
 #: CMFPlone/browser/templates/accessibility-info.pt:29
 msgid "description_accessibility_info2"
 msgstr ""
@@ -7942,7 +7989,7 @@ msgid "description_after_migration_cleanup"
 msgstr ""
 
 #. Default: "Related to: use cookie for manual override"
-#: CMFPlone/interfaces/controlpanel.py:281
+#: CMFPlone/interfaces/controlpanel.py:278
 msgid "description_auth_ookie_manual_override"
 msgstr ""
 
@@ -7952,7 +7999,7 @@ msgid "description_author_feedback"
 msgstr "Compilant il modul chi sot tu puedis mandâ par pueste eletroniche lis tôs considerazions a chest autôr."
 
 #. Default: "The languages in which the site should be translatable."
-#: CMFPlone/interfaces/controlpanel.py:186
+#: CMFPlone/interfaces/controlpanel.py:183
 msgid "description_available_languages"
 msgstr ""
 
@@ -7967,7 +8014,7 @@ msgid "description_basic_settings"
 msgstr ""
 
 #. Default: "Use browser language request negotiation."
-#: CMFPlone/interfaces/controlpanel.py:325
+#: CMFPlone/interfaces/controlpanel.py:322
 msgid "description_browser_language_request_negotiation"
 msgstr ""
 
@@ -8007,7 +8054,7 @@ msgid "description_cancel"
 msgstr ""
 
 #. Default: "Before you start exploring, you need to change your original password. This ensures that the password you received via email cannot be used in a malicious manner."
-#: CMFPlone/browser/login/templates/initial_login_password_change.pt:19
+#: CMFPlone/skins/plone_login/login_password.cpt:31
 msgid "description_change_initial_password"
 msgstr "Prime di tacâ cu la esplorazion dal sît tu âs di gambiâ la password origjinâl. Chest al sigure che la password no sedi doprade in maniere improprie."
 
@@ -8063,7 +8110,7 @@ msgid "description_control_panel"
 msgstr "Impostazions di Plone e dai prodots opzionâi."
 
 #. Default: "Required for the language selector viewlet to be rendered."
-#: CMFPlone/interfaces/controlpanel.py:268
+#: CMFPlone/interfaces/controlpanel.py:265
 msgid "description_cookie_manual_override"
 msgstr ""
 
@@ -8074,7 +8121,7 @@ msgid "description_copyright"
 msgstr "Il ${plonecms} al è Copyright ${copyright} 2000-${current_year} de ${plonefoundation} e altris."
 
 #. Default: "You are running in \"debug mode\". This mode is intended for sites that are under development. This allows many configuration changes to be immediately visible, but will make your site run more slowly. To turn off debug mode, stop the server, set 'debug-mode=off' in your buildout.cfg, re-run bin/buildout and then restart the server process."
-#: CMFPlone/controlpanel/browser/overview.pt:151
+#: CMFPlone/controlpanel/browser/overview.pt:155
 #, fuzzy
 msgid "description_debug_mode"
 msgstr "Note: la modalitât di \"debug\" e je in vore. Cheste modalitât e je utile intant che si svilupe il sît, par vie che e permet une ativazion imediade des modifichis fatis, ma e cause un ralentament gjenerâl des operazions. Par disativâle, modifiche il schedari zope.conf specificant 'debug-mode off' e tornant a fâ partî il server Zope."
@@ -8116,11 +8163,6 @@ msgstr "Viôt tal manuâl di riferiment dai erôrs su plone.org par altris infor
 msgid "description_filter_content"
 msgstr ""
 
-#. Default: "Before you continue, you need to change your password."
-#: CMFPlone/browser/login/templates/forced_password_change.pt:15
-msgid "description_forced_password_change"
-msgstr ""
-
 #. Default: "Is a paying API in order to use google translation service"
 #: plone/app/multilingual/interfaces.py:257
 msgid "description_google_translation_key"
@@ -8157,7 +8199,7 @@ msgid "description_include_error_in_admin_message"
 msgstr ""
 
 #. Default: "Use language codes in URL path for manual override."
-#: CMFPlone/interfaces/controlpanel.py:258
+#: CMFPlone/interfaces/controlpanel.py:255
 msgid "description_language_codes_in_URL"
 msgstr ""
 
@@ -8167,7 +8209,7 @@ msgid "description_language_folder"
 msgstr ""
 
 #. Default: "Use the language of the content item."
-#: CMFPlone/interfaces/controlpanel.py:248
+#: CMFPlone/interfaces/controlpanel.py:245
 msgid "description_language_of_the_content"
 msgstr ""
 
@@ -8188,7 +8230,7 @@ msgid "description_linktype_url"
 msgstr ""
 
 #. Default: "This is the first time that you've logged in to ${here}."
-#: CMFPlone/browser/login/templates/initial_login_password_change.pt:17
+#: CMFPlone/skins/plone_login/login_password.cpt:28
 #, fuzzy
 msgid "description_logged_in"
 msgstr "Cheste e je la prime volte che tu jentris in ${here}."
@@ -8208,18 +8250,18 @@ msgid "description_loginagain"
 msgstr ""
 
 #. Default: "For security reasons, we store your password encrypted, and cannot mail it to you. If you would like to reset your password, fill out the form below and we will send you an email at the address you gave when you registered to start the process of resetting your password."
-#: CMFPlone/browser/login/templates/mail_password_form.pt:23
+#: CMFPlone/browser/templates/mail_password_form.pt:23
 #, fuzzy
 msgid "description_lost_password"
 msgstr "Par motîf di sigurece, lis password a son salvadis in forme criptade e duncje nol è pussibil mandâte. Se tu desideris tornâ a impostâ la tô password, jemple il modul chi sot: tes mandarìn, ae direzion di pueste eletroniche che tu âs specificât te iscrizion, altris informazions par finô il procès. Se chest nol ves di funzionâ (par esempli, percè che tu âs dismenteât il to non o parcè che tu âs gambiât direzion di pueste eletroniche) scrîf un messaç a ${email_from_adress}."
 
 #. Default: "If this will not work for you (for example, if you forgot your user name or your email address has changed), contact the ${site_admin}."
-#: CMFPlone/browser/login/templates/mail_password_form.pt:75
+#: CMFPlone/browser/templates/mail_password_form.pt:75
 msgid "description_lost_password_mail_admin"
 msgstr ""
 
 #. Default: "If this will not work for you (for example, if your email address has changed), contact the ${site_admin}."
-#: CMFPlone/browser/login/templates/mail_password_form.pt:85
+#: CMFPlone/browser/templates/mail_password_form.pt:85
 msgid "description_lost_password_mail_admin_2"
 msgstr ""
 
@@ -8295,18 +8337,18 @@ msgstr "modul di iscrizion"
 #. Default: "There are currently no items in this folder."
 #: plone.app.collection/plone/app/collection/browser/templates/standard_view.pt:173
 #: plone.app.collection/plone/app/collection/browser/templates/tabular_view.pt:25
-#: plone.app.contenttypes/plone/app/contenttypes/browser/folder.py:245
+#: plone.app.contenttypes/plone/app/contenttypes/browser/folder.py:249
 msgid "description_no_items_in_folder"
 msgstr "No son elements dentri di cheste cartele."
 
 #. Default: "You do not have sufficient privileges to view this page. If you believe you are receiving this message in error, contact the ${site_admin}."
-#: CMFPlone/browser/login/templates/insufficient_privileges.pt:26
+#: CMFPlone/skins/plone_login/insufficient_privileges.pt:19
 msgid "description_no_privileges_for_page"
 msgstr ""
 
 #. Default: "No results were found."
 #: CMFPlone/browser/templates/search.pt:212
-#: plone.app.contenttypes/plone/app/contenttypes/browser/collection.py:88
+#: plone.app.contenttypes/plone/app/contenttypes/browser/collection.py:90
 #: plone.app.querystring/plone/app/querystring/results.pt:22
 msgid "description_no_results_found"
 msgstr "No son stâts cjatâts risultâts."
@@ -8379,7 +8421,7 @@ msgid "description_preferences_form_otheruser"
 msgstr ""
 
 #. Default: "You are running in \"production mode\". This is the preferred mode of operation for a live Plone site, but means that some configuration changes will not take effect until your server is restarted or a product refreshed. If this is a development instance, and you want to enable debug mode, stop the server, set 'debug-mode=on' in your buildout.cfg, re-run bin/buildout and then restart the server process."
-#: CMFPlone/controlpanel/browser/overview.pt:139
+#: CMFPlone/controlpanel/browser/overview.pt:143
 #, fuzzy
 msgid "description_production_mode"
 msgstr "Original: \"Modalitât \"produzion\" in vore. Cheste e je la modalitât preferibil par un sît Plone, ma e impliche che cualchi modifiche ae configurazion no varà efiet fintremai che il server nol è tornât a inviâ o che il prodot al è inzornât. Se cheste e je une domande di disvilup tu vessis voie di meti in vore la modalitât di debug, modifiche il file zope.conf impostant 'debug-mode on' e torne a fâ partî il server Zope."
@@ -8394,8 +8436,8 @@ msgstr ""
 msgid "description_purged"
 msgstr ""
 
-#. Default: "You are logged in via HTTP authentication (i.e. the Zope Management Interface). In order to log out, you must:"
-#: CMFPlone/browser/login/templates/logged_out.pt:22
+#. Default: "You are logged in via HTTP authentication (i.e. the Management Interface). In order to log out, you must:"
+#: CMFPlone/skins/plone_login/logged_out.cpt:36
 #, fuzzy
 msgid "description_quit_to_log_out"
 msgstr "Dal moment che tu sês stât ricognossût midiant de autenticazion HTTP, par distacâti pardabon tu âs di lâ fûr dal to brower web."
@@ -8457,7 +8499,7 @@ msgid "description_rename_item"
 msgstr "Ogni element al à un non e un titul, che tu puedis modificâ tai cjamps chi sot."
 
 #. Default: "Please fill out the form below to set your password."
-#: CMFPlone/browser/login/templates/pwreset_form.pt:16
+#: CMFPlone/browser/templates/pwreset_form.pt:16
 msgid "description_reset_password"
 msgstr "Jemple chest modul par tornâ a impostâ la tô password."
 
@@ -8482,7 +8524,7 @@ msgid "description_send_page_url_to"
 msgstr ""
 
 #. Default: "Your password reset request has been mailed. It should arrive in your mailbox shortly. When you receive the message, visit the address it contains to reset your password."
-#: CMFPlone/browser/login/templates/mail_password_response.pt:16
+#: CMFPlone/browser/templates/mail_password_response.pt:16
 #, fuzzy
 msgid "description_sent_password"
 msgstr "Lis istruzions par tornâ a impostâ la tô password ti son stadis mandadis. E varessin di rivâti in curt te tô casele di pueste eletroniche. Une volte che tu âs ricevût il messaç, visite la direzion indicade par tornâ a impostâ la password."
@@ -8493,7 +8535,7 @@ msgid "description_set_language"
 msgstr ""
 
 #. Default: "i.e. also when the 'set_language' request parameter is absent"
-#: CMFPlone/interfaces/controlpanel.py:293
+#: CMFPlone/interfaces/controlpanel.py:290
 msgid "description_set_language_cookie_always"
 msgstr ""
 
@@ -8513,28 +8555,27 @@ msgid "description_sign_in"
 msgstr "Par jentrâ in cheste bande dal sît tu âs di fâti ricognossi, metint il to non di utent e la tô password."
 
 #. Default: "Here is the full error message:"
-#: CMFPlone/browser/templates/error_message.pt:102
+#: CMFPlone/skins/plone_templates/default_error_message.pt:133
 msgid "description_site_admin_full_error"
 msgstr ""
 
 #. Default: "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
-#: CMFPlone/browser/templates/error_message.pt:29
+#: CMFPlone/skins/plone_templates/default_error_message.pt:42
 msgid "description_site_error"
 msgstr ""
 
 #. Default: "If you are certain you have the correct web address but are encountering an error, please contact the ${site_admin}."
-#: CMFPlone/browser/templates/basic_error_message.pt:31
-#: CMFPlone/browser/templates/error_message.pt:36
+#: CMFPlone/skins/plone_templates/default_error_message.pt:49
 msgid "description_site_error_mail_site_admin"
 msgstr ""
 
 #. Default: "Thank you."
-#: CMFPlone/browser/templates/error_message.pt:42
+#: CMFPlone/skins/plone_templates/default_error_message.pt:55
 msgid "description_site_error_thank_you"
 msgstr "Grazie."
 
 #. Default: "The language used for the content and the UI of this site."
-#: CMFPlone/interfaces/controlpanel.py:173
+#: CMFPlone/interfaces/controlpanel.py:170
 msgid "description_site_language"
 msgstr ""
 
@@ -8571,13 +8612,8 @@ msgstr ""
 "Abilitant la Distribuzion tu permetis a di altris sîts web di\n"
 "sincronizâsi cun cheste cartele."
 
-#. Default: "A test portlet"
-#: plone.app.portlets/plone/app/portlets/tests/profiles/testing/portlets.xml
-msgid "description_test_portlet"
-msgstr ""
-
 #. Default: "e.g.: www.plone.de"
-#: CMFPlone/interfaces/controlpanel.py:316
+#: CMFPlone/interfaces/controlpanel.py:313
 msgid "description_top_level_domain"
 msgstr ""
 
@@ -8617,7 +8653,7 @@ msgid "description_use_form_to_change_password"
 msgstr "Dopre la mascare chi sot par modificâ la tô password."
 
 #. Default: "e.g.: de.plone.org"
-#: CMFPlone/interfaces/controlpanel.py:307
+#: CMFPlone/interfaces/controlpanel.py:304
 msgid "description_use_subdomain"
 msgstr ""
 
@@ -8630,11 +8666,6 @@ msgstr ""
 #: CMFPlone/browser/templates/accessibility-info.pt:48
 msgid "description_validation"
 msgstr "O vin doprât ${xhtml} 1.0 e ${css} in regule cu lis specifichis dadis dal ${w3c}, parcè che o crodìn che la pussibilitât di ûs e di acès a vedin di jessi poiadis su fondis fuartis. Se tu vessis di cjatâ cualchi part dal sît che no rispiete chestis regulis, par plasê vise l'${site_admin}, no il Grup Plone."
-
-#. Default: "View <a title=\"x\" href=\"https://plone.org/plone-vpat.pdf/view\"> Plone's VPAT </a> <a href=\"https://www.state.gov/m/irm/impact/126340.htm\"> ${vpat} </a>"
-#: CMFPlone/browser/templates/accessibility-info.pt:72
-msgid "description_vpat"
-msgstr ""
 
 #. Default: "A number of checkpoints in ${wcag} 2.0 and ${atag} 2.0 guidelines are subjective; there may be instances where interpretations vary."
 #: CMFPlone/browser/templates/accessibility-info.pt:57
@@ -8698,12 +8729,12 @@ msgid "edit"
 msgstr ""
 
 #. Default: "Edit comment"
-#: plone.app.discussion/plone/app/discussion/browser/comment.py:78
+#: plone.app.discussion/plone/app/discussion/browser/comment.py:77
 msgid "edit_comment_form_button"
 msgstr ""
 
 #. Default: "Edit comment"
-#: plone.app.discussion/plone/app/discussion/browser/comment.py:62
+#: plone.app.discussion/plone/app/discussion/browser/comment.py:61
 msgid "edit_comment_form_title"
 msgstr ""
 
@@ -8717,8 +8748,8 @@ msgid "edit_translation"
 msgstr ""
 
 #. Default: "Cookies are not enabled. You must enable cookies before you can log in."
-#: CMFPlone/browser/login/templates/login.pt:19
-#: CMFPlone/browser/login/templates/login_failsafe.pt:18
+#: CMFPlone/skins/plone_login/failsafe_login_form.cpt:50
+#: CMFPlone/skins/plone_login/login_form.cpt:56
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:72
 msgid "enable_cookies_message_before_login"
 msgstr ""
@@ -8925,13 +8956,13 @@ msgid "filter by..."
 msgstr ""
 
 #. Default: "More…"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:592
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:596
 #, fuzzy
 msgid "folder_add_more"
 msgstr "Altris&hellip;"
 
 #. Default: "Restrictions…"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:612
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:616
 #, fuzzy
 msgid "folder_add_settings"
 msgstr "Impostazions&hellip;"
@@ -8957,16 +8988,6 @@ msgstr ""
 msgid "folder_to_lrf_success"
 msgstr ""
 
-#. Default: "Get help"
-#: CMFPlone/browser/login/templates/login.pt:88
-msgid "footer_login_link_get_help"
-msgstr ""
-
-#. Default: "Sign up here"
-#: CMFPlone/browser/login/templates/login.pt:92
-msgid "footer_login_link_signup"
-msgstr ""
-
 #. Default: "Future events"
 #: plone.app.event/plone/app/event/browser/event_listing.py:271
 msgid "future_events"
@@ -8977,11 +8998,6 @@ msgstr ""
 msgid "go_to_contentrules_management"
 msgstr ""
 
-#. Default: "Go to"
-#: CMFPlone/browser/login/templates/login_help.pt:45
-msgid "go_to_login"
-msgstr ""
-
 #. Default: "All content created by ${user}…"
 #: CMFPlone/browser/templates/author.pt:225
 #, fuzzy
@@ -8989,7 +9005,7 @@ msgid "go_to_search_author_content"
 msgstr "Cjate dut ce che al à fat ${user}"
 
 #. Default: "With kind regards,"
-#: CMFPlone/browser/login/templates/registered_notify_template.pt:28
+#: CMFPlone/browser/templates/registered_notify_template.pt:28
 msgid "greetings"
 msgstr "Mandi di cûr"
 
@@ -9029,7 +9045,7 @@ msgid "heading_add_to_calendar"
 msgstr ""
 
 #. Default: "Add New User"
-#: plone.app.users/plone/app/users/browser/register.py:616
+#: plone.app.users/plone/app/users/browser/register.py:618
 msgid "heading_add_user_form"
 msgstr ""
 
@@ -9039,7 +9055,7 @@ msgid "heading_assign_to_groups"
 msgstr ""
 
 #. Default: "Authenticated users only"
-#: CMFPlone/interfaces/controlpanel.py:279
+#: CMFPlone/interfaces/controlpanel.py:276
 msgid "heading_auth_cookie_manual_override"
 msgstr ""
 
@@ -9049,7 +9065,7 @@ msgid "heading_author_content"
 msgstr "Materiâl creât di resint di chest colaboradôr"
 
 #. Default: "Available languages"
-#: CMFPlone/interfaces/controlpanel.py:184
+#: CMFPlone/interfaces/controlpanel.py:181
 msgid "heading_available_languages"
 msgstr ""
 
@@ -9059,7 +9075,7 @@ msgid "heading_available_translations"
 msgstr ""
 
 #. Default: "Use browser language request negotiation"
-#: CMFPlone/interfaces/controlpanel.py:323
+#: CMFPlone/interfaces/controlpanel.py:320
 msgid "heading_browser_language_request_negotiation"
 msgstr ""
 
@@ -9088,11 +9104,6 @@ msgstr ""
 msgid "heading_caching_settings"
 msgstr ""
 
-#. Default: "Time to change your password!"
-#: CMFPlone/browser/login/templates/forced_password_change.pt:9
-msgid "heading_change_password"
-msgstr ""
-
 #. Default: "Change password for ${user}"
 #: CMFPlone/skins/plone_prefs/password_form.pt:15
 msgid "heading_change_password_for"
@@ -9119,7 +9130,7 @@ msgid "heading_content_types"
 msgstr ""
 
 #. Default: "Use cookie for manual override"
-#: CMFPlone/interfaces/controlpanel.py:266
+#: CMFPlone/interfaces/controlpanel.py:263
 msgid "heading_cookie_manual_override"
 msgstr ""
 
@@ -9223,12 +9234,12 @@ msgid "heading_in_reponse_to"
 msgstr ""
 
 #. Default: "Use language codes in URL path for manual override"
-#: CMFPlone/interfaces/controlpanel.py:255
+#: CMFPlone/interfaces/controlpanel.py:252
 msgid "heading_language_codes_in_URL"
 msgstr ""
 
 #. Default: "Use the language of the content item"
-#: CMFPlone/interfaces/controlpanel.py:246
+#: CMFPlone/interfaces/controlpanel.py:243
 msgid "heading_language_of_the_content"
 msgstr ""
 
@@ -9237,13 +9248,8 @@ msgstr ""
 msgid "heading_language_settings"
 msgstr ""
 
-#. Default: "Need Help?"
-#: CMFPlone/browser/login/login_help.py:199
-msgid "heading_login_form_help"
-msgstr ""
-
 #. Default: "Lost Password"
-#: CMFPlone/browser/login/templates/mail_password_form.pt:18
+#: CMFPlone/browser/templates/mail_password_form.pt:18
 msgid "heading_lost_password"
 msgstr "Reimpostazion de password"
 
@@ -9300,7 +9306,7 @@ msgid "heading_new_user"
 msgstr ""
 
 #. Default: "Insufficient Privileges"
-#: CMFPlone/browser/login/templates/insufficient_privileges.pt:18
+#: CMFPlone/skins/plone_login/insufficient_privileges.pt:13
 msgid "heading_no_privileges"
 msgstr "No tu âs avonde permès"
 
@@ -9310,7 +9316,7 @@ msgid "heading_not_available_in_language"
 msgstr ""
 
 #. Default: "You might have been looking for…"
-#: CMFPlone/browser/templates/error_message.pt:56
+#: CMFPlone/skins/plone_templates/default_error_message.pt:69
 msgid "heading_not_found_suggestions"
 msgstr ""
 
@@ -9340,22 +9346,22 @@ msgid "heading_purged"
 msgstr ""
 
 #. Default: "Password request expired"
-#: CMFPlone/browser/login/templates/pwreset_expired.pt:11
+#: CMFPlone/browser/templates/pwreset_expired.pt:11
 msgid "heading_pwreset_expired"
 msgstr "Domande par tornâ a impostâ la password scjadude"
 
 #. Default: "Error setting password"
-#: CMFPlone/browser/login/templates/pwreset_invalid.pt:11
+#: CMFPlone/browser/templates/pwreset_invalid.pt:11
 msgid "heading_pwreset_invalid"
 msgstr "Erôr te reimpostazion de password"
 
 #. Default: "Password set"
-#: CMFPlone/browser/login/templates/pwreset_finish.pt:11
+#: CMFPlone/browser/templates/pwreset_finish.pt:11
 msgid "heading_pwreset_success"
 msgstr "Reimpostazion de password eseguide cun sucès"
 
-#. Default: "Still logged in as a Zope user"
-#: CMFPlone/browser/login/templates/logged_out.pt:19
+#. Default: "Still logged in"
+#: CMFPlone/skins/plone_login/logged_out.cpt:33
 #, fuzzy
 msgid "heading_quit_to_log_out"
 msgstr "Va fûr dal to brower web par distacâti"
@@ -9381,7 +9387,7 @@ msgid "heading_redirect_babel_view"
 msgstr ""
 
 #. Default: "Registration form"
-#: plone.app.users/plone/app/users/browser/register.py:548
+#: plone.app.users/plone/app/users/browser/register.py:550
 #, fuzzy
 msgid "heading_registration_form"
 msgstr "Modul di iscrizion"
@@ -9397,12 +9403,12 @@ msgid "heading_rename_item"
 msgstr "Rinomine l'element"
 
 #. Default: "REQUEST"
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:80
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:81
 msgid "heading_request"
 msgstr "REQUEST"
 
 #. Default: "Set your password"
-#: CMFPlone/browser/login/templates/pwreset_form.pt:11
+#: CMFPlone/browser/templates/pwreset_form.pt:11
 msgid "heading_reset_password"
 msgstr "Specifiche la tô password"
 
@@ -9460,7 +9466,7 @@ msgid "heading_send_page_to"
 msgstr "Mande a cualchidun un leam a cheste pagjine"
 
 #. Default: "Password reset confirmation sent"
-#: CMFPlone/browser/login/templates/mail_password_response.pt:11
+#: CMFPlone/browser/templates/mail_password_response.pt:11
 msgid "heading_sent_password"
 msgstr "Domande di conferme de reimpostazion de password spedide"
 
@@ -9470,7 +9476,7 @@ msgid "heading_set_content_type_restrictions"
 msgstr ""
 
 #. Default: "Set the language cookie always"
-#: CMFPlone/interfaces/controlpanel.py:290
+#: CMFPlone/interfaces/controlpanel.py:287
 msgid "heading_set_language_cookie_always"
 msgstr ""
 
@@ -9485,18 +9491,17 @@ msgid "heading_signed_out"
 msgstr "Tu ti sês stacât"
 
 #. Default: "We&#8217;re sorry, but there seems to be an error…"
-#: CMFPlone/browser/templates/basic_error_message.pt:17
-#: CMFPlone/browser/templates/error_message.pt:95
+#: CMFPlone/skins/plone_templates/default_error_message.pt:109
 msgid "heading_site_error_sorry"
 msgstr ""
 
 #. Default: "Site language"
-#: CMFPlone/interfaces/controlpanel.py:172
+#: CMFPlone/interfaces/controlpanel.py:169
 msgid "heading_site_language"
 msgstr ""
 
 #. Default: "This page does not seem to exist…"
-#: CMFPlone/browser/templates/error_message.pt:23
+#: CMFPlone/skins/plone_templates/default_error_message.pt:36
 msgid "heading_site_there_seems_to_be_an_error"
 msgstr ""
 
@@ -9521,7 +9526,7 @@ msgid "heading_title"
 msgstr ""
 
 #. Default: "Use top-level domain"
-#: CMFPlone/interfaces/controlpanel.py:314
+#: CMFPlone/interfaces/controlpanel.py:311
 msgid "heading_top_level_domain"
 msgstr ""
 
@@ -9546,7 +9551,7 @@ msgid "heading_un_block_portlets"
 msgstr ""
 
 #. Default: "Use subdomain"
-#: CMFPlone/interfaces/controlpanel.py:305
+#: CMFPlone/interfaces/controlpanel.py:302
 msgid "heading_use_subdomain"
 msgstr ""
 
@@ -9562,17 +9567,12 @@ msgstr ""
 
 #. Default: "Version Overview"
 #: CMFPlone/browser/templates/plone-upgrade.pt:200
-#: CMFPlone/controlpanel/browser/overview.pt:132
+#: CMFPlone/controlpanel/browser/overview.pt:136
 msgid "heading_version_overview"
 msgstr ""
 
-#. Default: "Voluntary Product Accessibility Template (VPAT)"
-#: CMFPlone/browser/templates/accessibility-info.pt:63
-msgid "heading_vpat"
-msgstr ""
-
 #. Default: "Welcome!"
-#: CMFPlone/browser/login/templates/initial_login_password_change.pt:9
+#: CMFPlone/skins/plone_login/login_password.cpt:22
 #: plone.app.users/plone/app/users/browser/registered.pt:21
 msgid "heading_welcome"
 msgstr "Benvignût!"
@@ -9588,7 +9588,7 @@ msgid "heading_you_are_now_logged_in"
 msgstr "Tu sês stât autorizât a jentrâ tal sît"
 
 #. Default: "Zope Server"
-#: CMFPlone/controlpanel/browser/maintenance.pt:58
+#: CMFPlone/controlpanel/browser/maintenance.pt:59
 msgid "heading_zope_server"
 msgstr ""
 
@@ -9618,7 +9618,7 @@ msgid "help_addcontenttype_button"
 msgstr ""
 
 #. Default: "Examples: pt-br (Brazilian Portuguese), en-us (American English) etc."
-#: CMFPlone/interfaces/controlpanel.py:202
+#: CMFPlone/interfaces/controlpanel.py:199
 msgid "help_allow_combined_language_codes"
 msgstr ""
 
@@ -9628,7 +9628,7 @@ msgid "help_allow_comments"
 msgstr ""
 
 #. Default: "Only the following roles can add new keywords "
-#: CMFPlone/interfaces/controlpanel.py:1327
+#: CMFPlone/interfaces/controlpanel.py:1324
 msgid "help_allow_roles_to_add_keywords"
 msgstr ""
 
@@ -9643,17 +9643,17 @@ msgid "help_anonymous_email_enabled"
 msgstr ""
 
 #. Default: "The URL of the \"After the Deadline\" grammar and spell checking server. The default value is the public server, but ideally you should download and install your own and specify its address here."
-#: CMFPlone/interfaces/controlpanel.py:794
+#: CMFPlone/interfaces/controlpanel.py:791
 msgid "help_atd_service_url"
 msgstr ""
 
 #. Default: "A list of error types which the \"After the Deadline\" spellchecker should check for. By default, all the available error type will be listed here."
-#: CMFPlone/interfaces/controlpanel.py:771
+#: CMFPlone/interfaces/controlpanel.py:768
 msgid "help_atderrortypes_to_show"
 msgstr ""
 
 #. Default: "The timezones, which should be available for the portal. Can be set for users and events"
-#: CMFPlone/interfaces/controlpanel.py:1358
+#: CMFPlone/interfaces/controlpanel.py:1355
 msgid "help_available_timezones"
 msgstr ""
 
@@ -9711,9 +9711,9 @@ msgid "help_comment_to_link"
 msgstr "Tu puedis scrivi un coment che al sarà mandât cul leam."
 
 #. Default: "Re-enter the password. Make sure the passwords are identical."
-#: CMFPlone/browser/login/templates/pwreset_form.pt:90
+#: CMFPlone/browser/templates/pwreset_form.pt:90
+#: CMFPlone/skins/plone_login/login_password.cpt:89
 #: CMFPlone/skins/plone_prefs/password_form.pt:64
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:35
 msgid "help_confirm_password"
 msgstr "Torne a meti la password. Siguriti che lis password a sedin compagnis."
 
@@ -9763,7 +9763,7 @@ msgstr "Se in vore, il panel di navigazion al mostrarà in ogni moment dome la c
 
 #. Default: "Enter your current password."
 #: CMFPlone/skins/plone_prefs/password_form.pt:36
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:20
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:18
 msgid "help_current_password"
 msgstr "Met la tô password corint."
 
@@ -9805,7 +9805,7 @@ msgid "help_description"
 msgstr "Descrizion curte dal element."
 
 #. Default: "Some discussion related settings are not located in the Discussion Control Panel.\nTo enable comments for a specific content type, go to the Types Control Panel of this type and choose \"Allow comments\".\nTo enable the moderation workflow for comments, go to the Types Control Panel, choose \"Comment\" and set workflow to \"Comment Review Workflow\"."
-#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:33
+#: plone.app.discussion/plone/app/discussion/browser/controlpanel.py:27
 msgid "help_discussion_settings_editform"
 msgstr ""
 
@@ -9831,7 +9831,7 @@ msgstr ""
 
 #. Default: "The date when the item will be published. If no date is selected the item will be published immediately."
 #: Archetypes/ExtensibleMetadata.py:137
-#: plone.app.content/plone/app/content/browser/content_status_history.py:21
+#: plone.app.content/plone/app/content/browser/content_status_history.py:20
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:229
 #, fuzzy
 msgid "help_effective_date"
@@ -9844,12 +9844,12 @@ msgstr ""
 "acessibil."
 
 #. Default: "Enter an email address. This is necessary in case the password is lost. We respect your privacy, and will not give the address away to any third parties or expose it anywhere."
-#: plone.app.users/plone/app/users/browser/register.py:106
+#: plone.app.users/plone/app/users/browser/register.py:105
 msgid "help_email_creation"
 msgstr "Met la tô direzion di pueste eletroniche, che e covente se tu pierdis la password. O rispietìn la tô privacy: no darìn la direzion a altris, ni e sarà metude fûr tal portâl."
 
 #. Default: "Enter an email address. This will be your login name. We respect your privacy, and will not give the address away to any third parties or expose it anywhere."
-#: plone.app.users/plone/app/users/browser/register.py:99
+#: plone.app.users/plone/app/users/browser/register.py:98
 msgid "help_email_creation_for_login"
 msgstr ""
 
@@ -9955,7 +9955,7 @@ msgstr "Se tu ativis la opzion, chest element nol comparirà tal arbul di naviga
 
 #. Default: "The date when the item expires. This will automatically make the item invisible for others at the given date. If no date is chosen, it will never expire."
 #: Archetypes/ExtensibleMetadata.py:148
-#: plone.app.content/plone/app/content/browser/content_status_history.py:31
+#: plone.app.content/plone/app/content/browser/content_status_history.py:30
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:253
 msgid "help_expiration_date"
 msgstr ""
@@ -9975,7 +9975,7 @@ msgid "help_external_url"
 msgstr ""
 
 #. Default: "First day in the week."
-#: CMFPlone/interfaces/controlpanel.py:1370
+#: CMFPlone/interfaces/controlpanel.py:1367
 msgid "help_first_weekday"
 msgstr ""
 
@@ -10144,9 +10144,9 @@ msgid "help_navigation_tree_depth"
 msgstr "Un numar intîr al specifiche il numar dai nivei di cartelis sot di chê principâ che a àn di jessi mostrâts tal arbul di navigazion. Zero al vûl dî nissun limit. Un al vûl dî di mostrâ dome il nivel principâl."
 
 #. Default: "Enter your new password."
-#: CMFPlone/browser/login/templates/pwreset_form.pt:72
+#: CMFPlone/browser/templates/pwreset_form.pt:72
+#: CMFPlone/skins/plone_login/login_password.cpt:69
 #: CMFPlone/skins/plone_prefs/password_form.pt:50
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:28
 #, fuzzy
 msgid "help_new_password"
 msgstr "Met la password gnove. Almancul 5 caratars."
@@ -10203,7 +10203,7 @@ msgid "help_password_creation"
 msgstr "Almancul 5 caratars."
 
 #. Default: "Enter your new password. ${errors}"
-#: plone.app.users/plone/app/users/browser/register.py:122
+#: plone.app.users/plone/app/users/browser/register.py:121
 msgid "help_password_creation_with_errors"
 msgstr ""
 
@@ -10220,7 +10220,7 @@ msgid "help_path_criteria_value"
 msgstr "Cartelis dulà cirî."
 
 #. Default: "The timezone setting of the portal. Users can set their own timezone, if available timezones are defined."
-#: CMFPlone/interfaces/controlpanel.py:1347
+#: CMFPlone/interfaces/controlpanel.py:1344
 msgid "help_portal_timezone"
 msgstr ""
 
@@ -10256,16 +10256,6 @@ msgstr ""
 msgid "help_purging_enabled"
 msgstr ""
 
-#. Default: "Enter your email and we’ll send you your username."
-#: CMFPlone/interfaces/login.py:76
-msgid "help_pwreset_email"
-msgstr ""
-
-#. Default: "Enter your username or email and we’ll send you a password reset link."
-#: CMFPlone/interfaces/login.py:66
-msgid "help_pwreset_username"
-msgstr ""
-
 #. Default: "Enter the time, in seconds, before attempts to clean up the cache. A lower value may reduce memory consumption by purging items frequently, but can also slow down the system by tying up the cache with maintenance tasks for too long."
 #: plone.app.caching/plone/app/caching/browser/controlpanel.pt:361
 msgid "help_ram_cleanup_interval"
@@ -10287,7 +10277,7 @@ msgid "help_read_network"
 msgstr ""
 
 #. Default: "When clicking on a Link type, should the user be taken to the default view or be redirected to the Link's URL?"
-#: CMFPlone/interfaces/controlpanel.py:1398
+#: CMFPlone/interfaces/controlpanel.py:1395
 msgid "help_redirect_links"
 msgstr ""
 
@@ -10323,7 +10313,7 @@ msgid "help_replace_existing"
 msgstr ""
 
 #. Default: "robots.txt is read by search engines to determine how to index your site. For details see <a href='http://www.robotstxt.org'>http://www.robotstxt.org</a>. Use '{portal_url}' for the site URL."
-#: CMFPlone/interfaces/controlpanel.py:1300
+#: CMFPlone/interfaces/controlpanel.py:1297
 msgid "help_robots_txt"
 msgstr ""
 
@@ -10426,24 +10416,24 @@ msgid "help_show_title"
 msgstr ""
 
 #. Default: "The password for the ESMTP user account."
-#: CMFPlone/interfaces/controlpanel.py:1465
+#: CMFPlone/interfaces/controlpanel.py:1462
 msgid "help_smtp_pass"
 msgstr "Password par l'account ESMTP."
 
 #. Default: "The port of your local SMTP (outgoing e-mail) server. Usually '25'."
-#: CMFPlone/interfaces/controlpanel.py:1441
+#: CMFPlone/interfaces/controlpanel.py:1438
 #, fuzzy
 msgid "help_smtp_port"
 msgstr "La puarte dal server SMTP (pe pueste in jessude). Pal solit e je la \"25\"."
 
 #. Default: "The address of your local SMTP (outgoing e-mail) server. Usually 'localhost', unless you use an external server to send e-mail."
-#: CMFPlone/interfaces/controlpanel.py:1429
+#: CMFPlone/interfaces/controlpanel.py:1426
 #, fuzzy
 msgid "help_smtp_server"
 msgstr "La direzion dal server SMTP (pe pueste in jessude). Pal solit e je \"localhost\", almancul che no si dopri un server esterni par mandâ la pueste."
 
 #. Default: "Username for authentication to your e-mail server. Not required unless you are using ESMTP."
-#: CMFPlone/interfaces/controlpanel.py:1453
+#: CMFPlone/interfaces/controlpanel.py:1450
 msgid "help_smtp_userid"
 msgstr "Non di utent pe autenticazion sul server di pueste. In gjenar nol covente specificâlu, almancul che no si dopri."
 
@@ -10509,22 +10499,22 @@ msgid "help_timezone"
 msgstr ""
 
 #. Default: "Enter what items you would like in the menu bar."
-#: CMFPlone/interfaces/controlpanel.py:648
+#: CMFPlone/interfaces/controlpanel.py:645
 msgid "help_tinymce_menubar"
 msgstr ""
 
 #. Default: "Select plugins to include with tinymce"
-#: CMFPlone/interfaces/controlpanel.py:603
+#: CMFPlone/interfaces/controlpanel.py:600
 msgid "help_tinymce_plugins"
 msgstr ""
 
 #. Default: "Enter the list of templates in json format https://www.tinymce.com/docs/plugins/template/"
-#: CMFPlone/interfaces/controlpanel.py:692
+#: CMFPlone/interfaces/controlpanel.py:689
 msgid "help_tinymce_templates"
 msgstr ""
 
 #. Default: "Enter how you would like the toolbar items to list."
-#: CMFPlone/interfaces/controlpanel.py:705
+#: CMFPlone/interfaces/controlpanel.py:702
 msgid "help_tinymce_toolbar"
 msgstr ""
 
@@ -10534,7 +10524,7 @@ msgid "help_title"
 msgstr ""
 
 #. Default: "When clicking items in listing views, these types will use the 'view' action instead of using their default view."
-#: CMFPlone/interfaces/controlpanel.py:1384
+#: CMFPlone/interfaces/controlpanel.py:1381
 msgid "help_types_use_view_action_in_listings"
 msgstr ""
 
@@ -10561,12 +10551,12 @@ msgid "help_user_notification_enabled"
 msgstr ""
 
 #. Default: "Enter your user name for verification."
-#: CMFPlone/browser/login/templates/pwreset_form.pt:47
+#: CMFPlone/browser/templates/pwreset_form.pt:47
 msgid "help_userid"
 msgstr "Met il to non di utent par verificâ."
 
 #. Default: "Enter your email address for verification."
-#: CMFPlone/browser/login/templates/pwreset_form.pt:56
+#: CMFPlone/browser/templates/pwreset_form.pt:56
 msgid "help_verify_email"
 msgstr ""
 
@@ -10596,12 +10586,12 @@ msgid "hide"
 msgstr "plate"
 
 #. Default: "JSON formatted Menu configuration."
-#: CMFPlone/interfaces/controlpanel.py:659
+#: CMFPlone/interfaces/controlpanel.py:656
 msgid "hint_tinymce_menu"
 msgstr ""
 
 #. Default: "Other TinyMCE configuration formatted as JSON."
-#: CMFPlone/interfaces/controlpanel.py:861
+#: CMFPlone/interfaces/controlpanel.py:858
 msgid "hint_tinymce_other_settings"
 msgstr ""
 
@@ -10627,7 +10617,7 @@ msgid "html"
 msgstr "HTML"
 
 #. Default: "I18n domain"
-#: CMFPlone/interfaces/controlpanel.py:1739
+#: CMFPlone/interfaces/controlpanel.py:1736
 msgid "i18n_domain_heading"
 msgstr ""
 
@@ -10782,7 +10772,7 @@ msgid "label_actions_category"
 msgstr ""
 
 #. Default: "Actions"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:53
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:57
 msgid "label_actions_menu"
 msgstr "Azions"
 
@@ -10804,7 +10794,7 @@ msgid "label_add_new_group"
 msgstr "Zonte un grup gnûf"
 
 #. Default: "Add new…"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:496
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:500
 #, fuzzy
 msgid "label_add_new_item"
 msgstr "Zonte un element gnûf"
@@ -10845,7 +10835,7 @@ msgid "label_add_users_to_group"
 msgstr "Zonte i grups e i utents selazionâts a chest grup"
 
 #. Default: "Advanced..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:809
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:813
 #, fuzzy
 msgid "label_advanced"
 msgstr "Specifichis"
@@ -10878,7 +10868,7 @@ msgid "label_all_translations"
 msgstr ""
 
 #. Default: "Show country-specific language variants"
-#: CMFPlone/interfaces/controlpanel.py:198
+#: CMFPlone/interfaces/controlpanel.py:195
 msgid "label_allow_combined_language_codes"
 msgstr ""
 
@@ -10893,7 +10883,7 @@ msgid "label_allow_discussion"
 msgstr "Permet i coments su chest element"
 
 #. Default: "Always show language selector"
-#: CMFPlone/interfaces/controlpanel.py:222
+#: CMFPlone/interfaces/controlpanel.py:219
 msgid "label_always_show_selector"
 msgstr ""
 
@@ -10944,7 +10934,7 @@ msgid "label_at"
 msgstr ""
 
 #. Default: "A list of strings which the \"After the Deadline\" spellchecker should ignore. Note: This option is only applicable when the appropriate spellchecker has been chosen above."
-#: CMFPlone/interfaces/controlpanel.py:755
+#: CMFPlone/interfaces/controlpanel.py:752
 msgid "label_atd_ignore_strings"
 msgstr ""
 
@@ -11057,7 +11047,7 @@ msgid "label_cancel"
 msgstr "Anule"
 
 #. Default: "Normally we would offer to send the user an email with instructions to set a password on completion of this form. But this site does not have a valid email setup. You can fix this in the Mail settings."
-#: plone.app.users/plone/app/users/browser/register.py:665
+#: plone.app.users/plone/app/users/browser/register.py:667
 msgid "label_cant_mail_password_reset"
 msgstr ""
 
@@ -11077,12 +11067,12 @@ msgid "label_change"
 msgstr ""
 
 #. Default: "Change content item as default view..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:347
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:351
 msgid "label_change_default_item"
 msgstr ""
 
 #. Default: "Change content item\nas default view..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:469
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:473
 #, fuzzy
 msgid "label_change_item"
 msgstr "Gambie element par <br/> visualizazion predefinide"
@@ -11093,9 +11083,9 @@ msgid "label_change_note"
 msgstr ""
 
 #. Default: "Change Password"
-#: CMFPlone/browser/login/login.py:269
+#: CMFPlone/skins/plone_login/login_password.cpt:103
 #: CMFPlone/skins/plone_prefs/password_form.pt:76
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:112
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:110
 msgid "label_change_password"
 msgstr "Gambie password"
 
@@ -11142,13 +11132,13 @@ msgid "label_choose_content_item"
 msgstr "Sielç un element"
 
 #. Default: "Select a content item\nas default view..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:423
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:427
 #, fuzzy
 msgid "label_choose_item"
 msgstr "Sielç un element <br/> come visualizazion predefinide"
 
 #. Default: "Display"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:132
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:136
 msgid "label_choose_template"
 msgstr "Visualizazion"
 
@@ -11198,9 +11188,9 @@ msgid "label_compare"
 msgstr "Confronte"
 
 #. Default: "Confirm password"
-#: CMFPlone/browser/login/templates/pwreset_form.pt:87
+#: CMFPlone/browser/templates/pwreset_form.pt:87
+#: CMFPlone/skins/plone_login/login_password.cpt:86
 #: CMFPlone/skins/plone_prefs/password_form.pt:62
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:34
 msgid "label_confirm_password"
 msgstr "Conferme password"
 
@@ -11345,7 +11335,7 @@ msgid "label_current_folder_only"
 msgstr "Navigazion dome de cartele corint"
 
 #. Default: "Folder display"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:294
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:298
 msgid "label_current_folder_views"
 msgstr "Visualizazion de cartele"
 
@@ -11355,13 +11345,13 @@ msgid "label_current_image"
 msgstr "Imagjin corinte"
 
 #. Default: "Item display"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:373
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:377
 msgid "label_current_item_views"
 msgstr "Visualizazion dal element"
 
 #. Default: "Current password"
 #: CMFPlone/skins/plone_prefs/password_form.pt:34
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:19
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:17
 msgid "label_current_password"
 msgstr "Password atuâl"
 
@@ -11473,7 +11463,7 @@ msgid "label_discussion_enabled"
 msgstr "Permetût"
 
 #. Default: "Show language flags"
-#: CMFPlone/interfaces/controlpanel.py:212
+#: CMFPlone/interfaces/controlpanel.py:209
 msgid "label_display_flags"
 msgstr ""
 
@@ -11514,16 +11504,16 @@ msgstr ""
 
 #. Default: "Publishing Date"
 #: Archetypes/ExtensibleMetadata.py:136
-#: plone.app.content/plone/app/content/browser/content_status_history.py:20
+#: plone.app.content/plone/app/content/browser/content_status_history.py:18
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:228
 #, fuzzy
 msgid "label_effective_date"
 msgstr "Date di acessibilitât efettive"
 
 #. Default: "E-mail"
-#: CMFPlone/browser/login/login.py:106
-#: CMFPlone/browser/login/login_help.py:61
+#: CMFPlone/skins/plone_login/login_form.cpt:123
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:46
+#: plone.app.users/plone/app/users/browser/membersearch.py:29
 msgid "label_email"
 msgstr "Direzion di pueste eletroniche"
 
@@ -11648,12 +11638,12 @@ msgid "label_exception"
 msgstr "Ecezion"
 
 #. Default: "Exception Type"
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:59
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:60
 msgid "label_exception_type"
 msgstr "Gjenar di ecezion"
 
 #. Default: "Exception Value"
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:63
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:64
 msgid "label_exception_value"
 msgstr "Valôr de ecezion"
 
@@ -11664,18 +11654,12 @@ msgstr "lasse fûr de navigazion"
 
 #. Default: "Use Control/Command/Shift keys to select multiple tags."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:48
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:78
 msgid "label_existingTagsHelp"
-msgstr ""
-
-#. Default: "Select from existing tags."
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:72
-msgid "label_existing_tags"
 msgstr ""
 
 #. Default: "Expiration Date"
 #: Archetypes/ExtensibleMetadata.py:147
-#: plone.app.content/plone/app/content/browser/content_status_history.py:30
+#: plone.app.content/plone/app/content/browser/content_status_history.py:28
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:252
 msgid "label_expiration_date"
 msgstr "Date di scjadince"
@@ -11721,7 +11705,7 @@ msgid "label_find_group"
 msgstr "Cîr un grup"
 
 #. Default: "First weekday"
-#: CMFPlone/interfaces/controlpanel.py:1369
+#: CMFPlone/interfaces/controlpanel.py:1366
 msgid "label_first_weekday"
 msgstr ""
 
@@ -11912,7 +11896,7 @@ msgid "label_item_count"
 msgstr "Numar di elements"
 
 #. Default: "Item: ${contentitem}"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:309
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:313
 msgid "label_item_selected"
 msgstr "Element: ${contentitem}"
 
@@ -11939,12 +11923,12 @@ msgid "label_languages"
 msgstr ""
 
 #. Default: "Lead Image"
-#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:22
+#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:17
 msgid "label_leadimage"
 msgstr ""
 
 #. Default: "Lead Image Caption"
-#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:28
+#: plone.app.contenttypes/plone/app/contenttypes/behaviors/leadimage.py:23
 msgid "label_leadimage_caption"
 msgstr ""
 
@@ -11973,8 +11957,8 @@ msgid "label_locked"
 msgstr ""
 
 #. Default: "Log in"
-#: CMFPlone/browser/login/login.py:56
-#: CMFPlone/interfaces/login.py:26
+#: CMFPlone/skins/plone_login/failsafe_login_form.cpt:158
+#: CMFPlone/skins/plone_login/login_form.cpt:189
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:80
 msgid "label_log_in"
 msgstr "Jentre"
@@ -11993,7 +11977,8 @@ msgid "label_login_continue_to_home_page"
 msgstr "Va ae pagjine principâl dal ${portal_title}\""
 
 #. Default: "Login Name"
-#: CMFPlone/interfaces/login.py:42
+#: CMFPlone/skins/plone_login/failsafe_login_form.cpt:87
+#: CMFPlone/skins/plone_login/login_form.cpt:119
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:36
 msgid "label_login_name"
 msgstr "Non utent"
@@ -12094,14 +12079,14 @@ msgid "label_multi_choice_field"
 msgstr ""
 
 #. Default: "My email address is"
-#: CMFPlone/browser/login/templates/mail_password_form.pt:47
-#: CMFPlone/browser/login/templates/pwreset_form.pt:52
+#: CMFPlone/browser/templates/mail_password_form.pt:47
+#: CMFPlone/browser/templates/pwreset_form.pt:52
 msgid "label_my_email_address_is"
 msgstr ""
 
 #. Default: "My user name is"
-#: CMFPlone/browser/login/templates/mail_password_form.pt:42
-#: CMFPlone/browser/login/templates/pwreset_form.pt:43
+#: CMFPlone/browser/templates/mail_password_form.pt:42
+#: CMFPlone/browser/templates/pwreset_form.pt:43
 msgid "label_my_user_name_is"
 msgstr "Il gno non di utent al è"
 
@@ -12135,7 +12120,6 @@ msgstr "Profonditât de navigazion"
 
 #. Default: "Enter one tag per line, multiple words allowed."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:131
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:171
 msgid "label_newTagsHelp"
 msgstr ""
 
@@ -12145,9 +12129,9 @@ msgid "label_new_items_since"
 msgstr "Elements gnûfs dal"
 
 #. Default: "New password"
-#: CMFPlone/browser/login/templates/pwreset_form.pt:68
+#: CMFPlone/browser/templates/pwreset_form.pt:68
+#: CMFPlone/skins/plone_login/login_password.cpt:66
 #: CMFPlone/skins/plone_prefs/password_form.pt:48
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:27
 msgid "label_new_password"
 msgstr "Password gnove"
 
@@ -12155,11 +12139,6 @@ msgstr "Password gnove"
 #: plone.app.content/plone/app/content/browser/actions.py:106
 msgid "label_new_short_name"
 msgstr "Non curt gnûf"
-
-#. Default: "Create and apply new tags."
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:167
-msgid "label_new_tags"
-msgstr ""
 
 #. Default: "Description"
 #: plone/app/theming/browser/controlpanel.pt:219
@@ -12198,12 +12177,11 @@ msgstr ""
 
 #. Default: "No tags currently selected."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:81
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:121
 msgid "label_noTagsSelected"
 msgstr ""
 
 #. Default: "No change"
-#: plone.app.content/plone/app/content/browser/contents/properties.py:69
+#: plone.app.content/plone/app/content/browser/contents/properties.py:72
 #: plone.app.content/plone/app/content/browser/templates/content_status_history.pt:327
 msgid "label_no_change"
 msgstr "No stâ gambiâ"
@@ -12219,7 +12197,7 @@ msgid "label_no_group_specified"
 msgstr "Nol è stât specificât nissun grup."
 
 #. Default: "No preference panels available."
-#: CMFPlone/controlpanel/browser/overview.pt:120
+#: CMFPlone/controlpanel/browser/overview.pt:124
 msgid "label_no_prefs_panels_available"
 msgstr ""
 
@@ -12250,7 +12228,6 @@ msgstr "Va ben"
 
 #. Default: "% tags currently selected."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:82
-#: Archetypes/skins/archetypes/widgets/tests/keywordtests.html:122
 msgid "label_oneOrMoreTagsSelected"
 msgstr ""
 
@@ -12270,14 +12247,14 @@ msgid "label_parameter_expressions"
 msgstr ""
 
 #. Default: "Password"
-#: CMFPlone/interfaces/login.py:30
+#: CMFPlone/skins/plone_login/failsafe_login_form.cpt:110
+#: CMFPlone/skins/plone_login/login_form.cpt:143
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:58
-#: plone.app.users/plone/app/users/browser/account.py:278
 msgid "label_password"
 msgstr "Password"
 
 #. Default: "A URL will be generated and e-mailed to you; follow the link to reach a page where you can change your password and complete the registration process."
-#: plone.app.users/plone/app/users/browser/register.py:605
+#: plone.app.users/plone/app/users/browser/register.py:607
 msgid "label_password_change_mail"
 msgstr ""
 
@@ -12403,6 +12380,7 @@ msgid "label_publish"
 msgstr ""
 
 #. Default: "effective"
+#: plone.app.layout/plone/app/layout/viewlets/content_history.pt:49
 #: plone.app.layout/plone/app/layout/viewlets/review_history.pt:49
 msgid "label_publishing_effective"
 msgstr "acessibil"
@@ -12422,16 +12400,6 @@ msgstr ""
 #. Default: "Enable purging"
 #: plone.app.caching/plone/app/caching/browser/controlpanel.pt:149
 msgid "label_purging_enabled"
-msgstr ""
-
-#. Default: "Email"
-#: CMFPlone/interfaces/login.py:75
-msgid "label_pwreset_email"
-msgstr ""
-
-#. Default: "Username"
-#: CMFPlone/interfaces/login.py:65
-msgid "label_pwreset_username"
 msgstr ""
 
 #. Default: "Quick search"
@@ -12473,7 +12441,7 @@ msgid "label_refresh"
 msgstr "Inzorne"
 
 #. Default: "Register"
-#: plone.app.users/plone/app/users/browser/register.py:388
+#: plone.app.users/plone/app/users/browser/register.py:387
 msgid "label_register"
 msgstr "Conferme la iscrizion"
 
@@ -12525,7 +12493,7 @@ msgid "label_reply"
 msgstr "Rispuint"
 
 #. Default: "Request URL"
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:55
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:56
 msgid "label_request_url"
 msgstr "URL domandât"
 
@@ -12648,7 +12616,7 @@ msgid "label_selection_criteria_value"
 msgstr "Valôr"
 
 #. Default: "Send"
-#: CMFPlone/browser/author.py:41
+#: CMFPlone/browser/author.py:42
 #: CMFPlone/browser/contact_info.py:38
 #: CMFPlone/browser/sendto.py:41
 msgid "label_send"
@@ -12738,14 +12706,14 @@ msgid "label_showall"
 msgstr "Mostriju ducj"
 
 #. Default: "site administration"
-#: CMFPlone/browser/login/templates/mail_password_form.pt:76
 #: CMFPlone/browser/templates/accessibility-info.pt:48
-#: CMFPlone/browser/templates/basic_error_message.pt:31
+#: CMFPlone/browser/templates/mail_password_form.pt:76
+#: CMFPlone/skins/plone_templates/default_error_message.pt:50
 msgid "label_site_admin"
 msgstr "aministradôr dal sît"
 
 #. Default: "site administration"
-#: CMFPlone/browser/login/templates/insufficient_privileges.pt:26
+#: CMFPlone/skins/plone_login/insufficient_privileges.pt:19
 msgid "label_site_administration"
 msgstr ""
 
@@ -12760,28 +12728,28 @@ msgid "label_size"
 msgstr "Dimension"
 
 #. Default: "ESMTP password"
-#: CMFPlone/interfaces/controlpanel.py:1462
+#: CMFPlone/interfaces/controlpanel.py:1459
 msgid "label_smtp_pass"
 msgstr "Password ESMTP"
 
 #. Default: "SMTP port"
-#: CMFPlone/interfaces/controlpanel.py:1439
+#: CMFPlone/interfaces/controlpanel.py:1436
 msgid "label_smtp_port"
 msgstr "Puarte SMTP"
 
 #. Default: "SMTP server"
-#: CMFPlone/interfaces/controlpanel.py:1426
+#: CMFPlone/interfaces/controlpanel.py:1423
 msgid "label_smtp_server"
 msgstr "Server SMTP"
 
 # New messages for plone.app.controlpanel Plone 4.2
 #. Default: "Save and send test e-mail"
-#: CMFPlone/controlpanel/browser/mail.py:49
+#: CMFPlone/controlpanel/browser/mail.py:48
 msgid "label_smtp_test"
 msgstr ""
 
 #. Default: "ESMTP username"
-#: CMFPlone/interfaces/controlpanel.py:1450
+#: CMFPlone/interfaces/controlpanel.py:1447
 msgid "label_smtp_userid"
 msgstr "Non di utent ESMTP"
 
@@ -12796,7 +12764,7 @@ msgid "label_some_content_types"
 msgstr ""
 
 #. Default: "Sort on"
-#: CMFPlone/interfaces/controlpanel.py:1068
+#: CMFPlone/interfaces/controlpanel.py:1065
 #: plone.app.contenttypes/plone/app/contenttypes/behaviors/collection.py:54
 msgid "label_sort_on"
 msgstr ""
@@ -12807,7 +12775,7 @@ msgid "label_sort_reversed"
 msgstr ""
 
 #. Default: "State:"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:668
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:672
 msgid "label_state"
 msgstr "Stât:"
 
@@ -12886,7 +12854,7 @@ msgstr ""
 
 #. Default: "Time"
 #: CMFPlone/skins/plone_prefs/prefs_error_log_form.pt:90
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:46
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:47
 msgid "label_time"
 msgstr "Ore"
 
@@ -12896,32 +12864,32 @@ msgid "label_timezone"
 msgstr ""
 
 #. Default: "Menu"
-#: CMFPlone/interfaces/controlpanel.py:658
+#: CMFPlone/interfaces/controlpanel.py:655
 msgid "label_tinymce_menu"
 msgstr ""
 
 #. Default: "Menubar"
-#: CMFPlone/interfaces/controlpanel.py:647
+#: CMFPlone/interfaces/controlpanel.py:644
 msgid "label_tinymce_menubar"
 msgstr ""
 
 #. Default: "Other settings"
-#: CMFPlone/interfaces/controlpanel.py:860
+#: CMFPlone/interfaces/controlpanel.py:857
 msgid "label_tinymce_other_settings"
 msgstr ""
 
 #. Default: "Editor plugins"
-#: CMFPlone/interfaces/controlpanel.py:602
+#: CMFPlone/interfaces/controlpanel.py:599
 msgid "label_tinymce_plugins"
 msgstr ""
 
 #. Default: "Templates"
-#: CMFPlone/interfaces/controlpanel.py:691
+#: CMFPlone/interfaces/controlpanel.py:688
 msgid "label_tinymce_templates"
 msgstr ""
 
 #. Default: "Toolbar"
-#: CMFPlone/interfaces/controlpanel.py:704
+#: CMFPlone/interfaces/controlpanel.py:701
 msgid "label_tinymce_toolbar"
 msgstr ""
 
@@ -12954,7 +12922,8 @@ msgid "label_total_relations"
 msgstr ""
 
 #. Default: "Display traceback as text"
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:75
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:76
+#: CMFPlone/skins/plone_templates/default_error_message.pt:137
 msgid "label_traceback_as_text"
 msgstr "Visualize informazions sul erôr in forme testuâl"
 
@@ -12992,7 +12961,7 @@ msgid "label_up_to_groups_overview"
 msgstr "Torne li de liste gjenerâl dai grups "
 
 #. Default: "Up to Site Setup"
-#: CMFPlone/controlpanel/browser/maintenance.pt:166
+#: CMFPlone/controlpanel/browser/maintenance.pt:167
 #: plone.app.caching/plone/app/caching/browser/import.pt:48
 #: plone.app.caching/plone/app/caching/browser/purge.pt:48
 msgid "label_up_to_plone_setup"
@@ -13028,7 +12997,7 @@ msgstr ""
 
 #. Default: "User Name"
 #: CMFPlone/skins/plone_prefs/prefs_error_log_form.pt:91
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:51
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:52
 #: plone.app.users/plone/app/users/schema.py:93
 msgid "label_user_name"
 msgstr "Non di utent"
@@ -13180,13 +13149,14 @@ msgid "legend_member_search_criteria"
 msgstr "Criteris di ricercje dai colaboradôrs"
 
 #. Default: "New Password"
-#: CMFPlone/browser/login/templates/pwreset_form.pt:30
+#: CMFPlone/browser/templates/pwreset_form.pt:30
 msgid "legend_new_password"
 msgstr "Password gnove"
 
 #. Default: "Password Details"
+#: CMFPlone/skins/plone_login/login_password.cpt:48
 #: CMFPlone/skins/plone_prefs/password_form.pt:31
-#: plone.app.users/plone/app/users/browser/passwordpanel.py:62
+#: plone.app.users/plone/app/users/browser/passwordpanel.py:60
 msgid "legend_password_details"
 msgstr "Detais de password"
 
@@ -13241,7 +13211,7 @@ msgid "linkintegrity_breaches_title"
 msgstr ""
 
 #. Default: "Would you like to delete it anyway?"
-#: plone.app.linkintegrity/plone/app/linkintegrity/browser/delete_confirmation_info.pt:78
+#: plone.app.linkintegrity/plone/app/linkintegrity/browser/delete_confirmation_info.pt:77
 msgid "linkintegrity_delete_anyway"
 msgstr ""
 
@@ -13404,53 +13374,48 @@ msgid "mail_notification_message_moderator"
 msgstr ""
 
 #. Default: "Welcome ${fullname}, Your user account has been created. Your username is ${member}. Please activate it by visiting ${set_password} Please activate your account before ${expirationdate}"
-#: CMFPlone/browser/login/templates/registered_notify_template.pt:23
+#: CMFPlone/browser/templates/registered_notify_template.pt:23
 msgid "mailtemplate_registered_user_body"
 msgstr ""
 
 #. Default: "The site administrator asks you to reset your password for '${userid}' userid. Your old password doesn't work anymore."
-#: CMFPlone/browser/login/templates/mail_password_template.pt:14
+#: CMFPlone/browser/templates/mail_password_template.pt:14
 msgid "mailtemplate_reset_information"
 msgstr ""
 
 #. Default: "Password reset request"
-#: CMFPlone/browser/login/password_reset.py:57
+#: CMFPlone/browser/password_reset.py:60
 msgid "mailtemplate_subject_resetpasswordrequest"
 msgstr "Domande par tornâ a impostâ la password"
 
 #. Default: "(This link is valid for ${hours} hours)"
-#: CMFPlone/browser/login/templates/mail_password_template.pt:28
+#: CMFPlone/browser/templates/mail_password_template.pt:28
 #, fuzzy
 msgid "mailtemplate_text_expirationdate_linkreset"
 msgstr "La domande par tornâ a impostâ de password e scjadarà ca di"
 
 #. Default: "The following link will take you to a page where you can reset your password for ${site_name} site: ${reset_url}"
-#: CMFPlone/browser/login/templates/mail_password_template.pt:23
+#: CMFPlone/browser/templates/mail_password_template.pt:23
 msgid "mailtemplate_text_linkreset"
 msgstr "Cualchidun al à domandât di tornâ a impostâ la password dal to account su &dtml-title;. Se no tu sês stât tu, tu puedis no tignî cont di chest messaç e no fâ nuie. Se invecit tu desideris continuâ tal tornâ a impostâ la password, visite cheste direzion:"
 
 #. Default: "If you didn't expect to receive this email, please ignore it. Your password has not been changed. Request made from IP address ${ipaddress}"
-#: CMFPlone/browser/login/templates/mail_password_template.pt:36
+#: CMFPlone/browser/templates/mail_password_template.pt:36
 msgid "mailtemplate_tracking_information"
 msgstr ""
 
 #. Default: "User Account Information for ${portal_name}"
-#: CMFPlone/browser/login/password_reset.py:47
+#: CMFPlone/browser/password_reset.py:50
 msgid "mailtemplate_user_account_info"
 msgstr ""
 
-#. Default: "From: {encoded_mail_sender}\nTo: {email}\nSubject: Your username for {portal_url}\nContent-Type: text/plain\nPrecedence: bulk\n\nDear {fullname},\n\nYou requested to be reminded of your username for {portal_url}.\nYour username is: {login}\n\n\nWith kind regards,\n\n--\n\n{email_from_name}"
-#: CMFPlone/browser/login/login_help.py:28
-msgid "mailtemplate_username_info"
-msgstr ""
-
 #. Default: "All…"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:918
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:922
 msgid "manage_all_portlets"
 msgstr ""
 
 #. Default: "Manage portlets"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:845
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:849
 #: plone.app.layout/plone/app/layout/viewlets/manage_portlets_fallback.pt:7
 msgid "manage_portlets_link"
 msgstr ""
@@ -13501,23 +13466,23 @@ msgid "message_permissions_blocking_link_redirect"
 msgstr ""
 
 #. Default: "For your security, password reset URLs are only valid for ${hours} hours. This URL has expired, but you may ${message_request_new}."
-#: CMFPlone/browser/login/templates/pwreset_expired.pt:25
+#: CMFPlone/browser/templates/pwreset_expired.pt:25
 msgid "message_pwreset_expired"
 msgstr "Pe tô sigurece, la direzion par tornâ a impostâ la password e reste valide par ${hours} oris. Cumò no je plui valide, ma tu puedis ${message_request_new}."
 
 #. Default: "Sorry, this appears to be an invalid request. Please make sure you copied the URL exactly as it appears in your email and that you entered your user name correctly."
-#: CMFPlone/browser/login/templates/pwreset_invalid.pt:20
+#: CMFPlone/browser/templates/pwreset_invalid.pt:20
 #, fuzzy
 msgid "message_pwreset_invalid"
 msgstr "Nus diplâs, ma la domande no je valide. Siguriti di vê copiât in maniere juste la direzion URL specificade te pueste eletroniche e di vê metût il to non di utent just."
 
 #. Default: "Sorry, this appears to be an invalid request. Please make sure you copied the URL exactly as it appears in your email and that you entered your email address correctly."
-#: CMFPlone/browser/login/templates/pwreset_invalid.pt:26
+#: CMFPlone/browser/templates/pwreset_invalid.pt:26
 msgid "message_pwreset_invalid_with_email"
 msgstr ""
 
 #. Default: "Your password has been set successfully. You may now ${login_url} with your new password."
-#: CMFPlone/browser/login/templates/pwreset_finish.pt:23
+#: CMFPlone/browser/templates/pwreset_finish.pt:23
 #, fuzzy
 msgid "message_pwreset_success"
 msgstr "La tô password e je stada tornade a impostâ in maniere juste. Cumò tu puedis logâti al sît doprant la password gnove."
@@ -13533,7 +13498,7 @@ msgid "message_reference_edited"
 msgstr ""
 
 #. Default: "request a new one"
-#: CMFPlone/browser/login/templates/pwreset_expired.pt:26
+#: CMFPlone/browser/templates/pwreset_expired.pt:26
 msgid "message_request_new"
 msgstr "presente une domande gnove "
 
@@ -13635,7 +13600,7 @@ msgid "msg_no_login_duplicates_found"
 msgstr ""
 
 #. Default: "You must set a password or choose to send an email."
-#: plone.app.users/plone/app/users/browser/register.py:379
+#: plone.app.users/plone/app/users/browser/register.py:378
 msgid "msg_no_password_no_mail_me"
 msgstr ""
 
@@ -13664,16 +13629,6 @@ msgstr ""
 #. Default: "Filter the results"
 #: CMFPlone/browser/templates/search.pt:65
 msgid "narrow_search_options"
-msgstr ""
-
-#. Default: "Need an account?"
-#: CMFPlone/browser/login/templates/login.pt:91
-msgid "need_an_account"
-msgstr ""
-
-#. Default: "Need more help?"
-#: CMFPlone/browser/login/templates/login_help.pt:40
-msgid "need_more_help"
 msgstr ""
 
 #. Default: "If enabled, network (http, https) urls are allowed in the rules file and this config."
@@ -13738,11 +13693,6 @@ msgstr "Manten la imagjin corinte"
 #. Default: "Your site is not configured with more than one allowed language, but the add-on that provides support for content in multiple language is installed. You can add one or more additional languages from the ${control-panel-link}."
 #: plone/app/multilingual/browser/templates/languages-notice.pt:11
 msgid "not_configured_for_multiple_languages"
-msgstr ""
-
-#. Default: "Option 3 : hiver"
-#: Archetypes/tests/test_baseobject.py:46
-msgid "option3"
 msgstr ""
 
 #: plone.app.registry/plone/app/registry/browser/templates/records.pt:62
@@ -13832,10 +13782,6 @@ msgstr ""
 msgid "plone.app.collection, the new style Archetypes collections in Plone 4"
 msgstr ""
 
-#: plone.app.contentrules/plone/app/contentrules/tests/testing.zcml:13
-msgid "plone.app.contentrules testing"
-msgstr ""
-
 #: plone.app.event/plone/app/event/configure.zcml:38
 msgid "plone.app.event"
 msgstr ""
@@ -13874,23 +13820,13 @@ msgstr ""
 msgid "plone.leftcolumn"
 msgstr ""
 
-#: plone.protect/plone/protect/configure.zcml:30
+#: plone.protect/plone/protect/configure.zcml:31
 msgid "plone.protect configuration"
 msgstr ""
 
 #. Default: "Plone Rightcolumn"
 #: plone.app.contentmenu/plone/app/contentmenu/menu.py:911
 msgid "plone.rightcolumn"
-msgstr ""
-
-#. Default: "Zope is restarting. This page will refresh in 30 seconds..."
-#: CMFPlone/controlpanel/browser/maintenance.py:119
-msgid "plone_restarting"
-msgstr ""
-
-#. Default: "Zope is shutting down."
-#: CMFPlone/controlpanel/browser/maintenance.py:93
-msgid "plone_shutdown"
 msgstr ""
 
 #. Default: "This is the portal actions configuration section, you can manage the actions contained in the different action categories."
@@ -14049,8 +13985,8 @@ msgstr ""
 msgid "relation_migration_with_not_needed"
 msgstr ""
 
-#: CMFPlone/browser/search.py:178
-#: CMFPlone/interfaces/controlpanel.py:1071
+#: CMFPlone/browser/search.py:179
+#: CMFPlone/interfaces/controlpanel.py:1068
 msgid "relevance"
 msgstr ""
 
@@ -14064,7 +14000,7 @@ msgid "remove"
 msgstr ""
 
 #. Default: "The following users have been sent an e-mail with link to reset their password: ${user_ids}"
-#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:197
+#: CMFPlone/controlpanel/browser/usergroups_usersoverview.py:195
 msgid "reset_passwords_msg"
 msgstr ""
 
@@ -14081,7 +14017,7 @@ msgstr "tire indaûr"
 msgid "return_to_view"
 msgstr ""
 
-#: CMFPlone/interfaces/controlpanel.py:1299
+#: CMFPlone/interfaces/controlpanel.py:1296
 msgid "robots.txt"
 msgstr ""
 
@@ -14151,28 +14087,13 @@ msgid "sort_by"
 msgstr ""
 
 #. Default: "Failed to create your account: we were unable to send instructions for setting a password to your email address: ${address}"
-#: plone.app.users/plone/app/users/browser/register.py:492
+#: plone.app.users/plone/app/users/browser/register.py:490
 msgid "status_fatal_password_mail"
 msgstr ""
 
 #. Default: "This account has been created, but we were unable to send instructions for setting a password to this email address: ${address}"
-#: plone.app.users/plone/app/users/browser/register.py:503
+#: plone.app.users/plone/app/users/browser/register.py:502
 msgid "status_nonfatal_password_mail"
-msgstr ""
-
-#. Default: "You are now logged out."
-#: CMFPlone/browser/login/logout.py:51
-msgid "statusmessage_logged_out"
-msgstr ""
-
-#. Default: "An email has been sent with instructions on how to reset your password."
-#: CMFPlone/browser/login/login_help.py:87
-msgid "statusmessage_pwreset_password_mail_sent"
-msgstr ""
-
-#. Default: "An email has been sent with your username."
-#: CMFPlone/browser/login/login_help.py:136
-msgid "statusmessage_pwreset_username_mail_sent"
 msgstr ""
 
 #. Default: "Structured Text"
@@ -14358,7 +14279,7 @@ msgid "text_discussion_type_control_panel_link"
 msgstr ""
 
 #. Default: "The specified log entry was not found. It may have expired. If you are using a load-balanced ZEO (cluster) setup, try reloading until you get the right server in the cluster."
-#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:35
+#: CMFPlone/skins/plone_prefs/prefs_error_log_showEntry.pt:36
 #, fuzzy
 msgid "text_errlog_notfound"
 msgstr "La vôs dal regjistri specificade no je stade cjatade. E podarès jessi scjadude."
@@ -14381,13 +14302,13 @@ msgid "text_no_email_setup"
 msgstr ""
 
 #. Default: "You have not configured a mail host or a site 'From' address, various features including contact forms, email notification and password reset will not work. Go to the ${label_mail_control_panel_link} to fix this."
-#: CMFPlone/controlpanel/browser/overview.pt:52
+#: CMFPlone/controlpanel/browser/overview.pt:54
 #: plone.app.discussion/plone/app/discussion/browser/controlpanel.pt:22
 msgid "text_no_mailhost_configured"
 msgstr ""
 
 #. Default: "Mail control panel"
-#: CMFPlone/controlpanel/browser/overview.pt:53
+#: CMFPlone/controlpanel/browser/overview.pt:55
 #: plone.app.discussion/plone/app/discussion/browser/controlpanel.pt:23
 msgid "text_no_mailhost_configured_control_panel_link"
 msgstr ""
@@ -14408,7 +14329,7 @@ msgid "text_no_new_modified_items"
 msgstr "Nissun element al stât modificât."
 
 #. Default: "PIL is not installed properly, image scaling will not work."
-#: CMFPlone/controlpanel/browser/overview.pt:87
+#: CMFPlone/controlpanel/browser/overview.pt:91
 #, fuzzy
 msgid "text_no_pil_installed"
 msgstr "Ocjo: il modul PIL nol risulte instalât in maniere juste, pa la cuâl non sarà pussibil ridimensionâ lis imagjins"
@@ -14425,12 +14346,12 @@ msgid "text_no_searchstring_large"
 msgstr "Met il non di un grup o di un utent di cirî."
 
 #. Default: "You have not set the portal timezone. Date/Time handling will not work properly for timezone aware date/time values. Go to the ${label_mail_event_settings_link} to fix this."
-#: CMFPlone/controlpanel/browser/overview.pt:72
+#: CMFPlone/controlpanel/browser/overview.pt:75
 msgid "text_no_timezone_configured"
 msgstr ""
 
 #. Default: "Date and Time Settings control panel"
-#: CMFPlone/controlpanel/browser/overview.pt:73
+#: CMFPlone/controlpanel/browser/overview.pt:76
 msgid "text_no_timezone_configured_control_panel_link"
 msgstr ""
 
@@ -14458,8 +14379,8 @@ msgid "text_nomatches"
 msgstr "Nissune corispondence"
 
 #. Default: "You are not allowed to manage the Zope server."
-#: CMFPlone/controlpanel/browser/maintenance.pt:160
-#: CMFPlone/controlpanel/browser/maintenance.py:58
+#: CMFPlone/controlpanel/browser/maintenance.pt:161
+#: CMFPlone/controlpanel/browser/maintenance.py:44
 msgid "text_not_allowed_manage_server"
 msgstr ""
 
@@ -14479,18 +14400,13 @@ msgstr ""
 msgid "text_user_not_in_any_group"
 msgstr "Chest utent nol è part di nissun grup"
 
-#. Default: "Database name:"
-#: CMFPlone/controlpanel/browser/maintenance.pt:105
-msgid "text_zope_database_name"
-msgstr ""
-
 #. Default: "<strong>Current database size:</strong> ${size}"
-#: CMFPlone/controlpanel/browser/maintenance.pt:109
+#: CMFPlone/controlpanel/browser/maintenance.pt:110
 msgid "text_zope_database_size"
 msgstr ""
 
 #. Default: "Zope Server uptime: ${time}"
-#: CMFPlone/controlpanel/browser/maintenance.pt:63
+#: CMFPlone/controlpanel/browser/maintenance.pt:64
 msgid "text_zope_server_uptime"
 msgstr ""
 
@@ -14576,13 +14492,13 @@ msgid "title"
 msgstr "titul"
 
 #. Default: "Actions for the current content item"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:54
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:58
 #, fuzzy
 msgid "title_actions_menu"
 msgstr "Azions"
 
 #. Default: "Add new items inside this item"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:497
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:501
 msgid "title_add_new_items_inside_item"
 msgstr "Zonte i elements gnûfs dentri di chest element"
 
@@ -14651,17 +14567,17 @@ msgstr ""
 
 #. Default: "Change the item used as default view in this folder"
 #: plone.app.content/plone/app/content/browser/templates/select_default_view.pt:61
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:350
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:354
 msgid "title_change_default_view_item"
 msgstr "Gambie l'element doprât come visualizazion predefinide di cheste cartele"
 
 #. Default: "Change the portlets of this item"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:863
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:867
 msgid "title_change_portlets"
 msgstr ""
 
 #. Default: "Change the state of this item"
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:694
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:698
 msgid "title_change_state_of_item"
 msgstr "Gambie il stât di chest element"
 
@@ -14676,7 +14592,7 @@ msgid "title_checkout"
 msgstr ""
 
 #. Default: "Select the view mode for this folder, or set a content item as its default view."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:159
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:163
 #, fuzzy
 msgid "title_choose_default_view"
 msgstr "Sielç une visualizazion predefinide"
@@ -14693,7 +14609,7 @@ msgstr ""
 
 #. Default: "Configure which content types can be added here"
 #: plone.app.content/plone/app/content/browser/folderfactories.pt:29
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:614
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:618
 msgid "title_configure_addable_content_types"
 msgstr "Configure cuâi gjenars di contignût a puedin jessi zontâts achì"
 
@@ -14807,13 +14723,8 @@ msgstr ""
 #. Default: "Personal Information"
 #: CMFPlone/controlpanel/browser/usergroups_usermembership.pt:57
 #: plone.app.users/plone/app/users/browser/account-configlet.pt:32
-#: plone.app.users/plone/app/users/browser/account.py:260
+#: plone.app.users/plone/app/users/browser/account.py:261
 msgid "title_personal_information_form"
-msgstr ""
-
-#. Default: "Plone's Voluntary Product Accessibility Template (VPAT)"
-#: CMFPlone/browser/templates/accessibility-info.pt:66
-msgid "title_plone_vpat"
 msgstr ""
 
 #. Default: "Blocked"
@@ -14832,12 +14743,12 @@ msgid "title_previous_month"
 msgstr ""
 
 #. Default: "Password Reset Tool"
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:7
+#: CMFPlone/browser/templates/explainPWResetTool.pt:7
 msgid "title_pw_reset_tool"
 msgstr ""
 
 #. Default: "Delete or rename the index_html item to gain full control over how this folder is displayed."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:155
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:159
 msgid "title_remove_index_html_for_display_control"
 msgstr "Scancele o torne nominâ l'element \"index_html\" par vê il control plen su la visualizazion di cheste cartele."
 
@@ -14876,7 +14787,7 @@ msgid "title_select_default_page"
 msgstr "Selezione un element di doprâ come visualizazion predefinide di cheste cartele"
 
 #. Default: "Select an item to be used as default view in this folder..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:426
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:430
 msgid "title_select_default_view_item"
 msgstr ""
 
@@ -14886,7 +14797,7 @@ msgid "title_send_mail_to_user"
 msgstr "Mande un messaç di pueste eletroniche a di chest utent"
 
 #. Default: "Expiration Interval"
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:11
+#: CMFPlone/browser/templates/explainPWResetTool.pt:11
 msgid "title_set_exp_interval"
 msgstr ""
 
@@ -14910,11 +14821,6 @@ msgstr ""
 msgid "title_switch_portlet_managers"
 msgstr ""
 
-#. Default: "Test portlet"
-#: plone.app.portlets/plone/app/portlets/tests/profiles/testing/portlets.xml
-msgid "title_test_portlet"
-msgstr ""
-
 #. Default: "Folder translation"
 #: plone/app/multilingual/browser/menu.py:260
 msgid "title_translate_current_folder"
@@ -14936,7 +14842,7 @@ msgid "title_user_registration_fields"
 msgstr ""
 
 #. Default: "Username Check"
-#: CMFPlone/browser/login/templates/explainPWResetTool.pt:26
+#: CMFPlone/browser/templates/explainPWResetTool.pt:26
 msgid "title_username_check"
 msgstr ""
 
@@ -14945,20 +14851,10 @@ msgstr ""
 msgid "title_view_revision"
 msgstr ""
 
-#. Default: "About VPAT"
-#: CMFPlone/browser/templates/accessibility-info.pt:72
-msgid "title_vpat"
-msgstr ""
-
 #. Default: "Web Content Accessibility Guidelines"
 #: CMFPlone/browser/templates/accessibility-info.pt:21
 msgid "title_wcag"
 msgstr "Chest sît Plone al rispiete lis liniis vuide su la acessibilitât dai contignûts web dal W3C-WAI."
-
-#. Default: "login"
-#: CMFPlone/browser/login/templates/login_help.pt:46
-msgid "to_login_view"
-msgstr ""
 
 #. Default: "Todays events"
 #: plone.app.event/plone/app/event/browser/event_listing.py:278
@@ -14983,11 +14879,6 @@ msgstr ""
 #. Default: "Translation to ${language}"
 #: plone/app/multilingual/browser/templates/dexterity_edit.pt:43
 msgid "translation_to"
-msgstr ""
-
-#. Default: "Trouble logging in?"
-#: CMFPlone/browser/login/templates/login.pt:87
-msgid "trouble_logging_in"
 msgstr ""
 
 #: plone.app.dexterity/plone/app/dexterity/browser/import_types.py:65
@@ -15170,7 +15061,7 @@ msgid "weekly_weekdays_human"
 msgstr ""
 
 #. Default: "Policy..."
-#: plone.app.contentmenu/plone/app/contentmenu/menu.py:825
+#: plone.app.contentmenu/plone/app/contentmenu/menu.py:829
 #, fuzzy
 msgid "workflow_policy"
 msgstr "Politiche di control"
@@ -15237,8 +15128,3 @@ msgstr ""
 #: plone.app.layout/plone/app/layout/viewlets/path_bar.pt:5
 msgid "you_are_here"
 msgstr "Tu sês achì:"
-
-#. Default: "Welcome! You are now logged in."
-#: CMFPlone/browser/login/login.py:177
-msgid "you_are_now_logged_in"
-msgstr ""

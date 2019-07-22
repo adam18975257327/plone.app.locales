@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mockup\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2018-03-02 07:56+0100\n"
+"PO-Revision-Date: 2019-03-05 08:48+0100\n"
 "Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Domain: widgets\n"
 "Language: es\n"
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ./patterns/resourceregistry/js/builder.js
 msgid " css files to build"
@@ -148,17 +148,13 @@ msgstr "Paquetes"
 msgid "CSS/LESS"
 msgstr "CSS/LESS"
 
-#: ./patterns/structure/js/views/table.js
-msgid "Can not order items while querying"
-msgstr "No es posible ordenar los elementos mientras se está haciendo una consulta"
-
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: patterns/structure/js/views/table.js
+#: ./patterns/structure/js/views/table.js
 msgid "Cannot order items while querying"
-msgstr ""
+msgstr "No se pueden ordenar los elementos mientras se hace la búsqueda"
 
 #: ./patterns/upload/templates/upload.xml
 msgid "Choose File"
@@ -228,10 +224,6 @@ msgstr "Configurar columnas visibles"
 msgid "Copied"
 msgstr "Copiado"
 
-#: patterns/structure/js/views/table.js
-msgid "Copy"
-msgstr ""
-
 #: ./patterns/relateditems/pattern.js
 msgid "Current path:"
 msgstr "Ruta actual:"
@@ -292,7 +284,7 @@ msgstr "Arrastre archivos desde el ordenador o haga click en el botón Examinar"
 msgid "Drop files here..."
 msgstr "Soltar archivos aquí..."
 
-#: patterns/structure/js/views/table.js
+#: ./patterns/filemanager/pattern.js
 msgid "Edit"
 msgstr "Editar"
 
@@ -389,16 +381,20 @@ msgid "Expression"
 msgstr "Expresión"
 
 #: ./patterns/tinymce/pattern.js
+msgid "External"
+msgstr ""
+
+#: ./patterns/tinymce/pattern.js
+msgid "External Image"
+msgstr ""
+
+#: ./patterns/tinymce/pattern.js
 msgid "External Image URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr "Imágen externa (puede ser relativa al sitio o absoluta si comienza por http:// o https://)"
 
 #: ./patterns/tinymce/pattern.js
 msgid "External URL (can be relative within this site or absolute if it starts with http:// or https://)"
 msgstr "URL externa (puede ser relativa al sitio o absoluta si comienza por http:// o https://)"
-
-#:
-msgid "External image"
-msgstr ""
 
 #: ./patterns/relateditems/pattern.js
 msgid "Favorites"
@@ -473,12 +469,20 @@ msgid "Image"
 msgstr "Imagen"
 
 #: ./patterns/resourceregistry/js/registry.js
+msgid "In production, the bundle is merged together with others. Select which one here."
+msgstr ""
+
+#: ./patterns/resourceregistry/js/registry.js
 msgid "Init"
 msgstr "Iniciar"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Init instruction for requirejs shim"
 msgstr "Iniciar instrucción para la cuña requirejs"
+
+#: ./patterns/tinymce/pattern.js
+msgid "Inline"
+msgstr ""
 
 #: ./patterns/tinymce/pattern.js
 msgid "Insert"
@@ -496,8 +500,8 @@ msgstr "Insertar enlace"
 msgid "Internal"
 msgstr "Interno"
 
-#:
-msgid "Internal image"
+#: ./patterns/tinymce/pattern.js
+msgid "Internal Image"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -516,6 +520,10 @@ msgstr "Constructor LESS"
 msgid "Last compilation"
 msgstr "Última compilación"
 
+#: ./patterns/tinymce/pattern.js
+msgid "Left"
+msgstr ""
+
 #: ./patterns/resourceregistry/pattern.js
 msgid "Less Variables"
 msgstr "Variables Less"
@@ -523,6 +531,14 @@ msgstr "Variables Less"
 #: ./patterns/resourceregistry/js/registry.js
 msgid "List of CSS/LESS files to use for resource"
 msgstr "Lista de archivos CSS/LESS a usar para el recurso"
+
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Load JavaScript asynchronously?"
+msgstr ""
+
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Load JavaScript deferred?"
+msgstr ""
 
 #: ./patterns/structure/js/views/generic-popover.js
 msgid "Loading..."
@@ -532,20 +548,12 @@ msgstr "Cargando…"
 msgid "Main JavaScript file"
 msgstr "Archivo JavaScript principal"
 
-#: patterns/structure/js/views/table.js
+#: ./patterns/structure/js/views/app.js
 msgid "Manage selection"
 msgstr "Administrar selección"
 
-#: patterns/structure/js/views/table.js
-msgid "Modify properties on items"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
-msgid "Move to bottom folder"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
-msgid "Move to top folder"
+#: ./patterns/resourceregistry/js/registry.js
+msgid "Merge with"
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -568,21 +576,13 @@ msgstr "Siguiente"
 msgid "Next month"
 msgstr "Mes siguiente"
 
-#: patterns/structure/js/views/table.js
-msgid "No change"
-msgstr ""
-
 #: ./patterns/resourceregistry/js/builder.js
 msgid "No javascripts to build, skipping"
 msgstr "No hay javascripts a construir, saltando"
 
-#: patterns/structure/js/views/table.js
-msgid "No sorting"
-msgstr ""
-
-#: patterns/structure/js/views/table.js
+#: ./patterns/structure/js/views/table.js
 msgid "Notice: Drag and drop reordering is disabled when viewing the contents sorted by a column."
-msgstr ""
+msgstr "Avisa: la reordenación por arrastrar y soltar está desactivada porque tiene ordenados los contenidos por una columna"
 
 #: ./patterns/relateditems/pattern.js
 msgid "One level up"
@@ -591,10 +591,6 @@ msgstr "Subir un nivel"
 #: ./patterns/resourceregistry/js/overrides.js
 msgid "Only ++plone++ resources are available to override"
 msgstr "Sólo se pueden reemplazar recursos ++plone++"
-
-#: patterns/structure/js/views/table.js
-msgid "Open"
-msgstr ""
 
 #: ./patterns/relateditems/pattern.js
 msgid "Open folder"
@@ -696,9 +692,9 @@ msgstr "Renombrar"
 msgid "Rename currently selected resource"
 msgstr "Renombrar el recurso seleccionado"
 
-#: patterns/structure/js/views/table.js
+#: ./patterns/structure/js/views/table.js
 msgid "Reset column sorting"
-msgstr ""
+msgstr "Reiniciar ordenación"
 
 #: ./patterns/resourceregistry/js/registry.js
 msgid "Resources"
@@ -708,6 +704,10 @@ msgstr "Recursos"
 msgid "Resources base URL"
 msgstr "URL base de recursos"
 
+#: ./patterns/tinymce/pattern.js
+msgid "Responsive"
+msgstr ""
+
 #: ./patterns/structure/js/views/rearrange.js
 msgid "Reverse"
 msgstr "Invertir"
@@ -715,6 +715,10 @@ msgstr "Invertir"
 #: ./patterns/querystring/pattern.js
 msgid "Reversed Order"
 msgstr "Orden Inverso"
+
+#: ./patterns/tinymce/pattern.js
+msgid "Right"
+msgstr ""
 
 #: ./patterns/thememapper/js/rulebuilderview.js
 msgid "Rule Builder"
@@ -764,10 +768,6 @@ msgstr "Seleccionar recurso a reemplazar..."
 msgid "Selected"
 msgstr "Seleccionado"
 
-#: patterns/structure/js/views/table.js
-msgid "Set as default page"
-msgstr ""
-
 #: ./patterns/thememapper/pattern.js
 msgid "Show help"
 msgstr "Mostrar ayuda"
@@ -792,12 +792,12 @@ msgstr "Tamaño"
 msgid "Sort on"
 msgstr "Ordenar por"
 
-#:
-msgid "Specify an image. It can be on this site already (\"Internal Image\"), an image you upload (\"Upload\"), or from an external site (\"External Image\")."
+#: ./patterns/tinymce/pattern.js
+msgid "Specify an image. It can be on this site already (Internal Image), an image you upload (Upload), or from an external site (External Image)."
 msgstr ""
 
-#:
-msgid "Specify the object to link to. It can be on this site already (\"Internal\"), an object you upload (\"Upload\"), from an external site (\"External\"), an email address (\"Email\"), or an anchor on this page (\"Anchor\")."
+#: ./patterns/tinymce/pattern.js
+msgid "Specify the object to link to. It can be on this site already (Internal), an object you upload (Upload), from an external site (External), an email address (Email), or an anchor on this page (Anchor)."
 msgstr ""
 
 #: ./patterns/resourceregistry/js/registry.js
@@ -875,10 +875,6 @@ msgstr "Subir aquí"
 #: ./patterns/upload/templates/upload.xml
 msgid "Upload to..."
 msgstr "Subir a..."
-
-#: patterns/structure/js/views/table.js
-msgid "Week days"
-msgstr ""
 
 #: ./patterns/structure/js/views/rearrange.js
 msgid "What to rearrange on"
