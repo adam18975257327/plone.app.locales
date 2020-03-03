@@ -3364,7 +3364,7 @@ msgstr "小于"
 
 #: CMFPlone/interfaces/controlpanel.py:1088
 msgid "Let users select their own passwords"
-msgstr "让用户选择自己的站点密码"
+msgstr "让用户选择自己的密码"
 
 #: CMFPlone/controlpanel/browser/navigation.py:12
 msgid "Lets you control how navigation is constructed in your site. Note that to control how the navigation tree is displayed, you should go to 'Manage portlets' at the root of the site (or wherever a navigation tree portlet has been added) and change its settings directly."
@@ -9296,7 +9296,7 @@ msgstr "设置密码错误"
 #. Default: "Password set"
 #: CMFPlone/browser/templates/pwreset_finish.pt:11
 msgid "heading_pwreset_success"
-msgstr "设置密码"
+msgstr "设置密码成功!"
 
 #. Default: "Still logged in"
 #: CMFPlone/skins/plone_login/logged_out.cpt:33
